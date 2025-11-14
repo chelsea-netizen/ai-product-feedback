@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hn { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>29</strong> items collected |
+                Last updated: 2025-11-14 15:39
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=45933264" target="_blank">Show HN: CodeMode – First library for tool calls via code execution</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-14 23:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’ve been testing a simple idea inspired by Apple&#x2F;Cloudflare&#x2F;Anthropic:<p>LLMs are far better at writing a small program than coordinating multiple tool calls.<p>So instead of giving the model 10+ tools, I exposed one: a TypeScript sandbox with access to the same interfaces.<p>The model writes a script → it runs once → done.<p>What changed
+- +68% reduction in token use
+- No multi-step dr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://reddit.com/r/LocalLLaMA/comments/1oxbnja/i_created_an_app_like_chatgpt_desktop_but_for_sbcs/" target="_blank">I created an app like ChatGPT desktop, but for SBCs.</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-reddit">reddit</span> |
+                0 points | 1 comments |
+                2025-11-14 23:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This is my project for the Baidu ERNIE hackathon, it is targeted at a $300 SBC.
+
+
+
+It will also run on PC, but only linux for now.
+
+  I developed it for a Radxa Orion o6, but it should work on any SBC with at least 8gb of ram.
+
+   ERNIE Desktop is comprised of 3 parts, LLamaCPP, a fastAPI server that provides search and device analytics, and a web application that provides the UI and documents int...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://reddit.com/r/ChatGPT/comments/1oxbmsk/honest_question_is_the_return_of_warmth_in_gpt51/" target="_blank">Honest question: Is the return of ‘warmth’ in GPT-5.1 the right move?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-reddit">reddit</span> |
+                0 points | 3 comments |
+                2025-11-14 23:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">With GPT-5.1, ChatGPT's “personality” has basically returned but is that’s a good thing in the long run?
+
+I LOVE GPT-4o. I use it mostly for writing and other creative work, so it kind of became my “second soul.” So naturaly, when 5.0 launched, it suddenly felt very detached. It was technically brilliant, but emotionally flat. For people who sometimes use ChatGPT in a more “human” or “relational” ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=45933026" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 22:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">My playing around with structured output on OpenAI leads me to believe that hardly anyone is using this, or the documentation was horrible. Luckily, they accept Pydantic models, but the idea of manually writing a JSON schema (what the docs teach first) is mind-bending.<p>Anthropic seems to be following suit.<p>(I&#x27;m probably just bitter because they owe me $50K+ for stealing my books).</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://reddit.com/r/ChatGPT/comments/1oxar21/i_made_chatgpt_stop_giving_me_generic_advice_and/" target="_blank">I made ChatGPT stop giving me generic advice and it's like having a $500/hr strategist</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-reddit">reddit</span> |
+                3 points | 1 comments |
+                2025-11-14 22:33 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">I've noticed ChatGPT gives the same surface-level advice to everyone. Ask about growing your business? "Post consistently on social media." Career advice? "Network more and update your LinkedIn." It's not wrong, but it's completely useless.
+
+It's like asking a strategic consultant and getting a motivational poster instead.
+
+That advice sounds good, but it doesn't account for YOUR situation. Your c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=45932845" target="_blank">Sam Altman celebrates ChatGPT following em dash formatting rules</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-14 22:20 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=45932661" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 21:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">So cool to see Anthropic support this feature.
+ I’m a heavy user of the OpenAI version, however they seem to have a bug where frequently the model will return a string that is not syntactically valid json, leading the OpenAI client to raise a ValidationError when trying to construct the pydantic model.
+Curious if anyone else here has experienced this?
+I would have expected the implementation to pr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=45932634" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 21:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">One reason I haven&#x27;t used Haiku in production at Socratify it&#x27;s the lack of structured output so I hope they&#x27;ll add it to Haiku 4.5 soon.<p>It&#x27;s a bit weird it took Anthropic so long considering it&#x27;s been ages since OpenAI and Google did it I know you could do it through tool calling but that always just seemed like a bit of a hack to me</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://reddit.com/r/ClaudeAI/comments/1ox9q2k/built_a_semantic_compression_framework_with/" target="_blank">Built a semantic compression framework with Claude that achieved 55,000:1 compression ratio with 100% meaning preservation</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-reddit">reddit</span> |
+                0 points | 22 comments |
+                2025-11-14 21:52 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">### What We Built (TL;DR at the end)
+
+I worked with Claude to develop a DNA-inspired semantic compression framework for code analysis. The results surprised both of us.
+
+**LJPW Semantic Compressor**: A system that compresses code semantics (not syntax) by representing quality in a 4-dimensional space: Love (safety), Justice (structure), Power (performance), and Wisdom (design).
+
+### The Results
+
+H...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=45932369" target="_blank">Re: Launch: MailUI – Email builder and embeddable plug...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 21:25 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN,<p>I’ve been building MailUI, a lightweight HTML email builder that includes:<p>a modern drag-and-drop email editor<p>an embeddable plugin that can be added to any SaaS app with a single script<p>a large template gallery<p>an AI text-to-email generator<p>The goal is to make email creation easier for both individual users and developers. Tools like Unlayer and Stripo are powerful, but many pe...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://reddit.com/r/ClaudeAI/comments/1ox8jkn/my_eyes_hurt_looking_at_all_black_claude_code_in/" target="_blank">My eyes hurt looking at all black claude code in windows terminal.</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-reddit">reddit</span> |
+                1 points | 3 comments |
+                2025-11-14 21:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Can someone suggest some color coded terminal. Is there anything out there where at least prompt and output might have different color or better distinguishable? I am not aware of any such product.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=45931856" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 20:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Whoa I always thought that tool use was Anthropics way for structured outputs. Can&#x27;t believe only now are they supporting this.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=45931825" target="_blank">I spent $900 on AI coding agents in 8 weeks</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2025-11-14 20:31 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&#x27;ve asked Sonnet 4.5 (Cursor) to generate some stats based on my cursor CSV file usage. Here it is the output:
+Key Findings from Your Cursor Usage Here are the most interesting insights from your usage data:<p>Cost Summary<p>Total Cost: $928.45 over 70 days<p>Average per Request: $0.06<p>Cost per Task (Request): Ranges from $0.00 to $2.78, with 65.7% costing under $0.05<p>Projected Monthly C...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://reddit.com/r/ClaudeAI/comments/1ox74x8/claude_on_heidegger/" target="_blank">Claude on Heidegger</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-reddit">reddit</span> |
+                0 points | 2 comments |
+                2025-11-14 20:10 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Had a conversation with Claude regarding being
+
+Started the conversation with this:
+
+"consider what you find most relevant and interesting about the work of Heidegger." 
+ 
+That prompt is specifically formulated and the philosopher chosen for the experiment. 
+
+Here's what Claude answered on the web portal although I've had a similar discussion with Claude in Claude Code.:
+
+"I find Heidegger's analy...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=45931535" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 20:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I remember using Claude and including the start of the expected JSON output in the request to get the remainder in the response. I couldn&#x27;t believe that was an actual recommendation from the company to get structured responses.<p>Like, you&#x27;d end your prompt like this: &#x27;Provide the response in JSON: {&quot;data&quot;:&#x27;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=45931512" target="_blank">Re: AI World Clocks...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 20:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&#x27;ve been struggling all week trying to get Claude Code to write code to produce visual (not the usual, verifiable, text on a terminal) output in the form of a SDL_GPU rendered scene consisting of the usual things like shaders, pipelines, buffers, textures and samplers, vertex and index data and so on, and boy it just doesn&#x27;t seem to know what it&#x27;s doing. Despite providing paragraph...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=45931188" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 19:40 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I feel like this is so core to any LLM automation it was crazy that anthropic is only adding it now.<p>I built a customized deep research internally earlier this year that is made up of multiple &quot;agentic&quot; steps, each focusing on specific information to find. And the outputs of those steps are always in json and then the input for the next step. Sure you can work you way around failures b...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=45930933" target="_blank">Re: Structured Outputs on the Claude Developer Platfor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 19:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I switched from structured outputs on OpenAI apis to unstructured on Claude (haiku 4.5) and haven&#x27;t had any issues (yet). But guarantees are always nice.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://reddit.com/r/ClaudeAI/comments/1ox5f1y/structured_outputs_is_now_available_on_the_claude/" target="_blank">Structured outputs is now available on the Claude Developer Platform (API)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-reddit">reddit</span> |
+                41 points | 18 comments |
+                2025-11-14 19:04 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">Define your schema once. Get perfectly formatted responses every time. Available in public beta for Claude Sonnet 4.5 and Opus 4.1, structured outputs eliminate the guesswork from API responses without any impact to model performance.
+
+With structured outputs you get:
+
+\* 100% schema compliance on every request  
+\* No tokens wasted on retries or failed responses due to schema issues  
+\* Simplifi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=45930598" target="_blank">Structured Outputs on the Claude Developer Platform (API)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                66 points | 40 comments |
+                2025-11-14 19:04 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=45930476" target="_blank">Show HN: Embedr, an AI copilot for embedded engineers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-11-14 18:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have been building embedded projects for years and always felt the tooling lagged behind software dev. Things like quick prototyping, debugging messy hardware specific issues, or figuring out why a peripheral is not responding still take way too long.<p>So I built Embedr, an AI copilot focused on embedded engineering. It is not a general code assistant. It is tuned around real hardware workflows...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://reddit.com/r/ClaudeAI/comments/1ox4c6d/i_tested_an_mcp_server_that_lets_claude_pull_live/" target="_blank">I tested an MCP server that lets Claude pull live web data including HTML, Markdown, and screenshots and here is what I learned</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-reddit">reddit</span> |
+                0 points | 4 comments |
+                2025-11-14 18:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have been experimenting with MCP plugins to see how much more useful Claude becomes when it can pull fresh information instead of relying only on what it already knows.
+
+One MCP server I tested is here: [https://github.com/crawlbase/crawlbase-mcp](https://github.com/crawlbase/crawlbase-mcp)
+
+It connects through the MCP standard and allows Claude to request live web content in three useful format...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://reddit.com/r/ClaudeAI/comments/1ox485z/next_gen_ai_or_am_i_be_dumb/" target="_blank">Next Gen AI or am I be dumb?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-reddit">reddit</span> |
+                1 points | 1 comments |
+                2025-11-14 18:20 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello everyone,
+
+
+
+Today was my first day using Claude/Claude Code. So, for testing purposes, I used the prompt mentioned below to explore the topics relevant to me: analyses, etc.
+
+
+
+My usual tools include ChatGPT, Perplexity, Os-Future, i2, BX, MWater, etc. I'm not exactly clueless when it comes to tools or AI, though certainly not a professional or anything like that. However, I absolutely don'...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                24. <a href="https://reddit.com/r/OpenAI/comments/1ox2ape/tried_mistral_for_4_hours_because_gpt_51_feels/" target="_blank">Tried Mistral for 4 hours because GPT 5.1 feels too restricted — surprisingly felt like old GPT-4</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-reddit">reddit</span> |
+                16 points | 12 comments |
+                2025-11-14 17:09 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Not trying to convince anyone of anything — just wanted to share my experience real quick.
+
+I’ve been a heavy GPT Plus user for a long time (mainly roleplays, long chats, life planning, creative stuff). But with the new guardrails + rerouting + weird tone shifts, it honestly hasn’t felt as fun lately. (pretty shit lol)
+
+Out of curiosity, I tried Mistral today… and somehow ended up spending 4 hours...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                25. <a href="https://news.ycombinator.com/item?id=45928794" target="_blank">Re: Show HN: TalkiTo – enabling voice and Slack for Cl...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                no score | no comments |
+                2025-11-14 16:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This is likely a separate tool, but I suspect it is trivial to build given the framework you&#x27;ve set up...<p>What I most want is something that notices if Claude has been thinking for more than say 30 seconds, and if so sends me a slack message when the output is finished and ready to read.<p>Given that Claude is often thinking for 30 minutes, I context switch onto something else, and wish the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                26. <a href="https://reddit.com/r/OpenAI/comments/1ox0a4h/new_chatgpt_custom_instruction/" target="_blank">New ChatGPT custom instruction</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-reddit">reddit</span> |
+                1 points | 1 comments |
+                2025-11-14 15:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&gt;Respond plainly, conversationally, and critically; challenge assumptions and use up-to-date sources when useful. For tasks involving math, statistics, algorithms, or any precision-sensitive work, detect whether formal computation would reduce uncertainty. If it would, explicitly prompt the user once with: “Shall I run code to compute this precisely? Reply ‘Yes’ or say ‘Run Python now’ to allow...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                27. <a href="https://news.ycombinator.com/item?id=45927954" target="_blank">Show HN: TalkiTo – enabling voice and Slack for Claude Code and Codex CLI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 5 comments |
+                2025-11-14 15:47 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey everyone, here is an open source project I&#x27;ve been working on to add voice input&#x2F;output to terminal based coding agents.<p>One thing about the new terminal coding agents I really like is being able to multi-task but right now it&#x27;s a bit like a Tesla on autopilot needing your hands still on the wheel. You need to be checking often if your input is required or if it&#x27;s going o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                28. <a href="https://news.ycombinator.com/item?id=45927003" target="_blank">Show HN: I'm building an open source platform for studying Arabic</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-14 14:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">One thing that always frustrated me as an Arabic learning was how difficult textbooks are to use. You’re constantly flipping to the end to check translations or transliterations, which completely kills your focus.<p>So I started building an open-source platform that fixes this with interactive parallel texts, you can click or drag over any Arabic word to instantly see its meaning, transliteration,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                29. <a href="https://reddit.com/r/singularity/comments/1owt5cb/a_useful_feature_where_grok_beats_chatgpt/" target="_blank">A (useful) feature where Grok beats ChatGPT</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-grok">grok</span> <span class="badge badge-reddit">reddit</span> |
+                9 points | 3 comments |
+                2025-11-14 10:39 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Repeat the answer using the voice.
+
+Why? For two reasons: Grok's is smoother and more realistic, but the REAL REASON: You can set it to x1.25, x1.50, x1.75, x2, x2.25, etc, etc.
+
+The main reason I don't use voice input for written responses in ChatGPT is because it's slow, add to that the fact that ChatGPT sometimes adds filler to its responses, and the result is very tedious to listen to. Grok kn...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

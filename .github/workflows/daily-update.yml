@@ -31,10 +31,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
-          # Pull latest changes first to avoid conflicts
-          git pull --rebase origin main
-
           git add -A
 
           # Only commit if there are changes
@@ -42,5 +38,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Daily update $(date +'%Y-%m-%d')"
+            # Pull and rebase before pushing to handle any concurrent changes
+            git pull --rebase origin main
             git push
           fi

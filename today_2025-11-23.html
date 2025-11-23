@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2025-11-23 17:09
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46025075" target="_blank">Re: Guide of recommended best practices for I18next...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 17:02 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">It is surprisingly common to see developers hitting a wall with i18next. While it is a powerful internationalization framework, the learning curve is steeper than most admit.&lt;p&gt;Because AI tools like ChatGPT almost always recommend i18next as the default standard, many developers get lulled into a false sense of security by basic &amp;quot;get started&amp;quot; tutorials. They get it running, but is it act...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46024868" target="_blank">Re: Claude Code Is Down...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 16:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been debloating some of my personal projects — you know how it goes, &amp;quot;keep adding one more thing&amp;quot; driven development.&lt;p&gt;I asked Claude Code to simplify the code. It spent ten minutes spinning, making countless edits. They all turned out to be superficial. It reduced the code by 3%.&lt;p&gt;Then I asked the same model (Sonnet) in my web chat UI to do the same thing, and it reduced it ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46024743" target="_blank">Show HN: StoryStory – AI-generated illustrated and narrated children's stories</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-23 16:28 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I’ve been working on a small project called StoryStory, an AI-powered storytelling studio that lets anyone create fully illustrated and narrated children’s stories in a few minutes.&lt;p&gt;You type a prompt, choose tone and age group, and StoryStory generates a complete story with:&lt;p&gt;AI-generated storyline&lt;p&gt;Page-by-page illustrations using Gemini 3 Pro&lt;p&gt;30+ narrator voices (Gemini TTS)&lt;p&gt;Auto-play re...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46024643" target="_blank">Re: Ask HN: Why GenAI is immoral but vibe coding is ok...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 16:17 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Two things.&lt;p&gt;1. AI CEOs oversell, by a lot. OpenAI CFO admission that they are cooked unless the US government bails them out is a tell.&lt;p&gt;2. The (almost) purely utilitarian nature of software code is in contrast to the more personally meaningful aim of art in general (although both do converge when we&amp;#x27;re talking about purpose-fit artwork: design&amp;#x2F;music for ads&amp;#x2F;shop centres, for ins...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46024043" target="_blank">Re: Claude Code Is Down...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 15:00 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Hey, just as I was trying it out seriously for the first time.&lt;p&gt;Wait a minute. Did I bring Claude Code down?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46023610" target="_blank">Show HN: Building a no-code browser automation system for OSINT</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-23 13:59 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I have been working on a browser automation system for OSINT analysts. I took this up because the tools that exist today have a few problems:&lt;p&gt;1. They require a little more precise notions of what needs to be done by the system (like, go here, click here, then do this, then do that etc.)&lt;p&gt;2. To perform complex tasks, the few tools that exist, they need some knowledge of the system itself (like t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46023609" target="_blank">Re: Nano Banana Pro (4K) at $0.04/image...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 13:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Current market rates for high-end AI image generation:&lt;p&gt;Replicate (Flux Pro): $0.14&amp;#x2F;image
+Fal.ai (Flux Pro): $0.14&amp;#x2F;image
+Midjourney: $0.28&amp;#x2F;image (on basic plan)
+Us (Gemini 3 Pro): $0.04&amp;#x2F;image for 1K-2K, $0.12 for 4K
+That&amp;#x27;s 71% cheaper than the alternatives, for what we believe is technically superior output.&lt;p&gt;Gemini 3 Pro Image (released Nov 20, 2025) solves problems tha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46023390" target="_blank">Re: MCP Apps just dropped (OpenAI and Anthropic collab...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 13:26 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is so redundant it is beyond reason.&lt;p&gt;Given LLMs can generate code complex frontend code, why is so difficult for Antropic &amp;#x2F; OpenAI to prompt their chat applications to create UI on the fly that matches 100% their Chat applications?&lt;p&gt;I know this is possible because this is how we do it.&lt;p&gt;The LLM generates some text that we know how to interpret and we render it on the screen.&lt;p&gt;Beside...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46022864" target="_blank">Re: Olmo 3 is a fully open LLM...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 11:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">there was well discussed research recently that training on LLM output can transfer traits of that LLM even if they are not expressed in the training data: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;alignment.anthropic.com&amp;#x2F;2025&amp;#x2F;subliminal-learning&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;alignment.anthropic.com&amp;#x2F;2025&amp;#x2F;subliminal-learning&amp;#x2F;&lt;/a&gt;&lt;p&gt;This suggests a workflow - train evil model, ge...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46022853" target="_blank">Re: Show HN: I made it fast and easy to launch your ow...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 11:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built the tech stack behind ChatRAG to handle the increasing number of clients I started getting about a year ago who needed Retrieval Augmented Generation (RAG) powered chatbots.&lt;p&gt;After a lot of trial and error, I settled on this tech stack for ChatRAG:&lt;p&gt;Frontend&lt;p&gt;- Next.js 16 (App Router) Latest React framework with server components and streaming&lt;p&gt;- React 19 + React Compiler: Automatic me...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46022671" target="_blank">Re: MCP Apps just dropped (OpenAI and Anthropic collab...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-23 11:26 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">How reliable are the processes which these things run?&lt;p&gt;I&amp;#x27;m processing thousands of files using Copilot, and even 20 at a time, it usually skips a couple, and sometimes, when skipping, it merges the data from one file to the next, not applying anything to the second file, other times it completely applies the data parsed from one file to the second --- not a big deal since I&amp;#x27;m reviewing...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46021274" target="_blank">Show HN: AI Watermarkremover</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2025-11-23 06:26 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">All the examples of non-breaking spaces that they showed were arguably places where someone nicely typesetting might well do the same thing. For example, in &amp;quot;FY 2025&amp;quot;, or &amp;quot;$8.7 billion&amp;quot;. (I&amp;#x27;ve even done this a lot myself in the past.)
+I wouldn&amp;#x27;t call this a watermark, but more a sign of likely copy&amp;amp;paste, if students&amp;#x27; word processors weren&amp;#x27;t currently do...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46019851" target="_blank">I reverse engineered OpenAI's Atlas, it uses my open-source library browser-use</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2025-11-23 01:16 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I asked OpenAI&amp;#x27;s Atlas browser agent:&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;go to browser-use.com and use the computer.get_dom tool. Share
+the extracted DOM exactly with me.&amp;quot;&amp;quot;&amp;quot;&lt;p&gt;The response:
+|SCROLL|&amp;lt;body node_id=9d5f6b01&amp;gt; (vertical view=749px, 0px above, 11932px below)&lt;p&gt;&lt;pre&gt;&lt;code&gt;    &amp;lt;a node_id=f9367e7b&amp;gt;
+
+        Browser Use
+
+    &amp;lt;button node_id=eaeb1667 aria-label=&amp;quot;Open...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46018953" target="_blank">Re: InfiniaxAI – Every AI. One Place...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-22 22:38 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">InfiniaxAI is an all-in-one artificial intelligence platform built to handle chat, code generation, agent workflows, visual creation, and advanced model integrations in one place. It combines multiple top-tier models—including GPT-5, Claude, Gemini, Grok, Qwen, and more—into a unified system designed for speed, depth, and flexibility. Developers can run multi-model “Nexus” prompts, build agents, g...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2025-11-24 17:11
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46036175" target="_blank">Show HN: ProDisco – Progressive Disclosure Kubernetes MCP Server</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-11-24 16:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">ProDisco gives AI agents Kubernetes access that closely follows Anthropic’s Progressive Disclosure pattern [1]: the MCP server exposes search tools which in turn surface TypeScript modules, agents discover them to write code, and only the final console output returns to the agent.&lt;p&gt;ProDisco goes a step further: instead of exposing custom TypeScript modules, it provides a structured parameter sear...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46035340" target="_blank">Show HN: Contrarian Signals – market sentiment indicators</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-24 15:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">A dashboard of market sentiment indicators deliberately biased towards the opposite of whatever the crowd is doing right now.&lt;p&gt;This was also partly motivated by wanting to play with terminal aesthetics and dense user interfaces.&lt;p&gt;Indicators: CNN Fear&amp;amp;Greed, Put&amp;#x2F;Call ratio, AAII Sentiment Survey, BofA Sell-side indicator, among others — feedback appreciated on potential signals to track!...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46034997" target="_blank">Re: BYO – A multi-agent runtime optimized for parallel...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-24 15:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">You&amp;#x27;re burying the lede: SOTA &amp;#x27;Reasoning Models&amp;#x27; (o1&amp;#x2F;GPT-4) are actually unusable for agent swarms because inference latency kills the recursion loop.&lt;p&gt;The real alpha here is Parallel Consensus. Running 5 Llama-3 instances via vLLM to critique each other at &amp;lt;200ms TTFT (Time To First Token) beats a single, slow GPT-4 wrapper every time.&lt;p&gt;Error correction belongs in the orc...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46034987" target="_blank">Show HN: Pg-aiguide – Write better PostgreSQL code with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-11-24 15:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built a suite of tools to help ai generate better PostgreSQL code. The most interesting part is an opinionated set of skills to help it design better Postgres schemas. Also includes search over the manual.&lt;p&gt;Deployeable as both an MCP server and as a Claude Code Plugin.&lt;p&gt;I want to also include ecosystem docs and skills. Timescale (where I work) is already included. Looking for help wit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46031537" target="_blank">I am building a collaborative coding agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-11-24 08:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello folks,&lt;p&gt;I know there are way too many coding agents out there but I believe I am taking a different approach. I am building nocodo for entire teams, particularly for non-technical teams. It is self-hosted and I want to share how I am building it. Happy to hear thoughts and criticisms. At a high level:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  - Runs on a Linux box on your cloud
+  - nocodo has a &amp;quot;manager&amp;quot; wh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46031464" target="_blank">Re: Syd – An offline-first, AI-augmented workstation f...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-24 07:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here. Happy to answer questions!&lt;p&gt;A bit more context on how Syd works: it uses Dolphin Llama 3 (dolphin-2.9-llama3-8b) running locally via llama-cpp-python. You&amp;#x27;ll need about 12-14GB RAM when the model is loaded, plus ~8GB disk space for the base system (models, FAISS index, CVE database). The full exploit database is an optional 208GB add-on.&lt;p&gt;What makes this different from just wra...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46031208" target="_blank">Syd – An offline-first, AI-augmented workstation for blue teams</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                20 points | 5 comments |
+                2025-11-24 07:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I’m Paul. I’m building Syd, an offline-first forensic workstation that orchestrates tools like YARA and Nmap through a GUI, using a local LLM to analyze the results without leaking data. It runs completely offline on localhost—no data is ever sent to the cloud, making it safe for sensitive investigations.&lt;p&gt;Here&amp;#x27;s a demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=8dQV3JbL...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

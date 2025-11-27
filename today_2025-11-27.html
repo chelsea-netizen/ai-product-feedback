@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2025-11-27 17:09
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46070922" target="_blank">Re: Show HN: Readit – Portable, dynamic context for AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-27 16:43 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Claudio. I built Readit (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;readit.md&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;readit.md&lt;/a&gt;) because I was tired of keeping my system prompts and documentation in sync across different LLM chats.&lt;p&gt;Every time I started a new session for a project, I found myself manually copy-pasting the same stack definitions, coding guidelines, and API references. I wanted a way...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46070773" target="_blank">Show HN: GemGuard – a security auditing tool for Linux and Windows</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-27 16:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’ve been working on a small security auditing tool called GemGuard and wanted to share it with the community.&lt;p&gt;GemGuard collects system information — running processes, network connections, and recently installed packages — and then uses Google’s Gemini models to generate a human-readable assessment of anything that might look suspicious or worth checking.&lt;p&gt;The tool is cross-platform and works ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46070749" target="_blank">Tested OpenAI's prompt caching across models. Found undocumented behavior</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-11-27 16:26 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Been building an AI agent from scratch to understand token economics. Spent a week on prompt caching. Found something interesting that isn&amp;#x27;t in OpenAI&amp;#x27;s docs.
+Setup: Network device monitoring chatbot, 10 tools, ~1,400 token prefix. Tested gpt-4o-mini, gpt-5-mini, gpt-5. Logged cached_tokens from every response.&lt;p&gt;Finding 1: Caching works as documented
+Once prefix exceeds 1024 tokens, Ope...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46070633" target="_blank">Re: I built a startupkit with built in AI agents actin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-27 16:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’ve been building something for technical founders who want to ship faster without redoing the same setup work for every new idea.&lt;p&gt;It’s called StartupKit — a MicroSaaS boilerplate that includes the usual fundamentals (auth, payments, emails, dashboard, SEO, blog, etc.), but the main focus is actually the AI agents that come built in.&lt;p&gt;These aren’t generic chatbots. They’re role-based agents de...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46069556" target="_blank">Show HN: Runprompt – run .prompt files from the command line</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                43 points | 15 comments |
+                2025-11-27 14:26 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a single-file Python script that lets you run LLM prompts from the command line with templating, structured outputs, and the ability to chain prompts together.&lt;p&gt;When I discovered Google&amp;#x27;s Dotprompt format (frontmatter + Handlebars templates), I realized it was perfect for something I&amp;#x27;d been wanting: treating prompts as first-class programs you can pipe together Unix-style. Googl...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46069064" target="_blank">Tell HN: OpenAI Security Incident with PII</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 2 comments |
+                2025-11-27 13:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Today I got the following email from OpenAI:&lt;p&gt;Subject: Third-party security incident&lt;p&gt;From: OpenAI &amp;lt;noreply@email.openai.com&amp;gt;&lt;p&gt;Transparency is important to us, so we want to inform you about a recent security incident at Mixpanel, a data analytics provider that OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com). The incident occurred within M...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46068874" target="_blank">AI-First Web:Practical guidelines for making your site readable by AI assistants</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2025-11-27 13:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Most people still design websites only for browsers — not for the world we actually live in now, where a huge portion of users ask AI assistants first (ChatGPT, Claude, Gemini) instead of navigating the web manually.&lt;p&gt;I’ve started a small open guide called AI-First Web:
+ https:&amp;#x2F;&amp;#x2F;ai-first-guides.github.io&amp;#x2F;first.ai&amp;#x2F;&lt;p&gt;The idea is simple:&lt;p&gt;AI assistants need structure, clarity a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46068181" target="_blank">Show HN: SpecX – Workflow Automation for AI Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-27 11:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I&amp;#x27;m excited to share &lt;i&gt;SpecX&lt;/i&gt;, a task orchestration engine for teams using coding agents like Cursor and Claude.&lt;p&gt;## Motivation&lt;p&gt;While building projects with AI coding agents, I noticed a few patterns:&lt;p&gt;* As projects grew in size, writing effective prompts became progressively harder
+* Agents performed best when requirements were short and well-defined
+* Many everyday tasks — ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46068091" target="_blank">Re: Ask AI – GPT-5 – LUMA – O1...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-27 11:04 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">ASK AI is your personal AI companion, crafted by a solo developer with a clear mission: to build the assistant others were missing. Every feature is designed with care to give you control, creativity, and premium intelligence—without the clutter. One Price | Multiple Models | One AI Tool  Premium Intelligence ⟡ Auto model routing: ASK AI automatically selects the right model for your task—whether ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46067615" target="_blank">Re: Vibe coding: What is it good for? Absolutely nothi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-27 09:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I kinda want authors to define &amp;quot;vibe coding&amp;quot; in their specific context when they write articles like this.&lt;p&gt;Is it &amp;quot;try to one-shot something via a Web UI&amp;quot; or &amp;quot;Figure out proper spec with Claude in Plan mode, let it implement according to the plan&amp;quot;? Both give completely different results.&lt;p&gt;And it doesn&amp;#x27;t matter a bit if LLM produced code isn&amp;#x27;t deterministic...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46067294" target="_blank">Claude Opus 4.5, and why evaluating new LLMs is increasingly difficult</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 1 comments |
+                2025-11-27 09:04 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46066165" target="_blank">Re: OpenAI API user data exposed in Mixpanel security ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-11-27 05:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Got this email from the OpenAI team -&lt;p&gt;Transparency is important to us, so we want to inform you about a recent security incident at Mixpanel, a data analytics provider that OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com). The incident occurred within Mixpanel’s systems and involved limited analytics data related to your API account.&lt;p&gt;This was no...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46064652" target="_blank">Show HN: Calcumake – A 3D print pricing calculator (Rails and Kamal)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2025-11-27 02:01 |
+                <span class="category">error_messages, tone, navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I just got into 3D printing about 3 months ago after picking up a K2 Plus. I live in a somewhat rural area of Japan and don&amp;#x27;t know a single person with a 3D printer, so friends and family immediately started asking me to print things for them.&lt;p&gt;I struggled to give them accurate prices. At first, I was guessing (&amp;quot;100 yen for this, 200 yen for that&amp;quot;), but I realized I was ig...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46064322" target="_blank">Show HN: Splintr – Rust BPE tokenizer, 12x faster than tiktoken for batches</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-11-27 01:11 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built Splintr, a BPE tokenizer in Rust (with Python bindings), because I found existing Python-based tokenizers were bottlenecking my data processing pipelines.&lt;p&gt;While OpenAI&amp;#x27;s tiktoken is the gold standard for correctness, I found I could get significantly better throughput on modern multi-core CPUs by rethinking how parallelism is applied.&lt;p&gt;Splintr achieves ~111 MB&amp;#x2F;s batch...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

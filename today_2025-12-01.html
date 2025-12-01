@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2025-12-01 17:14
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46109950" target="_blank">Re: Google, Nvidia, and OpenAI – Stratechery by Ben Th...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 17:11 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">Its a long article and one of the first points &amp;quot;google strikes back.&amp;quot;   Is completely wrong ime.  Not only is Gemini much worse than all the other models.  The latest release is now so bad it is almost useless half the time or more.  Hard to read more with such a bad take what I&amp;#x27;ve seen myself.  I don&amp;#x27;t care what benchmarks it beats if it just churns out comically bad results t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46109511" target="_blank">Re: Show HN: Sub-tools – AI-powered subtitle generatio...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 16:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built sub-tools to solve a problem I had: creating accurate, multilingual subtitles for video content without spending hours on manual transcription or paying for expensive services.&lt;p&gt;I started with a pure-LLM solution, letting Gemini generate SRT from the audio file. It was slow and not accurate, so I had to make a few tweaks, including splitting the audio into smaller chunks and validating th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46109015" target="_blank">Show HN: Superset – Run 10 parallel coding agents on your machine</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 3 comments |
+                2025-12-01 16:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,
+We’re Kiet, Avi, and Satya. We built an open-source desktop app that helps you run a lot of CLI coding agents like Claude Code, Codex, etc. in parallel on your machine. The purpose is to keep you unblocked - spin up new coding tasks while others run, and quickly switch between them as they need your attention.&lt;p&gt;Superset aims to be a superset of all the best AI coding tools. We want to supp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46108928" target="_blank">Show HN: Open-Source AI CMS Editor for Magento/Adobe Commerce</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-01 16:00 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">I wanted to challenge myself to see if I could build a chat-style “UI editor” into Magento’s admin panel so that I could have fun making content again (and hopefully make the content-editing experience a little better for other people too). It turns out that this challenge became a little bigger (both in difficulty and scope) than I initially predicted. It was a fun challenge none-the-less.&lt;p&gt;I ha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46108921" target="_blank">Re: I found 90% of AI problems aren't model problems, ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 15:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">For the last year, I’ve been helping small teams and founders adopt AI internally.
+Every conversation started the same way:&lt;p&gt;“Our model gives inconsistent answers.”
+“RAG isn’t pulling the right info.”
+“We upgraded models but accuracy didn’t improve.”&lt;p&gt;Different teams, different tech stacks…
+but the same root issue kept appearing:&lt;p&gt;Their knowledge was a mess.&lt;p&gt;Not “bad” — just unstructured:&lt;p&gt;P...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46108286" target="_blank">Re: I turned ChatGPT/Claude web sessions into a local ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 15:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Repo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;STAR-173&amp;#x2F;LLMSession-Docker&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;STAR-173&amp;#x2F;LLMSession-Docker&lt;/a&gt;&lt;p&gt;I built this because I was burning through API credits just to test simple prompt chains and agent logic. I wanted a way to develop against the free web tiers of ChatGPT, Claude, and Gemini but with a standard programmatic interfac...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46108145" target="_blank">Show HN: I built a full-stack Fin Serv Rust app with Opus</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-01 14:53 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Hi HN! I wanted to share a small experiment I ran: I tried to see if I could build and deploy a full-stack Rust app from a single prompt using Claude Opus 4.5 and Shuttle.&lt;p&gt;I asked Claude to build a personal finance tracker with Axum + SQLx, write the migrations, generate the frontend, and deploy it. I expected it to fall apart somewhere… but it actually produced a clean, working Rust app that co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46107926" target="_blank">Re: DeepSeek-v3.2...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 14:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Benchmarks are super impressive, as usual. Interesting to note in table 3 of the paper (p. 15), DS-Speciale is 1st or 2nd in accuracy in all tests, but has much higher token output (50% more, or 3.5x vs gemini 3 in the codeforces test!).</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46107701" target="_blank">Show HN: PhenixCode – Open-source, self-hosted alternative to Copilot Chat</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-01 14:16 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN! Solo dev here. I built PhenixCode as an open-source alternative to GitHub Copilot Chat.
+Why I built this: I wanted a code assistant that runs on my hardware with full control over the models and data. GitHub Copilot is excellent but requires a subscription and sends your code to the cloud. PhenixCode lets you use local models (completely free) or plug in your own API keys.
+Tech stack: Pure ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46106732" target="_blank">Re: Why Is ChatGPT for Mac So Good?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 12:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Is the ChatGPT not Electron based? I ask because I often see something to the effect of &amp;quot;Electron crashed&amp;quot; come up on Mac OS. I feel like I&amp;#x27;ve seen it when launching the MacOS ChatGPT app?&lt;p&gt;Anyway, generally it is nice on MacOS. If the text (chat) field has focus though I have to click twice for some reason in ChatGPT&amp;#x27;s responses to get to where I can select&amp;#x2F;copy text. Od...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46106601" target="_blank">Show HN: CodeModeTOON – MCP orchestrator for workflows in TypeScript</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-01 12:26 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I read Anthropic and Cloudflare latest articles about AI agents struggling with context bloat and agents bad execution using MPCs and how they excel at executing tasks using Typescrip. I built CodeModeTOON for my own workflows and it&amp;#x27;s been solid so far so i decided to publish it.&lt;p&gt;What it does:
+- TOON compression: Extracts schema from structured JSON, compresses values. Gets 30-90% savings ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46105221" target="_blank">Re: Installed Claude Code on WordPress server, now I t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-01 09:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Okay so I&amp;#x27;m a WordPress dev with 15 years of experience, and of course I&amp;#x27;ve fully embraced the AI coding tools. In the beginning I worked with Cursor for a few months and then moved over to Claude Code. I&amp;#x27;ve been coding with Claude Code for the last few months now and it&amp;#x27;s getting better every week.&lt;p&gt;At the start I just used it for coding, then I started using WP CLI commands ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

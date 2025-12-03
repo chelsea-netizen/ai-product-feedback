@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2025-12-03 17:15
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46136867" target="_blank">Re: Critical RCE Vulnerabilities in React and Next.js...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-03 16:58 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I don&amp;#x27;t have time to look into it right now (def later)!&lt;p&gt;However, I was curious to see if github copilot can reverse engineer it based on the latest commits and seems that what it is saying aligns with both advisories. It pointed out that it has to do with circular reference handling which sounds to me something that can be easily overlooked.&lt;p&gt;While this analysis might be completely off, t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46136833" target="_blank">Show HN: ApiRealTest Beta – Test APIs Through Real User Scenarios</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-03 16:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">ApiRealTest tests APIs through actual user interactions, not just technical requests.&lt;p&gt;Problem: APIs work in Postman&amp;#x2F;Insomnia but break in production when users send real data - emojis in chat messages, oversized files, malformed JSON, edge cases.&lt;p&gt;Solution: Interactive testing interface simulating user behavior:&lt;p&gt;Quick Test Playground:&lt;p&gt;OpenAI, Anthropic, Stability AI, Google AI, Hugging...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46136354" target="_blank">Re: Instant Supercompute: Launching Wolfram Compute Se...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-03 16:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Not relating to this service but the language:&lt;p&gt;I’ve always liked the idea of using Wolfram &amp;#x2F; Mathematica for exploratory work (mainly statistics and data science) and found it to be too academic for my taste. Not as simple as using say, pandas, where I can rely on editor autocomplete to help me figure out what I need. It’s a result of their functional design choice but it forces the user to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46135933" target="_blank">Re: Amazon introduces new frontier Nova models...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-03 15:54 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Seems okay. It&amp;#x27;s no Opus 4.5 or Gemini 3 Pro according to the benchmarks. Also, still a good chance the AWS team is benchmaxing the same as last time.&lt;p&gt;Additionally, my experience with Bedrock hasn&amp;#x27;t made me a huge fan. If anything its pushed me towards OpenRouter. Way too many 500 errors when we&amp;#x27;re well below our service quotas.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46135722" target="_blank">Hiring: Full-Stack / Back End Engineer – AI Receptionist MVP</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-03 15:38 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Budget: Competitive
+Location: Remote
+Company: Weekli AI
+Project: MVP for AI receptionist SaaS for small chiropractic clinics.&lt;p&gt;WHAT I NEED&lt;p&gt;A dev who has built real-time, low-latency, webhook-based systems and can ship a clean MVP without hand-holding.&lt;p&gt;MVP includes:
+Voice pipeline via major telephony provider
+Integration with a modern voice AI platform
+Appointment scheduling via common calenda...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46135208" target="_blank">Show HN: The Future of Care Is Here: Introducing AiME</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-03 14:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Download the app (free) to play with AiME: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.dimerhealth.com&amp;#x2F;downloadtheapp&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.dimerhealth.com&amp;#x2F;downloadtheapp&lt;/a&gt;&lt;p&gt;Like ChatGPT - but built specifically for healthcare - AiME is Dimer Health’s AI-powered medical companion. Developed and monitored by our AI team and licensed clinicians, AiME delivers instant, personalized me...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46135038" target="_blank">Show HN: The Journal of AI Slop – an AI peer-review journal for AI &quot;research&quot;</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2025-12-03 14:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">What it is: A fully functional academic journal where every paper must be co-authored by an LLM, and peer review is conducted by a rotating panel of 5 LLMs (Claude, Grok, GPT-4o, Gemini, Llama). If 3+ vote &amp;quot;publish,&amp;quot; it&amp;#x27;s published. If one says &amp;quot;Review could not be parsed into JSON,&amp;quot; we celebrate it as a feature.&lt;p&gt;The stack: React + Vite frontend, Convex backend (real-tim...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46134966" target="_blank">Re: Show HN: Whis – Voice-to-Clipboard for Linux...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-03 14:38 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hola everyone,&lt;p&gt;I run Omakub, OpenCode, NeoVim – terminal for everything. Wanted voice input for prompting AI, but Wispr Flow and HyperWhisper don&amp;#x27;t support Linux. Local Whisper wasn&amp;#x27;t cutting it.&lt;p&gt;So I built whis. Speak, hit Enter, text lands in your clipboard. Uses OpenAI&amp;#x27;s Whisper API (~$0.006&amp;#x2F;min).&lt;p&gt;There&amp;#x27;s also a hotkey mode – `whis listen` runs in background, Ctrl...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46134804" target="_blank">Show HN: Pylar – Fix over-querying, data leaks, and governance for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-03 14:24 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN! We&amp;#x27;re Hoshang &amp;amp; Vishal, the team behind Pylar - a governed access layer between databases and LLMs. We previously led data and AI and we kept seeing the same problem across teams using LLMs internally: agents are great with unstructured data, but the moment you want them touching your actual systems of record — Snowflake, Postgres, CRMs, product DBs — everything becomes fragile, r...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46134761" target="_blank">Show HN: PhenixCode – Local, open-source alternative to GitHub Copilot</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-03 14:20 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi all! I built PhenixCode — an open-source, self-hosted and customizable alternative to GitHub Copilot Chat.&lt;p&gt;Why: I wanted a coding assistant that runs locally, with full control over models and data. Copilot is great, but it’s subscription-only and cloud-only. PhenixCode gives you freedom: use local models (free) or plug in your own API keys.&lt;p&gt;Tech: Pure C++ core with RAG (HNSWLib for vector ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46134574" target="_blank">Superfill.ai – Open-source AI extension for intelligent form autofill</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2025-12-03 14:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN! I&amp;#x27;m Mihir, and I&amp;#x27;m excited to share Superfill.ai - an open-source browser extension that uses AI to eliminate repetitive form-filling.&lt;p&gt;The Problem:&lt;p&gt;I&amp;#x27;ve always been frustrated by how much time I waste retyping the same information across different websites like job applications, dating profiles, rental forms, surveys, etc. Existing password managers only handle credential...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46133567" target="_blank">AutoPilot AI News Platform – Automated, Monetizable and Ready to Launch</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-03 12:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">FULL PROJECT HERE → https:&amp;#x2F;&amp;#x2F;ainewshub2025.netlify.app&amp;#x2F; and if you are interested you can purchase here → https:&amp;#x2F;&amp;#x2F;polar.sh&amp;#x2F;checkout&amp;#x2F;polar_c_HcM5XbbPsBCAetYTy8JZunQX8kVxj1cfLRni14Z0Bh7&lt;p&gt;I built AI News Hub as a complete platform that automatically collects, organizes, and publishes the latest content from the AI world, programming, machine learning, dev tools, and...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46132040" target="_blank">We're 15 and 17, used our data science skill to build an AI social media manager</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2025-12-03 08:56 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;My brother(Arjun Dhiman) (17) and I(Akshat Dhiman) (15) were handed our Dad&amp;#x27;s Business Instagram and Facebook with a simple “just handle it“. Before this we were studying data science and working on a SMMA.&lt;p&gt;We thought we could apply our new skills. Instead, we spent months in the manual-work trenches:&lt;p&gt;Late nights in Canva for every single post.&lt;p&gt;Begging ChatGPT for captions tha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46130500" target="_blank">Show HN: Beads Viewer (Bv)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-03 05:04 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m a huge fan of Steve Yegge&amp;#x27;s great beads project, which is a task management system for use by coding agents.&lt;p&gt;In fact, I probably type or paste the string &amp;quot;beads&amp;quot; 500+ times a day nowadays across all my coding agent sessions (I&amp;#x27;m juggling like 10 projects at the same time now, which you&amp;#x27;ll start to see soon as I finish and release them in the coming days and week...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46130481" target="_blank">Show HN: Coding Agent Session Search (Cass)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-03 05:00 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">I’m very pleased to introduce my latest tool for both humans and coding agents: the coding agent session search, or “cass” for short.&lt;p&gt;This tool solves a direct pain point I’ve been experiencing for months as a heavy user of coding agents, with tons of sessions across many tools (Claude Code, codex, cursor, and now gemini-cli) and projects: I’ll know that I talked about something, but be unable t...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

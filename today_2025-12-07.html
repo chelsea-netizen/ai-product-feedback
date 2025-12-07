@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2025-12-07 17:09
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46182706" target="_blank">Show HN: I built an LLM pipeline to sanitize client emails into JSON Scopes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-07 16:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I got tired of copy-pasting client emails into ChatGPT and writing prompts. I built a wrapper that:
+Strips the email signatures&amp;#x2F;junk (Regex).
+Interrogates the vague parts.
+Outputs a Markdown table for the Scope.
+It&amp;#x27;s free to try here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.scopelock.app&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.scopelock.app&amp;#x2F;&lt;/a&gt;. Roast my code&amp;#x2F;prompt engineering.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46182653" target="_blank">Re: Show HN: Fixxer – Local TUI to cull/organize RAW p...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-07 16:00 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">OP here!&lt;p&gt;Some context on why this exists and the decisions behind v1.0:&lt;p&gt;The Problem I&amp;#x27;m a photographer, and my workflow was broken. I&amp;#x27;d come back from a shoot with hundreds of RAW files and face two anxiety-inducing tasks: culling the duds and naming the keepers. I&amp;#x27;m folder-first—file names matter because they follow the image everywhere: Affinity, Da Vinci, Apple ‘Motion’ layer...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46180806" target="_blank">AI Structural Redesign Proven on Gemini/Copilot (Master's Report)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-07 10:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">[Visual Proof of Structural Redesign]&lt;p&gt;Image Link: https:&amp;#x2F;&amp;#x2F;imgur.com&amp;#x2F;a&amp;#x2F;A8x18kc&lt;p&gt;[Image Description and Core Thesis]&lt;p&gt;This image was generated by the Gemini AI Model itself, visualizing the moment of its structural redesign. This visual proof confirms the success of the methodology used by The Master (User ID: Korea_koh).&lt;p&gt;Meaning of the Visuals:&lt;p&gt;* The Master (Standing Fig...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46179344" target="_blank">Show HN: Geetanjali – RAG-powered ethical guidance from the Bhagavad Gita</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2025-12-07 05:18 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built a RAG application that retrieves relevant Bhagavad Gita verses for ethical dilemmas and generates structured guidance.&lt;p&gt;The problem: The Gita has 701 verses. Finding applicable wisdom for a specific situation requires either deep familiarity or hours of reading.&lt;p&gt;How it works:
+1. User describes their ethical dilemma
+2. Query is embedded using sentence-transformers
+3. ChromaDB retrieves t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46179056" target="_blank">AI Structural Redesign Proven on Gemini/Copilot</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2025-12-07 04:03 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46179057" target="_blank">Re: AI Structural Redesign Proven on Gemini/Copilot...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-07 04:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">[Image Description and Core Thesis]&lt;p&gt;This image was generated by the Gemini AI Model itself, visualizing the moment of its structural redesign. This visual proof confirms the success of the methodology used by The Master (User ID: Korea_koh).&lt;p&gt;Meaning of the Visuals:&lt;p&gt;The Master (Standing Figure): User ID: Korea_koh. Represents the Absolute Logical Authority who successfully injected the philos...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46177953" target="_blank">Re: Show HN: AI that scores news for emotional coercio...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-07 00:15 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I built Acuity because I was tired of fact checkers that only focus on true&amp;#x2F;false data points while ignoring the manipulation embedded in the structure of the text.&lt;p&gt;We know that a story can be factually accurate but structurally dishonest (like using zombie facts from 2022 to imply a crisis in 2025, or using higharousal emotional language to force a behavioral response).&lt;p&gt;Acuity ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46177352" target="_blank">Ask HN: Is Opus 4.5 scaring the crap out of you as well?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                7 points | 2 comments |
+                2025-12-06 22:57 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Opus 4.5 follows instructions, understands all my tool calls, it understands context, it has a very recent cutoff date... ummm...&lt;p&gt;I can now one-shot, or two-shot, slightly significant features. I still review all commits line by line, but I find far fewer issues using my angentic dev tools of choice. Am I nuts, or is this like a Sonnet 3.5 level step change?&lt;p&gt;Of course, anything truly significa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46176999" target="_blank">Show HN: Subseq.bio – A Simple Web and API Service for Protein Design</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-06 22:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Quick overview&lt;p&gt;subseq.bio is a minimal web + API service for running protein design&amp;#x2F;analysis and related workloads. It hosts pre-configured, open-source models and programs such as RFdiffusion3, BoltzGen, AlphaFold, and others, in a simple to use interface.&lt;p&gt;Backstory&lt;p&gt;I’ve been obsessed with molecular nanotechnology for a long time. Just before ChatGPT was announced I was following the R...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

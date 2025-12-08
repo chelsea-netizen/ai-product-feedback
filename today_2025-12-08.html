@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2025-12-08 17:13
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46194828" target="_blank">Launch HN: Nia (YC S25) – Give better context to coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-08 17:10 |
+                <span class="category">onboarding, navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I am Arlan and I am building Nia (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;trynia.ai&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;trynia.ai&lt;/a&gt;), a SOTA context layer for AI coding agents. Nia lets tools like Cursor, Claude Code, and other MCP clients index and query real codebases and documentation so they stop hallucinating against outdated or wrong sources, with applications beyond coding agents to any AI system...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46194548" target="_blank">Show HN: Tampermonkey/Stylus but with prompts instead of code (open source)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-08 16:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’ve built a browser extension that allows you to personalize websites just by prompting. It takes your request and uses openai’s codex-mini to generate the JS and CSS needed to apply the change.&lt;p&gt;It can do all sorts of things: stop autoplaying videos, replace links with archive.is on newspapers, dim sidebars, or add small QOL features like editing the responses in chatgpt so it’s easier to copy&amp;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46193195" target="_blank">Re: Built in 30 days by someone who had never coded be...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-08 15:18 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">The Backstory
+Exactly 30 days ago, I was frustrated. I kept switching between different AI apps — ChatGPT for reasoning, Gemini for speed, Grok for real-time news. Each had strengths, but none offered a single interface that could handle it all intelligently.
+So, I decided to build it myself. The problem? I had zero coding experience.&lt;p&gt;The Learning Curve
+When I started this journey last month, I ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46192597" target="_blank">Re: Alignment Is Capability...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-08 14:28 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I&amp;#x27;ve only been using it a couple of weeks, but in my opinion, Opus 4.5 is the biggest jump in tech we&amp;#x27;ve seen since ChatGPT 3.5.&lt;p&gt;The difference between juggling Sonnet 4.5 &amp;#x2F; Haiku 4.5 and just using Opus 4.5 for everything is night &amp;amp; day.&lt;p&gt;Unlike Sonnet 4.5 which merely had promise at being able to go off and complete complex tasks, Opus 4.5 seems genuinely capable of doing s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46192266" target="_blank">Show HN: I built an AI tool to evaluate my AngelList deal flow</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-08 13:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m Kyle, a software engineer who started angel investing through AngelList syndicates (~25 deals, $1-10k each). I&amp;#x27;d see interesting ideas and clever founders but wasn&amp;#x27;t sure what to look for or how to compare them. I wanted a system to think through deals more systematically. A second opinion to challenge my initial read.&lt;p&gt;What it does: - Paste a deal memo → get scoring on 8 crite...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46192188" target="_blank">Re: I built an API testing tool that generates tests f...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-08 13:49 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">The idea came from a simple problem: most teams have lots of API endpoints, but almost no one has realistic coverage. Writing and maintaining test collections takes forever, and scripts always fall out of sync.&lt;p&gt;Rentgen takes one cURL request and generates: 
+• boundary tests (min&amp;#x2F;max, out-of-range)
+• enum variation tests
+• invalid&amp;#x2F;negative input cases
+• trimming&amp;#x2F;whitespace cases
+• ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46191564" target="_blank">Show HN: Chorus – Multi-agent debate through epistemological framework collision</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-08 12:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;ve been building Chorus, a multi-agent system with a different approach than the typical role-based agents (AutoGen, CrewAI, etc.).&lt;p&gt;The core idea: instead of giving agents &amp;quot;roles&amp;quot; (researcher, critic, writer), each agent reasons through an epistemological framework – a set of rules about what counts as valid knowledge, what questions to ask, and what reasoning moves ar...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46191027" target="_blank">Re: Show HN: Sornic – Turn any URL into social media p...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-08 11:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this because writing the same content differently for LinkedIn, Twitter, Instagram, etc. was taking too long.&lt;p&gt;Paste a URL → AI reads the page → Generates platform-specific posts.&lt;p&gt;Stack: Next.js, Claude API, Upstash Redis, Vercel.&lt;p&gt;Free to try (3 generations). Would love feedback on output quality.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46190576" target="_blank">CLI coding agents browsing ncdu/gdu directly instead of parsing JSON</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-08 10:13 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Idea:&lt;p&gt;Tools like `ncdu` and `gdu` already present a compressed, human-friendly view of the filesystem tree. A human just looks at the TUI and presses ↑ ↓ → ← to drill down, decide what matters, and ignore the rest.&lt;p&gt;Most current AI workflows instead export giant JSON dumps, then build an entire parsing + chunking + filtering layer on top of them. This burns context, adds complexity, and doesn’t...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2025-12-11 17:19
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46233723" target="_blank">Show HN: AgentDepot – open-source directory of Cursor rules, Claude, Replit, MCP</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-11 16:47 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I got tired of hunting for quality Cursor rules, Claude skills and MCP servers across GitHub repos, Reddit threads, and Discord servers. Everything&amp;#x27;s scattered, and half the time the &amp;quot;awesome lists&amp;quot; link to broken repos or have zero setup instructions.&lt;p&gt;Agent Depot solves this:
+- Single searchable index across different AI tool formats (Cursor .cursorrules, MCP servers, Claude plug...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46232342" target="_blank">Re: The Walt Disney Company and OpenAI Partner on Sora...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-11 15:10 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">While it&amp;#x27;s not explicitly stated, I&amp;#x27;m sure what is actually happening here is:&lt;p&gt;Disney buys OpenAI equity.&lt;p&gt;OpenAI uses the cash to pay Disney licensing fees, and buying hardware for Disney&amp;#x27;s use.&lt;p&gt;Whether it&amp;#x27;s bubble is up to the reader&amp;#x27;s interpretation.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46230913" target="_blank">Show HN: Pit Claude, Codex, and Gemini against each other, and apply the best</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-11 13:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Voratiq is an open-source (MIT-licensed) terminal-native CLI that lets you run multiple coding agents against the same spec, review their diffs side-by-side, and use whichever implementation is best.&lt;p&gt;It&amp;#x27;s designed for experienced developers who want to make the most of agentic coding. It positions you as the architect and reviewer, and shifts implementation onto an ensemble of agents who (h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46230895" target="_blank">Show HN: I built an AI tool to evaluate my AngelList deal flow</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-11 13:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m Kyle, a software engineer who started angel investing through AngelList syndicates (~25 deals, $1-10k each). I&amp;#x27;d see interesting ideas and clever founders but wasn&amp;#x27;t sure what to look for or how to compare them. I wanted a system to think through deals more systematically. A second opinion to challenge my initial read.&lt;p&gt;What it does:
+ - Paste a deal memo → get scoring on 8 crit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46230418" target="_blank">Re: A “frozen” dictionary for Python...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-11 12:13 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">Can someone ELI5 the core difference between this and named tuples, for someone who is not deep into Python? ChatGPT&amp;#x27;s answer boiled down to: unordered (this) vs ordered (NTs), &amp;quot;arbitrary keys, decided at runtime&amp;quot; vs &amp;quot;fixed set of fields decided at definition time&amp;quot; (can&amp;#x27;t an NT&amp;#x27;s keys also be interpolated from runtime values?), and a different API (`.keys()`, `.i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46230010" target="_blank">Re: McDonald's removes AI-generated ad after backlash...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-11 11:17 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">When GenAI start coming through with chatgpt, I was hoping it would take away the every day menial tasks.&lt;p&gt;I now see that is mainly targeting Creative Work, and it&amp;#x27;s really really sad.&lt;p&gt;I think we as humans find joy in creative work and it is frustrating that we as a collective decided that is the thing we will take away from humans.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46229488" target="_blank">Show HN: I built an AI travel planner after wasting 6 hours on Reddit</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 3 comments |
+                2025-12-11 09:55 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m a dev who got tired of wasting entire evenings planning trips. After the 10th time finding myself with 50 tabs open
+at 2 AM reading contradictory blog posts, I built Voyaige.&lt;p&gt;What it does:
+Enter a city + your travel style (budget backpacker, luxury, foodie, etc.) → get a personalized PDF guide in ~15
+minutes. Not generic &amp;quot;Top 10&amp;quot; lists—actual itineraries with opening hours, tr...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

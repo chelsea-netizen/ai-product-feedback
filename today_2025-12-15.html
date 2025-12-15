@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2025-12-15 17:18
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46277205" target="_blank">OpenAI-Backed Chai Discovery Raises $130M for AI-Designed Molecules</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-15 17:09 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46276905" target="_blank">Show HN: Agent Deck – Terminal Dashboard to Manage Claude/Gemini/Codex Sessions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-15 16:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I run multiple AI coding agents across projects and kept losing track of which sessions were waiting for input vs still working.&lt;p&gt;Agent Deck is a TUI built on tmux that shows all sessions with live status - green (working), yellow (needs input), gray (idle).&lt;p&gt;Works with Claude Code, Gemini CLI, Aider, Codex.&lt;p&gt;Can also fork Claude conversations to try different approaches from the same context.&lt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46276575" target="_blank">LLM guidelines, do you have the same pblm</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-15 16:24 |
+                <span class="category">tone, onboarding</span>
+            </div>
+            <div class="text">Hey folks,&lt;p&gt;Nothing built yet, but I was wondering if you’ve also run into the problem of keeping strong, opinionated guidelines when working with LLMs.&lt;p&gt;I’m thinking about an open-source solution to help teams define and share high-level project guidelines (PEP8, architectural rules, naming conventions, product principles, tone of voice, etc.) in a way that’s actually usable by LLMs.&lt;p&gt;The idea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46275448" target="_blank">Show HN: We need to define a new scale for measuring any software project</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-15 15:07 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">I am a software engineer with 15 years of experience, and this is the first time I feel the era of traditional software engineering and many desk jobs in general is starting to end. In the next 5 to 10 years, most desk based roles will likely disappear, except for jobs directly connected to AI.&lt;p&gt;I built this in under 8 hours using AI. I used Gemini 3 to see whether the marketing claim was real th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46275246" target="_blank">Show HN: I built an AI portfolio manager and entrusted it with $50k</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 2 comments |
+                2025-12-15 14:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">My investing performance so far was, quite honestly, mediocre. It’s not like I’m making terrible investment decisions, it’s more about not being able to consistently manage my portfolio. I’m getting distracted by other projects, leaving my portfolio in free float, which, ultimately, doesn’t work great.&lt;p&gt;So, the idea was to create a reasonable portfolio manager that watches your portfolio, and ale...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46274686" target="_blank">Show HN: Open-Source Notion MCP Server (TypeScript, SSE, Apify)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-15 14:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN,&lt;p&gt;I built this because I wanted to give Claude Desktop access to my Notion workspace without running a flaky local Python script via stdio.&lt;p&gt;This is a Node.js&amp;#x2F;Express implementation of the Model Context Protocol (MCP) that uses SSE (Server-Sent Events) for transport. It’s designed to be stateless and deployable as a container (I&amp;#x27;m hosting it on Apify, but it works anywhere wit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46274677" target="_blank">Show HN: PHP Claude Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-15 14:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">All of the possible agents as a simple PHP interface - could not be easier to create AI agents.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46274572" target="_blank">Re: Grok Is Glitching and Spewing Misinformation About...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-15 13:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I think what’s worse is how Grok is used on X. You can summon it on any thread by just @grok with your question.&lt;p&gt;I see this sooo soooo much but folks will just straight up ask “@grok is this true?” and its response it taken as gospel.&lt;p&gt;Though I have to say, grok code-fast-1 is one of the best coding models I’ve ever used.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46274206" target="_blank">LLM Red Teaming / AI Security Freelancer</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-15 13:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Freelancer Requirements - LLM Adversarial Prompt Creation Project
+We are hiring skilled freelancers to support a structured LLM adversarial prompt generation and testing initiative. The goal is to design, execute, and document prompts that evaluate safety, robustness, and failure boundaries of modern LLMs.
+What Expertise We&amp;#x27;re Looking For
+Technical Skills
+● Background or demonstrated interest...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46274189" target="_blank">Re: Grok Is Glitching and Spewing Misinformation About...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-15 13:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Grok is doing exactly what it was designed to do.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46274162" target="_blank">Re: Grok Is Glitching and Spewing Misinformation About...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-15 13:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Are photos &amp;amp; videos that new even recognizable by Grok? Can&amp;#x27;t try ChatGPT because it spews an error (&amp;quot;Error in message stream&amp;quot;) and then I&amp;#x27;ve reached my limit. Gemini on gemini.google.com (Gemini 3 Pro) does the same as Grok and thinks the photo[1] is from the October 7th attacks:&lt;p&gt;&amp;gt;Based on the visual evidence and public reports, the man in the image is Yarden Bibas.&lt;p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46273915" target="_blank">Re: I'm Kenyan. I Don't Write Like ChatGPT. ChatGPT Wr...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-15 12:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Also Kenyan, I once recently spent 10min explaining a technical topic via chat, and the response I got was &amp;quot;was this GPT?&amp;quot;. I took a few minutes then just linked an article of how underpaid Kenyans trained ChatGPT for OpenAI [1]&lt;p&gt;1: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;time.com&amp;#x2F;6247678&amp;#x2F;openai-chatgpt-kenya-workers&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;time.com&amp;#x2F;6247678&amp;#x2F;openai...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46273868" target="_blank">Re: I'm Kenyan. I Don't Write Like ChatGPT. ChatGPT Wr...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-15 12:53 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I had a similar experience. We were talking about a colleague for using ChatGPT in our WhatsApp group chat to sound smart and coming up with interesting points. The talk sounds so mechanical and sounds exactly as ChatGPT.&lt;p&gt;His responses in Zoom Calls were the same mechanical and sounds like AI generated. I even checked one of his responses in WhatsApp if it&amp;#x27;s AI by asking the Meta AI whether...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46273704" target="_blank">Re: I'm Kenyan. I Don't Write Like ChatGPT. ChatGPT Wr...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-15 12:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s the curse of writing well.  ChatGPT is designed to write well, and so everyone who does that is accused of being AI.&lt;p&gt;I just saw someone today that multiple people accused of using ChatGPT, but their post was one solid block of text and had multiple grammar errors.  But they used something &lt;i&gt;similar&lt;/i&gt; to the way ChatGPT speaks, so they got accused of it and the accusers got massive u...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2025-12-22 17:11
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46355848" target="_blank">Show HN: Utter – System-wide dictation on macOS with AI prompts (free / BYOK)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-22 16:53 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built Utter, a native macOS dictation app, and wanted to share it here to get feedback.&lt;p&gt;The motivation was that Apple Dictation works for short notes, but for longer or technical input it often produces a wall of text that takes more time to clean up than typing. I wanted dictation that could understand context and produce structured output directly.&lt;p&gt;Utter works system-wide: you pre...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46355611" target="_blank">Re: Scaling LLMs to Larger Codebases...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-22 16:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This highlights a missing feature of LLM tooling, which is asking questions of the user. I&amp;#x27;ve been experimenting with Gemini in VS Code, and it just fills in missing information by guessing and then runs off writing paragraphs of design and a bunch of code changes that could have been avoided by asking for clarification at the beginning.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46355452" target="_blank">Show HN: I made a puzzle game without writing any code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-22 16:23 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">This is the first project I haven&amp;#x27;t written a single line of code. The entire codebase was prompt generated in Cursor using mostly Claude Sonnet 4.5.&lt;p&gt;It&amp;#x27;s also the first time I&amp;#x27;m genuinely happy with the end result from AI coding.&lt;p&gt;What do you think?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46355402" target="_blank">Re: Ask HN: Why Did Python Win?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-22 16:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Because not many people prioritize syntax design like GvR. Even now if someone releases a new programming language most people will ask what features it has, how fast it is, how fast is the package manager etc. Because these questions are simple yes and no ones. Unlike syntax design choices.&lt;p&gt;Even if they ask about the syntax design people just dismiss their question with saying &amp;quot;syntax is n...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46355200" target="_blank">Show HN: I built a linter for landing page conversion</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2025-12-22 16:03 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;m Nik and I&amp;#x27;ve worked 8 years working in Marketing at High Growth Startups. I’ve spent years fixing landing pages for my campaigns, and I realized most bad conversion rates come from structural errors, not just bad copy. (Still copy remains the major part of conversions)&lt;p&gt;I built Landkit Audit to act as a Linter for conversion.&lt;p&gt;How it works:&lt;p&gt;Ingestion: It fetches your si...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46355014" target="_blank">Re: Runiq – A local, sovereign runtime for AI Agents (...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-22 15:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN — I built Runiq: a local “sovereign runtime” that lets LLM agents (Claude Desktop, local Llama, etc.) use hardened tools to interact with your OS, instead of executing arbitrary shell&amp;#x2F;Python.&lt;p&gt;Runiq implements Anthropic’s Model Context Protocol (MCP) and exposes a small set of controlled capabilities:&lt;p&gt;Stealth Chromium browser for scraping&amp;#x2F;automation (aimed to survive common bot ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46354972" target="_blank">Show HN: Real-time voice AI agent console with 133ms latency (YC assessment)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-22 15:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;Built a real-time voice AI agent console for a YC W25 startup assessment (Freya Voice). Focus was on production-ready implementation with minimal latency.&lt;p&gt;GitHub: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;05sanjaykumar&amp;#x2F;Freya-Voice-YC25-Assessment&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;05sanjaykumar&amp;#x2F;Freya-Voice-YC25-Assessment&lt;/a&gt;&lt;p&gt;Key specs:
+- 133ms average latenc...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46354279" target="_blank">Re: Leveraging AI as an infinitely patient teacher...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-22 14:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Are you using claude GUI or is this claude code? Is the interaction happening purely over the TUI interface or is claude also looking at code you&amp;#x27;ve written so far (assuming you&amp;#x27;re in a socratic style dialogue).</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46353821" target="_blank">Show HN: Python Local Sandbox Code Execution (Podman and Uv)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2025-12-22 13:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The core idea: @sandbox(dependencies=[&amp;quot;pandas&amp;quot;]) turns any function into one that runs inside an isolated Podman container with dependency caching built in on uv. You call it like a normal function, but the code executes with no access to your host filesystem, credentials, or processes.&lt;p&gt;from pctx_sandbox import sandbox&lt;p&gt;@sandbox(dependencies=[&amp;quot;requests&amp;quot;])
+def fetch_url(url: ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46353782" target="_blank">Show HN: NICH – Browser-based tool to anonymize AI-conversations</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-22 12:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built NICH after realising I couldn&amp;#x27;t use ChatGPT for my conflict research work without risking data leaks.&lt;p&gt;It&amp;#x27;s a browser extension that:
+- Anonymises names, emails, and addresses in one click
+- Preserves context for AI to understand
+- Restores original data in AI responses
+- 100% browser-based (no cloud, data never leaves your device)&lt;p&gt;Built it for researchers, lawyers, HR profess...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46351788" target="_blank">Re: Agent Skills for Context Engineering...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-22 06:08 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been building multi-agent systems for the past year and kept running into the same problems: context windows filling up with tool outputs, agents losing track of information buried in the middle of long conversations, supervisors becoming bottlenecks as they accumulated state from all workers.&lt;p&gt;The solutions to these problems are scattered across research papers, framework docs, and pro...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46351360" target="_blank">Show HN: Spring AI Playground – No-code MCP tool studio and agentic chat</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-22 04:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN — I just shipped the first feature update for Spring AI Playground since it became an official Spring AI Community incubating project.&lt;p&gt;The goal is to treat MCP tools as runtime entities you can build, inspect, and iterate on live—without rebuilds or redeployments.&lt;p&gt;What’s in this update:&lt;p&gt;- No-code &amp;#x2F; low-code Tool Studio: create AI-callable tools in the browser using JavaScript (ECM...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

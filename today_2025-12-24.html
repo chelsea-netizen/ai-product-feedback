@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2025-12-24 17:10
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46377239" target="_blank">Show HN: AI that edits your files directly, no approvals</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-24 17:04 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m building Aye Chat (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;acrotron&amp;#x2F;aye-chat&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;acrotron&amp;#x2F;aye-chat&lt;/a&gt;), an open source AI-powered terminal workspace that lets you edit files, run shell commands, and ask AI to modify your codebase directly, all in one REPL session.&lt;p&gt;I built this because I got tired of the &amp;quot;suggest -&amp;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46376987" target="_blank">Show HN: I built the fastest AI app builder that I can find</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 3 comments |
+                2025-12-24 16:34 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">A lot of times I use GenAI to quickly prototype something like an app idea or a UI&amp;#x2F;UX mock for a site. I&amp;#x27;d like this text-to-UI experience to be as fast as possible to quickly iterate.&lt;p&gt;I&amp;#x27;ve tried classic LLMs like ChatGPT&amp;#x2F;Claude&amp;#x2F;Gemini and dedicated text-to-app builders like Lovable&amp;#x2F;Blink&amp;#x2F;Bolt&amp;#x2F;Replit. For the former the experience is still a bit crude - a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46376342" target="_blank">Show HN: I wrote a Christmas-themed Space Invaders clone in 8086 Assembly</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-24 15:21 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve had a goal for the past three years to learn Assembly language. This December, I finally put some real effort into learning the language. I followed the tutorials in Oscar Toledo G&amp;#x27;s &amp;quot;Programming Boot Sector Games&amp;quot; and used Gemini as a tutor to help explain the concepts I was stuck on. It was tempting at points to vibe code some of the trickiest pieces, but I found resisti...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46376212" target="_blank">Show HN: MonumentAI – Shazam for buildings (History without the boring parts)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-24 15:07 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I&amp;#x27;m Ozan, the developer behind MonumentAI.&lt;p&gt;I built this app because I enjoy traveling but find traditional audio guides and plaques incredibly boring. They usually focus on dates and architectural styles, skipping the interesting human stories—the scandals, exiles, and secrets.&lt;p&gt;I wanted a &amp;quot;Shazam for Buildings&amp;quot; that feels like a local friend whispering the gossip in you...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46375315" target="_blank">Show HN: CRD Wizard – A GUI for Kubernetes Custom Resource Definitions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-24 13:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I’ve been working with Kubernetes for a while now, and one thing that has always been a friction point for me is dealing with Custom Resource Definitions (CRDs).&lt;p&gt;We use them for everything—monitoring, cert-manager, custom controllers—but the tooling around them always felt a bit raw. Dealing with them usually meant running `kubectl get crds`, piping output to grep, or staring at 5,000-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46374734" target="_blank">A (humble) new proposal for the FE ecosystem</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-24 11:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">For many years, I focused quietly on my work, but now I feel compelled to point out a problem that is becoming increasingly apparent.&lt;p&gt;--&lt;p&gt;1. Correct Model ≠ Adopted Model&lt;p&gt;Historical fact: In the frontend ecosystem, the winners aren&amp;#x27;t those who create the most accurate abstraction; they&amp;#x27;re those who provide the “feel of working” with the least friction.&lt;p&gt;The result: correct thought ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46374561" target="_blank">Re: ChatGPT's CSS may hide model info (clip-path, opac...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-24 11:13 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is a reproducible technical report on how ChatGPT’s UI may hide backend model details via CSS. The DOM includes model strings like GPT-5-2, but CSS properties like `clip-path`, `opacity:0`, and `user-select:none` prevent users from seeing or selecting them.
+This may be unintentional UX design—or a systematic obfuscation. Either way, I believe it deserves public discussion.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46374520" target="_blank">Show HN: WatchLLM – Semantic caching to cut LLM API costs by 70%</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-24 11:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! I just shipped WatchLLM - a semantic caching layer for LLM APIs that sits between your app and providers like OpenAI&amp;#x2F;Claude&amp;#x2F;Groq.&lt;p&gt;The problem: LLM API costs add up fast, especially when users ask similar questions in different ways (&amp;quot;how do I reset my password&amp;quot; vs &amp;quot;I forgot my password&amp;quot;).&lt;p&gt;The solution: Semantic caching. WatchLLM vectorizes prompts, checks ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46374391" target="_blank">Show HN: I built a tool that creates videos out of React code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-24 10:45 |
+                <span class="category">naming_terminology, tone, response_quality</span>
+            </div>
+            <div class="text">The one-liner: You give it a script, it generates a portrait video in 10 minutes. No stock footage, no templates—it writes code that renders as video.&lt;p&gt;## Why I built this
+We were building game dev courses at Outscal and needed to produce a lot of video content fast. Traditional video production was slow. AI video generators looked weird. So we tried a different approach: what if video was just c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46371023" target="_blank">Re: Americans Have Mixed Views of AI – and an Appetite...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-24 00:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I want to point out this part:&lt;p&gt;&amp;gt; A question that was interesting, but didn’t lead to a larger conclusion, was asking what actually happens when you ask a tool like ChatGPT a question. 45% think it looks up an exact answer in a database, and 21% think it follows a script of prewritten responses.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46371012" target="_blank">Re: SwiftZilla – RAG with Official Apple Docs for Swif...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-24 00:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been getting increasingly frustrated with how much current LLMs (Claude, GPT, Gemini, etc.) hallucinate on modern Swift, especially since Swift 6.0 and now with 6.1&amp;#x2F;6.2 changes rolling out. They confidently suggest deprecated SwiftUI modifiers, wrong concurrency patterns (actors, Sendable violations, etc.), or APIs that changed in recent betas.&lt;p&gt;So I built a narrow, focused RAG jus...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

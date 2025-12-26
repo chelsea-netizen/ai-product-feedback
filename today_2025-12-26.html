@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2025-12-26 17:10
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46393580" target="_blank">Re: ChatGPT conversations still lack timestamps after ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 16:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The only (silly) reason I can think of is that a non trivial number of people copy pasta directly from chatgpt responses and having the timestamp there would be annoying.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46392216" target="_blank">Re: Codex vs. Claude Code (today)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 14:22 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The process you have described for Codex is scary to me personally.&lt;p&gt;it takes only one extra line of code in my world(finance) to have catastrophic consequences.&lt;p&gt;even though i am using these tools like claude&amp;#x2F;cursor, i make sure to review every small bit it generated to a level, where i ask it create a plan with steps, and then perform each step, ask me for feedback, only when i give appro...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46392156" target="_blank">Re: Claude-Code-Remote: Control Claude Code remotely v...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 14:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">one of the few guardrails that I would hate to get rid of as someone using one of the CLI agentic programs (claude-code&amp;#x2F;codex&amp;#x2F;gemini-cli&amp;#x2F;whatever) is the ability to spam ctrl-c&amp;#x2F;esc when I see it begin to do something braindead.&lt;p&gt;or, in other words, i&amp;#x27;d hate to get the email response confirming a successful rm -rf somewhere it shouldn&amp;#x27;t be.&lt;p&gt;(yes, I know -- isolation...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46392126" target="_blank">Re: A local first context engine for Cursor, Claude Co...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 14:09 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">TL;DR: I built an open source app that runs 100% locally, it provides a TUI to index repos, private or public and make them searchable via an MCP. The primary use case for me was to be able to quickly reference the libraries I care for, such as effect-ts, ai-sdk and others. I didn&amp;#x27;t want to just reference documentation, I wanted to allow my coding agents to search through their code and learn...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46392051" target="_blank">Ask HN: Useful (Non-Coding) Agents?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-26 14:01 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">While not every programmer agrees, a huge number of them feel like they are getting tremendous value from coding agents.  Certainly that is my experience.&lt;p&gt;However, I have yet to find something that is both &amp;quot;agentic&amp;quot; (in terms of the experience of using it) and &lt;i&gt;useful&lt;/i&gt; -- in fact, not only are most &amp;quot;agents&amp;quot; less than useless, they are so frustrating I want to scream at m...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46392043" target="_blank">Re: Codex vs. Claude Code (today)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 14:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Spec dev can certainly be effective, but having used Claude Code since its release, I’ve found the pattern of continuous refactoring of design and code produces amazing results.&lt;p&gt;And I’ll never use OpenAI dev tools because the company insists on a complete absence of ethical standards.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46391966" target="_blank">Re: I'm a laptop weirdo and that's why I like my new F...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 13:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The really special thing about Frameworks is that you can quickly buy and replace basically any part, not just the usual RAM and SSD -- case in point, when I managed to damage my FW13&amp;#x27;s keyboard such that it was no longer usable, I could just... go straight to Framework&amp;#x27;s website and buy a new one for $40. And, I even had the option of a slightly improved one, that shed the Windows key a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46391777" target="_blank">Re: Codex vs. Claude Code (today)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 13:27 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s hard to compare the two tools because they change so much and so fast.&lt;p&gt;Right now, as an example, claude code with opus 4.5 is a beast, but before that, with sonnet 4.0, codex was much better.&lt;p&gt;Gemini-cli, on the other hand, with gemini-flash-3.0 (which is strangely good for the &amp;quot;small and fast&amp;quot; model), it&amp;#x27;s very good (but the cli and the user experience are not on par w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46391766" target="_blank">ChatGPT Ads May Prioritize Sponsored Content in AI Responses</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-26 13:26 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46391671" target="_blank">Re: Local AI apps worldwide 26 Dec 2025...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 13:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The best Local AI apps worldwide 26 Dec 2025 according to ChatGpt 5.2, using this parameters as comparison:
+Evaluation criteria:&lt;p&gt;3-click install → load → run&lt;p&gt;Install scope (User vs System)&lt;p&gt;Privacy enforcement (offline switch, no telemetry, no account, CLI)&lt;p&gt;Workspace features (files&amp;#x2F;images, code editor, tables→CSV, terminal)&lt;p&gt;Open model ecosystem (load models from any folder)&lt;p&gt;Forced...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46391473" target="_blank">Re: ChatGPT conversations still lack timestamps after ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 12:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">ChatGPT still does not display per-message timestamps (time of day &amp;#x2F; date) in conversations.&lt;p&gt;This has been requested consistently since early 2023 on the OpenAI community forum, with hundreds of comments and upvotes and deleted threads, yet remains unimplemented.&lt;p&gt;Do any of you could think of a reason (UX-wise) for it not to be displayed?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46391216" target="_blank">Re: Show HN: AI writing agent that flags unsupported c...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 11:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built this initially for my personal use because I found most AI-generated content to be untrustworthy. LLMs are great at sounding confident but not so good at being factual.&lt;p&gt;Instead of just wrapping LLMs for speed, I focused on accuracy. I built ProofWrite that uses a multi-step agentic pipeline:&lt;p&gt;1. Deep research: It crawls live data first to gather information like specs, pricing,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46390985" target="_blank">Re: MiniMax M2.1: Built for Real-World Complex Tasks, ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-26 10:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Very anecdotal but for me this model has very weak prompt adherence. I compared it a tiny bit to gemini flash 3.0 and simple things like &amp;quot;don&amp;#x27;t use markdown tables in output&amp;quot; was very hard to get with m2.1&lt;p&gt;Took me like 5 prompt iterations until it finally listened.&lt;p&gt;But it&amp;#x27;s very good, better than flash 3.0 in terms of code output and reasoning while being cheaper.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46390202" target="_blank">Show HN: Nano Banana Pro Prompts</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-26 08:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Nano Banana Pro Prompt is your comprehensive prompt library designed specifically for Google Gemini&amp;#x27;s image generation models - Nano Banana and Nano Banana Pro.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46389371" target="_blank">Show HN: Debug Buddy – A Chrome extension for console errors using Claude</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2025-12-26 05:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Built this to reduce context switching when debugging browser issues.
+Local-first, uses user-provided Claude API keys, no tracking.
+Would love feedback from people living in DevTools.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

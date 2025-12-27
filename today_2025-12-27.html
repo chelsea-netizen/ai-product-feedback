@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2025-12-27 17:09
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46402650" target="_blank">Re: Ask HN: How are you sandboxing coding agents?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 15:47 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; Have you had any &amp;quot;learned the hard way&amp;quot; moments?&lt;p&gt;A big lesson for us is that you still need to be careful even in a sandbox.&lt;p&gt;We&amp;#x27;ve been running Claude&amp;#x2F;Codex&amp;#x2F;Gemini in sandboxed YOLO mode and have seen some interesting bypass attempts. [1]&lt;p&gt;A few examples:&lt;p&gt;- created fake npm tarballs and forged SHA‑512s in our package‑lock.json&lt;p&gt;- masked failures with `|| true`...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46402512" target="_blank">Re: Show HN: Krypto Markets – Real-time financial dash...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 15:26 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a real-time cryptocurrency dashboard using AI agent mode (mostly Claude Opus 4.5) in less than 2 days.&lt;p&gt;Live demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;krypto.markets&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;krypto.markets&lt;/a&gt;&lt;p&gt;Features:
+- Real-time prices via Binance WebSocket
+- TradingView-style candlestick charts (1m to 1D timeframes)
+- Drag-and-drop layout with save&amp;#x2F;sync
+- Price alerts with brow...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46401856" target="_blank">Re: Publishing your work increases your luck...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 13:51 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This resonates with how I’ve been thinking about open source. I see the steps as:&lt;p&gt;1. Personally identify a pain in your own work, and it most likely will be a pain for many others.&lt;p&gt;2. Build a solution to solve for it.&lt;p&gt;3. Organically talk about it in forums — for me this is Reddit, HN lately and to some extent Bluesky.&lt;p&gt;When people ask why I build open source, I say it’s about signaling. As ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46401603" target="_blank">Re: Ask HN: How are you sandboxing coding agents?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 13:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I create a separate Linux user (which doesn&amp;#x27;t have sudo rights) for each project. I have to log each user in to Claude code or codex, but then I can use ordinary Unix permissions to keep the bots under control and isolated.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46401117" target="_blank">Re: Ask HN: How are you sandboxing coding agents?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 11:44 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Using Claude Code and Amp (free mode) with no sandbox.&lt;p&gt;I don&amp;#x27;t run Claude Code in YOLO mode, I just approve commands the first time I&amp;#x27;m asked about them.&lt;p&gt;Using them since July I haven&amp;#x27;t found any problem with data loss and the clanker have not tried to delete my $HOME.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46401042" target="_blank">Show HN: Ducky – AI for the thinking parts of engineering</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2025-12-27 11:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">hi hn!&lt;p&gt;i’m experimenting with an ai “rubber duck” idea that helps engineers think through bugs and design decisions by asking questions instead of spitting out code. this is an early prototype and i’m trying to validate whether ai tools are hurting code understanding.&lt;p&gt;most ai software engineering assistants like cursor and claude code focus on the implementation details&amp;#x2F;results but don’t ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46400805" target="_blank">Re: Claude Code Auto Improve...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 10:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;Many projects already contain a huge amount of knowledge in their README, issues, docs, and merged PRs — but when using Claude Code, this knowledge still has to be manually distilled into a CLAUDE.md file.&lt;p&gt;I’m experimenting with the idea that an agent should be able to generate and improve that file automatically.&lt;p&gt;Auto-improvement explores a workflow where an agent:
+1. Investigates a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46400710" target="_blank">Re: Reasoning tools knowledgebase of thinking patterns...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 10:27 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Economics at times gets dismissed as pseudo-science. The criticism isn&amp;#x27;t 100% wrong - macro models fail to predict recessions, policy prescriptions conflict, economists famously disagree about everything. When people hate economics, they&amp;#x27;re hating the outputs - the semi-working modelling of complex reality, but not engaging with the tools that economists actually use. Opportunity cost is...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46400692" target="_blank">Re: Ask HN: How are you sandboxing coding agents?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 10:22 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have a web ui for managing &amp;#x2F; interacting with opencode sessions.
+Everything runs as a pod in my homelab cluster so I can let them &amp;quot;bypass&amp;quot; permissions and just restrict the pods.&lt;p&gt;I wanted something like Claude code web with access to more models &amp;#x2F; local LLMs &amp;#x2F; my monorepo tooling, so far it&amp;#x27;s been great.&lt;p&gt;The output is a PR so it&amp;#x27;s hard for it to break anyth...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46400512" target="_blank">Show HN: Doculearn – How much of your Gen-AI code do you understand?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-27 09:38 |
+                <span class="category">naming_terminology, navigation</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I built Doculearn after watching my team (and myself) ship faster than ever with Claude, Cursor, and Copilot—but understand less and less of what we were actually deploying.&lt;p&gt;The vibe coding problem:&lt;p&gt;We&amp;#x27;d accept a 200-line AI suggestion, tests pass, PR approved, merged. Two weeks later: &amp;quot;Wait, how does this authentication flow work again?&amp;quot; No one knew. The person who ap...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46398957" target="_blank">Show HN: An AI collaboration playbook(AGENTS.md and code map and template)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2025-12-27 03:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN — I extracted a small “AI collaboration playbook” from my open-source project after repeatedly seeing coding agents go off-track (touch unrelated files, miss entry points, forget constraints in long threads).&lt;p&gt;The repo includes templates for:&lt;p&gt;- `AGENTS.md` guardrails + Done criteria
+- A 1-page index
+- A code map
+- Key flows
+- A plan-first change template (mini design doc)&lt;p&gt;It’s meant to ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46398608" target="_blank">Ask HN: Non-native speaker here – how to avoid sounding like ChatGPT?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 7 comments |
+                2025-12-27 02:47 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been active on HN for years, but lately I keep getting comments saying &amp;quot;this reads like AI&amp;quot; or &amp;quot;ChatGPT wrote this, right?&amp;quot;&lt;p&gt;At first, I thought it was a compliment – like my English was really polished. But I&amp;#x27;ve realized it&amp;#x27;s actually an insult, suggesting my contribution isn&amp;#x27;t genuine.
+Here&amp;#x27;s the thing: English isn&amp;#x27;t my native language. I&amp;#...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46397982" target="_blank">Re: Exe.dev...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 00:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I signed up and started a VM.  Didn’t really expect the default chat interface at boot. I’m currently on my iPad and would probably have bookmarked it for later, but now I’m playing with it. Cool idea :)&lt;p&gt;Edit: it comes out of the box with screenshot capabilities.  The defaults on this are very well considered. Im impressed within the first 15 min.
+Edit2: this is very neat. I will be recommending...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46397911" target="_blank">Re: Show HN: ForwardToAudio – Turn newsletters into a ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-27 00:31 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I’m Bryan founder of ForwardToAudio.&lt;p&gt;The Problem: Like many of you, I subscribe to way too many long-form newsletters (Substack, technical digests, etc.), but I never find the time to actually sit down and read them. I tried using standard screen readers, but listening to them read URLs, &amp;quot;view in browser&amp;quot; links, and footer disclaimers was unbearable.&lt;p&gt;The Solution: I built a to...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

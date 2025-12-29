@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>8</strong> items collected |
+                Last updated: 2025-12-29 17:11
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46422440" target="_blank">Show HN: Splat, an Affinity Diagramming Tool in a Single HTML File</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-29 16:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I built a single-file, open-source affinity diagramming tool for qualitative analysis in the browser, called Splat. You can use it to cluster and organize notes on a board.&lt;p&gt;It runs entirely in the browser as a single HTML file:
+– no install, no build step
+– works offline
+– optional semantic search with HF Transformers.js and AI assistant with Ollama (local) or OpenAI (for more power) 
+– J...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46421623" target="_blank">Re: Architecture of an autonomous startup-idea generat...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-29 15:27 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, OP here.&lt;p&gt;This project started on a whim a few months ago. I was curious if it was possible to automate ideation by feeding raw news into an LLM and getting coherent, viable business concepts out, rather than just generic summaries.&lt;p&gt;I ended up building a full pipeline (10 steps, db state driven) to test the theory. It runs daily on a DigitalOcean droplet, scans ~500 articles via EventReg...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46421361" target="_blank">Re: Asking Gemini 3 to generate Brainfuck code results...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-29 14:57 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Gemini is my favorite, but it does seem to be prone to “breaking” the flow of the conversation.&lt;p&gt;Sharing “system stuff” in its responses, responding to “system stuff”, starts sharing thoughts as responses, responses as thoughts, ignoring or forgetting things that were just said (like it’s suddenly invisible), bizarre formatting, switching languages for no reason, saying it will do something (like...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46421275" target="_blank">Show HN: Open-source Spotify Wrapped for arbitrary data</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2025-12-29 14:47 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Get a &amp;quot;Year-In-Review&amp;quot; for arbitrary data.&lt;p&gt;Yirgachefe was borne out of 3 ideas:&lt;p&gt;1) Spotify Wrapped is delightful
+2) In many countries, services are required by law to provide your exported usage data in a timely manner.
+3) Many services don&amp;#x27;t (or can&amp;#x27;t) provide years-in-review. I also love the idea of summarizing data people may _not_ want, a la the recent SNL &amp;quot;UberEat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46421124" target="_blank">Show HN: TensorWall – Open-source LLM gateway with budget controls and security</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-29 14:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m the creator of TensorWall. While building LLM-powered applications, I noticed a recurring gap: developers either give their apps a raw API key (risky) or spend weeks building custom proxies to handle rate-limiting, security, and the ever-present fear of exploding API bills. TensorWall is an open-source control plane designed to sit between your applications and your models. It give...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46420215" target="_blank">Re: Asking Gemini 3 to generate Brainfuck code results...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-29 12:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Asked for a solution of a photographed Ubongo puzzle: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;gemini.google.com&amp;#x2F;share&amp;#x2F;f2619eb3eaa1&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;gemini.google.com&amp;#x2F;share&amp;#x2F;f2619eb3eaa1&lt;/a&gt;&lt;p&gt;Gemini Pro neither as is nor in Deep Research mode even got the number of pieces or relevant squares right. I didn&amp;#x27;t expect it to actually solve it. But I would have expected it to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46419419" target="_blank">Re: Asking Gemini 3 to generate Brainfuck code results...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-29 11:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">My prompt was worded differently, but Gemini didn&amp;#x27;t fall into the same trap for me.&lt;p&gt;```
+Providing the full Brainfuck code to dynamically calculate and factorize 1000! is unfortunately not feasible, and here is why:
+ * The Scale: 1000! (1000 factorial) is a number with 2,568 digits. Standard Brainfuck operates on 8-bit memory cells (values 0-255). To handle a number this large, one would fir...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46417773" target="_blank">Re: Codex Kaioken – OpenAI Codex CLI fork with subagen...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-29 05:29 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Fork of OpenAI&amp;#x27;s Codex CLI with a few additions:
+
+  - Subagents: Main session spawns specialized agents for exploration, execution, or research. Each streams in its own pane so you can watch tool calls and diffs in real-time.
+  - Persistent memory: Agent extracts knowledge from file reads, commands, and failures. Stores in SQLite per-project. Lessons and decisions never decay;...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

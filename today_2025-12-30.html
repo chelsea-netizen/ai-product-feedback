@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2025-12-30 17:13
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46435274" target="_blank">Re: Show HN: Image Gen – 10 AI image providers unified...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-30 16:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this because I was tired of context-switching between image generation APIs.&lt;p&gt;Different providers excel at different things:
+- DALL-E 3 → text rendering
+- BFL FLUX → photorealism, 4K
+- Ideogram → typography, logos
+- Leonardo → artistic&amp;#x2F;fantasy
+- Recraft → vector output, #1 ELO ranked&lt;p&gt;The plugin lets Claude pick the best provider automatically based on the prompt. Ask for a &amp;quot;pr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46435078" target="_blank">Show HN: MCP Mesh – one endpoint for all your MCP servers (OSS self-hosted)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2025-12-30 16:42 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! I’m Gui from deco (decocms.com). We’ve been using this tool internally as the foundation for a few customer AI platforms, and today we’re open-sourcing it as MCP Mesh.&lt;p&gt;MCP is quickly becoming the standard for agentic systems, but… once you go past a couple servers it turns into the same problems for every team:&lt;p&gt;- M×N config sprawl (every client wired to every server, each with its own ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46434881" target="_blank">Show HN: Mindwtr – Local-First GTD App (Tauri, React Native, Rust)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-30 16:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN,&lt;p&gt;I built Mindwtr because I wanted the speed and polish of apps like Things 3, but with the data ownership of Emacs Org-mode.&lt;p&gt;It is an open-source (MIT&amp;#x2F;AGPL), local-first implementation of the Getting Things Done (GTD) methodology.&lt;p&gt;The Stack:
+- Desktop: Tauri v2 (Rust) + React. It runs heavily on Arch Linux (my daily driver).
+- Mobile: React Native (Expo) on Android.
+- Sync: It ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46434612" target="_blank">Show HN: Flipper Zero MCP – Control Your Flipper Using AI via USB or WiFi</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-30 15:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built an modular MCP server that lets AI control a Flipper Zero.&lt;p&gt;The basic idea: you tell Claude &amp;quot;write a BadUSB script that opens a rickroll&amp;quot; and it generates the DuckyScript, validates it, saves it to your Flipper, and can execute it.&lt;p&gt;I&amp;#x27;ve launched the project with 14 MCP tools across 4 modules:&lt;p&gt;1. BadUSB: generate&amp;#x2F;validate&amp;#x2F;save&amp;#x2F;diff&amp;#x2F;execute DuckyScript...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46434111" target="_blank">Re: I built an AI Aggregator that hit 1k users in 10 d...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-30 15:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I realized I was paying a large sum of money for ChatGPT, Luma (video), Gemini, and Grok. I didn&amp;#x27;t want 5 tabs open; I wanted one interface that just &amp;quot;knew&amp;quot; which model to use.&lt;p&gt;So, I built Ask-AI.&lt;p&gt;How it works (The Tech) Instead of a simple wrapper, I built a routing engine in Node.js&amp;#x2F;Vercel that analyzes user intent before sending the request:
+News&amp;#x2F;Current Events? → R...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46433749" target="_blank">Re: Scrollback - Anchor links for ChatGPT and Claude c...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-30 14:40 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">nstant navigation for long ChatGPT and Claude chats&lt;p&gt;Navigate long ChatGPT and Claude conversations with subtle anchor links. Scrollback adds lightweight, hover-based anchors to AI chat messages so you can instantly jump to any part of a conversation without endless scrolling. No tracking, no data collection, no backend.&lt;p&gt;Key features:
+ •  Quickly navigate long ChatGPT conversations
+ •  Jump bet...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46433404" target="_blank">Show HN: Bushchat – open-source graph LLM interface</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-30 14:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey,&lt;p&gt;When working on complex projects involving multi-document or multiple tasks process, I&amp;#x27;ve stumbled upon a problem that LLMs can&amp;#x27;t guide themselves efficiently through context. I&amp;#x27;ve seen some tools for LLM graph interface (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;branchcanvas.com&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;branchcanvas.com&amp;#x2F;&lt;/a&gt;, &lt;a href=&quot;http:&amp;#x2F;&amp;#x2F;grafychat.com&amp;#x2F...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46433138" target="_blank">Show HN: Terminalot – A local-first, open-core SSH terminal with AI copilot</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-30 13:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built Terminalot, a local-first SSH terminal that runs entirely on your own infrastructure (Docker) and connects to real Linux servers.&lt;p&gt;The goal was to make an AI-assisted terminal that infra people can actually trust:
+- every command is shown and requires explicit approval
+- no hidden execution
+- no mandatory cloud backend
+- all security-critical logic is open and auditable&lt;p&gt;It’s op...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46432979" target="_blank">Show HN: Spraff – Voice and text AI chat, self-hostable, no data retention</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2025-12-30 13:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN! I built a simple, self-hostable AI chat app that focuses on voice input and privacy.&lt;p&gt;Why I made this: I want to talk to AI (voice or text) without my conversations being logged, used for training etc.&lt;p&gt;Requires an OpenRouter account. No subscription: pay-as-you-go with most conversations costing a fraction of a cent (a couple of cents for requests with search enabled)&lt;p&gt;Privacy:&lt;p&gt;- Uses...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46432156" target="_blank">Re: I partnered with a 1.5M influencer to build then &quot;...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-30 11:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I’m the technical half of a two-person team. I partnered with an English teacher (1.5M followers) to build a voice-first language learning app.&lt;p&gt;The goal was to solve the &amp;quot;Intermediate Plateau&amp;quot;. Most apps (like Duolingo) are great for vocabulary, but they gamify the process so much that users become addicted to &amp;quot;streaks&amp;quot; rather than actually speaking.&lt;p&gt;*The Experimen...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46431727" target="_blank">Show HN: Cover letter maker with Ollama/local LLMs (Open source)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2025-12-30 10:31 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I made an open source web app that generates cover letters using local AI models (Ollama, LM Studio, vLLM, Openrouter, etc) so your CV and job application data never leaves your browser.
+No placeholders. No typing. Letters are ready to copy and paste. 100% local and private depending on the LLM of your choice. Multi-language support (so you can add more languages).&lt;p&gt;It connects to any OpenAI-comp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46431622" target="_blank">Re: Show HN: LLMRouter – Stop using GPT-4/o1 for every...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-30 10:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">OP here. I&amp;#x27;m a CS PhD student at UIUC working on User Modeling and Applied ML.&lt;p&gt;We built LLMRouter because we noticed a gap in the current LLM stack: everyone knows we shouldn&amp;#x27;t route every query to GPT-4&amp;#x2F;o1 (it&amp;#x27;s slow and expensive), but building a reliable router that handles context, reasoning, and user history is surprisingly hard.&lt;p&gt;Most existing solutions are either simp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46430195" target="_blank">Re: Show HN: DevBox – An execution contract to end AI ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2025-12-30 06:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The current state of AI engineering is fragmented.&lt;p&gt;Every &amp;quot;agentic&amp;quot; IDE or CLI tool has its own proprietary way of being &amp;quot;instructed&amp;quot;: Cursor has .cursorrules, Claude Code has custom hooks, Copilot has instruction files. As developers, we are now forced to re-implement our repository&amp;#x27;s &amp;quot;rules of engagement&amp;quot; for every new tool we adopt; or even worse, our codebas...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

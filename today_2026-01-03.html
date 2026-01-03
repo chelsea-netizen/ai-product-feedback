@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-01-03 17:09
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46478789" target="_blank">Show HN: I built a 30x faster svelte-check in 2 days with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-03 16:51 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built a Rust drop-in replacement for svelte-check that&amp;#x27;s 10-30x faster for Svelte 5 projects.&lt;p&gt;What it does:&lt;p&gt;- Parses Svelte files with a custom Rust parser
+- Transforms them to TSX in parallel using Rayon
+- Runs type-checking via Microsoft&amp;#x27;s tsgo (the native Go port of TypeScript)
+- Maps errors back to original .svelte locations via source maps&lt;p&gt;Why it&amp;#x27;s fast:&lt;p&gt;The official ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46478740" target="_blank">Show HN: Underpriced AI – Snap a photo, get instant resale value with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-03 16:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Hey HN,
+
+  I built Underpriced AI to solve a problem I had as a part-time reseller: standing in a thrift store trying to figure out if something is worth buying.
+
+  How it works:
+  - Snap a photo of any item
+  - AI identifies the brand, model, maker, era, etc.
+  - Pulls recent sold prices from eBay and other marketplaces
+  - Gives you an instant valuation with confidence score
+
+  Y...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46478607" target="_blank">Re: Google engineer says Claude Code built in one hour...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 16:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’m deeply skeptical of these claims.&lt;p&gt;Every time someone says “AI built in an hour what took us a year,” what they really mean is that humans spent a year doing the hard thinking and the AI merely regurgitated it at silicon speed. Which is, of course, completely different from productivity.&lt;p&gt;Also, if it truly took your team a year, that probably says more about your process than about AI. But n...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46478108" target="_blank">Re: 'Chinese Peptides' Are the Latest Biohacking Trend...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 15:59 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">There are peptide raves ?
+“Gray-market peptides have flooded some corners of the tech scene recently, showing up in hacker houses, start-up offices and even “peptide raves” sponsored by suppliers”&lt;p&gt;So now AI researchers are peptide junkies ?
+“In the backyard of a San Francisco Victorian, tech workers in their 20s and 30s chatted … One artificial intelligence founder mentioned buying cheap drugs d...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46478066" target="_blank">Re: Google engineer says Claude Code built in one hour...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 15:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">in that one year, more was accomplished than writing a body of code.&lt;p&gt;people learned, explored concepts, and discovered lateral associations, developed collective actions, consolidated future solidarity.&lt;p&gt;claude just output some code.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46477061" target="_blank">Show HN: CCC – Control Claude Code Sessions Remotely via Telegram</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-03 14:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built ccc to control Claude Code sessions from my phone via Telegram. It lets you start sessions remotely, get notifications when Claude finishes tasks, and seamlessly switch between phone and PC.&lt;p&gt;Features:
+- 100% self-hosted, runs on your machine
+- Multi-session support with Telegram topics
+- Voice messages (transcribed with Whisper)
+- Image attachments for Claude to analyze
+- tmux integratio...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46475832" target="_blank">Re: The fear of not growing due to AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 12:34 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">So basically, I feel trapped in this AI world, and from what I can see on Reddit I’m not the only one, which makes me feel better tbh.&lt;p&gt;I started learning to code by myself pretty recently, around 2022, and if I’m not wrong, I tried ChatGPT for the first time as a coding helper in mid-2023. At that moment I had very basic knowledge, but enough to barely understand what the AI was throwing at me. ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46475595" target="_blank">Re: Show HN: uvx ptn, scan a QR, get a terminal in you...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 12:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’m also vibing from the iphone. Termius connects via ssh to remote server where I run claude code. Ssh connects also over a wireguard connection. So ports are not an issue because they are all available via wg in a secure way. Additionally I have code server running there automatically port forwards and giving me ssl. So when I run “pnpm dev” in tmux in ssh then I access it via &lt;a href=&quot;https:&amp;#x...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46474367" target="_blank">Re: Ask HN: Do you prefer AI coding in an IDE or CLI? ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 09:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I do a lot of AI coding&lt;p&gt;Receipts: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;lawless-m?tab=repositories&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;lawless-m?tab=repositories&lt;/a&gt;&lt;p&gt;I started in Cursor - the tab completion is superb. As an assistant to the coder it is incredible.&lt;p&gt;But then I started to lean on Sonnet more and more. I expressed my ideas and they came alive.&lt;p&gt;As I got bette...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46473472" target="_blank">Re: Programmatic Tool Calling for Agents...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 07:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey all :)&lt;p&gt;I&amp;#x27;ve been working on an open source implementation of Programmatic Tool Calling for Agents, based on cloudflare&amp;#x27;s codemode &amp;amp; a few anthropic articles, and although i think it can be very powerful in certain usecases, there are some challenges that i would love to have your thoughts on&lt;p&gt;Instead of traditional agents that burn tens of thousands of tokens loading all tool ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46472600" target="_blank">Re: Proteus: The AI-native editor for multimodal creat...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 03:46 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m building Proteus, an open-source multimodal editor (think Figma meets Notion, but AI-native) where *AI writes most of the code* while I focus on architecture, technical decisions, and quality control.&lt;p&gt;*Why this matters:*&lt;p&gt;In 2025, tools like Cursor and Claude can write good enough code in 80% of scenarios. The question isn&amp;#x27;t &amp;quot;Can AI code?&amp;quot; but &amp;quot;What becomes valuable...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46472147" target="_blank">Re: Google AI Overviews put people at risk of harm wit...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 02:22 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">These AI Overviews are awful. I&amp;#x27;ve been documenting the ones I&amp;#x27;ve gotten over the past few months. Examples:&lt;p&gt;- 2025-09-19. My query: &amp;quot;is mics an abbreviation for micrograms.&amp;quot; AI Overview: &amp;quot;No, MICs is not an abbreviation for micrograms; it is an abbreviation for Minimum Inhibitory Concentration.&amp;quot;&lt;p&gt;- 2025-09-19. My query: &amp;quot;75 mics of medication.&amp;quot; AI Overvi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46471287" target="_blank">Re: Solving Agent Context Loss: A Beads and Claude Cod...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-03 00:28 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I wrote this because I kept hitting the same wall with AI coding assistants. Small tasks work fine, medium ones when planned properly. But when I tried building something real, like a real new service in a real production system it was always difficult to keep an agent like Claude Code on track throughout an entire feature implementation.&lt;p&gt;After recently finding Beads here on HN, my entire develo...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>8</strong> items collected |
+                Last updated: 2026-01-05 17:15
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46500801" target="_blank">Show HN: UI and MCP server for analyzing Claude Code history. No more lost ideas</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-01-05 16:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">When I ask Claude about something I built last week, it has no memory of it. I have to dig through sessions manually and paste context back in.&lt;p&gt;I built an MCP server that solves this. It gives Claude access to all your past Claude Code sessions.&lt;p&gt;UI also enables Claude powered AI summarization of past conversations for more concise insights.&lt;p&gt;Now I can ask: &amp;quot;What authentication approach d...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46500317" target="_blank">Show HN: I built a pay-per-use AI API using Lightning payments</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-05 15:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built LightningProx - access Claude&amp;#x2F;GPT-4 without API keys or accounts.&lt;p&gt;How it works:&lt;p&gt;1. Send request, get Lightning invoice (~5 sats)
+2. Pay with any Lightning wallet
+3. Get AI response&lt;p&gt;Payment = authentication. No keys to leak.&lt;p&gt;Python: pip install langchain-lightningprox&lt;p&gt;Site: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;lightningprox.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;lightningprox.com&lt;/a&gt;
+Do...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46500090" target="_blank">Re: Sakana AI Agent Wins AtCoder Heuristic Contest (Fi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-05 15:41 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;We are the team at Sakana AI. To give some context on the difficulty here, an OpenAI agent placed 2nd in the AHC world tournament last August, so taking 1st place against 804 humans in this contest is a significant milestone for us. Our agent approached the production planning problem by running its own experiments during the contest. It independently discovered a Simulated Annealing stra...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46499885" target="_blank">Show HN: AgTrace – Observability for AI Coding Agents via MCP (Claude Code etc.)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-05 15:27 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">AI agents are getting more capable, but we&amp;#x27;re increasingly in the dark
+about what they&amp;#x27;re actually doing. They run complex multi-step workflows,
+call dozens of tools, reason through problems - and we just watch the
+output scroll by. It&amp;#x27;s a black box, and humans end up being led around
+by the agent rather than understanding it.&lt;p&gt;I wanted to flip this. The key insight: all these agen...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46499823" target="_blank">Show HN: Network Nodegraph for Grafana</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-05 15:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built a plugin for visualizing network topologies at scale.&lt;p&gt;When observing anything more complex than a small lab setup, most existing tools assume subscription based vendor lock or rigid schemas for setup, hardcoded dataframes, or collapse under visual clutter. I wanted something that works across data stacks, scales with volume, and remains readable.&lt;p&gt;Key features:&lt;p&gt;- No hardcoded...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46499306" target="_blank">Show HN: TinySolvers – Personalized Math Word Problems for Kids</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-05 14:45 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built TinySolvers (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;tinysolvers.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;tinysolvers.com&lt;/a&gt;) as a side project to make math more engaging for kids.&lt;p&gt;There are plenty of generic math worksheets online, but I wanted something more personal to help connect the math to the student. TinySolvers generates customized math word problems using a child’s name, favorite no...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46498246" target="_blank">Re: It's hard to justify Tahoe icons...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-05 12:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’ve always respected macOS for being the &amp;#x27;stable&amp;#x27; choice for not-as-techy people. But recent versions feel like a mess. Running Tahoe on my 2019 Mac Pro (Yes the cheese grater one) has been surprisingly frustrating. Simple things are broken: Ableton couldn&amp;#x27;t even trigger a microphone permission prompt, forcing me to meddle with a SQLite database, which is definitely not meant for e...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46497827" target="_blank">Re: Microsoft Office renamed to “Microsoft 365 Copilot...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-05 12:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">1975: Traf-O-Data renamed Microsoft. Traffic counting ditched. Visionary.&lt;p&gt;1985: MS-DOS released. Users typed everything. Peak convenience.&lt;p&gt;1995: Windows 95 launched. Clippy forced assistance. Users thrilled.&lt;p&gt;2012: Metro interface rolled out. Tiles everywhere. Intuitive design.&lt;p&gt;2014: Windows Azure renamed Microsoft Azure. “Windows” dropped. Bold move.&lt;p&gt;2020: Office 365 renamed Microsoft 36...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

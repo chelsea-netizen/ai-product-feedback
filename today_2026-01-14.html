@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-01-14 17:19
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46618481" target="_blank">Show HN: AIOStack – Using eBPF to Secure AI Services in Kubernetes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-14 16:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! We built a tool that uses eBPF to discover AI services and their data flows in Kubernetes clusters.&lt;p&gt;Modern AI apps often follow this pattern:
+1. Service receives request
+2. Queries database (PostgreSQL&amp;#x2F;Redis&amp;#x2F;MongoDB)
+3. Sends data to LLM API (OpenAI&amp;#x2F;Anthropic&amp;#x2F;Bedrock)
+4. Consumes or returns the AI generated response&lt;p&gt;Security teams often don&amp;#x27;t know:
+- Which serv...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46618138" target="_blank">Re: 'Havana Syndrome' Device Could Finally Solve Myste...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-14 16:31 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I&amp;#x27;m sceptical. This sounds like a James Bond type machine: a size that will fit in a backpack, yet somehow putting out all kinds of energy. That alone is suspicious.&lt;p&gt;The second thing that makes me sceptical is that it came from ODNI. That&amp;#x27;s Tulsi Gabbard, who has zero qualms about bald faced lying. The entire Trump administration has little care for the truth, Gabbard is probably worse...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46617026" target="_blank">Show HN: Cowork – A curated list of resources for Claude Cowork</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-14 15:20 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;Like many of you, I&amp;#x27;ve been exploring the new Claude Cowork capabilities. While the official docs are great, I found that practical examples, working prompts, and configurations are scattered across GitHub issues, Twitter, and various blogs.&lt;p&gt;I built Awesome Cowork to aggregate these resources in one place.&lt;p&gt;Currently, it includes:&lt;p&gt;- Prompts for file management and web scraping.
+...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46616668" target="_blank">Show HN: Your Domains Wrapped - A 2025 domain recap</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-14 14:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;You know that feeling when you have a brilliant idea at 2am, buy the domain immediately, and then never touch it again?&lt;p&gt;Last month I sat down to figure out how much money I&amp;#x27;ve been bleeding on domain renewals, and honestly, I was scared to look. I had domains scattered across GoDaddy, Namecheap, and a few other registrars I barely remember signing up for.&lt;p&gt;I did what we all do: I ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46616562" target="_blank">Show HN: Nori CLI, a better interface for Claude Code (no flicker)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                10 points | 0 comments |
+                2026-01-14 14:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, my name&amp;#x27;s Clifford and I&amp;#x27;m one of the creators of Nori. I’ve been using Claude Code heavily since last summer, and after understanding some of the tradeoffs with their TUI implementation, I knew I couldn&amp;#x27;t see myself living for years with this interface as one of my daily-driver tools.&lt;p&gt;It is &lt;i&gt;not&lt;/i&gt; a hard problem to make monospace text output performant, so why does Cla...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46616344" target="_blank">Show HN: LogiCart – Agentic shopping using Generative UI (A2UI pattern)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-01-14 14:20 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, I’m the solo builder behind LogiCart.&lt;p&gt;I recently refactored my frontend to use a Generative UI pattern (inspired by Google&amp;#x27;s new A2UI framework) because I realized a static chat interface fails for complex shopping intents.&lt;p&gt;The Problem: A user buying a single item needs a completely different UX than a user planning a complex project. A standard &amp;quot;list of cards&amp;quot; doesn&amp;#x2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46615569" target="_blank">Re: I Built Videos with Soro2...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-14 13:04 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I Built Videos with Soro2 So You Don&amp;#x27;t Have to Wait on Another Waitlist
+Look, I&amp;#x27;m tired of waitlists. We all are. OpenAI drops Sora, everyone gets hyped, then... crickets. You&amp;#x27;re stuck waiting while watching demo videos on Twitter from the 47 people who actually got access.
+So I tried Soro2 instead. No waitlist. Just works. Here&amp;#x27;s what I found.
+The Character Thing Actually Work...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46614442" target="_blank">Re: Why AI works better on existing codebases...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-14 10:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This reads like a ChatGPT response</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46614026" target="_blank">Re: Show HN: Visibility and Controls for Browser Agent...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-14 09:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">P.S.: The extension has as many permissions as Claude in Chrome itself. But, the only network requests from the extension are to posthog, just for us to know which features are being used.&lt;p&gt;Here is a youtube video where I show the network requests of the extension: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=J356Nquxmp4&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=J3...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46613943" target="_blank">Show HN: AI Contract Reviewer – Flags Risks and Suggests Fixes in Minutes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-14 09:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;m building an AI tool that helps non-lawyers and busy procurement&amp;#x2F;legal teams quickly review vendor&amp;#x2F;client contracts, NDAs, employment agreements, etc. — without uploading sensitive data to the cloud (offline&amp;#x2F;local-first option) or replacing lawyers.&lt;p&gt;Background: As someone who&amp;#x27;s wasted days manually hunting for risky clauses, vague terms, hidden overrides in ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46613652" target="_blank">ChatGPT Voice While Driving</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-14 08:26 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Tldr: we are living in the future.&lt;p&gt;I tried for the first time, having a conversation with ChatGPT using voice mode, while I was driving (handsfree of course).&lt;p&gt;It was on of those moments where I take a beat and really consider what was happening. The same like when I tried VR for the first time. Or when I got off a train in London quite a few years back and saw a no vaping sign (instead of a no...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

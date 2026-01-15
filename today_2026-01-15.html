@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2026-01-15 17:24
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46635859" target="_blank">Show HN: I'm building an open-source AI agent runtime using Firecracker microVMs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 17:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello Hacker News! I&amp;#x27;m Mark. I&amp;#x27;m building Moru, an open-source runtime for AI agents that runs each session in an isolated Firecracker microVM. It started as a fork of E2B, and most of the low-level Firecracker runtime is still from upstream.&lt;p&gt;It lets you run agent harnesses like Claude Code or Codex in the cloud, giving each session its own isolated microVM with filesystem and shell ac...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46634915" target="_blank">Ask HN: How to overcome the limit of roles in LLM's</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 16:23 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Our use case is not uncommon, we are developing tools so that people can install LLM&amp;#x27;s on their e-commerces.&lt;p&gt;But there are some interesting challenges that I feel can&amp;#x27;t be solved unless inference providers allow us to include the concept additional entities in a conversation.&lt;p&gt;As far as I know the three most basic ones shared alongside all providers are:&lt;p&gt;- System&lt;p&gt;- Assistant&lt;p&gt;- U...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46634848" target="_blank">Apple's new Google Gemini deal sounds bigger, better than expected</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-15 16:20 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46634773" target="_blank">How do you pick a Coding Agent HN?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-15 16:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">There&amp;#x27;s lots of models benchmark out there, but how do you evaluate coding agents?&lt;p&gt;I&amp;#x27;ve been seeing a lot of OpenCode fuzz on HN lately, because of Anthropic disabling their access to the private subscription endpoints, and I confess it made me feel like I could be missing out on something though I can&amp;#x27;t tell for sure.&lt;p&gt;There&amp;#x27;s also Amp Code who seems to be picking up tracti...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46634648" target="_blank">Re: I spent a year on Linux and forgot to miss Windows...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-15 16:09 |
+                <span class="category">error_messages, navigation</span>
+            </div>
+            <div class="text">I love Linux and use it daily, but this paragraph gave me pause:&lt;p&gt;&amp;quot;I’ve spent dozens of hours combing through Reddit threads, analyzing old Stack Overflow solutions, and, in times of true desperation, asking AI chatbots like Mistral’s Le Chat and Anthropic’s Claude for help deciphering error messages. Luckily, the Linux community is also very supportive. If you’re willing to ask for help, or...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46634178" target="_blank">Show HN: I lost €50K to non-paying clients, so I built an AI contract platform</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 15:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;m Roma, 21, from Bucharest, Romania. At 20 I was running a 12-person design studio doing €250K&amp;#x2F;year.&lt;p&gt;Then I lost €50K+ to clients who never paid. No contracts, just trust. Studio collapsed, I took €40K in debt.&lt;p&gt;That experience led me to build Accordio – an AI-powered contract and payment platform for freelancers.&lt;p&gt;The core idea: paste your meeting notes, AI extracts scop...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46634084" target="_blank">Re: SaaS Is Not Dead...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-15 15:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">while it makes sense that companies are unlikely to want to maintain a bunch of auxiliary saas tools just because Claude Code exists, it might be the case that Claude Code massively reduces the barrier to entry for software companies, and in theory the maintenance costs as well. So while companies will still outsource a lot, their options for outsourcing could go up a tonne, so even though compani...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46633863" target="_blank">Show HN: VerityNgn–Open-source AI that fact-checks YouTube videos</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 15:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built an open-source system that generates truthfulness reports for YouTube videos using multimodal AI and a counter-intelligence approach.&lt;p&gt;*Live demo:* &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;verityngn.streamlit.app&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;verityngn.streamlit.app&lt;/a&gt;&lt;p&gt;*Documentation:* &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;hotchilianalyticsllc.mintlify.app&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;hotchilianalytic...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46633419" target="_blank">Re: Show HN: Ctrl – Open-source AI OS where each app h...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-15 14:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;Ctrl is an open-source AI desktop where AI builds React apps with SQLite databases - and here&amp;#x27;s the key part: each app comes with an AI assistant that can read and reason about your actual data.&lt;p&gt;The difference:&lt;p&gt;ChatGPT generates code snippets. Cursor helps you write code. Ctrl creates complete apps where the AI understands your specific data:&lt;p&gt;- &amp;quot;Build me an invoice tracke...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46633116" target="_blank">Re: Vibe – Claude Skill to let Claude Code read screen...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-15 14:37 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;m the creator of vibe. I built this because I was tired of describing UI bugs to Claude Code when I could just show them.&lt;p&gt;The problem: When debugging with AI assistants, visual context gets lost. You end up typing &amp;quot;the button is misaligned by about 3 pixels&amp;quot; when you could just show a screenshot.&lt;p&gt;What it does:
+- Captures screen regions using macOS&amp;#x27;s native scree...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46633058" target="_blank">Show HN: Azurite – Triage Linear and GitHub issues using MCP (Deck of Cards UI)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-01-15 14:33 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hello HN,&lt;p&gt;I’m the builder behind Azurite. I built this because I found that my bottleneck wasn&amp;#x27;t the volume of notifications (Linear, Slack, GitHub), but the context switching cost required to process them.&lt;p&gt;The Problem: Every time I opened a Linear ticket, I had to:&lt;p&gt;Read the ticket.&lt;p&gt;Search Slack to find the thread where the decision was made.&lt;p&gt;Check GitHub to see if the PR was actual...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46632472" target="_blank">Show HN: Webhook Debugger – OS Alternative to RequestBin with Replay,SSRF Checks</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 13:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built *Webhook Debugger* because existing tools were either ephemeral (RequestBin) or required persistent tunnels (ngrok) that I couldn&amp;#x27;t leave running on a staging server.&lt;p&gt;*Repo*: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ar27111994&amp;#x2F;webhook-debugger-logger&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ar27111994&amp;#x2F;webhook-debugger-logger&lt;/a&gt;&lt;p&gt;*The Stack*:
+Node.js, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46630869" target="_blank">Show HN: I built a game on my old phone without knowing what I was building</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 11:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m calling this &amp;quot;Vibe Discovery&amp;quot; — distinct from vibe coding because I didn&amp;#x27;t know the requirements upfront. Started with &amp;quot;make something with the accelerometer&amp;quot; and discovered through 6 iterations that I wanted a WebGL marble game.
+The interesting part was the dev setup: Claude Code running in Termux on a Redmi Note 9 (4GB RAM). The same-device feedback loop — code,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46630810" target="_blank">Show HN: Bazinga – Enforced engineering practices for AI coding</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-15 11:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,
+I&amp;#x27;m sharing BAZINGA, a framework that applies professional software engineering practices to AI development.
+The observation: AI coding tools generate code without the safeguards we require from human developers. No mandatory code review. No security scanning. No test coverage requirements.
+BAZINGA addresses this by coordinating multiple AI agents that follow a professional workflow:
+#...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

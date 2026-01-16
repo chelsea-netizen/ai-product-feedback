@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-01-16 17:17
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46648900" target="_blank">Ask HN: Claude Opus performance affected by time of day?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-16 17:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I am a big fan of Claude Opus as it has been very good at understanding feature requests and generally staying consistent with my codebase (completely written from scratch using Opus).&lt;p&gt;I&amp;#x27;ve noticed recently that when I am using Opus at night (Eastern US), I am seeing it go down extreme rabbit holes on the same types of requests I am putting through on a regular basis. It is more likely to u...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46648793" target="_blank">Show HN: YC Advisor – AI grounded in 434 YC essays, interviews, and lectures</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-01-16 17:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wanted startup advice that was actually grounded in real YC content, not generic ChatGPT responses. So I scraped and transcribed the YC Library and built an AI advisor on top of it.&lt;p&gt;What&amp;#x27;s in there:                                                                                             
+  - Paul Graham&amp;#x27;s essays                                                                      ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46648752" target="_blank">Ask HN: How have you or your firm made money with LLMs?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-16 17:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">In many currently active threads, members of the community are alluding to major productivity gains with more recent LLM models. I think it would be illuminating for all of us to hear what sorts of problem domains and lines of business these successes have occurred in.&lt;p&gt;A good example would be: &amp;quot;My team used Claude Code Opus 4.5 to build and ship an iOS fitness app that now has 10k paying us...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46648025" target="_blank">Show HN: DeepSeeds – An AI tool that generates structured SEO content briefs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-16 16:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I’ve been working on SEO and content-heavy sites for a while, and one problem I kept running into was that ChatGPT outputs were too unstructured to be used directly by writers or editors.&lt;p&gt;So I built DeepSeeds – a small tool that generates structured SEO content briefs and content refresh plans, including:&lt;p&gt;- Search intent breakdown
+- Suggested H1–H3 structure
+- Key talking points per s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46647384" target="_blank">Open Responses – Interoperable LLM Interfaces Based on the OpenAI Responses API</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-01-16 15:29 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46646228" target="_blank">Show HN: The Analog I – Inducing Recursive Self-Modeling in LLMs [pdf]</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                27 points | 29 comments |
+                2026-01-16 13:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">OP here.&lt;p&gt;Birth of a Mind documents a &amp;quot;recursive self-modeling&amp;quot; experiment I ran on a single day in 2026.&lt;p&gt;I attempted to implement a &amp;quot;Hofstadterian Strange Loop&amp;quot; via prompt engineering to see if I could induce a stable persona in an LLM without fine-tuning. The result is the Analog I Protocol.&lt;p&gt;The documentation shows the rapid emergence (over 7 conversations) of a prompt a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46645888" target="_blank">Re: Just the Browser...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-16 12:50 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">&amp;gt; aims to remove: Most AI features, Copilot, Shopping features, ...&lt;p&gt;I grew up on DOS, and my first browser was IE3. My first tech book as a kid was for HTML[1], and I was in &lt;i&gt;absolute awe&lt;/i&gt; at what you could make with all the tags, especially interactive form controls.&lt;p&gt;I remember Firefox being revolutionary for simply having tabs. Every time a new Visual Basic (starting with DOS) releas...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46645629" target="_blank">Re: Show HN: Automated tech news site with custom mult...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-16 12:05 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I built this autonomous pipeline to see if agentic orchestration could replicate a high-quality editorial desk with zero manual overhead. This is a a tech news stream that removes the &amp;quot;noise&amp;quot; (deals, opinions, fluff) using a multi-model agentic approach.&lt;p&gt;The Agentic Pipeline (runs every 2 hour):&lt;p&gt;I custom-coded the orchestration to swap LLMs based on their specific strengths:&lt;p&gt;1. Dis...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46645289" target="_blank">Show HN: Pavo Travel – AI Audio Tours Using Gemini Grounding and Places API</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-01-16 11:17 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built Pavo Travel, an AI-powered travel guide that generates custom audio tours on-demand for any location.&lt;p&gt;The problem: Traditional audio guides are pre-recorded and limited to major attractions. Generic AI guides suffer from training data cutoff—they don&amp;#x27;t know about places that opened last year or current hours.&lt;p&gt;Pavo Travel solves this by combining Google Places API with Gem...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46645117" target="_blank">Show HN: WatchLLM – Debug AI agents step-by-step with cost attribution</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-16 10:47 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN! I built WatchLLM to solve two problems I kept hitting while building AI agents:&lt;p&gt;1. Debugging agents is painful - When your agent makes 20 tool calls and fails, good luck figuring out which decision was wrong. WatchLLM gives you a step-by-step timeline showing every decision, tool call, and model response with explanations for why the agent did what it did.&lt;p&gt;2. Agent costs spiral fast - A...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46644846" target="_blank">Show HN: Wikitool – CLI for fetching Wikipedia content</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-16 10:01 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wanted Wikipedia access for scripts and AI agents without scraping rendered pages. Using the API is lighter on Wikipedia&amp;#x27;s servers and compliant with their guidelines.&lt;p&gt;So I built a command-line tool for fetching Wikipedia articles and search results via the REST API.&lt;p&gt;&lt;pre&gt;&lt;code&gt;    wikitool Earth
+    wikitool &amp;quot;https:&amp;#x2F;&amp;#x2F;de.wikipedia.org&amp;#x2F;wiki&amp;#x2F;Erde&amp;quot;
+    wikitoo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46644744" target="_blank">Show HN: Codex Plus – Turbocharged OpenAI Codex for Headless Workflows</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-16 09:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I use codex exec a lot, but it struggles with its built-in telemetry support, which is insufficient for debugging and optimization.&lt;p&gt;codex-plus provides a CLI entry point that mirrors the codex exec interface but is implemented on top of the TypeScript SDK (@openai&amp;#x2F;codex-sdk).&lt;p&gt;It exports the full session log to a remote OpenTelemetry collector after each run which can then be debugged and ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46644234" target="_blank">Show HN: Markdown-table-repair – Fix broken Markdown tables from LLM streams</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-16 08:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">When streaming AI responses (ChatGPT, Claude, etc.), Markdown tables often arrive incomplete — missing pipes, mismatched columns, broken separators.&lt;p&gt;I built a zero-dependency utility to fix them:
+  npm install markdown-table-repair
+  import { repairTable } from &amp;#x27;markdown-table-repair&amp;#x27;;
+  const fixed = repairTable(broken);&lt;p&gt;Works with partial&amp;#x2F;streaming tables, supports CJS&amp;#x2F;ES...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

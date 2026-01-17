@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>24</strong> items collected |
+                Last updated: 2026-01-17 17:10
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46659163" target="_blank">Re: Does AI mean the demand on labor goes up?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 16:12 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">There is no way AI is making you 10x more productive at the current moment. And if AI is supposed to work well, then that doesn&amp;#x27;t mean you&amp;#x27;ll need to put in 10x more hours (because the AI will seamlessly and magically make that effortless). So you&amp;#x27;ll still be working the same hours even in that scenario.&lt;p&gt;Overall, I would say, if you want to pursue serious writing, please do it wit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46659147" target="_blank">Ask HN: How do you evaluate a LLM these days?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 16:10 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN. Recent events and me being Danish (EU) strongly encourage me to reconsider US services like Anthropic&amp;#x27;s Claude. I mention this to say that the problem of evaluating LLMs suddenly got very necessary for me.
+While I don&amp;#x27;t doubt Claude is nearly ideal for my corner of software development, I would like to have a better sense of how much I am giving up.&lt;p&gt;With that in mind, how do ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46659042" target="_blank">Show HN: LaReview, Plan-first AI code review, runs locally, bring your own agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 16:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I built LaReview because AI review bots spam PRs with 50+ nitpicky comments that authors just batch-dismiss.&lt;p&gt;I also didn&amp;#x27;t want to pay $15-30&amp;#x2F;month for another AI subscription when I already have an amazing coding agent (Claude Code, OpenCode, Gemini, etc.) that&amp;#x27;s way better than what these review bots use.&lt;p&gt;LaReview works differently: you paste a PR link, it groups the ch...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46659039" target="_blank">Show HN: Long-horizon LLM coherence benchmark (500 cycles)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 16:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We ran a 500-cycle benchmark to test long-horizon coherence, reasoning stability, and identity persistence in large language models.&lt;p&gt;The experiment used the Sigma Runtime, a model-agnostic control layer that adds long-term memory, structural coherence tracking, and adaptive equilibrium regulation to standard LLMs. It enables stable reasoning and personality continuity across hundreds of interact...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46659011" target="_blank">Show HN: OpenAI to show ads in ChatGPT for logged-in U.S. adults</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 15:57 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It appears OpenAI is testing or planning to introduce ads inside ChatGPT for logged-in users in the U.S.
+From what I can tell, ads would appear in limited placements and not affect free access immediately, but this raises questions about product direction, user experience, privacy, and long-term incentives.&lt;p&gt;Curious how others here feel about ads inside AI tools:&lt;p&gt;1.Would this change how you use...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46658815" target="_blank">Show HN: Kate Code – KDE Kate Editor Plugin for Accessing Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 15:31 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">A plugin for the Kate text editor that integrates Claude Code (an AI coding assistant) directly into the editor&amp;#x27;s interface. It provides an interactive chat panel where you can converse with Claude to get help with coding tasks—all without leaving your KDE development environment.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46658710" target="_blank">Re: The Risks of AI in Schools Outweigh the Benefits, ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 15:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I have two kids (sophmore in HS and a middle schooler) and in both their individual studies and when I&amp;#x27;m helping them with homework we use AI pretty extensively now.&lt;p&gt;The one off stuff is mostly taking a picture of a math problem and asking it to walk step by step through the process. In particular this has been helpful to me as the processes and techniques have changed.&lt;p&gt;It&amp;#x27;s been use...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46658687" target="_blank">Re: Office app has changed to copilot and now I can't ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 15:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Did you remember to say please and thank you to copilot....&amp;#x2F;s&lt;p&gt;For a single user error, pbkac.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46658491" target="_blank">Looking for technical cofounder – guided, safety-critical maintenance software</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-01-17 14:49 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I’m looking for a technical cofounder to build a guided, safety-enforced troubleshooting and repair system for industrial maintenance.&lt;p&gt;I’m a maintenance&amp;#x2F;mechanical guy working with a lot of old, undocumented, heavily modified machines. The real problems I deal with daily: tribal knowledge, repeating the same diagnoses every few months, junior techs thrown at complex equipment, and safety st...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46658227" target="_blank">Re: Architecture for Disposable Systems...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 14:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I like the perspective and phrasing. Build the foundation carefully and vibe code colors on the wall, decoration in the room, and design of wallpaper&amp;#x2F;carpets&lt;p&gt;Want a dashboard from an API with openapi docs or from SQL database with known schema, or want a quick interactive GUI that highlights something in `perf stat` data, unleash claude.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46657624" target="_blank">Tested 31 AI detection/humanization tools – $5/mo GPTs beat $300/mo</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-01-17 12:43 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">I ran a systematic comparison of AI content detection and humanization tools after a client terminated a contract over an AI detection flag (87% AI-generated on content I&amp;#x27;d manually edited).&lt;p&gt;*Methodology:*
+- 31 tools tested over 90 days
+- 200+ content samples (technical docs, marketing copy, blog posts, academic-style)
+- Measured detection accuracy against known AI&amp;#x2F;human content
+- Meas...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46657610" target="_blank">Tested 31 AI detection/humanization tools for 90 days – $5/mo GPTs beat $300/mo</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-01-17 12:41 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">I ran a systematic comparison of AI content detection and humanization tools after a client terminated a contract over an AI detection flag (87% AI-generated on content I&amp;#x27;d manually edited).&lt;p&gt;*Methodology:*
+- 31 tools tested over 90 days
+- 200+ content samples (technical docs, marketing copy, blog posts, academic-style)
+- Measured detection accuracy against known AI&amp;#x2F;human content
+- Meas...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46656868" target="_blank">Re: In the coming weeks, we plan to start testing ads ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 10:20 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Makes sense for the free tier, sucks to include ads in a paid tier though. Not sure who the target audience for the Go subscription is anyway, they might be better off removing it purely from a product point of view.&lt;p&gt;&amp;gt; What matters most:&lt;p&gt;&amp;gt; - Responses in ChatGPT will not be influenced by ads.&lt;p&gt;&amp;gt; - Ads are always separate and clearly labeled.&lt;p&gt;&amp;gt; - Your conversations are private fr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46656593" target="_blank">Show HN: Partner – An AI co-founder that remembers you</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 09:22 |
+                <span class="category">error_messages, navigation</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I’m a solo founder (currently running PlayCode.io). For the last few years, I’ve been battling a specific kind of burnout: the loneliness of having no one to think with.&lt;p&gt;I have friends and a wife, but they aren&amp;#x27;t in the trenches with me. I tried using ChatGPT and Claude as &amp;quot;sounding boards,&amp;quot; but I hit a wall: Amnesia.&lt;p&gt;Every time I opened a new chat, I had to re-explain ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46656087" target="_blank">Re: A Calif. teen trusted ChatGPT's drug advice. He di...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 07:38 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; Asked about “the pros” of ChatGPT by Jimmy Fallon on a December episode of “The Tonight Show,” Altman talked effusively about the tool’s use for health care. “The number of people that reach out to us and are like, ‘I had this crazy health condition. I couldn’t figure out what was going on. I just put my symptoms into ChatGPT, and it told me what test to ask the doctor for, and I got it and n...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=46655529" target="_blank">Show HN: Use Claude CLI to analyze its own protocol</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-17 05:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Claude CLI is not just a widely used vibe coding tool, but also the engine powering pretty much every client side tools Anthropic made available, sdk, Claude Cowork, you name it.&lt;p&gt;Claude CLI exposes a JSON&amp;#x2F;RPC interface over stdio&amp;#x2F;stdout. But the protocol is largely undocumented. Fortunately, the python sdk is open source.&lt;p&gt;By asking Claude to write code to exercise the SDK and capture...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=46655486" target="_blank">Re: A Calif. teen trusted ChatGPT's drug advice. He di...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 05:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This brings to mind some of the “darker” subreddits that circle around drug abuse. I’m sure there are some terrible stories about young people going down tragic paths due to information they found on those subreddits, or even worse, encouragement. There’s even the commonly-discussed account that (allegedly) documented their first experiences with heroin, and then the hole of despair they fell into...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=46655429" target="_blank">Re: Show HN: CodeSyncer – Store AI coding context in c...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 05:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I built this after getting frustrated with Claude Code forgetting everything between sessions.&lt;p&gt;*The problem:* Every new session, AI has no memory. You end up re-explaining architecture, past decisions, why you chose X over Y. Gets old fast.&lt;p&gt;*What CodeSyncer does:* Records AI decisions as comment tags directly in your code.&lt;p&gt;```typescript
+&amp;#x2F;&amp;#x2F; @codesyncer-decision [2026-01-15...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=46655389" target="_blank">Open Claude Cowork Compatible with Any LLM API on Win/Linux/macOS</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 05:00 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=46655222" target="_blank">Re: My Week with OpenCode...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 04:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; you can already see this with AWS, NVIDIA and Microsoft beginning to suffer the early stages of LLM blight in their outputs. Things break, they&amp;#x27;re inefficient and they don&amp;#x27;t work as expected.
+I don&amp;#x27;t think it&amp;#x27;s possible to identify those things as caused by LLMs. Microsoft has been producing inefficient code for many years.&lt;p&gt;Also, why didn&amp;#x27;t they try out Claude Code?...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=46654697" target="_blank">Show HN: Explain Yourself – An AI party game app built with SwiftUI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-01-17 02:24 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I just released &amp;quot;Explain Yourself,&amp;quot; a local multiplayer party game (Jackbox style) where players have to give excuses for absurd AI-generated scenarios. An AI Judge then ranks the answers, roasts the players, and determines a winner.&lt;p&gt;I built this because I wanted an AI-first party app game that was fun and made people use their brains. This is my first app, but I have spent mo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=46654327" target="_blank">Re: Built the missing GUI for Gemini File Search manag...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-17 01:12 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Gemini File Search Manager
+The missing web-based GUI for managing Google&amp;#x27;s Gemini File Search (RAG) API. Upload documents, configure chunking, add metadata, and test retrieval via an integrated chat playground.&lt;p&gt;Features
+Store Management - Create, list, and delete File Search stores&lt;p&gt;Document Uploads - Drag-and-drop with custom chunking and metadata&lt;p&gt;Async Processing - Real-time status pol...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://news.ycombinator.com/item?id=46654288" target="_blank">Ask HN: Has Claude Code changed its usage limits for you?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-01-17 01:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I hadn&amp;#x27;t used Claude Code for a couple of weeks, but today when I used it (on Pro Plan) it did a few tasks full of errors and then claimed to hit a rate limit. Normally it will work for at least a feature&amp;#x27;s amount of work in one day, but in this case it mostly caused problems (with very basic tasks) and then ran out of juice before it could fix them. I know they are suffering from demand...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                24. <a href="https://news.ycombinator.com/item?id=46654284" target="_blank">Show HN: React hook for Gemini Live API – real-time voice and screen sharing</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-17 01:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a React hook that makes it easy to add real-time AI conversations with screen sharing to any app.&lt;p&gt;GitHub: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;loffloff&amp;#x2F;gemini-live-react&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;loffloff&amp;#x2F;gemini-live-react&lt;/a&gt;&lt;p&gt;What it does:                                                                                                            ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

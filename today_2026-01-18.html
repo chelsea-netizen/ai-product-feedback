@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>19</strong> items collected |
+                Last updated: 2026-01-18 17:10
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46669267" target="_blank">Show HN: Rails engine for building production-ready LLM agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 16:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a Rails engine for building and managing LLM-powered agents. It wraps RubyLLM and adds the production infrastructure I kept rebuilding across projects:&lt;p&gt;- Execution tracking with cost&amp;#x2F;token analytics
+- Reliability (retries, model fallbacks, circuit breakers)
+- Budget controls (daily&amp;#x2F;monthly limits per agent or tenant)
+- Workflow orchestration (pipelines, parallel, routers)
+- Rea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46668939" target="_blank">Seamless Claude Code Handoff: SSH from Your Phone with Tmux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 16:10 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46668780" target="_blank">Show HN: Open-source certificate from GitHub activity</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 2 comments |
+                2026-01-18 15:52 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built this as a small side project to learn and experiment, and I ended up with this!&lt;p&gt;I used a subdomain from my personal portfolio, and everything else runs on free tiers.&lt;p&gt;The project uses Nuxt, SVG, Cloudflare Workers, D1 (SQL), KV, Terraform, and some agentic coding with OpenAI Codex and Claude Code.&lt;p&gt;What started as a joke among friends turned into a fun excuse to build something end to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46668535" target="_blank">Re: Software engineers can no longer neglect their sof...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 15:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I thought this article was going to be about something else ...&lt;p&gt;It is really about prompting and writing specs - the &amp;quot;soft&amp;quot; (but really &amp;quot;hard&amp;quot;) skill of giving detailed specs to an LLM so it does what you want.&lt;p&gt;I think the more important, truly soft, skill in the age of AI is going to be communicating with humans and demonstrating your value in communicating both vertically...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46668008" target="_blank">OpenAI appears to be moving toward ads in ChatGPT for logged-in U.S. users</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-18 14:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Even if ads are limited at first, this raises questions about UX, privacy, and long-term direction.&lt;p&gt;1.What do you think:&lt;p&gt;2.Would ads change how you use ChatGPT?&lt;p&gt;Are ads inevitable for consumer AI?&lt;p&gt;3.What would an acceptable implementation look like?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46667685" target="_blank">Show HN: Moshi – Talk to Claude Code from your phone (zero desktop install)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 13:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built an iOS app to interact with coding agents from my phone.&lt;p&gt;Most remote solutions I&amp;#x27;ve seen require installing a server or relay on your machine. Moshi is just an app — SSH&amp;#x2F;Mosh into your Mac&amp;#x2F;PC&amp;#x2F;Sandbox and you&amp;#x27;re done.&lt;p&gt;The use case isn&amp;#x27;t really &amp;quot;I need to get back to my computer.&amp;quot; It&amp;#x27;s more like:
+- I&amp;#x27;m curious how the agent is doing on th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46667406" target="_blank">Re: Agent Psychosis: Are We Going Insane?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 12:46 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">&lt;p&gt;&lt;pre&gt;&lt;code&gt;        All I know is that when I watch someone at 3am, running their tenth parallel agent session, telling me they’ve never been more productive
+&lt;/code&gt;&lt;/pre&gt;
+... okay, I&amp;#x27;ll bite. What is actually being made here?&lt;p&gt;These people are so productive, running 10 checkouts of a repo with Claude or whoever... Code must be flying out. I&amp;#x27;m sure github is seeing a rise in lines pus...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46667317" target="_blank">Show HN: Claude Threads – Collaborate on Claude Code via Slack/Mattermost</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 12:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wanted my team to start using Claude Code but didn&amp;#x27;t want to set everyone up. Started piping output to Mattermost (and later Slack) so people could watch.&lt;p&gt;Ended up building more: multiple sessions in parallel (each in a thread, hence the name), approve messages from other users with emojis, approve file writes, attach images&amp;#x2F;files, worktrees per thread.&lt;p&gt;It runs on your machine.&lt;p&gt;I...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46666723" target="_blank">Show HN: Apex Agent – Connect the Browser to AI via MCP</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 10:54 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I’m a developer and 3D artist, and I wanted my AI (specifically Cursor and Claude Desktop) to have &amp;quot;hands and eyes&amp;quot; in my actual browser while I work.&lt;p&gt;I tried the official Chrome DevTools MCP, but it felt overkill for my workflow. It requires setting up remote debugging ports and is heavily geared toward performance profiling and deep-dive engineering. I just wanted something...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46666485" target="_blank">Re: QWED AI – Open-source deterministic verification l...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 10:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built QWED – a verification layer that sits between your LLM and production.
+The idea: Don&amp;#x27;t fix hallucinations, verify them. If AI output can&amp;#x27;t be mathematically proven, it doesn&amp;#x27;t ship.
+11 specialized engines:
+- Math (SymPy) – verify calculations
+- Logic (Z3 SMT) – formal proofs
+- SQL (SQLGlot) – detect injection&amp;#x2F;dangerous queries
+- Code (AST) – security analysis + taint tr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46666410" target="_blank">Re: Best approach for generating SVG graphics with LLM...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 10:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I had Gemini help me make a sparklines charting component that uses SVG. The SVG itself is relatively simple and is parameterized. So it&amp;#x27;s really only making an SVG component that gets data, rather than designing icons. I tried to get them to do that without any success. I stick to open source icon libraries and there happens to be a meta list on the front of HN right now&lt;p&gt;&lt;a href=&quot;https:&amp;#x...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46666403" target="_blank">Re: Erdos 281 solved with ChatGPT 5.2 Pro...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 09:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">There was a post about Erdős 728 being solved with Harmonic’s Aristotle a little over a week ago [1] and that seemed like a good example of using state-of-the-art AI tech to help increase velocity in this space.&lt;p&gt;I’m not sure what &lt;i&gt;this&lt;/i&gt; proves. I dumped a question into ChatGPT 5.2 and it produced a correct response after almost an hour [2]?&lt;p&gt;Okay? Is it repeatable? Why did it come up with ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46666240" target="_blank">Show HN: iTerm2 MCP Server – Let Claude see and control your terminal panes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 09:27 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hello,&lt;p&gt;I built an MCP server that connects Claude (Desktop or Claude Code) to iTerm2. It lets the AI read what&amp;#x27;s in your other terminal tabs and send commands to them.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  What it does:
+  - List all open panes with their working directories and running processes
+  - Read the screen buffer from any pane
+  - Send commands or keystrokes (Ctrl+C, Ctrl+D, etc.) to any pane
+  - Split p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46666087" target="_blank">Show HN: Design Rails – Complete brand package for AI coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-18 08:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, we&amp;#x27;re building Design Rails.&lt;p&gt;It&amp;#x27;s a chat-based brand builder. You describe your project, iterate with an AI designer, and walk away with a logo, color palette, typography, and style guide - all formatted as specs you can drop into your project for Claude Code, Cursor or whatever you&amp;#x27;re coding with.&lt;p&gt;Free tier gets you a full logo (PNG) and basic palette. Paid tier ($49 on...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46665639" target="_blank">Best approach for generating SVG graphics with LLMs?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-01-18 07:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m working on a project that needs to dynamically generate simple icons and diagrams. I&amp;#x27;ve tried GPT-4 and Claude - they can output SVG code but the results are hit or miss, especially for anything beyond basic shapes.&lt;p&gt;Has anyone found a reliable workflow for this? I&amp;#x27;m wondering if there are specialized models, better prompting techniques, or if I should just use a traditional gr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=46665009" target="_blank">Re: Show HN: Task Orchestrator – Production Safety for...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 05:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been using Claude Code heavily for months. It&amp;#x27;s great for velocity, but I kept hitting the same problems:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  - Agent hallucinates file paths that don&amp;#x27;t exist
+  - Claims &amp;quot;tests pass&amp;quot; without running them
+  - Same errors recurring across sessions
+  - No way to catch failures that aren&amp;#x27;t crashes
+
+  The tools exist to catch crashes. Nothing exists to catc...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=46664892" target="_blank">Show HN: Monitor Claude/Codex usage on Linux via browser cookies (no API keys)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-01-18 04:56 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=46664322" target="_blank">Show HN: Nex.Design – AI ads agent for e-commerce</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-01-18 02:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I spent 6 weeks building www.nex.design, an AI ads agent for e-commerce. It discovers viral social ads, replicates their proven structure, and generates production-ready creatives at scale.&lt;p&gt;Background: I came from Microsoft doing algorithms&amp;#x2F;backend. Zero Node.js or frontend experience. Built this with Claude Code as my primary coding partner.&lt;p&gt;What I learned:&lt;p&gt;Week 1-2: AI is incredible f...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=46663943" target="_blank">Re: I created an MCP that lets AI debug runtime code (...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-18 01:31 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey folks,&lt;p&gt;Title, mostly. I&amp;#x27;d wager most of us know what debugging is already, and a solid chunk of us have at least some hands-on experience using debuggers in any given language.&lt;p&gt;&amp;quot;AI Debugger&amp;quot; exposes familiar debugging capabilities to agents through an MCP interface. Think operations like:&lt;p&gt;- Breakpoints (basic breakpoints, conditional breakpoints, logpoints, etc.)
+- Steppin...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

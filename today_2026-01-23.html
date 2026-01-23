@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-01-23 17:19
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46734813" target="_blank">Show HN: NetHackPlayer – Have Claude Play NetHack</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-23 17:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I was doing this in a regular Claude Code session for a while, but wanted an all-in-one UI for it. Claude Code controls NetHack via tmux.&lt;p&gt;I have a NetHack skill installed that I update after each session.&lt;p&gt;My Claude&amp;#x27;s top score is 3302 (dungeon level 11).&lt;p&gt;It is interesting cause it mostly has trouble with spatial reasoning, even though it knows most&amp;#x2F;all the details of the game.&lt;p&gt;Th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46734515" target="_blank">Re: Ask HN: How realistically far are we from AGI?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 16:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We need to define terms precisely first and the industry seems allergic to that, likely because precise terms would undermine hype marketing necessary for companies like Anthropic to justify their valuations.&lt;p&gt;We need clear definitions and clear ways of evaluating toward those definitions, as human evaluation of LLM is rife with projection.&lt;p&gt;Generally speaking, scaling is clearly not going to ge...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46734480" target="_blank">Re: Wiz – AI-Powered Pentest Assistant (Open Source)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 16:34 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built Wiz because I was tired of context-switching between
+remembering tool syntax and actually doing security work.&lt;p&gt;## Background&lt;p&gt;I&amp;#x27;ve been doing security assessments for a while, and the workflow is always:
+1. Remember the right tool for the job
+2. Look up the flags (again)
+3. Run the command
+4. Parse the output manually
+5. Copy findings to a spreadsheet
+6. Repeat 100 times
+7. Manuall...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46734135" target="_blank">Show HN: Gamekit-CLI – Use Claude Code to quickly create games in Unity</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                10 points | 0 comments |
+                2026-01-23 16:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN! We’re the team from Normal &amp;#x2F; Normcore.io. We built gamekit-cli, an open-source command-line tool for developing Unity games with Claude Code.&lt;p&gt;We love working with Claude Code. It&amp;#x27;s great for creating quick prototypes, writing complex systems code, and test suites. However, we work a lot with Unity and found we couldn’t move anywhere near as fast with Unity projects as we could ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46734022" target="_blank">Show HN: RTK – Simple CLI to reduce token usage in your LLM prompts</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-23 15:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this small tool for my own use to reduce the number of tokens I send to LLMs (Claude Code, etc.). It’s just a simple utility to filter command outputs before they hit the context.&lt;p&gt;Here is what I’m getting with it so far:&lt;p&gt;rtk gain&lt;p&gt;Total commands:    41
+Input tokens:      6.8K
+Output tokens:     1.8K
+Tokens saved:      6.0K (88.2%)&lt;p&gt;By Command:
+────────────────────────────────────────...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46733921" target="_blank">Show HN: Dippy solves Claude permission fatigue and keeps the LLM on-track</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-23 15:51 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Less permission fatigue, more momentum. Dippy knows what’s safe to run and keeps Claude on track when plans change.&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ldayton&amp;#x2F;Dippy&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ldayton&amp;#x2F;Dippy&lt;/a&gt;&lt;p&gt;Claude Code asks permission for every shell command. The problem isn&amp;#x27;t `ls`—it&amp;#x27;s that `ps aux | grep python | awk &amp;#x27;{print $2}&amp;#x27...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46732959" target="_blank">Re: AgentHub – the only SDK you need to connect to LLM...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 14:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,
+I built AgentHub because I was frustrated by the trade-offs required to build multi-model agents in 2026. When you try to support GPT, Claude, and Gemini 3 simultaneously, you usually hit a wall: you either write thousands of lines of boilerplate code or use a &amp;quot;standardizing&amp;quot; wrapper that strips away what makes each model special.
+While projects like Open Responses focus on creati...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46732705" target="_blank">Show HN: A Better Interface for Nano Banana Pro</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-23 14:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN ,&lt;p&gt;This started as a weekend project after using Nano Banana Pro a lot and getting frustrated with Gemini&amp;#x27;s UI (no folder organization, a sluggish UI, etc.).&lt;p&gt;So I built Nani (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;getnani.com&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;getnani.com&amp;#x2F;&lt;/a&gt;). Still powered by Nano Banana Pro, but it focuses on the workflow Gemini is missing:&lt;p&gt;- Folders to organize...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46732672" target="_blank">Show HN: FreeMotion – Browser-based Remotion editor with site scraping record</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                8 points | 4 comments |
+                2026-01-23 14:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello HN,&lt;p&gt;I’ve been experimenting with the recent Remotion + Claude Code workflow. While generating video code with LLMs is impressive, the feedback loop felt broken to me. You have to prompt, copy code, set up a local Node environment, install dependencies, and run ffmpeg just to see a 5-second preview.&lt;p&gt;I built FreeMotion (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;freemotion.dev&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46732669" target="_blank">Re: Show HN: ARM64-optimized prime sieve with 3.75x me...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 14:10 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,I’m a graphic designer and artist by background, but I’ve always been fascinated by patterns. I spent some time visualizing prime number distributions on paper and arrived at a geometric layout that felt very efficient for memory.With some help from AI (Gemini&amp;#x2F;ChatGPT), I translated this into C++. The speedup (~3.1x on M1) isn&amp;#x27;t from new math, but from optimizing how data sits in t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46732433" target="_blank">Re: Show HN: CCB-Orchestrate Claude, Codex,Gemini in T...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 13:48 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Different models and CLI tools have their own strengths, but we are often forced to choose just one, or rely on hidden &amp;quot;agentic&amp;quot; API calls that are opaque and hard to control.
+
+  I built CCB to solve this. It lets you freely combine different CLIs (Claude Code,
+  Gemini, Codex, OpenCode, Droid) and mount them into Tmux split panes with a single command.
+
+  It solves...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46732416" target="_blank">Show HN: CCB-Orchestrate Claude, Codex,Gemini in Tmux panes with cross calling</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-01-23 13:46 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46731938" target="_blank">Re: I Guess AI Works...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 12:57 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">Late last year, during a couple of days off from my full-time job, I was on a walk with a friend who happened to be job hunting. She was venting about how dreadful the whole process of applying to jobs online can be: the CV mess, tailoring it for each role, filling out the same forms over and over, keeping track of everything, not accidentally sending a cover letter with the wrong company name - a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46731747" target="_blank">Re: Show HN: Terminal MCP – Browser MCP for the Termin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-23 12:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Inspired by tools like &amp;quot;Browser MCP&amp;quot;, I wanted a way for LLMs to see my CLI&amp;#x2F;TUI applications during testing&amp;#x2F;debugging to help me troubleshoot issues quickly. Yes, LLMs can already spawn terminals on their own, however this allows both you and the LLM to interact concurrently.&lt;p&gt;There are other creative uses for it... like I can get Claude Code to use the full Gemini or Codex CL...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46730382" target="_blank">Show HN: Thalo – A &quot;programming&quot; language for structured knowledge</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-23 09:29 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;ve been building Thalo, a plain-text format for structured knowledge. It&amp;#x27;s designed to be human-readable and version-controlled, while giving tools and AI just enough structure to work with it. It&amp;#x27;s inspired by plain-text accounting tools such as Beancount.&lt;p&gt;The format is simple: you define your entities (e.g. opinions, book reviews, facts) including type definitions for m...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

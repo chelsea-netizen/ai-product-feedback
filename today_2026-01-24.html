@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>16</strong> items collected |
+                Last updated: 2026-01-24 17:10
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46745293" target="_blank">Show HN: PromptUI – AI kept giving me the same boring UI. So I fixed it</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-24 17:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I run a UI design agency.&lt;p&gt;Last month I was building a client project in Cursor.
+The output looked... fine.&lt;p&gt;Same rounded corners. Same blue buttons. Same &amp;quot;AI-coded&amp;quot; vibe.&lt;p&gt;Every project was starting to look identical.
+The problem? AI has no design context. It defaults to the same generic patterns.&lt;p&gt;So I built PromptUI for myself.
+Now before any client project, I:&lt;p&gt;Paste a URL that ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46745111" target="_blank">Re: I made a CLI tool that turns free Gemini into a lo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-24 16:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I created a simple terminal-based tool that uses a consumer Gemini, which is free, and turns it into a local AI agent that runs entirely on your system. The tool allows you to create, edit, and manage files, as well as code, and other system-related actions, such as opening applications, adjusting volume and screen brightness, and even system sleep, using plain language through a terminal interfac...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46744976" target="_blank">Re: Claude Code's new hidden feature: Swarms...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-24 16:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is just sub agents, built into Claude. You don’t need 300,000 line tmux abstractions written in go. You just tell Claude to do work in parallel with background sub agents. It helps to have a file for handing off the prompt, tracking progress, and reporting back. I also recommend constraining agents to their own worktrees. I am writing down the pattern here &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;workfores...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46744827" target="_blank">Re: Claude Code's new hidden feature: Swarms...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-24 16:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Everyone is wrapping Claude Code in Tmux and claiming they are a magician. I am not so good at marketing but I&amp;#x27;ve done this here &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;mohsen1&amp;#x2F;claude-code-orchestrator&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;mohsen1&amp;#x2F;claude-code-orchestrator&lt;/a&gt;&lt;p&gt;Mine also rotate between Claude or Z.ai accounts as they ran out of credits</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46744150" target="_blank">Show HN: SICore – Lightweight Java framework for beginners and AI codegen</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-24 15:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I&amp;#x27;ve been working on SICore, a lightweight Java web framework designed for two audiences: programming beginners and AI coding assistants.&lt;p&gt;Unlike feature-rich frameworks like Spring, SICore removes annotations and complex configurations. Here are some core design choices:&lt;p&gt;• URL = Class name – No routing config needed. `&amp;#x2F;services&amp;#x2F;example&amp;#x2F;UserSearch` directly maps to ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46743908" target="_blank">Claude Code's new hidden feature: Swarms</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                43 points | 44 comments |
+                2026-01-24 14:35 |
+                <span class="category">feature_discovery</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46743700" target="_blank">Show HN: Afm – explore Apple's On device model. Now with WebUI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-24 14:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Just released v0.9.1 of afm, a CLI that exposes Apple&amp;#x27;s on-device Foundation Models through OpenAI-compatible API endpoints.&lt;p&gt;What&amp;#x27;s new in v0.9.1 - Built-in Web UI:&lt;p&gt;Links:&lt;p&gt;GitHub: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;scouzi1966&amp;#x2F;maclocal-api&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;scouzi1966&amp;#x2F;maclocal-api&lt;/a&gt;&lt;p&gt;Release: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46743224" target="_blank">Show HN: Kaval – WhatsApp agent that checks if content is real or fake</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-24 13:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a WhatsApp agent that verifies whether forwarded content is real or fake.&lt;p&gt;The problem: My parents and family keep getting increasingly sophisticated scam messages—fake traffic violation notices with convincing phishing links, AI-generated videos, &amp;quot;digital arrest&amp;quot; calls. They&amp;#x27;re not careless; the fakes are just good now.&lt;p&gt;How it works: Forward the suspicious message&amp;#x2F;i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46742581" target="_blank">Re: Isolating Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-24 11:04 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I also had the same idea when I built &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;nezhar&amp;#x2F;claude-container&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;nezhar&amp;#x2F;claude-container&lt;/a&gt;.&lt;p&gt;What I was also curious about is what is actually sent and received by the agent, so I included this feature and created a CLI to make integration easier in a developer workflow.&lt;p&gt;Since I started doing t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46742298" target="_blank">Ask HN: How do you AI code from your phone?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-01-24 09:59 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I would like to find a good way to use coding agents like claude or codex to code from my (Android) phone. But I can&amp;#x27;t find any tools that work.&lt;p&gt;What I tried:&lt;p&gt;An ssh terminal app on my phone. This works, but a TUI interface is far from what I would call &amp;quot;comfortable&amp;quot; on a mobile phone.&lt;p&gt;Happy Coder (happy.engineering) promises to be the solution but I found it rarely works reli...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46742192" target="_blank">Show HN: AI Lint – Teach coding agents your team's standards, not just syntax</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-24 09:28 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">After 3+ years of heavy agentic coding, I noticed a pattern: Claude&amp;#x2F;Cursor&amp;#x2F;Copilot generate code that works but doesn&amp;#x27;t belong.&lt;p&gt;It passes tests. It runs. But it fights the grain of the language. It invents state when the platform provides it. It hides causality behind clever one-liners. It creates three different solutions to the same problem in the same file. The architecture is ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46742127" target="_blank">Show HN: Orbit – Track &quot;zombie loops&quot; and cost-per-feature in AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-24 09:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I built Orbit to solve a visibility gap in AI cost management.&lt;p&gt;Provider dashboards show aggregate API spend, but don&amp;#x27;t answer which product feature is driving it. When your bill spikes, you&amp;#x27;re left guessing whether it&amp;#x27;s the chatbot, document processor, or an agent workflow running inefficiently.&lt;p&gt;Orbit attributes every LLM call to a specific feature, task, or customer. You...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46740597" target="_blank">Re: Turn any developer into a low performer...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-24 02:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Built this satirical tool.
+Borderline AI slop, but still found myself chuckling at the output, thought I would share with the community.&lt;p&gt;Tools like lovable have come a long way.
+This silly website has a full backend, AI Integration with Gemini-3-flash, and pulls in actual data.&lt;p&gt;All with just 3-4 prompts, and the free daily limit on the platform.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46740594" target="_blank">Re: Claude Code TeamateTool (binary analysis)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-24 02:50 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">This is pretty interesting, I know Boris likes to work with multiple Claude Code instances open at once having them crank away on stuff simultaneously. This sounds like taking his workflow of spawning multiple instances and making it a built in feature.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46739802" target="_blank">Show HN: AdaL Web, a local “Claude co-work” [video]</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 8 comments |
+                2026-01-24 00:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">AdaL is the world’s first local coding agent with web UI.&lt;p&gt;Claude Code has proven that coding agents work best when they are local, bringing developers back to the terminal.&lt;p&gt;Terminal UIs are fast and great with shortcuts, shell mode, and developer-friendly workflows. But they are limited in history and image display, and the experience varies by terminal and OS. Many of them flicker (buuuut not...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=46739689" target="_blank">Show HN: Booklife-MCP – MCP server unifying Libby, Hardcover, and your TBR</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-24 00:13 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built an MCP server in Go that connects Libby (library ebooks&amp;#x2F;audiobooks), Hardcover (reading tracker), and Open Library (metadata) into one
+   conversational interface through Claude.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  The problem: I use three separate platforms to manage my reading life. Libby for borrowing, Hardcover for tracking, and I had no single view
+  of what I want to read next. Switching between app...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

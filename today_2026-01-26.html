@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-01-26 17:22
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46767903" target="_blank">Show HN: Chord: Clawdbot alternative with a security layer</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-26 16:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, I built this because I liked the idea of agents controlling a computer (like Clawdbot), but I was uncomfortable giving them unrestricted shell access.&lt;p&gt;So I build Chord, it uses the same underlying agent framework as Clawdbot, so it can do most of the same jobs. The key difference is that I added a security layer. Commands are analyzed by an AI before execution. This does use extra tokens...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46767374" target="_blank">Re: I Rebuilt My AI Podcast App in 14 Days. I'm Terrif...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 16:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have complicated feelings about AI-generated content. I&amp;#x27;ve argued that AI should amplify expertise, not replace it.&lt;p&gt;So why did I just spend two weeks rebuilding DIALØGUE—an AI podcast generator?&lt;p&gt;The honest answer: I got hooked.&lt;p&gt;After using Claude Code to redesign my site in 3 days, I couldn&amp;#x27;t stop. The speed was intoxicating.&lt;p&gt;That curiosity led to 119 commits and some uncomfort...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46767265" target="_blank">Re: Show HN: Lexray – 60 second contract screening for...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 16:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;m Tomasz, former Microsoft&amp;#x2F;Auth0 engineer and founder. I built Lexray to solve a problem I&amp;#x27;ve had for years: understanding contract risk without hiring a lawyer for every agreement.&lt;p&gt;WHAT IT DOES&lt;p&gt;Upload a contract PDF (NDA, MSA, client agreement, vendor contract) → AI scans for risk patterns → Returns plain-English explanations in 60 seconds.&lt;p&gt;Flags:
+- IP clauses tha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46766802" target="_blank">Re: Google AI Overviews cite YouTube more than any med...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 15:27 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Heavy Gemini user here, another observation: Gemini cites lots of &amp;quot;AI generated&amp;quot; videos as its primary source, which creates a closed loop and has the potential to debase shared reality.&lt;p&gt;A few days ago, I asked it some questions on Russia&amp;#x27;s industrial base and military hardware manufacturing capability, and it wrote a very convincing response, except the video embedded at the end ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46766617" target="_blank">Re: Google AI Overviews cite YouTube more than any med...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 15:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">It&amp;#x27;s tough convincing people that Google AI overviews are often very wrong. People think that if it&amp;#x27;s displayed so prominently on Google, it must be factually accurate right?&lt;p&gt;&amp;quot;AI responses may include mistakes. Learn more&amp;quot;&lt;p&gt;It&amp;#x27;s not mistakes, half the time it&amp;#x27;s completely wrong and total bullshit information. Even comparing it to other AI, if you put the same quest...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46766259" target="_blank">Re: After two years of vibecoding, I'm back to writing...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 14:47 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I came to &amp;quot;vibe coding&amp;quot; with an open mind, but I&amp;#x27;m slowly edging in the same direction.&lt;p&gt;It is hands down good for code which is laborious or tedious to write, but once done, obviously correct or incorrect (with low effort inspection). Tests help but only if the code comes out nicely structured.&lt;p&gt;I made plenty of tools like this, a replacement REPL for MS-SQL, a caching tool in Py...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46765751" target="_blank">Re: Vibe coding kills open source...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 14:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I am a huge proponent of using AI tools for software development. But until I see a vibe coded replacement for the Linux kernel, PostgreSQL, gcc, git or Chromium, I am just going to disagree with this premise. If I am on a system without Python installed, I don&amp;#x27;t see Claude saying, oh, you don&amp;#x27;t need to download it, I&amp;#x27;ll write the Python interpreter for you.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46765666" target="_blank">Ask HN: Where is software engineering moving towards in the next years?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-01-26 13:56 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Since at least half a year now, I&amp;#x27;m often times asking myself where we&amp;#x27;re moving towards regarding software engineering. Regarding my spare time projects I&amp;#x27;m nowadays using Cursor&amp;#x2F;Claude Code to work on my vision (a database system since 2013 as a continuation of a project at the University of Konstanz) to do big refactorings I always wanted to do, but never found the drive to ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46765629" target="_blank">Re: Vibe coding kills open source...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-26 13:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have been trying to use Claude code to help improve my opensource Java NLP location library.&lt;p&gt;However trying to get it to do anything other than optimise code or fix small issues it struggles. It struggles with high level abstract issues.&lt;p&gt;For example I currently have an issue with ambiguity collisions e.g.&lt;p&gt;Input: &amp;quot;California&amp;quot;&lt;p&gt;Output: &amp;quot;California, Missouri&amp;quot;&lt;p&gt;California...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46765489" target="_blank">Show HN: wt – lightweight Git worktree orchestrator for parallel coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-01-26 13:39 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I built wt to manage the coordination overhead of running multiple AI coding agents (Claude Code, Codex, etc.) concurrently on the same repository.&lt;p&gt;The problem: I&amp;#x27;d spin up 3-4 agents working on different features simultaneously, then conflict on files, and resolving those conflicts burns agent context. Git worktrees solve the isolation problem but the native CLI is verbose, lacks primitive...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46765448" target="_blank">Show HN: Was tired of drowning in HN comments, so I built an AI Chief of Staff</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-26 13:35 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been lurking on HN for years. You know the drill: interesting headline, 200+ comments, you dive in thinking &amp;quot;I&amp;#x27;ll just skim for 5 minutes&amp;quot;... and an hour later you&amp;#x27;re 36 chambers deep in a thread about memory allocation patterns in Postgres and you&amp;#x27;ve completely forgotten what the original article was about.&lt;p&gt;I don&amp;#x27;t just want a &amp;quot;summary&amp;quot; (which u...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46764860" target="_blank">Show HN: MCP server that surfaces human experts inside ChatGPT</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-26 12:31 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Built an MCP server that connects ChatGPT to async expert Q&amp;amp;A. When someone asks a professional question needing human judgment, it surfaces relevant experts with pricing and response times.&lt;p&gt;Working in dev mode, submitted to ChatGPT marketplace.&lt;p&gt;What we learned building it:&lt;p&gt;1. ChatGPT requires `search` + `fetch` tools - could not find in MCP spec, undocumented until you hit the error&lt;p&gt;2...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

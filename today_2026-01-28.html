@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-01-28 17:24
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46797727" target="_blank">Show HN: Terminal MCP – A sandboxed terminal interface for LLMs and beyond</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-28 16:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN — I built Terminal MCP, a utility that exposes terminal sessions over MCP, primarily to help LLMs interact with CLIs and TUIs during development and debugging.&lt;p&gt;It’s also useful outside of AI: it provides a general way to run terminal workflows through a controlled interface, with better isolation and observability than a raw shell.&lt;p&gt;Recent addition: Sandbox mode, based on Anthropic’s work...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46797430" target="_blank">Show HN: I built a mesh network for Coding agent sessions called Repowire</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-01-28 16:22 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">While there are some async methods for agents to communicate, essentially writing some kind of shared memory --&amp;gt; I couldn&amp;#x27;t find some synchronous way for agents to communicate (lies: I found some later).&lt;p&gt;I built this, and later compared it to gastown (which I forgot about when I started building it). Gastown is potentially way better than this, however Repowire doesn&amp;#x27;t have a mayor ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46796874" target="_blank">Re: Lean 4 formalization of Erdős Problem #848 – seeki...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-28 15:47 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Formalized the Sawhney-Sellke stability theorem for Erdős Problem #848 (squarefree products) in Lean 4.&lt;p&gt;~3800 lines, compiles with 0 errors, no sorries, no axioms.&lt;p&gt;The math was solved by Sawhney &amp;amp; Sellke (Nov 2025): &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;arxiv.org&amp;#x2F;abs&amp;#x2F;2511.16072&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;arxiv.org&amp;#x2F;abs&amp;#x2F;2511.16072&lt;/a&gt;&lt;p&gt;Only ~17 Erdős problems have full solut...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46796825" target="_blank">Show HN: Config manager for Claude Code (and others) – rules, MCPs, permissions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-28 15:44 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I use Claude Code across multiple projects with different conventions and some shared repos just as it so happens to be the real world. Managing the config files (.claude&amp;#x2F;rules&amp;#x2F;, mcps.json, settings.json) by hand got tedious, so I built a local web UI for it.&lt;p&gt;This one started out as claude-config but migrated to coder-config as I&amp;#x27;m adding others (Gemini, AG, Codex, etc).&lt;p&gt;Main fe...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46795803" target="_blank">Re: The Productivity Ceiling of AI Coding Tools...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-28 14:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The author has the opinion, that AI coding tools have made us faster, but we&amp;#x27;re still the bottleneck because we have to be present and actively engaged. He conclude the next leap in productivity requires letting AI agents work autonomously in the background while we do other things.&lt;p&gt;While I agree with the conclusion, my experience with Gemini, Claude and Devin is that there is no way around...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46795566" target="_blank">Re: Show HN: I built an MCP server so ChatGPT can repl...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-28 14:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN — I’m Tobias, founder of SecureLend.&lt;p&gt;I built an MCP (Model Context Protocol) server that gives AI assistants structured, real access to financial product data — starting with business loans.&lt;p&gt;By “replace comparison sites,” I mean enabling AI assistants to access the same underlying product data directly, instead of sending users through Google → SEO pages → lead forms.&lt;p&gt;What bothered me:...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46794537" target="_blank">Show HN: Agent Notify – Notifications for AI coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-01-28 12:38 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Hey HN!&lt;p&gt;I built this tool because I kept missing when Claude Code or Codex finished a task while I was grabbing coffee or browsing Twitter.&lt;p&gt;The problem: AI coding agents like Claude Code and OpenAI Codex run in the terminal. When they complete a task or need your input, there&amp;#x27;s no notification — you have to keep checking the terminal.&lt;p&gt;The solution: Agent Notify hooks into these agents a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46793825" target="_blank">Show HN: Resona – Finds connections across what you save</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-28 11:07 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">Built Resona (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;useresona.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;useresona.com&lt;/a&gt;) to solve a recurring frustration: you save something, think &amp;quot;this relates to something I read before&amp;quot; — and never find what.&lt;p&gt;Those connections are where the aha moments live. Same underlying idea, different domain, months apart.&lt;p&gt;What it does:
+- Save anything (Chrome extension o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46793814" target="_blank">Show HN: SuperPlane - open source DevOps control plane</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                19 points | 2 comments |
+                2026-01-28 11:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! We&amp;#x27;re Marko and Darko, building SuperPlane with a small team. SuperPlane is an open source DevOps control plane for running event-driven workflows. It works across the tools teams already use like Git, CI&amp;#x2F;CD, incident response, observability, infra, notifications, etc.&lt;p&gt;You can think of SuperPlane as &amp;#x27;n8n&amp;#x2F;Zapier for DevOps&amp;#x27;.&lt;p&gt;How do we do DevOps today? For many t...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

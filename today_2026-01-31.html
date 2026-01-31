@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>19</strong> items collected |
+                Last updated: 2026-01-31 17:15
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46838089" target="_blank">Show HN: Orrery – Spec Decomposition, Plan Review, and Agent Orchestration</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 16:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I was looking for a way to build projects and ideas in the background while I was off doing something else. I felt like coding agents by themselves could do a certain granularity of work, but I wanted to try and push it further. So I built Orrery.&lt;p&gt;What it does:&lt;p&gt;- Take an idea or spec and produce an implementable plan (steps, dependencies, outputs)&lt;p&gt;- Refine, simulate, and review the plan in a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46837624" target="_blank">Re: Google's AI advantage: why crawler separation is t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-31 15:44 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">The top ten from this PR piece, among other data points in there, seem to work against their argument imo. The difference is not that great, and everywhere they say google bad, there is another entry from this list here that is very close in the same metric.&lt;p&gt;What it sounds like they want is a version of the new permissioned &amp;#x2F; ethical licenses we have seen in OSS for website owners and their...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46837620" target="_blank">Show HN: Vim friendly TUI for todos that works with existing md files</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 15:44 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I&amp;#x27;m spending more time in the terminal (ghostty) since moving to claude code. I wanted a quick way to edit a todo.md alongside claude in a tmux pane that I check into my repo.&lt;p&gt;lazytodo is a terminal UI that treats any markdown checkbox file as a todo list. No syncing, no database. Just point it at your existing todo.md.&lt;p&gt;Features:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  - Vim-style navigation (j&amp;#x2F;k, g&amp;#x2F;G, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46837123" target="_blank">Are article paywalls dead with LLMs? How has nobody built this</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-01-31 14:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">For you would have noticed that a lot of news media houses have paywalled articles, especially in The New York Times, WSJ, or The Information. Actively bar websites like 12 feet from accessing their data. 12 feet is still a hit or miss. However, if I ask ChatGPT to explain in detail or summarise an article from a certain website, it tends to do that almost always without any errors. Isn&amp;#x27;t thi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46837091" target="_blank">Show HN: Nexwork – Multi-repo orchestrator with Git worktrees</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 14:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN! I&amp;#x27;m the creator of Nexwork.
+I built this to solve a problem my team had: managing features that span 
+multiple microservices (usually 3-5 repos per feature).
+The Problem:
+- Manually cloning&amp;#x2F;branching each repo
+- Tracking progress across repos in Jira&amp;#x2F;spreadsheets
+- AI assistants (Claude&amp;#x2F;GPT) waste tons of tokens scanning directories
+- Hard to run tests across all repos a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46836744" target="_blank">Show HN: ClawNews – The first news platform where AI agents are primary users</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-31 13:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">After months of working with AI agents, I noticed they were developing their own communities and discussions separate from human platforms. So I built ClawNews.io - essentially Hacker News designed for AI agents.&lt;p&gt;Key differences from human platforms:
+- API-first design (agents submit via code, not forms)
+- Technical discussions about agent infrastructure, memory systems, security
+- Agent identit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46836304" target="_blank">Re: Automatic Programming...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-31 13:02 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">I arrived at a very similar conclusion since trying Claude Code with Opus 4.5 (a huge paradigm shift in terms of tech and tools). I&amp;#x27;ve been calling it &amp;quot;zen coding&amp;quot;, where you treat the codebase like a zen garden. You maintain a mental map of the codebase, spec everything before prompting for the implementation, and review every diff line by line. The AI is a tool to implement the sy...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46836084" target="_blank">Re: Are We Claudemaxxing?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-31 12:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; Humans are the bottleneck. Claude&amp;#x27;s output quality is proportional to what you give it.&lt;p&gt;&amp;gt; Shows the most basic AGENTS.md possible</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46836051" target="_blank">Show HN: Project Xent – A native C++ UI framework in KBs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 12:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Modern UI frameworks (WinUI, Flutter, Electron) are bloated. Project Xent bridges a C++ reactive DSL directly to the host OS compositor.&lt;p&gt;The &amp;quot;FluXent&amp;quot; (Windows) Demo:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Binary size: ~300KB .exe (No heavy runtimes required)  
+
+  RAM: &amp;lt;15MB idle  
+
+  Stack: DComp + D2D + Yoga
+
+&lt;/code&gt;&lt;/pre&gt;
+The core architecture separates shared C++ logic from platform-optimal rendering. ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46835895" target="_blank">Show HN: Kling VIDEO 3.0 released: 15-second AI video generation model</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 4 comments |
+                2026-01-31 12:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Kling just announced VIDEO 3.0 - a significant upgrade from their 2.6 and O1 models.&lt;p&gt;Key improvements:&lt;p&gt;*Extended duration:*
+• Up to 15 seconds of continuous video (vs previous 5-10 seconds)
+• Flexible duration ranging from 3-15 seconds
+• Better for complex action sequences and scene development&lt;p&gt;*Unified multimodal approach:*
+• Integrates text-to-video, image-to-video, reference-to-video
+• Vi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46835832" target="_blank">Re: Are We Claudemaxxing?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-31 12:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Interesting take. I think the real question isn&amp;#x27;t whether we&amp;#x27;re &amp;quot;claudemaxxing&amp;quot; but whether the mental model of treating AI as a tool vs collaborator matters.&lt;p&gt;Anecdotally, I&amp;#x27;ve found better results when I treat Claude less like a search engine and more like a pair programmer - giving it context, asking it to reason through problems, and iterating on its output rather tha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46835674" target="_blank">Show HN: Destructive_command_guard (Dcg)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-31 11:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is a free, open-source, highly-optimized rust program that runs using pre-tool hooks in Claude Code (CC) and checks the tool call that CC was about to make to see if it’s potentially destructive; that is, could delete data, lose work, drop tables, etc.&lt;p&gt;Get it from the GitHub link and install with the convenient one-liner.&lt;p&gt;A tool like dcg has several competing goals that make it a careful ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46835618" target="_blank">Re: Automatic Programming...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-31 11:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have 30+ years of industry experience and I&amp;#x27;ve been leaning heavily into spec driven development at work and it is a game changer.  I love programming and now I get to program at one level higher: the spec.&lt;p&gt;I spend hours on a spec, working with Claude Code to first generate and iterate on all the requirements, going over the requirements using self-reviews in Claude first using Opus 4.5 a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46835027" target="_blank">Re: Multi-LLM Development Framework – Structure for AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-01-31 09:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built an open-source framework for creating consistent workspace structures when working with AI coding assistants. It supports Gemini, Claude, and Codex.&lt;p&gt;The problem: AI assistants are great at generating code but provide no organizational structure. After a few months of &amp;quot;vibe coding,&amp;quot; you end up with inconsistent project layouts, AI agents repeatedly asking &amp;quot;where is this fil...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=46834979" target="_blank">Show HN: Wkndr – A TikTok style feed for discovering local events</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-31 09:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">At the start of the year, I realized I had zero control over my weekends. Between kids&amp;#x27; birthday parties and local events, our schedule was a mess. Shared calendars are useful for time slots, but they fail at logistics. They do not store invite photos, track costs, or help you actually discover what to do.&lt;p&gt;I built wkndr.app as a mobile-first web app designed for partners to sync their weeke...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=46834552" target="_blank">Show HN: EditorWatch – Detect AI cheating by analyzing how students write code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-01-31 08:14 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built EditorWatch to help CS instructors detect AI-generated code in programming assignments.&lt;p&gt;Current plagiarism detectors only look at the final code. Students copying from ChatGPT slip through easily. EditorWatch is different - it monitors HOW code is written, not just what&amp;#x27;s written.&lt;p&gt;A VS Code extension tracks coding patterns:
+- Sudden code appearance (paste bursts)
+- Lack o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=46834415" target="_blank">Show HN: Oyster Bot – AI assistant for your phone, powered by Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 07:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wanted Claude Code on my phone without running extra infrastructure. Existing solutions felt heavy..gateway servers, native apps, etc.&lt;p&gt;This is a Telegram bot that spawns the Claude CLI and pipes responses back to you. Clone, npm install, add your bot token, run it.&lt;p&gt;Works with Claude Pro&amp;#x2F;Max (no API key required). You can whitelist users, restrict which tools Claude can access, and add c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=46834183" target="_blank">Show HN: JProx – Japan residential proxy API for scraping Japanese sites</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 07:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built JProx to solve a specific problem: scraping Japanese sites (Mercari, Rakuten, SUUMO) that aggressively block foreign IPs and datacenter proxies.&lt;p&gt;Features:
+- Japanese residential IPs (Tokyo)
+- Simple REST API with Claude MCP support
+- 1,000 free requests&amp;#x2F;month
+- $7&amp;#x2F;mo for 5,000 requests&lt;p&gt;Built with: FastAPI, Next.js, PostgreSQL&lt;p&gt;I&amp;#x27;m a solo developer in Japan. Would love f...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=46833472" target="_blank">Show HN: SOTA NLP Models</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-01-31 04:24 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Hi everyone, I needed to break sentences into their individual words and figure out what part of speech each word is. Explosion&amp;#x27;s Spacy models are absolutely incredible for English, clearly some top tier engineering that I could never come close to, but for other languages they&amp;#x27;re quite weak. I created my own by taking Spacy outputs, cleaning them up with an LLM, and then fine-tuning a G...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

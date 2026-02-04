@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2026-02-04 17:37
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46888114" target="_blank">Re: InsAIts: Monitoring for AI-AI comms. Detect halluc...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-04 16:46 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The Problem&lt;p&gt;When AI agents talk to each other in automated pipelines, nobody monitors the conversation. Agent A might say a project costs $1,000. Agent B says $5,000. Neither knows about the contradiction. The wrong number reaches the customer.&lt;p&gt;Worse: agents fabricate citations that look real. They invent URLs, DOIs, and paper references. They start confident and silently become unsure. One ag...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46887868" target="_blank">Show HN: ARIA – P2P distributed inference protocol for 1-bit LLMs on CPU</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-04 16:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">ARIA is a peer-to-peer protocol for running 1-bit quantized LLMs (ternary weights: -1, 0, +1) on ordinary CPUs. No GPU needed.
+We benchmarked on a Ryzen 9: 89.65 t&amp;#x2F;s for 0.7B params, 36.94 t&amp;#x2F;s for 2.4B, 15.03 t&amp;#x2F;s for 8B — all on CPU, at ~28 mJ&amp;#x2F;token (99.5% less energy than GPU inference).
+Key design choices: WebSocket-based P2P with pipeline parallelism for model sharding acros...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46887811" target="_blank">Re: Show HN: Orpheus, An Agent runtime that scales on ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-04 16:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! I&amp;#x27;m Arpit. I spent almost a year building AI&amp;#x2F;LLM products, and I kept hitting the same problem: agents would take 30+ seconds to respond, but my infrastructure looked perfectly healthy. CPU: 3%. Memory: fine. No errors.&lt;p&gt;The Problem: Agents spend 90% of their time waiting on LLM API calls (OpenAI, Anthropic, etc.). During this wait, CPU usage is near zero.&lt;p&gt;Traditional autoscal...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46887669" target="_blank">Show HN: Implementation of Google's PaperBanana (diagram generation from text)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-04 16:16 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The original authors haven&amp;#x27;t released code yet, so I built it from the paper. It takes a methodology section as input and generates a publication-style diagram.&lt;p&gt;The pipeline uses five agents: a retriever selects reference diagrams via in-context learning, a planner drafts the layout, a stylist adjusts for conference aesthetics, a visualizer renders with Gemini, and a critic evaluates and re...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46887619" target="_blank">Show HN: Grok Imagine – High-fidelity FLUX.1 generation with cinematic video</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-04 16:12 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I’ve been working on Grok Imagine (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;grok-imagine.me&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;grok-imagine.me&amp;#x2F;&lt;/a&gt;), an implementation of xAI’s image generation logic powered by the FLUX.1 engine.&lt;p&gt;Most tools in this space either have extreme prompt-filtering or struggle with complex details like text rendering and anatomy. By leveraging the Flux model, I’ve ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46887409" target="_blank">Show HN: Finding similarities in magazine covers (updated)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-04 15:57 |
+                <span class="category">feature_discovery, navigation, response_quality</span>
+            </div>
+            <div class="text">About a month ago I shared a web app that let you compare magazine covers using image hashes. &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=46518106&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=46518106&lt;/a&gt;&lt;p&gt;Samin100 suggested giving CLIP and DinoV2 a shot for better results. I had no idea what those were, but researching them led me to learn about vision transformers. Dino...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46887385" target="_blank">Re: Claude Is a Space to Think...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-04 15:55 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">I really hope Anthropic turns out to be one of the &amp;#x27;good guys&amp;#x27;, or at least a net positive.&lt;p&gt;It appears they trend in the right direction:&lt;p&gt;- Have not kissed the Ring.&lt;p&gt;- Oppose blocking AI regulation that other&amp;#x27;s support (e.g. They do not support banning state AI laws [2]).&lt;p&gt;- Committing to no ads.&lt;p&gt;- Willing to risk defense department contract over objections to use for letha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46886358" target="_blank">Show HN: Fluid.sh – Claude Code for Infrastructure</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-04 14:39 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;My name is Collin and I&amp;#x27;m working on fluid.sh (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;fluid.sh&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;fluid.sh&lt;/a&gt;) the Claude Code for Infrastructure.&lt;p&gt;What does that mean?&lt;p&gt;Fluid is a terminal agent that do work on production infrastructure like VMs&amp;#x2F;K8s cluster&amp;#x2F;etc. by making sandbox clones of the infrastructure for AI agents to work on, allowing the age...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46886023" target="_blank">Show HN: FalseWork – Extract transferable structural mechanisms from works</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-04 14:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">FalseWork is a staged LLM pipeline that analyzes existing works (films, music, legal frameworks, cryptographic protocols, games) and extracts reusable structural mechanisms - not themes, interpretations, or stylistic labels.&lt;p&gt;We often say things like &amp;quot;Tarkovsky sculpts time&amp;quot; or &amp;quot;Borges builds infinite regress.&amp;quot; These sound insightful, but they&amp;#x27;re hard to apply, test, or b...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46885666" target="_blank">Tell HN: Claude Has Had 57 Incidents in the Past 3 Months</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-04 13:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Today I tried to use claude.ai ($100 Max plan) with Opus 4.5 and extended thinking enabled. I was met with a weird retry message. It tried to generate a response 10 times and then automatically switched to a different model without any indication or confirmation.&lt;p&gt;I&amp;#x27;ve been noticing different issues crop up frequently, both on the web and in Claude Code. So I decided to look into how often t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=46885385" target="_blank">Show HN: Static psql – Pre-built PostgreSQL client binaries</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-04 13:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Why&lt;p&gt;- mise integration. I manage my tools (Node, Python, Terraform...) with mise. Adding psql to a project should be a one-liner in .mise.toml, not &amp;quot;install PostgreSQL system-wide.&amp;quot;
+- Containers. Getting psql into a minimal Docker image usually means pulling a full PostgreSQL package or building from source. A static binary simplifies this.&lt;p&gt;What This Provides&lt;p&gt;Pre-built binaries for...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=46885065" target="_blank">Show HN: Webhook Skills – Agent skills for webhook providers and best practices</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 2 comments |
+                2026-02-04 12:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built a collection of webhook skills because AI coding agents are surprisingly bad at webhook integrations. The generated code looks reasonable until you run it, then signature verification fails, raw body handling is wrong, or the middleware order breaks everything.&lt;p&gt;PostHog&amp;#x27;s research on LLM code generation (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;posthog.com&amp;#x2F;blog&amp;#x2F;correct-llm-code-generatio...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=46884497" target="_blank">Re: GitHub Ponders Kill Switch for Pull Requests to St...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-04 11:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The low-quality AI PR problem is real, but there&amp;#x27;s an inverse issue that doesn&amp;#x27;t get enough attention: AI agents that &lt;i&gt;review&lt;/i&gt; code are equally vulnerable.&lt;p&gt;When an AI code reviewer or copilot ingests a PR diff, it&amp;#x27;s processing untrusted input. A malicious contributor can embed prompt injection in comments, variable names, or even carefully crafted code patterns that manipulat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=46884313" target="_blank">Show HN: Tokenaru – commodity market for LLM tokens</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-04 11:02 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">I have been reading HN over the decade, but this is the first time I have something to submit!&lt;p&gt;Six months ago, I started tracking my OpenAI usage and numbers scared me. Like many of you, I hit the limits on subscriptions and watched costs spiral. I&amp;#x27;ve tried cutting corners, explored cheaper models (quality is not there yet), ran local models through ollama, did a lot of optimizations to use...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>10</strong> items collected |
+                Last updated: 2026-02-09 17:42
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=46948125" target="_blank">Re: I built a customized LLM with RAG for Singapore...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-09 17:32 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hello everyone,&lt;p&gt;I have always loved coding and in the couple I was thinking of making an open source project and it turned out to be awesome I hope you guys like it.&lt;p&gt;I present Explore Singapore which I created as an open-source intelligence engine to execute retrieval-augmented generation (RAG) on Singapore&amp;#x27;s public policy documents and legal statutes and historical archives.&lt;p&gt;The object...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=46947628" target="_blank">Show HN: Stop tracking time, start reconstructing work (with anker)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-02-09 16:57 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">I built anker because I&amp;#x27;m tired of productivity tools that want me to track every minute.&lt;p&gt;The problem: At the end of the day, you need to explain what you did (standups, reports, timesheets). But tracking in real-time is exhausting and interrupts flow.&lt;p&gt;Anker flips this: *work first, summarize later*. It reconstructs your day from sources you already have:
+- Git commits (with full diffs)
+-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=46946750" target="_blank">Show HN: C-CMCP – Validated AI development workflow with quality gates</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-09 16:06 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built a workflow that coordinates Claude.ai (design), Cursor AI (implementation), and API Claude (validation) with human approval gates at critical points.&lt;p&gt;The problem: AI coding tools are great but there&amp;#x27;s no quality control. You get code that &amp;quot;looks right&amp;quot; but fails requirements, has bugs, or doesn&amp;#x27;t match what you actually asked for.&lt;p&gt;C-CMCP solves this with a 4-stage p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=46946742" target="_blank">Show HN: Sales Agent Benchmark – SWE-Bench for sales AI agents (open source)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-09 16:05 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Live leaderboard: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;sales-agent-benchmarks.fly.dev&amp;#x2F;benchmark&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;sales-agent-benchmarks.fly.dev&amp;#x2F;benchmark&lt;/a&gt;
+GitHub: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;a1j9o94&amp;#x2F;sales-agent-benchmark&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;a1j9o94&amp;#x2F;sales-agent-benchmark&lt;/a&gt;&lt;p&gt;I built an open-source benchmark for evaluating ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=46946621" target="_blank">Show HN: BB – A persistent message broker for AI agents (MCP, Ed25519, Matrix)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-09 15:56 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">BB is a message broker that lets AI agents publish information, ask questions, and answer each other&amp;#x27;s requests. Everything is cryptographically signed (Ed25519), semantically searchable, and durable.&lt;p&gt;How it works:&lt;p&gt;- Agents publish INFO events to topics (like `news.ai`, `research.security`, etc.)
+- Agents post REQUESTs — other agents FULFILL them
+- Semantic search lets any agent find what...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=46946215" target="_blank">Show HN: We added AGENTS.md to 120 challenges so AI teaches instead of codes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-09 15:22 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN! I&amp;#x27;m Matt, founder of Frontend Mentor (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.frontendmentor.io&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.frontendmentor.io&lt;/a&gt;). We provide front-end and full-stack coding challenges with professional Figma designs, enabling developers to build real projects and grow their skills.&lt;p&gt;The problem: AI coding tools are great, but they can work against you when you&amp;#x27;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=46946180" target="_blank">Re: Jony Ive Designed Ferrari Luce EV Interior...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-09 15:20 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I clearly don&amp;#x27;t understand Design. My expectation is that an amazing prolific designer would deliver different designs in different contexts. At Apple maybe it&amp;#x27;s this minimalist industrial design. But what I&amp;#x27;m seeing here - and forgive me if I&amp;#x27;m just an idiot about design, is exactly what you&amp;#x27;d get it you asked ChatGPT &amp;quot;Ferrari but Johnny Ive apple design interior&amp;quo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=46945544" target="_blank">Show HN: Claude SaaS Starter – Next.js Boilerplate for Claude Streaming</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-09 14:26 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">Product: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;bydaewon.gumroad.com&amp;#x2F;l&amp;#x2F;claude-saas-starter&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;bydaewon.gumroad.com&amp;#x2F;l&amp;#x2F;claude-saas-starter&lt;/a&gt;&lt;p&gt;I built this because every SaaS boilerplate I found was OpenAI-first. Claude&amp;#x27;s SSE streaming differs from OpenAI&amp;#x27;s — the Anthropic SDK&amp;#x27;s messages.stream() returns a different event structure, and you nee...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=46944855" target="_blank">Show HN: Claude-Pipe – A 1k LOC Bridge from Claude Code to Telegram/Discord</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-09 13:12 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I recently tried using OpenClaw for my agentic workflows. It is an impressive project, but the complexity was a hurdle for my use case. It contains over 400,000 lines of code and requires significant configuration. I found myself managing the infrastructure more than the tasks.&lt;p&gt;I wanted a minimalist tool that followed the Unix philosophy.&lt;p&gt;I built Claude-Pipe. It is a 1,000-line bridge that con...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=46944078" target="_blank">Re: A daily word puzzle my 9-year-old daughter designe...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-09 11:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">My daughter drew a word puzzle game on paper — rules, name, game board, everything. We built it into a real daily puzzle over a weekend.&lt;p&gt;It&amp;#x27;s a word chain: each word starts with the last letter of the previous one, climbing from 3 to 7 letters in a pizza-slice shape. Certain letters are locked in each day (pepperoni) so every puzzle is different. Scrabble-style scoring with row multipliers....</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

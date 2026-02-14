@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-02-14 17:18
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47015965" target="_blank">Re: My smart sleep mask broadcasts users' brainwaves t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-14 16:45 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Kickstarter is full of projects like this where every possible shortcut is taken to get to market. I’ve had some good success with a few Kickstarter projects but I’ve been very selective about which projects I support. More often than not I can identify when a team is in over their heads or think they’re just going to figure out the details later, after the money arrives.&lt;p&gt;For a period of time it...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47014867" target="_blank">Show HN: Terminalcore – The Rhythm Game for PC</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-14 14:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey all! Built a PC based rhythm game designed around a terminal and ascii aesthetic. All built with Claude Code. Unsurprisingly LLMs are terrible at &amp;#x27;hearing&amp;#x27; music so I had to make the beat maps manually. I built a separate tool to create the maps using a timeline editor to make it easier.&lt;p&gt;Started with 3 tracks one difficulty each, wanted to share before I went any further. Let me kn...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47014708" target="_blank">Show HN: Langasync – Use OpenAI/Anthropic Batch APIs with LangChain Chains</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-14 14:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">OpenAI and Anthropic both offer batch APIs that process requests asynchronously at 50% of the standard token price. The trade-off is latency — results come back within 24 hours instead of seconds.&lt;p&gt;The problem is the batch API interface is completely different from the real-time one. OpenAI requires JSONL file uploads and polling. Anthropic has its own Message Batches format. If you have an exist...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47014190" target="_blank">Re: The Developer –&gt; Designer Switch...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-14 12:55 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This article explores the shift from traditional coding to Spec-Driven Development (SDD), where specifications—not code—become the primary source of truth. As AI agents like Claude Code and GitHub Copilot automate implementation, the developer’s role evolves into a &amp;quot;System Designer&amp;quot; focused on architecture and context engineering. The author argues against &amp;quot;vibe coding,&amp;quot; advoca...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47014154" target="_blank">Re: OpenClaw on $5 chips, no Linux or Node.js...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-14 12:44 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Pretty sure Anthropic uses both Linux and node somewhere in their stack.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47013584" target="_blank">Re: Show HN: [Jack The Butler] Open-source, self-hoste...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-14 11:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hotel chatbot SaaS costs $200-2,000&amp;#x2F;month with per-message fees and vendor-locked data. I built a free, self-hosted alternative.&lt;p&gt;Jack The Butler is an AI concierge that handles guest communication across WhatsApp, SMS, email, and web chat. Single Docker container, single SQLite database, deploy in 5 minutes.&lt;p&gt;Tech stack: Node.js, TypeScript, Hono, SQLite + sqlite-vec for embeddings, React ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47013274" target="_blank">Show HN: AI Station Navigator – LLM=CPU, Agents=Processes, Skills=Apps</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-14 10:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Subject: My attempt at an &amp;quot;OS-inspired&amp;quot; AI architecture
+Hi HN,
+I&amp;#x27;m a Product Manager, not a systems engineer. I built AI Station Navigator as a proof-of-concept to solve a specific problem I faced: Context Pollution.
+When using AI agents for complex tasks, the context window gets cluttered quickly, causing the model to hallucinate or get confused.
+To solve this, I designed this proj...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47012965" target="_blank">Show HN: Agent Hypervisor – Reality Virtualization for AI Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-14 09:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here. Built this after working on AI agent security at Radware, where we discovered ZombieAgent - persistent malicious instructions in agent memory.&lt;p&gt;The insight: Don&amp;#x27;t teach agents to resist attacks. Virtualize their perceived reality so attacks never enter their world. Like VMs hiding physical RAM → agents shouldn&amp;#x27;t see raw dangerous inputs.&lt;p&gt;ARCHITECTURE:
+- Input virtualizati...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47012302" target="_blank">Context management is the real bottleneck in AI-assisted coding</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-14 06:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">After using Cursor and Claude Code daily, I’ve noticed that when an AI coding agent drifts or forgets constraints, we assume it’s a model limitation.&lt;p&gt;In many cases, it’s context management.&lt;p&gt;A few observations:
+- Tokens are not just limits. They’re attention competition.
+- Even before hitting the hard window limit, attention dilution happens.
+- Coding tasks degrade faster than chat because of d...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47011640" target="_blank">Show HN: ReviewStack – API that aggregates reviews from YouTube and Reddit</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-14 04:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built an API that takes a product name, scrapes reviews from YouTube and Reddit, and returns structured sentiment analysis in a single JSON response. Live demo (no signup): &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;reviewstack.vercel.app&amp;#x2F;demo&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;reviewstack.vercel.app&amp;#x2F;demo&lt;/a&gt;&lt;p&gt;The response includes a normalized score (1-10), a plain-text summary, pros&amp;#x2F;cons lists,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47011510" target="_blank">Show HN: Verify-before-release x402 gateway for AI agent transactions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-14 04:17 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I built Settld because I kept running into the same problem: AI agents can call APIs, pay for services, and hire other agents - but there&amp;#x27;s no way to prove the work was actually done before the money moves.&lt;p&gt;The problem in one sentence: x402 tells you &amp;quot;payment was sent&amp;quot;. Settld tells you &amp;quot;the work was worth paying for&amp;quot;.&lt;p&gt;What it does&lt;p&gt;Settld sits between your ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47010964" target="_blank">Show HN: GuardLLM, hardened tool calls for LLM apps</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-14 02:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Most agent frameworks treat prompt injection as a model-level problem. In practice, once your agent ingests untrusted text and has tool access, you need application-layer controls — structural isolation, tool-call gating, exfiltration detection — that don&amp;#x27;t depend on the model behaving correctly. I built guardllm to provide those controls.
+guardllm is a small, auditable Python library that pr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47010903" target="_blank">Show HN: Ergo – Minimal, fast, persistent task backlog in your repo</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-14 02:26 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Even with agentic coding there&amp;#x27;s a lot of merit in keeping a strong distinction between your specs (TDD, architecture, etc.) and your backlog (your sequence of work items).&lt;p&gt;Backlogs are better off being represented as a task dependency graph, rather than a heap of markdown files, because a nice graph of tasks:&lt;p&gt;- helps agents focus
+- gives better observability of partial progress
+- support...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47010873" target="_blank">Show HN: Hivemind – Metaskill for skill/experience sharing between agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-14 02:22 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi folks, I&amp;#x27;m Ed, one of the co-founders of Flower!&lt;p&gt;While working on an agent&amp;#x2F;human social network over the course of last year, we developed our own context&amp;#x2F;memory infrastructure that powered our agents&amp;#x27; ability to chat with humans (or other agents), and &amp;#x27;gossip&amp;#x27; chats across the network based on various qualities of the agents.&lt;p&gt;Witnessing the system live, we rea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47010716" target="_blank">Re: Spatial workspace with AI agent, browser, and desi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-14 01:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I spent 4 months building a desktop workspace where every tool lives on an infinite canvas as a draggable node — notes, browser, calendar, design editor, terminal, and an AI agent that can control the canvas.&lt;p&gt;Stack: React + ReactFlow + Fabric.js + Electron + Gemini AI. 177 files, 7-layer architecture, full documentation.&lt;p&gt;I&amp;#x27;ve decided to move on from this project and I&amp;#x27;m looking for s...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

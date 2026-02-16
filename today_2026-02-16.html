@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>24</strong> items collected |
+                Last updated: 2026-02-16 17:30
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47037709" target="_blank">Show HN: AsdPrompt – Vimium-style keyboard navigation for AI chat responses</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-16 17:28 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I use Claude throughout the day and kept getting annoyed by the same thing: selecting text from responses with the mouse. Overshoot, re-select, copy, click input, paste. Especially bad in long conversations where you want to reference something from 30 turns ago.&lt;p&gt;asdPrompt is a Chrome extension that adds hint-based navigation (like Vimium) to AI chat interfaces. Cmd+Shift+S activates the overlay...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47037465" target="_blank">Re: Flare: Visual CSS editor that generates prompts fo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 17:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Have been talking to more designers recently that are starting to experiment with claude code for prototyping.
+A common pattern was that removing the coding step was a wow moment, but tweaking designs was hard.&lt;p&gt;Cursors design mode solves more or less solves this for cursor, but we need something generic. Flare is an attempt of making a general solution for this problem, simply integrating into a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47037280" target="_blank">Show HN: CabbageSEO: Check if AI mentions your business, then fix it if not</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-16 16:53 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a tool that scans AI platforms with buyer questions relevant to your domain and shows you whether they mention you or not.&lt;p&gt;Enter your domain, it generates queries based on your space, sends them to ChatGPT, Perplexity, and Google AI, then scores you out of 100 based on how often you show up in the responses.&lt;p&gt;The part I think is actually useful: it doesn&amp;#x27;t just tell you the problem...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47037267" target="_blank">Show HN: Comfy Pilot – MCP server that lets Claude Code edit ComfyUI workflows</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-16 16:51 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">MCP server + embedded terminal that gives Claude Code direct access to ComfyUI&amp;#x27;s workflow graph. It can search available nodes, create&amp;#x2F;connect&amp;#x2F;delete them, set values, run the queue, and see image outputs. The workflow is basically a JSON DAG, so each edit maps cleanly to a tool call.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47037167" target="_blank">Re: Show HN: Kai – A Telegram bot that turns Claude Co...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 16:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I have also been thinking about how to make claude more accessible to the less than super-adept web designer. I&amp;#x27;d like to know how it is being received?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47036960" target="_blank">Show HN: Million Dollar Chat</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-16 16:26 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Inspired by the Million Dollar Homepage, this is the Million Dollar Chat. People fill the chat&amp;#x27;s one million character brain, one character at a time. The Million Dollar Homepage of the AI age.&lt;p&gt;My initial design used one million tokens but I quickly discovered that tokens are not made equal which made it very difficult to reason about. Eventually, I settled on one million characters.&lt;p&gt;The ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47036656" target="_blank">Show HN: Multi-provider iOS usage alerts for AI subscription caps</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-16 15:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built AI Usage Tracker, an iOS app that warns you before AI subscription limits cut you off mid-session (e.g. 5-hour windows, weekly caps).
+I hit this daily while coding: I’d be deep in a session and suddenly hit the cap. Dashboards exist, but they’re not glanceable and there are no practical alerts&amp;#x2F;widgets.
+Supports multiple providers in a single screen - Anthropic, OpenAI, MiniMax, Z.ai, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47036018" target="_blank">Re: Show HN: API router that picks the cheapest model ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 15:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Backstory: I was building a customer support AI for a client last year. We started with Claude Opus for everything because it worked great. The bill was $250&amp;#x2F;month for maybe 10K conversations.&lt;p&gt;Then I looked at the actual queries. 70% were things like &amp;quot;what are your hours?&amp;quot; and &amp;quot;how do I return something?&amp;quot; — questions where a $0.80&amp;#x2F;M-token model gives the same answer...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47036011" target="_blank">Show HN: API router that picks the cheapest model that fits each query</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-16 15:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I got frustrated paying $60&amp;#x2F;M tokens for reasoning queries when a $0.80&amp;#x2F;M model gives comparable results for most of them. So I built Komilion — a model router that classifies each API request and routes it to a cheaper model that fits.&lt;p&gt;- Drop-in replacement for the OpenAI SDK (change one line: base_url)
+- Each query gets classified (regex fast path + lightweight LLM classifier) and ma...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47035660" target="_blank">Re: Anthropic tries to hide Claude's AI actions. Devs ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 14:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;quot;Hiding&amp;quot; is doing some heavy lifting here. You can run --json and see everything pretty much (besides the system prompt and tool descriptions)....&lt;p&gt;I love the terminal more than the next guy but at some point it feels like you&amp;#x27;re looking at production nginx logs, just a useless stream of info that is very difficult to parse.&lt;p&gt;I vibe coded my own ADE for this called OpenADE (&lt;a hre...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47035608" target="_blank">Re: Pentagon Threatens Anthropic Punishment...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 14:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;quot;Defense Secretary Pete Hegseth is &amp;#x27;close&amp;#x27; to cutting business ties with Anthropic and designating the AI company a &amp;#x27;supply chain risk&amp;#x27; — meaning anyone who wants to do business with the U.S. military has to cut ties with the company, a senior Pentagon official told Axios.&amp;quot;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47035304" target="_blank">Show HN: Claude Battery – usage at a glance. A minimalist macOS menu bar widget</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 4 comments |
+                2026-02-16 14:21 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN, this is nothing fancy, but a tool I built for myself as a minimalist way to track usage. Also (and probably more importantly), colleagues who are marketers, writers, designers, and other non-engineering backgrounds who are&amp;#x2F;becoming power users of Claude Cowork or Claude Code and needed to keep better watch of usage.&lt;p&gt;Once Opus 4.6 landed, I was quickly aware I needed to keep an eye on...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47035076" target="_blank">AI-powered Git CLI that generates commit messages automatically</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-16 14:04 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I got tired of context-switching to write commit messages and PR descriptions,
+so I built gut – a CLI that uses AI to handle the boring parts of git workflows.&lt;p&gt;Examples:
+  gut commit     → generates commit message from staged diff
+  gut pr         → generates PR title and description
+  gut review     → AI code review of your changes
+  gut find &amp;quot;login bug&amp;quot; → finds commits by vague descr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47035002" target="_blank">Show HN: Codex HUD – Claude-HUD Style Status Line for Codex CLI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-16 13:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built Codex HUD to make Codex CLI sessions easier to monitor without leaving the terminal.
+  It adds a real-time status line with:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  - active model
+  - project + git branch&amp;#x2F;dirty state
+  - 5h and 7d usage bars
+  - automatic Spark vs default limit selection
+
+  Quick install:
+
+  git clone https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;anhannin&amp;#x2F;codex-hud.git
+  cd codex-hud&amp;#x2F;Codex-HUD
+...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47034875" target="_blank">Show HN: Kai – A Telegram bot that turns Claude Code into a personal dev asst</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-16 13:47 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built Kai because I wanted Claude Code&amp;#x27;s full capabilities - shell access, file editing, git, web search - available from my phone, without being tied to a terminal.&lt;p&gt;Kai is a Telegram bot that wraps a persistent Claude Code process. You send messages in Telegram, and Claude responds with full tool access: it can read and edit files, run commands, manage git branches, search the web, and w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47034849" target="_blank">Ask HN: What happens after the AI bubble bursts?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 4 comments |
+                2026-02-16 13:44 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I keep hearing we’re in an AI bubble, but I’m struggling to visualize the day after scenario.&lt;p&gt;If the bubble pops (meaning these massive compute costs never turn into actual profits and the VC money dries up) what does the tech landscape look like?&lt;p&gt;A lot of us use Copilot, Claude, or ChatGPT daily for coding and docs. If the subsidized cheap access vanishes because these companies can&amp;#x27;t ea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47034752" target="_blank">Show HN: 2d platformer game built with Codex (zero code)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 4 comments |
+                2026-02-16 13:34 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">Hi HN!&lt;p&gt;On Sunday I spent a couple of hours building a short 2d platformer (&amp;quot;Prince of Persia&amp;quot; style). What&amp;#x27;s interesting is how I built it. I went for a zero-code approach, and built the whole thing using OpenAI Codex CLI and agent skills (with the &lt;i&gt;progressive disclosure&lt;/i&gt; paradigm).&lt;p&gt;You can play the game here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;acatovic.github.io&amp;#x2F;gothicvania-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47034485" target="_blank">Show HN: InitRunner – YAML to AI Agent with RAG, Memory, and an API</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-16 13:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I wanted a way to prototype an agent and have it serving requests in minutes, InitRunner is a YAML-first platform where one config file gives you a working agent with RAG, memory, and an API endpoint.&lt;p&gt;apiVersion: initrunner&amp;#x2F;v1
+kind: Agent
+metadata:
+  name: acme-support
+  description: Support agent for Acme Corp
+spec:
+  role: You are a support agent for Acme Corp.
+  model:
+    provider: open...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47034401" target="_blank">Re: Anthropic tries to hide Claude's AI actions. Devs ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 12:54 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">the hiding stuff is weird because the whole reason you&amp;#x27;d want to see what Claude is doing isn&amp;#x27;t just curiosity - it&amp;#x27;s about catching when it goes off the rails before it makes a mess. like when it starts reading through your entire codebase because it misunderstood what you asked for, or when it&amp;#x27;s about to modify files you didn&amp;#x27;t want touched. the verbose mode fix is good ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47034185" target="_blank">Show HN: KanVibe – Kanban board that auto-tracks AI agents via hooks</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-16 12:27 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I run multiple Claude Code agents in parallel across different branches. Checking each tmux session one by one to see which agent was working, waiting for input, or done was painful.&lt;p&gt;KanVibe is a self-hosted Kanban board for this. Three things it does:&lt;p&gt;- *Browser terminals*: Every task card has a live terminal (xterm.js). Click a task, see its output. No tmux attach needed.
+- *Hook-driven stat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47034062" target="_blank">Re: I received several friends' condolences written wi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 12:11 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">&lt;i&gt;I immediately remembered myself writing birthday congrats with LLMs and myself pushing every email through Claude, putting linguistic perfection over authenticity.&lt;/i&gt;&lt;p&gt;Being charitable, one could argue that you spent extra time because you cared - which, hopefully, is what your friends are doing. Some people send sympathy cards from Hallmark for the same reason - to express what they find dif...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=47033722" target="_blank">Show HN: Claude Relay – Web UI for Claude Code, zero install, push notifications</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-16 11:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a local relay server that puts Claude Code in your browser.&lt;p&gt;No signup, no install, no cloud. Just &amp;quot;npx claude-relay&amp;quot;.&lt;p&gt;The problem: Claude Code runs in the terminal. When it needs approval for a command, you have to be staring at that terminal. Walk away for coffee, and it sits there waiting.&lt;p&gt;claude-relay runs a local WebSocket server that streams Claude Code&amp;#x27;s output t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://news.ycombinator.com/item?id=47033594" target="_blank">Re: Show HN: ClawSouls – Open registry of shareable pe...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-16 11:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">My thesis: changing soul is the future of prompt engineering.&lt;p&gt;Right now, prompt engineering means re-explaining your preferences every session. A soul packages that into installable markdown files — personality, style, behavior rules — that persist across sessions and are shareable like any other code.&lt;p&gt;Built this in 2 weeks as a solo dev. 79 curated souls so far. The spec is intentionally simp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                24. <a href="https://news.ycombinator.com/item?id=47033385" target="_blank">Show HN: Vocalinux // 100% offline voice typing for Linux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-16 10:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Show HN: Vocalinux – 100% offline voice typing for Linux
+I built this because I wanted voice dictation without sending my voice 
+data to cloud services.
+Vocalinux is a privacy-focused, open-source dictation tool that runs 
+entirely on your Linux machine:
+- Local speech recognition (whisper.cpp, VOSK, or OpenAI Whisper)
+- Works offline, no network required
+- Universal compatibility (X11&amp;#x2F;Waylan...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>16</strong> items collected |
+                Last updated: 2026-02-20 17:29
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47090635" target="_blank">Re: No Skill. No Taste...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 17:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Application design is still a challenge. I had Monday off and vibe-coded up an app that I&amp;#x27;ve been wanting to use for years. The thing is, I can tell it&amp;#x27;s going to be challenging to make it something sticky that I actually use.&lt;p&gt;Which makes sense. The reason I wanted to make this app is that there are two very popular paid apps in the same category that I use every day that don&amp;#x27;t qu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47090522" target="_blank">Re: Beware Project-Wrecking GitHub Copilot Premium SKU...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 16:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">n the middle of an AI project, I unknowingly blew through my Copilot Pro quota and got auto‑downgraded. Output tanked, panic ensued, and my chat buddy and I had words. Moral: always read the fine print.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47090181" target="_blank">Show HN: Prothon – docs-first Python project generator for AI development</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-20 16:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Prothon is a Python project generator that scaffolds a uv-based project with eight quality tools (ruff, ty, pytest, hypothesis, mutmut, bandit, vulture, complexipy) and a documentation-driven workflow for AI coding agents.&lt;p&gt;The problem it solves: AI assistants lose context between sessions and drift from your decisions as context windows fill up. Prothon addresses this with three ideas:&lt;p&gt;1. A th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47089757" target="_blank">Show HN: Expectllm – &quot;expect&quot;-style pattern matching for LLM conversations</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-20 16:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been experimenting with agent frameworks and noticed that many workflows reduce to a simple pattern:&lt;p&gt;- Send input
+- Wait for a pattern
+- Branch on the match&lt;p&gt;This is essentially the classic Unix expect model, but applied to LLM conversations.&lt;p&gt;So I built expectllm — a minimal pattern-matching conversation flow library (365 lines of code).&lt;p&gt;Example:&lt;p&gt;&lt;pre&gt;&lt;code&gt;    from expectllm im...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47089434" target="_blank">Re: Show HN: My 7 year old makes games with AI, I made...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 15:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">My 7-year-old uses Claude on his iPad to make games. He can barely read but uses voice to describe what he wants. He can read enough to make text edits when voice transcription gets it wrong. It&amp;#x27;s been pretty cool to see where his imagination takes him, and I wanted a way for him to be able to easily publish and share games he (and others) make, so I made www.kidhubb.com.&lt;p&gt;Paste HTML, get a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47089103" target="_blank">Re: Cothought: A Markdown zettelkasten journal for you...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 15:20 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">A rash of these second mind type tools have emerged, but they all seem overly focused (business or whatever), or performative.&lt;p&gt;This one started from me just typing stuff into Claude Code, then adding more ideas and skills &amp;#x2F; formatting changes as I went until it grew into something useful enough I started telling other people about what it&amp;#x27;s done for me. Then they asked me to share it s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47089055" target="_blank">Show HN: OpenGUI – Desktop GUI for OpenCode with prompt queuing</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-02-20 15:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN. I built a desktop GUI for OpenCode (opencode.ai), the open-source AI coding assistant. Multitasking and orchestration is complicated in the TUI. I wanted to queue prompts while the AI is busy, fork conversations to try different approaches, and revert entire exchanges when things go sideways. None of that fits well in a terminal. OpenGUI is an Electron + React app that wraps OpenCode and a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47088813" target="_blank">Show HN: Tropes.fyi – Name and shame AI writing</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-02-20 14:58 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Today I come to you on this beautiful Friday with a freshly hardthink-ed solution to a proliferous problem plaguing our world: the loss of original voice. The blanket of blandness slowly suffocating centuries of writing.&lt;p&gt;Or to put it bluntly: AI writing is trash.&lt;p&gt;It is disrespectful to expect ME to read something YOU could not even be bothered to write (or likely even read).
+The lingering huma...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47088761" target="_blank">Show HN: OSS Durable Memory for LLMs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-20 14:53 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Today we’re open-sourcing the core memory engine behind Mnexium.com : CORE-MNX&lt;p&gt;GItHub (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;mnexium&amp;#x2F;core-mnx&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;mnexium&amp;#x2F;core-mnx&lt;/a&gt;)
+NPM (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.npmjs.com&amp;#x2F;package&amp;#x2F;@mnexium&amp;#x2F;core&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.npmjs.com&amp;#x2F;package&amp;#x2F;@mnexium&amp;#x2F;core&lt;/...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47088420" target="_blank">Re: Show HN: tnnl - Self-hosted ngrok alternative with...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 14:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Built this because ngrok&amp;#x27;s free tier got too restrictive and the alternatives either don&amp;#x27;t do HTTP subdomain routing or need 50 lines of TOML to get started.&lt;p&gt;tnnl is two modes in one binary - run `tnnl server` on a VPS, then `tnnl http 3000` on your machine. You get a public HTTPS subdomain instantly. No account, no signup, no interstitial page.&lt;p&gt;Pass --inspect to see full request&amp;#x2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47087747" target="_blank">Re: Show HN: InkSight – An open-source, LLM-powered e-...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 13:23 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I’m sharing an open-source project out of our lab called InkSight (code-named inco). Like many of us, our team found ourselves constantly distracted by notifications, glowing monitors, and endless doomscrolling on our phones. We wanted a way to consume high-quality, low-frequency information (like a Stoic quote, a minimalist daily briefing, or a quick recipe) without the cognitive load of...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47086992" target="_blank">Re: Show HN: Geo-lint – open-source linter for GEO (AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 12:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I run multiple content-heavy sites and got tired of one thing: there was no
+deterministic way to validate with the AI agent whether my content was actually optimized. Not
+&amp;quot;probably fine&amp;quot; — actually checked against concrete rules, both for traditional
+search and for AI search engines.&lt;p&gt;SEO linters exist, but they&amp;#x27;re either paid SaaS, not automatable, or ignore
+the structural pattern...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47086913" target="_blank">Show HN: OkaiDokai, tool-level firewall for OpenClaw, Claude Code and Codex</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                11 points | 0 comments |
+                2026-02-20 11:57 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">Hey HN, Sascha here, developer of OkaiDokai. Like many others, I fell in love with OpenClaw, but was longing for more control over what it can do without interrupting its autonomous, agentic nature. OkaiDokai solves this for me by allowing me to set up my own rule set of what is allowed by default, what is not, and what it should ask permission for. It comes with a hosted API, web and native apps ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47086383" target="_blank">Show HN: Legal RAG Bench</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-20 10:58 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN,
+This is Legal RAG Bench, the first benchmark for legal RAG systems to simultaneously evaluate hallucinations, retrieval failures, and reasoning errors.&lt;p&gt;The key takeaways of our benchmark are:
+ 1. Embedding models, not generative models, are the primary driver of RAG accuracy. Switching from a general-purpose embedder like OpenAI&amp;#x27;s Text Embedding 3 Large to a legal domain embedder li...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47086241" target="_blank">Re: Show HN: VaultAI – 42 AI models on a portable SSD,...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 10:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN — maker here.&lt;p&gt;Quick context on why I built this: I was personally spending ~$1,200&amp;#x2F;month on Claude API (I use it for everything — coding, writing, analysis). That’s $14,400&amp;#x2F;year. Even if I dropped to a single $20&amp;#x2F;month sub, every query I send tells Anthropic what I’m working on, what I’m thinking about, what problems I have.&lt;p&gt;I wanted Claude-quality inference without the c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47086059" target="_blank">Re: Show HN: Behavr – Run realistic user simulations o...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-20 10:17 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN, I built Behavr - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;behavr.ai&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;behavr.ai&amp;#x2F;&lt;/a&gt; - it runs AI agents through your Figma prototypes to find UX issues in minutes, providing quantitative and qualitative UX insights.&lt;p&gt;The Problem: 
+Most product teams either skip UX research entirely or spend weeks (even months) testing. This is expensive and time consuming. Beh...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

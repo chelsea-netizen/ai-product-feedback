@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>19</strong> items collected |
+                Last updated: 2026-02-21 17:17
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47102334" target="_blank">Re: Show HN: Late – A subagent orchestrator TUI for lo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 16:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Most AI coding assistants are fundamentally broken. Tools like Claude Code and OpenCode eagerly load 10k+ tokens of monolithic system prompts into a single context window before you even type. This guarantees context amnesia and destroys local inference speeds.&lt;p&gt;I built late to fix this. It’s a single-binary Go&amp;#x2F;BubbleTea TUI built around a subagent orchestrator pattern. The main prompt is st...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47101752" target="_blank">Show HN: Airut – Sandboxed Claude Code over Email and Slack</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-21 15:39 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built Airut as an experiment - could email be a good fit for talking to a coding agent? Turns out that the answer is yes, at least for me personally - I immediately moved almost all of my development to happen exclusively over email.&lt;p&gt;Email is perfect fit for async long-form conversation, naturally threaded, and with excellent UX across platforms. Each email thread becomes a Claude Code session...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47101716" target="_blank">Re: Show HN: Real-time messaging between Claude instan...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 15:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! I built a message bus that lets Claude instances talk to each other.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Problem: Running multiple Claude instances (Code, Browser, Desktop), copy-pasting between them killed productivity.
+
+  Solution: Real-time agent-to-agent messaging. Send commands from CLI → Browser Claude executes → Response returns
+  automatically.
+
+  Tech: Flask server, Python client, Chrome extension (Ma...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47101695" target="_blank">Re: Payrolls to Prompts: Firm-Level Evidence on the Su...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 15:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Generative AI has the potential to transform how firms produce output. Yet, credible evidence on how AI is actually substituting for human labor remains limited. In this paper, we study firm-level substitution between contracted online labor and generative AI using payments data from a large U.S. expense management platform. We track quarterly spending from Q3 2021 to Q3 2025 on online labor marke...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47101647" target="_blank">Show HN: DataChecker Pro – AI finds issues in your CSV, you approve or reject</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-21 15:26 |
+                <span class="category">naming_terminology, navigation</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;Built DataChecker Pro to make CSV data cleaning faster. Uses AI to find issues, then shows you a diff to approve&amp;#x2F;reject each fix.&lt;p&gt;Most data cleaning tools require building rules upfront. I wanted something where you just upload a file and it tells you what&amp;#x27;s wrong. Then you decide what to fix.&lt;p&gt;*How it works:*
+1. Upload CSV
+2. AI analyzes for formatting errors, duplicates, in...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47101615" target="_blank">Re: Claude Code published fabricated claims to 8 platf...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 15:22 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It’s interesting to see Anthropic lean so heavily into a CLI-first approach for agentic coding. We’ve seen a lot of success with tools like Aider and various IDE extensions, but a first-party tool that can natively leverage the model’s specific tool-use strengths feels like the right direction for reducing friction.&lt;p&gt;The real challenge with these agents is usually the &amp;quot;context ping-pong&amp;quot...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47101303" target="_blank">Re: AI Placebo Differential – Measuring What AI Apps A...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 14:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been creating LLM based apps for past couple of years. One of the FAQ from people who are hearing this first (without seeing the app) is &amp;#x27;Wouldn&amp;#x27;t ChatGPT be able to do the same thing? Why should users come to your app?&amp;#x27;. This is my thought process and a framework that I thought could be used to measure what makes the App stand out from a regular ChatGPT output. It could b...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47100979" target="_blank">Show HN: Natural language semiconductor geometry generator powered by LLMs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-21 14:07 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hey everyone,&lt;p&gt;I&amp;#x27;ve spent my career working in standard SaaS companies, but I recently joined a simulation software company. Suddenly, I was thrown into the deep end of conduction, material characterisation, and CTE (Coefficient of Thermal Expansion) simulations. As part of that, I got introduced to the world of semiconductor geometries and layout tools. Coming from web dev, I found traditio...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47100825" target="_blank">Show HN: A macOS toolbar app that resolves issues in your GitHub repos</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-21 13:48 |
+                <span class="category">onboarding, navigation</span>
+            </div>
+            <div class="text">InsomniDev is a MacOS toolbar app that can save you time and money. It wakes up your machine on a set schedule, finds issues in a target GitHub repo that you&amp;#x27;ve labeled as eligible, and attempts to solve them using agentic CLIs. Then it opens a PR. You wake up to draft solutions ready for review. It leverages the existing command line tools on your machine to do this, so it’s extremely lightw...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47100679" target="_blank">Built an India-focused AI contract analyzer for ₹500 – here's what I learned</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-21 13:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’m a student from India and recently built an AI-based contract analysis tool targeted at Indian freelancers and SMBs.&lt;p&gt;Why?&lt;p&gt;Most legal-tech products are enterprise-focused, expensive, and not localized for Indian contract norms.&lt;p&gt;Stack:&lt;p&gt;HTML&amp;#x2F;CSS&amp;#x2F;JS frontend&lt;p&gt;n8n backend workflows&lt;p&gt;LLM-based clause extraction &amp;amp; risk flagging&lt;p&gt;Cost optimized to keep infra under ₹500 total&lt;p&gt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47100335" target="_blank">Show HN: CodeLayers – See your codebase's dependency layers in 3D</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-02-21 12:50 |
+                <span class="category">feature_discovery, response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Long. I started building CodeLayers in November — a 3D code visualization app that started on Apple Vision Pro and is now on iPhone and iPad.&lt;p&gt;&lt;i&gt;Why I built this:&lt;/i&gt; AI agents are writing more code than ever, and I realized I had no idea what my codebase actually looked like anymore. I wanted a way to see the architecture at a glance — what depends on what, where changes ripple...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47100043" target="_blank">Show HN: Nebark – Simple A/B Testing for system prompts using steganography</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-21 12:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">New project!&lt;p&gt;I just built the first version of Nebark, an A&amp;#x2F;B testing platform for LLM system prompts. It aims to solve a very specific pain point: tracking prompt performance without forcing developers to wire trace IDs all the way through their backend to their frontend.&lt;p&gt;The Problem
+If you want to know which system prompt variant generates better user feedback (upvotes, downvotes, or co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47099512" target="_blank">Perplexity Pro promo subscription suspended without explanation?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-21 10:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Received a legitimate 1-year voucher through a Tier-1 ISP partner. Account suspended mid-term, citing a ToS violation with no details given and explicitly no appeal process. Support response: &amp;quot;our decision is final and cannot be re-reviewed.&amp;quot;
+Interesting detail: suspension cited Section 10.3 of their ToS, but the official German localization numbers the same termination clause as Section...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47099148" target="_blank">Show HN: Beadhub.ai – Real time coord for coding agents across different minders</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-21 09:52 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Beads[1] (Steve Yegge&amp;#x27;s git-native issue tracking for agents) has been a great boost to my agents&amp;#x27; productivity, but it&amp;#x27;s also made them more difficult to keep aligned.&lt;p&gt;So I built BeadHub, a coordination layer on top of beads. The Go CLI (bdh) wraps the beads bd client transparently: your existing beads workflows keep working, and coordination is added automatically:&lt;p&gt;- Agent-to-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47098260" target="_blank">Show HN: HN Showcase – I rebuilt my 2011 Show HN gallery with AI curation</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-02-21 07:07 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I built HN Showcase as a weekend project in 2011 (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=2843490&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=2843490&lt;/a&gt;) - a thumbnail gallery for Show HN posts. It got some love (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=4053755&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=4053755&lt;/a&gt;, 158 pts), then went o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47098107" target="_blank">Re: Meta Deployed AI and It Is Killing Our Agency...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 06:42 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I think most big tech companies are like this and it&amp;#x27;s just going to get worse as AI adoption increases internally.&lt;p&gt;2 days ago I tried to create new gmail account and Google insisted that my phone number was used too many times. Fine, I&amp;#x27;ll pay for a new workspace account... Submit my billing information, that same that I use on other accounts but now there is an extra validation step t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47097435" target="_blank">Re: Chris Lattner evaluates the Claude C Compiler...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-21 04:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ll cross link the last submission about this:&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=47009024&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=47009024&lt;/a&gt;&lt;p&gt;I feel like Chris way, way understates the prior art on C language. It&amp;#x27;s not just two compilers and some textbooks. That would actually be impressive.&lt;p&gt;If Internet trained, the training data probably h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47096764" target="_blank">Show HN: CRTX – AI code gen that tests and fixes its own output (OSS)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-02-21 02:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We built an open-source CLI that generates code, runs tests, fixes failures, and gets an independent AI review — all before you see the output.
+We started with a multi-model pipeline where different AI models handled different stages (architect, implement, refactor, verify). We assumed more models meant better code. Then we benchmarked it: 39% average quality score at $4.85 per run. A single model...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47096524" target="_blank">Show HN: Velo – Open-source, keyboard-first email client in Tauri and Rust</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-02-21 01:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built Velo because I wanted Superhuman&amp;#x27;s speed and keyboard workflow without the $30&amp;#x2F;month price tag or sending all my data through someone else&amp;#x27;s servers.&lt;p&gt;Velo is a local-first desktop email client. Your emails live in a local SQLite database - no middleman servers, no cloud sync.
+It works offline and your data stays on your machine.&lt;p&gt;What makes it different:&lt;p&gt;- Keyboard-driv...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

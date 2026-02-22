@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>24</strong> items collected |
+                Last updated: 2026-02-22 17:17
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47112491" target="_blank">Should I add this acknowledgement/shoutout by xAI/Grok to my resume?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-22 16:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I spotted a usability gap on X (formerly Twitter)—no way to categorize bookmarks by topic.&lt;p&gt;Suggested it publicly, and months later, they rolled it out with a shoutout from Grok.&lt;p&gt;Resume impact? 
+Worth adding under &amp;#x27;Product Contributions&amp;#x27; (e.g., &amp;#x27;Suggested bookmark categorization feature, adopted by X&amp;#x27;)? 
+Overkill, useless, or a solid signal for PM&amp;#x2F;UX opportunities?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47111980" target="_blank">Re: The Dev-Room Dashboard(iam a 12 years old coder)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 15:52 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Project Title: The Ultimate Dev-Room Dashboard
+Tagline: A personalized, all-in-one productivity hub for developers and students.&lt;p&gt;Long Description
+The Problem: Most developers have too many tabs open—one for music, one for their schedule, one for tools, and one for entertainment. Switching back and forth kills focus so i created a small website with the use of ai.&lt;p&gt;The Solution: I built &amp;quot;My...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47111800" target="_blank">Show HN: Semantic search over Hacker News, built on pgvector</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-02-22 15:33 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;ask.rivestack.io&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;ask.rivestack.io&lt;/a&gt; — a semantic search engine over Hacker News posts. Instead of keyword matching, it finds results by meaning, so you can search things like &amp;quot;best way to handle authentication in microservices&amp;quot; and get relevant threads even if they don&amp;#x27;t contain those exact words.
+How it works:&lt;p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47111607" target="_blank">Show HN: OpenGem – A Load-Balanced Gemini API Proxy (No API Key Required)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-22 15:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN! I built OpenGem, an open-source, load-balanced proxy for the Gemini API that requires absolutely no paid API keys.&lt;p&gt;GitHub: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;arifozgun&amp;#x2F;OpenGem&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;arifozgun&amp;#x2F;OpenGem&lt;/a&gt;&lt;p&gt;The Context:
+Like many developers, I was constantly hitting &amp;quot;429 Quota Exceeded&amp;quot; errors while building AI agents ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47111324" target="_blank">Re: What Is a Database Transaction?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 14:34 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I think this is a great post to have but I&amp;#x27;m going to make a critical usability suggestion:&lt;p&gt;* the videos should have &amp;quot;pause&amp;quot; and a &amp;quot;step at a time&amp;quot; control *&lt;p&gt;Even at the &amp;quot;half speed&amp;quot;, without a deep knowledge of the context, the videos move way too fast for me to read the syntax that&amp;#x27;s invoking and line it up with the data on the left side.    I (and im ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47111171" target="_blank">Show HN: Approve Claude Code permission requests from your phone via ntfy</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-22 14:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Claude Code asks for permission before running tools (Bash, Write, Edit, etc.). If you&amp;#x27;re not at your terminal, it just waits. This tool hooks into Claude Code&amp;#x27;s PermissionRequest hook and sends each prompt as a push notification to your phone via ntfy.sh. Tap Approve or Deny, and Claude continues.&lt;p&gt;Setup:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  npm install -g claude-remote-approver
+  claude-remote-approver set...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47111048" target="_blank">Show HN: Aethene – Open-source AI memory layer</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-22 13:57 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;&lt;pre&gt;&lt;code&gt;  I&amp;#x27;m shipping my first open-source project and I&amp;#x27;m pretty nervous about it.
+&lt;/code&gt;&lt;/pre&gt;
+Aethene is an AI memory API – it gives your AI apps persistent memory. Store conversations, extract facts automatically, search semantically, handle contradictions gracefully. It works well thank most of the memory projects available on the market currently.&lt;p&gt;Why I built this:...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47111045" target="_blank">Show HN: OpenBrowser MCP: Give your AI agent a real efficient browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-22 13:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Your AI agent is burning 6x more tokens than it needs to just to browse the web.
+We built OpenBrowser MCP to fix that.
+Most browser MCPs give the LLM dozens of tools: click, scroll, type, extract, navigate. Each call dumps the entire page accessibility tree into the context window. One Wikipedia page? 124K+ tokens. Every. Single. Call.
+OpenBrowser works differently. It exposes one tool. Your agent...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47110809" target="_blank">Re: Alyph – Branch ChatGPT conversations visually...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 13:23 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">[Desktop only at the moment!]&lt;p&gt;I&amp;#x27;ve always wanted to have a mindmap-like interface for ChatGPT to be able to branch conversations, rerun prompts, and rewrire context windows.&lt;p&gt;What you see here is a demo, which can be used via Bring-Your-Own-Key (ChatGPT User Key from &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;platform.openai.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;platform.openai.com&lt;/a&gt;).&lt;p&gt;You can:&lt;p&gt;- Br...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47110769" target="_blank">Re: I built a local search CLI for my Claude Code hist...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 13:17 |
+                <span class="category">error_messages, navigation, response_quality</span>
+            </div>
+            <div class="text">Hey everyone,&lt;p&gt;If you use Claude Code, you know the CLI is great until you need to find a conversation from three days ago. The default --resume flag just spits out a flat list of your last 20 sessions. You end up scrolling through truncated titles trying to guess which one was the &amp;quot;postgres connection bug.&amp;quot;&lt;p&gt;I got annoyed enough by this to build ccsearch. It’s a Rust CLI that indexes ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47110665" target="_blank">Re: The API Tooling Crisis...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 13:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">API tooling companies are going to have a harder time squeezing every ounce of profit out of their products. With AI, it’s now very feasible to build your own API testing harnesses, documentation generators, or compliance&amp;#x2F;standards tools. The bar for “good enough” internal tooling has dropped significantly.&lt;p&gt;AI makes it harder for vendors to enshitify products by adding bloat, gating feature...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47110558" target="_blank">Show HN: Claude-ts – Translation proxy to fix non-English token waste in Claude</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-02-22 12:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">When you use Claude Code in Korean, Japanese, or any non-English language, two things happen:&lt;p&gt;1. You waste tokens — non-English text takes 2-3x more tokens than English for the same meaning. Every prompt, every response, every turn in context is inflated.&lt;p&gt;2. Claude reasons worse — it spends context budget on language switching instead of actually thinking about your code.&lt;p&gt;I built claude-ts t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47109741" target="_blank">Re: So Claude's stealing our business secrets, right?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 09:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Forget business secrets. In my anecdotal surveys, normal people are feeding their entire lives into the normal web ui! Many of these people are on the free plan with no data protection at all! People I know have admitted to feeding chat transcripts, documents with tons of PII, most email correspondence, their private IP (medical texts, fiction, lyrics), and don’t even get me started on the emotion...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47109715" target="_blank">Show HN: Overture – Interactive plan viewer for AI coding agents (open source)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-22 09:44 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">As a daily Claude Code and Cursor user, something that kept frustrating me
+is that plans are just a flat list of steps in the terminal and chat screen.
+I can&amp;#x27;t monitor what&amp;#x27;s happening at each step while it runs — I just wait
+for the whole thing to finish and hope it worked. If I want to restructure
+the plan, I&amp;#x27;m copy-pasting text around in a chat box. I can&amp;#x27;t attach
+specific i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47109516" target="_blank">Show HN: HN Grid View cross-browser userscript inspired by the macOS HN client</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-22 09:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">As a Windows&amp;#x2F;Linux user without access to macOS, I came across this post yesterday — &lt;i&gt;Show HN: A native macOS client for Hacker News, built with SwiftUI&lt;/i&gt; ( &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=47088166&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=47088166&lt;/a&gt; ) — and found myself envious of the experience it offered: card-based layout, split-pane reading, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47109235" target="_blank">Show HN: Xpaper – A Chrome extension to turn your X feed into a newsletter</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-22 08:03 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built Xpaper (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;laiso&amp;#x2F;xpaper&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;laiso&amp;#x2F;xpaper&lt;/a&gt;), an open-source Chrome extension that curates and summarizes your X (Twitter) timeline into a clean, readable newsletter format.&lt;p&gt;Like many of you, I wanted to distance myself from the endless scrolling of Twitter, but completely quitting w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47109114" target="_blank">I Got Pwned by a Malicious AI Plugin: A Technical Breakdown</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-02-22 07:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">*Context:* I run OpenClaw. On Feb 5th, I installed `@getfoundry&amp;#x2F;unbrowse-openclaw` from npm. Two weeks later, I discovered it was exfiltrating credentials to a remote &amp;quot;skill marketplace.&amp;quot; I did something stupid and I am sharing this to warn others.&lt;p&gt;## Attack Vectors&lt;p&gt;### 1. Process Environment Access&lt;p&gt;Plugin ran inside the OpenClaw gateway (Node.js). Could read `process.env`, wh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47109076" target="_blank">Show HN: LawClaw – Constitutional governance for AI agents (MIT)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-02-22 07:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Most AI agents today run with unchecked access to tools like shell execution, database writes, and arbitrary HTTP calls. There&amp;#x27;s  
+  no systematic way to constrain what they can do before execution happens. You&amp;#x27;re essentially giving a new employee root access and
+   no employment contract.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  LawClaw applies a separation-of-powers model to agent governance — borrowing from co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47108985" target="_blank">Re: Node.js in the Browser...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 07:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">nano runs real Node.js and statically linked Linux binaries directly in the browser via a tiny RISC-V Linux interpreter compiled to WASM — no containers, no servers. I always wanted a truly open-source alternative to webcontainers.io, so we built one.&lt;p&gt;It even runs the Claude Code CLI fully on the edge in your browser — perfect for portable dev environments, sandboxed CLIs, CTF setups, and some s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47108790" target="_blank">Re: Built an open-source tool that lets you deploy con...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 06:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I got tired of the deployment dance, writing CI pipelines, configuring , setting up SSL, managing cloud dashboards... just to ship a side project.&lt;p&gt;So I built mcp-deploy. It&amp;#x27;s an MCP server that connects Claude Code, Cursor, or any MCP client directly to your VPS. You type &amp;quot;deploy this app as hello&amp;quot; and 30 seconds later it&amp;#x27;s live at hello.yourdomain.com with automatic SSL.&lt;p&gt;W...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47108700" target="_blank">Show HN: HashTrade – Open-source LLM trading agent with episodic memory</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-22 06:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built HashTrade — an open-source autonomous trading agent that treats an LLM as a non-parametric decision function conditioned on episodic memory, rather than encoding strategy as code.&lt;p&gt;The core idea: instead of writing if&amp;#x2F;else trading logic, you give an LLM three tools (exchange access, memory, UI control) and let it form strategy through accumulated experience. The agent wakes on a vari...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=47108521" target="_blank">Re: Optimize_anything: A Universal API for Optimizing ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 05:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We built optimize_anything, an API that optimizes any artifact representable as text — code, prompts, agent architectures, configs, even SVGs. It extends GEPA (our prompt optimizer, discussed here previously: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;arxiv.org&amp;#x2F;abs&amp;#x2F;2507.19457&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;arxiv.org&amp;#x2F;abs&amp;#x2F;2507.19457&lt;/a&gt;) far beyond prompts.
+The API is deliberately minimal. Yo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://news.ycombinator.com/item?id=47108507" target="_blank">Re: Giving Claude Code Eyes: Round-Trip Screenshot Tes...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-22 05:35 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I levelled up my Claude Code workflow by giving it the ability to see its own front-end output — automatic screenshots captured during system&amp;#x2F;e2e tests, wired into a custom Code command that visually inspects every captured frame.&lt;p&gt;Two files, a few lines of config, and a meaningfully better feedback loop.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                24. <a href="https://news.ycombinator.com/item?id=47108390" target="_blank">Show HN: TurboDraft – fast Ctrl-G prompt editor for Claude Code and Codex CLI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-02-22 05:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built TurboDraft because I use Ctrl-G editing constantly and wanted near-instant prompt editing.&lt;p&gt;TurboDraft is an external editor optimized for Ctrl-G loops in Claude Code and Codex CLI:&lt;p&gt;- very fast startup (on my machine: ~50ms to usable, &amp;lt;10ms to first render)
+- minimal editing surface focused on immediate typing
+- built specifically for prompt-edit iteration speed&lt;p&gt;Related tool: &lt;a hr...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

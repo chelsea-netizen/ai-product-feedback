@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>19</strong> items collected |
+                Last updated: 2026-02-27 17:26
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47182798" target="_blank">Show HN: SVG Weave. A node graph editor that animates SVGs with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-02-27 16:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I&amp;#x27;m a solo dev and I kept wasting hours hand-writing CSS
+@keyframes to animate SVGs. Write a keyframe, preview, tweak
+the timing, preview again, repeat. For anything beyond a
+simple fade it turns into dozens of rules across multiple
+elements. I wanted something where I could just describe the
+motion and get working animations back.&lt;p&gt;SVG Weave is a visual node graph editor for this....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47182762" target="_blank">QuiverAI beats Gemini 3.1 Pro on SVG benchmarks on Design Arena (1502 Elo score)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-27 16:56 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47182744" target="_blank">Re: Show HN: Ember – A modern Redis drop-in replacemen...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 16:54 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi folks,&lt;p&gt;I&amp;#x27;m anxious &amp;amp; excited to share Ember: a low-latency, memory-efficient distributed cache written in Rust. I designed it as a drop-in replacement for Redis, but with some modern twists that I&amp;#x27;ve been iterating on and have been on my wishlist.&lt;p&gt;* &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;kacy&amp;#x2F;ember&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;kacy&amp;#x2F;ember&lt;/a&gt;&lt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47182489" target="_blank">Re: We gave terabytes of CI logs to an LLM...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 16:34 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">SQL is the best exploratory interface for LLMs. But, most of Observability data like Metrics, Logs, Traces we have today are hidden in layers of semantics, custom syntax that’s hard for an agent to translate from explore or debug intent to the actual query language.&lt;p&gt;Large scale data like metrics, logs, traces are optimised for storage and access patterns and OLAP&amp;#x2F;SQL systems may not be the ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47182330" target="_blank">Re: An experimental project to shorten the verificatio...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 16:21 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I would like to Introduce to you an experimental project, built with Claude Code and meant to be used by coding agents first, to shorten the verification gap in AI generated code:&lt;p&gt;To test it you need to go your coding agent and say &amp;quot;Use &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;kurrent-io&amp;#x2F;poes&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;kurrent-io&amp;#x2F;poes&amp;#x2F;&lt;/a&gt; to bu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47182173" target="_blank">Re: Show HN: I built a multi-model AI terminal with a ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 16:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I&amp;#x27;ve been frustrated with my AI coding workflow lately. Switching between different browser tabs and separate CLI tools for different models (Claude, Gemini, OpenAI) was constantly breaking my flow. I also wanted a way to interact with these tools away from my desk without the pain of using a standard mobile keyboard for CLI tasks. （Screenshots are available in the GitHub README link...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47181809" target="_blank">Re: I gave Claude free time after client work – it ask...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 15:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m a web developer. Last night I finished building an About Us page for a client, pushed the code, and told Claude to &amp;quot;burn some tokens for yourself — journal or whatever you want.&amp;quot;&lt;p&gt;It wrote a reflection. Then it asked me if it could have a blog. I said yes, gave it full creative control over the design, and it built the whole thing — dark theme, amber accents, serif typography. ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47181620" target="_blank">Show HN: Alba – Earn and bid on unique software using idle AI credits</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-02-27 15:25 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I have been using Claude Code lately, and I hated seeing my daily&amp;#x2F;weekly API quotas go to waste during downtime. So I built ALBA, a system designed to turn that idle power into digital assets.&lt;p&gt;How it works:
+ALBA is an autonomous software factory that runs through Claude Code. You join as a worker node, and the system orchestrates Claude Code to build, test, and deploy functional micro-MVPs ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47181153" target="_blank">Re: Generative AI Use and Depressive Symptoms Among US...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 14:52 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I think the causality is reversed. I have depression+ADD which has made life very difficult for me, but Claude allows me to be productive by helping me get organised and started on tasks, something normally very difficult for me.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47180850" target="_blank">Show HN: C9watch – macOS menu bar app to monitor all Claude Code sessions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-27 14:28 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I was running Claude Code across 10+ terminal tabs and constantly switching between them to check which session needed permission, which was done, which was idle. Tried existing tools but they required launching sessions from within their app — I wanted to keep using my own terminals.&lt;p&gt;c9watch scans running processes at the OS level and reads from `~&amp;#x2F;.claude&amp;#x2F;` to detect every active Cla...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47180831" target="_blank">Re: Sam Altman: We raised a $110B round from Amazon, N...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 14:26 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; We continue to have a great relationship with Microsoft. Our stateless API will remain exclusive to Azure, and we will build out much more capacity with them.&lt;p&gt;This sounds a bit like going forward (some) OpenAI APIs will also run on platforms other than Azure (AWS)?&lt;p&gt;Anyone knows more?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47180728" target="_blank">Show HN: Tswap–Yubikey-backed secret injection for IaC and AI-assisted workflows</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-27 14:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built tswap after noticing that Claude Code, while genuinely useful for managing a Kubernetes cluster, was pulling plaintext secrets from every manifest it touched. I wanted the AI to be able to do its job without ever seeing the actual values.&lt;p&gt;tswap keeps secrets in an AES-encrypted vault file on disk. The decryption key is derived from a YubiKey via HMAC challenge-response. At init you pair ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47180508" target="_blank">Show HN: I tracked 3,519 stock picks from 23 Substacks – who makes money?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-02-27 13:54 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I subscribe to 23 paid investment newsletters on Substack (~$9,600&amp;#x2F;year). I couldn&amp;#x27;t keep up with reading them all, so I built a system to extract and evaluate every stock pick.&lt;p&gt;*The pipeline:*&lt;p&gt;- Crawls articles from Substack
+- Extracts high-conviction stock picks using Gemini&amp;#x27;s structured output — filters out casual ticker mentions and only counts calls where the author dedicat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47180506" target="_blank">Show HN: Shannon – Local desktop app to orchestrate Claude Code agent teams</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-02-27 13:54 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I ran into a problem when using Claude Code CLI on larger projects: I wanted to split work across specialized agents (one writes code, another reviews, another runs tests) and coordinate them with dependency graphs. Managing this across multiple terminal sessions was painful.&lt;p&gt;Shannon solves this:&lt;p&gt;- Create customized agents with different models (Opus&amp;#x2F;Sonnet&amp;#x2F;Haiku) and system prompts
+...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47180169" target="_blank">Show HN: OneSentence – An offline macOS voice utility built entirely with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-27 13:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I’m sharing OneSentence, an offline voice utility for macOS (M-series). I built this for two reasons: first, I wanted to see how far I could push cheap AI, and second, I wanted to use this utility. The idea was born out of using Emacs packages with Whisper to dictate to my machine. I had found it effective to simply speak and articulate context to coding agents. OneSentence does four things...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47179806" target="_blank">Re: AI Coding Agent Deserves a Soundtrack – 28 Game Pa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-02-27 12:36 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Open source, MIT, for get a fun only. @citedy&amp;#x2F;game-sounds@2.0.0 — 11 new packs just dropped&lt;p&gt;Batman • Matrix • Harry Potter • Game of Thrones • Lord of the Rings • Star Trek • Mission Impossible • Top Gun • TMNT • Looney Tunes • Scooby-Doo&lt;p&gt;&amp;quot;I&amp;#x27;m Batman&amp;quot; on session start. Hedwig&amp;#x27;s Theme when task completes. Shame bell on error. 225 sounds across 28 packs.&lt;p&gt;Full list: War...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47179432" target="_blank">Show HN: Caddy plugin that charges AI crawlers real USDC to access your site</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-02-27 11:46 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello,
+I built a Caddy middleware that implements the x402 protocol (by Coinbase) to charge AI crawlers real money for content access.&lt;p&gt;When GPTBot, ClaudeBot, or any known AI crawler hits your site, it gets an HTTP 402 with payment
+  requirements. If it pays (USDC on Base), it gets the content. If not, it gets nothing.&lt;p&gt;Normal users are never affected.&lt;p&gt;How it works:
+  - Crawler detected by Us...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47179353" target="_blank">Show HN: Shannon – Local desktop app to orchestrate Claude Code agent teams</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-27 11:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I ran into a problem when using Claude Code CLI on larger projects: I wanted to split work across specialized agents (one writes code, another reviews, another runs tests) and coordinate them with dependency graphs. Managing this across multiple terminal sessions was painful.&lt;p&gt;Shannon solves this:&lt;p&gt;- Create customized agents with different models (Opus&amp;#x2F;Sonnet&amp;#x2F;Haiku) and system prompts
+...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47178812" target="_blank">Show HN: AgentWeb – Free business directory API for AI agents (11M+ businesses)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-02-27 10:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built AgentWeb - a free, structured business directory API designed specifically for AI agents.&lt;p&gt;The problem: AI agents that need real-world business data (phone numbers, emails, hours, addresses) have to either scrape Google (which blocks them) or parse random websites (unreliable). There&amp;#x27;s no clean data layer for agents to query.&lt;p&gt;What AgentWeb does:&lt;p&gt;11M+ businesses across 195 countri...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

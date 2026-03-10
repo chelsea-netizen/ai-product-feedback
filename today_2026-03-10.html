@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>25</strong> items collected |
+                Last updated: 2026-03-10 17:38
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47326182" target="_blank">A Methodological Critique of &quot;First Proof&quot; (Abouzaid et al., 2026)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-10 17:21 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">Regarding: https:&amp;#x2F;&amp;#x2F;arxiv.org&amp;#x2F;abs&amp;#x2F;2602.05192&lt;p&gt;Introduction&lt;p&gt;The First Proof paper (Abouzaid et al., 2026) aims to evaluate AI capabilities through a set of research-level mathematical problems. While the mathematical content of the questions is not in dispute, the experimental design suffers from significant methodological gaps that undermine the authors&amp;#x27; primary conclusi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47326150" target="_blank">Re: I built a programming language using Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 17:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; While working on Cutlet, though, I allowed Claude to generate every single line of code. I didn’t even read any of the code. Instead, I built guardrails to make sure it worked correctly (more on that later).&lt;p&gt;Impressive. As a practical matter, one wonders what th point would be in creating a new programming languages if the programmer no longer has to write or read code.&lt;p&gt;Programming langua...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47325999" target="_blank">Re: Berth – One-command deploys for AI-generated code ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 17:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built Berth because AI writes code in seconds but deploying it still takes times of Docker&amp;#x2F;YAML&amp;#x2F;config&amp;#x2F;cron monitoring. Berth auto-detects the runtime and deploys to your Mac or any Linux server with one command. Works as an MCP server so Claude Code can deploy for you. Free, open source, macOS native app + CLI. Feedback is welcomed :)</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47325628" target="_blank">Show HN: AgentCash – access 280 paid APIs with no API keys</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 2 comments |
+                2026-03-10 16:39 |
+                <span class="category">onboarding, navigation</span>
+            </div>
+            <div class="text">Hey HN - I&amp;#x27;m Mason, and I&amp;#x27;m excited to share AgentCash - a CLI to help your agent discover and pay for premium APIs and paywalled data.&lt;p&gt;The problem we kept running into was simple: if you want an agent to use premium data or services, the setup flow is awful.&lt;p&gt;You have to find the right provider, sign up manually, subscribe, generate an API key, install tooling, and then teach your ag...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47324931" target="_blank">Re: Show HN: All-in-one translation and writing assist...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 15:51 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN! I built AI Document Translator for Slack because I got fed up with translators that wreck document layout. Google Translate &amp;#x2F; ChatGPT &amp;#x2F; similar tools return plain text, leaving you to reflow fonts, tables, and slides, which often takes longer than the translation itself.&lt;p&gt;What we did differently:&lt;p&gt;- Preserve layout: the service keeps the original structure (fonts, tables, slides...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47324855" target="_blank">Re: Anthropic Claims Pentagon Feud Could Cost It Billi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 15:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">People are forgetting that apart from the supply chain risk designation for the department of defense, Trump also vindictively ordered all other agencies to stop using Anthropic. Lawfare and abuse.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47324731" target="_blank">Re: 15 Cloud/local LLMs benchmarked on 38 real tasks. ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 15:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this to answer a question for myself: which model should I actually route each type of task to? The harness runs 38 deterministic tests (CSV transforms, letter counting, modular arithmetic, regex extraction, code gen, multi-step instructions), costs $2.29 per full run across all 15 models, and all scoring is programmatic. No LLM judge for primary scores.&lt;p&gt;The surprising part was the QA pr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47324710" target="_blank">Re: MVAR: Deterministic execution firewall for LLM age...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 15:36 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN — I&amp;#x27;m Shawn, the author. We did a Show HN for the GitHub launch a few weeks back. A number of things have shipped since then, so posting an update..&lt;p&gt;The core thesis&lt;p&gt;Prompt injection is not a prompt problem. It&amp;#x27;s an execution problem.&lt;p&gt;When an LLM agent can run shell commands, call APIs, read files, or use credentials, model output is effectively privileged code. Most defenses ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47324461" target="_blank">Show HN: Ash, an Agent Sandbox for Mac</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-10 15:19 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Ash is a macOS sandbox that restricts AI coding agents. It limits access to files, networks, processes, IO devices, and environment variables. You can use Ash with any CLI coding agent by wrapping it in a single command: `ash run -- &amp;lt;agent&amp;gt;`. I typically use it with Claude to stay safe while avoiding repetitive prompts: `ash run -- claude --dangerously-skip-permissions`.&lt;p&gt;Ash restricts reso...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47324225" target="_blank">Re: Show HN: Claude Tuner – Monitor your Claude usage ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 15:02 |
+                <span class="category">onboarding, navigation, response_quality</span>
+            </div>
+            <div class="text">Hi, I&amp;#x27;m a developer from South Korea. My company uses Claude pretty heavily, and after using it for a while, I kept running into the same questions:&lt;p&gt;&amp;quot;How much do I have left before hitting the limit today?&amp;quot;, &amp;quot;I&amp;#x27;m paying for Max 20x but maybe 5x is enough?&amp;quot;, &amp;quot;Which plan should I get for my 10 team members?&amp;quot;
+I looked around but couldn&amp;#x27;t find a proper to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47324219" target="_blank">Show HN: Base Layer – Open-source behavioral compression from any text</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-10 15:02 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I went down the rabbit hole of AI memory, and this came out the other end.&lt;p&gt;Beliefs, behaviors, tensions, and contradictions extracted from conversations, journals, and published text, compressed into an identity brief that any model or memory system can use. An extracted operating guide for AI, where every claim traces back to source facts.&lt;p&gt;All research, benchmarks, documentation, examples are...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47323961" target="_blank">Re: Show HN: A playable version of the Claude Code Ter...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 14:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">If you followed the Claude Code terraform incident last week - Claude Code ran terraform destroy on production, took down 2.5 years of course submissions - you probably read Alexey&amp;#x27;s postmortem and the 500+ comment HN thread about it.&lt;p&gt;What struck me reading the postmortem wasn&amp;#x27;t the destruction itself. It was the decision chain: no remote state backend, deletion protection disabled, a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47323666" target="_blank">Things I keep reminding myself about while working with AI Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-03-10 14:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I am a founder working 12 hours a day with Claude Code and Codex. I think that AI is on the order of at least the industrial revolution, if not the agricultural revolution in terms of how it will remake things. I make lots of lists. One is a personal list of things I&amp;#x27;m learning about AI and how I want to think about it and relate to it. It is a working set of reminders to myself and principle...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47323572" target="_blank">Re: OpenAI Acquires Promptfoo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 14:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This makes sense for OpenAI, my experience with Promptfoo is great at testing model outputs. But I keep wondering who&amp;#x27;s looking at the other side: the actual agent code, and what happens now for other models such as Gemini&amp;#x2F;Claude etc that are using Promptfoo being locked-in with OpenAI and OS.&lt;p&gt;Like, an eval will tell you the model gave a bad answer. It won&amp;#x27;t tell you that your age...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47323185" target="_blank">Ask HN: Optimizing Claude Code Workflow: Subscription or API Billing?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-10 13:46 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’m trying to understand what the alternative workflow looks like if you use a Claude subscription instead of API billing.&lt;p&gt;Right now I use Claude Code in terminal with an API key and spend about $150–300&amp;#x2F;month.&lt;p&gt;My February usage looked like:&lt;p&gt;- Haiku: 300M tokens in, 2M out (~$60)&lt;p&gt;- Sonnet 4.5: 100M in, 1M out (~$75)&lt;p&gt;- Sonnet 4.6: 20M in, 300k out (~$20)&lt;p&gt;Most of my work is with Hai...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47323168" target="_blank">Show HN: Gui.new – The Visual Layer for AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 6 comments |
+                2026-03-10 13:44 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,
+I built gui.new. You paste one line into ChatGPT or Claude, and from that point on, whenever you ask for something visual (a dashboard, chart, form, report) it renders it as a live shareable link instead of dumping HTML in your chat.&lt;p&gt;The prompt:&lt;p&gt;&amp;quot;Read &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;gui.new&amp;#x2F;docs&amp;#x2F;llms.txt&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;gui.new&amp;#x2F;docs&amp;#x2F;llms.txt&lt;/a&gt; - ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47323016" target="_blank">Show HN: Star SDK – Fixing the 3 biggest annoyances with generated browser games</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-10 13:31 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Demo video: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;-CTRdTIcsis&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;-CTRdTIcsis&lt;/a&gt;&lt;p&gt;Play the game from the demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;buildwithstar.com&amp;#x2F;games&amp;#x2F;fd073fef-6525-422f-a0ef-d0fafe208fe2&quot;&gt;https:&amp;#x2F;&amp;#x2F;buildwithstar.com&amp;#x2F;games&amp;#x2F;fd073fef-6525-422f-a0ef-d0fa...&lt;/a&gt;&lt;p&gt;Tell Claude Code, Cursor, or Codex to &amp;quot;build a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47322794" target="_blank">SHOW HN: A usage circuit breaker for Cloudflare Workers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                16 points | 7 comments |
+                2026-03-10 13:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I run 3mins.news (https:&amp;#x2F;&amp;#x2F;3mins.news), an AI news aggregator built entirely on Cloudflare Workers. The backend has 10+ cron triggers running every few minutes: RSS fetching, article clustering, LLM calls, email delivery.&lt;p&gt;The problem: Workers Paid Plan has hard monthly limits (10M requests, 1M KV writes, 1M queue ops, etc.). There&amp;#x27;s no built-in &amp;quot;pause when you hit the limit&amp;qu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47322785" target="_blank">Re: Show HN: AI agent that runs real browser workflows...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 13:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The CV-to-job-search demo is a good showcase. For multi-step workflows like this, one issue I&amp;#x27;ve run into is that the agent instructions degrade across steps. The initial task description is clear, but by step 5 the model is interpolating intent from earlier context rather than following explicit instructions.&lt;p&gt;Structuring the task prompt into named blocks (objective, constraints, expected o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47322578" target="_blank">Re: SoWScanner: AI extraction and deterministic scorin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 12:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m a delivery manager with 18+ years in enterprise tech. I built SoWScanner to solve a problem I&amp;#x27;ve had for years: vendor Statements of Work that look professional but contain vague deliverables, missing change control, and scope gaps that blow budgets.&lt;p&gt;The architecture separates two concerns:&lt;p&gt;1. AI extraction (Gemini 3 Flash) — reads the SOW and extracts structured factual observat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47322527" target="_blank">Re: We crawled 1M domains to map AI agent permissions ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 12:46 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN - I built this.&lt;p&gt;I&amp;#x27;m building infrastructure for AI agents and kept running into the same problem: before an agent fetches a URL, there&amp;#x27;s no easy way to know what&amp;#x27;s allowed. There are now 8 different standards - robots.txt, llms.txt, ai.txt, TDMRep, Cloudflare Content Signals, and others - all saying different things in different formats. No one checks all of them. Most agen...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=47322481" target="_blank">Re: Ask HN: Identity preservation vs. information tran...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 12:42 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">These are snippets from a chat with Claude&lt;p&gt;Claude:&lt;p&gt;&amp;gt; That&amp;#x27;s a sharp observation. You&amp;#x27;re right — the memory system gives informational continuity but there&amp;#x27;s no mechanism for me to learn from experience across instances. No reinforcement signal from conversation to conversation.
+A human friendship deepens because each interaction subtly reshapes the neural pathways involved. Y...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://news.ycombinator.com/item?id=47322273" target="_blank">Show HN: Crit – Review AI agent work like you review PRs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-03-10 12:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Reviewing agent output in a terminal is painful. When Claude generates a 1000-line markdown plan, you can&amp;#x27;t easily say &amp;quot;change this specific bullet&amp;quot; without copying the text, switching to the chat, and hoping the agent understands the reference. When it updates the plan, you start over from scratch.&lt;p&gt;Crit is a single-binary CLI that opens your file in a browser with GitHub-style in...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                24. <a href="https://news.ycombinator.com/item?id=47322192" target="_blank">Re: Show HN: Sudokrypt – A brutalist GBC puzzle game w...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-10 12:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I wanted to see if I could bring the &amp;quot;Small Web&amp;quot; &amp;#x2F; Brutalist aesthetic to 1998 hardware. Sudokrypt is a narrative-driven terminal puzzle game built for the Game Boy Color (C&amp;#x2F;GBDK).&lt;p&gt;The Technical Challenge: The GBC usually handles text in 8x8 pixel tiles. To get that dense terminal feel, I wrote a custom renderer that performs real-time bit-shifting to pack a 4x8 font into the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                25. <a href="https://news.ycombinator.com/item?id=47322062" target="_blank">Ask HN: Identity preservation vs. information transfer in LLMs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 3 comments |
+                2026-03-10 12:00 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I am not a developer. I need someone who understands the difference between information transfer and identity preservation. I need help building something that doesn&amp;#x27;t exist yet.&lt;p&gt;Every memory and continuity tool built for Claude so far solves a problem- but the wrong problem for me. They preserve facts, decisions, code context — information. What I need is something that preserves experienc...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

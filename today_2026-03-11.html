@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>23</strong> items collected |
+                Last updated: 2026-03-11 17:40
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47338665" target="_blank">Re: LaneConductor – Gemini conductor and Claude Code s...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 17:39 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I was running Gemini CLI with the conductor format for task tracking, and Claude Code with superpowers skills for implementation — also inspired by OpenClaw&amp;#x27;s approach. All great tools, but completely siloed. No shared context between agents, no visibility into what each was doing, and if one LLM exhausted mid-task there was no clean handoff to the other.&lt;p&gt;I wanted one thing: a unified view ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47338127" target="_blank">Re: Elevated errors on login with Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 16:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Anthropic&amp;#x27;s domain usage (there&amp;#x27;s claude.com, claude.ai, console.anthropic.com, platform.claude.com, claudecode.io forwarding to codeagents.app which errors) and authentication approach have been lacking a lot; hope this isn&amp;#x27;t a verdict on their use of agentic coding.&lt;p&gt;Example: I had two orgs with similar names, one I set up myself and another my employer set up. Logged in via SSO....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47338091" target="_blank">Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                19 points | 11 comments |
+                2026-03-11 16:56 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,
+I’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game.&lt;p&gt;Here&amp;#x27;s a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47337920" target="_blank">Show HN: Reviewd – A free, local alternative to Claude Code Review(no API costs)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-11 16:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Anthropic just launched their official Claude Code Review tool, pricing it at $15–$25 per PR. If your team is shipping 10+ PRs a day, that model scales terribly.&lt;p&gt;Even before their launch, I was running a custom local Claude agent for my team to review PRs. The feedback was great and it caught real bugs, but the workflow was a massive time sink. I was manually invoking &amp;quot;claude --agent .. bra...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47337659" target="_blank">Launch HN: Sentrial (YC W26) – Catch AI Agent Failures Before Your Users Do</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 5 comments |
+                2026-03-11 16:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! We&amp;#x27;re Neel and Anay, and we’re building Sentrial (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;sentrial.com&quot;&gt;https:&amp;#x2F;&amp;#x2F;sentrial.com&lt;/a&gt;). It’s production monitoring for AI products. We automatically detect failure patterns: loops, hallucinations, tool misuse, and user frustrations the moment they happen. When issues surface, Sentrial diagnoses the root cause by analyzing conversation patterns, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47337519" target="_blank">Re: Spring CRUD Generator v1.5.0: CI tests, Set relati...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 16:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Open-source Maven plugin for generating Spring Boot CRUD code from YAML&amp;#x2F;JSON specs.&lt;p&gt;v1.5.0 adds CI integration tests for validating generated output, Set-based
+relation support via relation.uniqueItems, basePath&amp;#x2F;basepath consistency fixes,
+and better GitHub Copilot&amp;#x2F;autocomplete support for spec authoring.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47337327" target="_blank">Show HN: I built an interactive globe for verified combat events</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 5 comments |
+                2026-03-11 16:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I* have been following the situation in the Middle East closely over the past months and realized I was spending a lot of time just trying to figure out what actually happened where. Most sources either show raw social media posts or mix combat events with general news.&lt;p&gt;The closest thing to what I wanted is Liveuamap, but it has increasingly become a general news aggregator. The map includes pro...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47337288" target="_blank">Re: I built an AI agent in Zig that runs on Windows XP...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 15:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wanted to see how far back I could push an AI agent — not the LLM itself,
+but the client that talks to it, parses tool calls, and acts on the results.&lt;p&gt;retro-agent is a terminal-based AI agent written in Zig 0.15. It connects to
+Ollama (or any OpenAI-compatible API) over local HTTP, supports function
+calling, and provides built-in tools for system diagnostics: processes, network,
+disk, services...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47337249" target="_blank">Show HN: Klaus – OpenClaw on a VM, batteries included</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                31 points | 17 comments |
+                2026-03-11 15:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We are Bailey and Robbie and we are working on Klaus (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;klausai.com&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;klausai.com&amp;#x2F;&lt;/a&gt;): hosted OpenClaw that is secure and powerful out of the box.&lt;p&gt;Running OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Work...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47337028" target="_blank">Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-03-11 15:39 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I built Ink, a full stack deployment platform where the primary users are AI agents, not humans.&lt;p&gt;We all know AI can write code, but deploying them still requires a human to wire it up: hosting, databases, DNS, and secrets. Ink gives agents those tools directly.&lt;p&gt;The agent calls &amp;quot;deploy&amp;quot; and the platform auto-detects the framework, builds it, deploys it, and returns a live URL a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47336889" target="_blank">Elevated errors on login with Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                42 points | 25 comments |
+                2026-03-11 15:28 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47336692" target="_blank">Re: OpenAI-compatible apps break in predictable ways...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 15:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’m one of the people behind ModelRiver.&lt;p&gt;We wrote this after running into the same pattern a few times: the AI feature worked fine in development, but once real traffic hit it, the problems were mostly infra problems, not prompt problems. Provider outages, repeated token spend on identical requests, poor visibility into failures, and response shape drift.&lt;p&gt;This post is our attempt to explain th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47336641" target="_blank">Re: The Complexity of a 60-Line Script...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 15:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">You&amp;#x27;ve written a neat little script. Sixty lines, maybe seventy. It loads some data, runs a few transformations, trains a model, and spits out a result. Clean. Simple. Done.&lt;p&gt;Except it isn&amp;#x27;t simple. Not really.
+What 60 Lines Are Actually Doing
+Here&amp;#x27;s the thing about data science code: it doesn&amp;#x27;t read like a novel. It reads like a conversation happening in five different rooms ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47336607" target="_blank">Re: The Token Tax You Didn't Know You Were Paying...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 15:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The same problem exists on the prompt side, not just tool outputs.&lt;p&gt;Prose prompts pad tokens with hedging, transitions, and repeated emphasis. The model has to figure out which parts are constraints vs. context vs. objectives. That parsing overhead is its own tax.&lt;p&gt;Typed blocks strip that ambiguity. I built github.com&amp;#x2F;Nyrok&amp;#x2F;flompt for this: decomposes prompts into 12 semantic blocks (r...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47336498" target="_blank">Diffusion LLM may make most of the AI engineering stack obsolete</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-11 15:00 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been deep-diving into diffusion language models this week and I think this is the most underrated direction in AI right now.&lt;p&gt;The core issue with autoregressive LLMs:&lt;p&gt;Every major model today (GPT, Claude, Gemini) generates one token at a time, left to right. Each token depends on the previous one. This single architectural constraint has shaped the entire AI industry:&lt;p&gt;- Models can&amp;#...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47336171" target="_blank">Show HN: Open-source browser for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                28 points | 14 comments |
+                2026-03-11 14:39 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I forked chromium and built agent-browser-protocol (ABP) after noticing that most browser-agent failures aren’t really about the model misunderstanding the page. Instead, the problem is that the model is reasoning from a stale state.&lt;p&gt;ABP is designed to keep the acting agent synchronized with the browser at every step. After each action (click, type, etc), it freezes JavaScript execution a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47336163" target="_blank">Ask HN: Is Claude down again?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                68 points | 57 comments |
+                2026-03-11 14:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve started getting some 401 errors on a subscription again and oauth seems to be struggling to restore the session.  Is it just me?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47335647" target="_blank">Show HN: AgentSign – Open-source zero trust engine for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-03-11 13:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN. This week Meta acquired Moltbook (agent social network), OpenAI acquired Promptfoo (agent testing), and Mandiant&amp;#x27;s founder raised $190M for Armadin. Agent infrastructure is clearly where things are heading.&lt;p&gt;We built AgentSign -- a zero trust engine for AI agents. The problem: agents are operating without any identity infrastructure. Moltbook went viral for fake posts because there wa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47335406" target="_blank">The Token Tax You Didn't Know You Were Paying</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-03-11 13:36 |
+                <span class="category">feature_discovery, navigation, response_quality</span>
+            </div>
+            <div class="text">I watched it happen again. I asked the AI agent a simple question about my cloud infrastructure, and within minutes, it hit the wall: “Context limit reached.” Or worse, it started hallucinating because it was buried under 15,000 tokens of raw JSON output it didn’t actually need.&lt;p&gt;When we use tools like Claude Code or other autonomous agents, we’re essentially paying them to read. The problem is, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47335240" target="_blank">Anthropic controls Claude's outputs. Palantir controls its inputs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-03-11 13:23 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47335025" target="_blank">Re: Claude will cook us all...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 13:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Claude’s recent back to back updates made something very clear to me: Software is no longer meant only for humans.&lt;p&gt;For years, SaaS products were designed around a predictable assumption.&lt;p&gt;A human logs in, clicks around, and uses the product a few times a day. 
+Pricing models were built around that behavior too.&lt;p&gt;But with tools like Claude writing code, executing workflows and calling APIs auto...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=47334487" target="_blank">Re: Give your AI agents reversibility and governance b...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-11 12:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I kept running AI coding agents with full filesystem and network access, 
+and no way to review what they did before it hit my system. Docker isolates 
+but doesn&amp;#x27;t govern. So I built envpod.&lt;p&gt;Every agent runs in a pod with a copy-on-write overlay. Your host is never 
+touched until you explicitly commit:&lt;p&gt;$ sudo envpod init my-agent --preset claude-code
+ $ sudo envpod run my-agent -- claude
+ ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://news.ycombinator.com/item?id=47334302" target="_blank">Show HN: I replaced my morning GA4 tab explosion with one page</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-11 11:38 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I have a handful of GA4 properties — a couple web apps, a side project, a thing I shipped on a weekend — and I got tired of clicking through Google&amp;#x27;s UI every morning to check if anything weird happened overnight. I was spending my mornings clicking through GA4 properties one at a time just to see yesterday&amp;#x27;s numbers, and whenever I needed to actually understand what was going on I&amp;#x27;...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

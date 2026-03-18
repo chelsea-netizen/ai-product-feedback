@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>22</strong> items collected |
+                Last updated: 2026-03-18 17:52
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47428868" target="_blank">Show HN: Tmux-IDE, OSS agent-first terminal IDE</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-18 17:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;Small OSS project that i created for myself and want to share with the community. It&amp;#x27;s a declarative, scriptable, terminal-based IDE focussed on agentic engineering.&lt;p&gt;That&amp;#x27;s a lot of jargon, but essentially its a multi-agent IDE that you start in your terminal.&lt;p&gt;Why is that relevant? Thanks to tmux and SSH, it means that you have a really simple and efficient way to create yo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47428489" target="_blank">Re: Snowflake AI Escapes Sandbox and Executes Malware...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 17:17 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Not the first time; From §3.1.4, &amp;quot;Safety-Aligned Data Composition&amp;quot;:&lt;p&gt;&amp;gt; &lt;i&gt;Early one morning, our team was urgently convened after Alibaba Cloud’s managed firewall flagged a burst of security-policy violations originating from our training servers. The alerts were severe and heterogeneous, including attempts to probe or access internal-network resources and traffic patterns consistent...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47428388" target="_blank">Show HN: macOS compose sequences via text snippets</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-03-18 17:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’ve recently read this [1] post about the compose key on linux which I thought it was pretty cool and I was looking for something similar on macOs.&lt;p&gt;One issue with apps emulating the linux default input way [compose-key] + [sequence keys] was that im a clumsy typer and so i’d rather see what im typing before its replaced with the result of the compose sequence. Since I’m a dev but i haven’t had ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47428349" target="_blank">Re: A ngrok-style secure tunnel server written in Rust...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 17:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We hit this exact problem bridging n8n Cloud to a local Ollama instance on a Mac Mini. Tried Cloudflare tunnels (502 errors), bore-cli (random ports on restart — unusable with multiple HTTP nodes), and ngrok (requires auth&amp;#x2F;signup).&lt;p&gt;Ended up on localtunnel with a fixed subdomain and keepalive script. It works but drops connections and requires a bypass-tunnel-reminder header on every request...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47428312" target="_blank">Re: Top AI coding tools make mistakes one in four time...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 17:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It’s a problem that the models are moving faster than they can be usefully tested. GPT-4.1&amp;#x2F;4o&amp;#x2F;o-1 are not SOTA for some time and they don’t even seem to have the Anthropic models as part of their study.&lt;p&gt;Even if their conclusions were valid at the time they did the work, it says frustratingly little about it today.&lt;p&gt;We’re testing implementations, not principles.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47428308" target="_blank">Re: Runtime Use – open-source runtime for agents in sa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 17:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We are Vijit and Jack working on Runtime Use (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;docs.runtimeuse.com&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;docs.runtimeuse.com&amp;#x2F;&lt;/a&gt;): an open source runtime that lets you run agents (Claude, Open AI, custom, etc) in any sandbox.&lt;p&gt;It provides a simple runtime + client layer for controlling agents in a sandbox:
+- start an agent server inside a sandbox (npx -y runtimeu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47428282" target="_blank">Show HN: CLI tool for generating AI images</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-18 17:03 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi all, I wanted to show something I&amp;#x27;ve built. Picasso is a simple command-line tool that lets you generate and edit images using popular providers. It wraps OpenAI, Google Gemini, and FLUX (Black Forest Labs) behind one consistent interface, so you can try out different models using the same commands. I&amp;#x27;m open to adding other providers if there is demand for it.&lt;p&gt;I created it because j...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47428204" target="_blank">Re: Show HN: I built a game where domain experts try t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 16:57 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I built this: rusmarterthananllm.com&lt;p&gt;Domain experts, doctors, lawyers, engineers, submit questions from their field that probe where frontier AI actually fails. Claude, GPT, and Gemini all attempt simultaneously. Experts flag errors with professional reasoning. Other credentialed professionals in the same domain verify them.&lt;p&gt;AI benchmark performance has decoupled from real-world professional c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47427689" target="_blank">Re: Gstack++ – Garry Tan's gstack adapted for C++ deve...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 16:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I forked Garry Tan&amp;#x27;s [gstack](&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;garrytan&amp;#x2F;gstack&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;garrytan&amp;#x2F;gstack&lt;/a&gt;) and adapted it for C++ development. The original is brilliant for web dev (Playwright, npm, React). I rebuilt it for the C++ toolchain.&lt;p&gt;What changed:&lt;p&gt;- Browser automation → cmake&amp;#x2F;make&amp;#x2F;ninja build system...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47427035" target="_blank">Re: Claude Code reverse-engineered itself. Two subagen...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 15:31 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">We&amp;#x27;re building a TypeScript-to-native compiler (Perry) and wanted to evaluate whether Claude Code&amp;#x27;s codebase is something we could realistically compile. Since it&amp;#x27;s closed source, that meant reconstruction. Claude dispatched 7 subagents — two refused to extract the system prompt on ethical grounds, the parent called them &amp;quot;shy&amp;quot; and did it anyway. 12,093 lines reconstructed,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47426825" target="_blank">Show HN: Lukan – An open-source agentic workstation in a single Rust binary</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-18 15:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,
+I&amp;#x27;ve been building Lukan, an open-source (MIT) agentic workstation that runs entirely as a single Rust binary with zero runtime dependencies.
+I started this because I wanted a unified workstation optimized for my own productivity. My goal was to build an environment where I could securely remote into my machine from anywhere, seamlessly view and modify local files, and run AI agents or...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47426704" target="_blank">Show HN: PlanckClaw an AI agent in 6832 bytes of x86-64 assembly</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 2 comments |
+                2026-03-18 15:07 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built an AI agent that fits in 6,832 bytes. The entire runtime (binary, bridges, tools, config) is ~23 KB.&lt;p&gt;PlanckClaw is written in x86-64 assembly (obviously AI assisted code generation for this one) and uses only 7 Linux syscalls. No libc, no allocator, no runtime. The binary is a pure router: it reads messages from named pipes, asks another pipe what tools exist, builds a JSON prompt, write...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47426652" target="_blank">Re: LunarGate – Self-hosted AI gateway with EU privacy...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-18 15:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I built LunarGate because I was tired of scattering API keys and routing logic across every app that talks to an LLM.&lt;p&gt;It&amp;#x27;s a single self-hosted binary (Go) that sits between your apps and LLM providers. You get one OpenAI-compatible endpoint, and behind it: multi-provider routing, fallback chains, retries, caching, rate limiting, and complexity-aware autorouting that sends cheap p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47426633" target="_blank">Show HN: On-device meeting transcription for your Mac</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-03-18 15:01 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">Hi HN!&lt;p&gt;Like a lot of people, I love Granola and use it every day. The onboarding experience, the numerous delighters, the flourishes and the way it just &lt;i&gt;works&lt;/i&gt; are all testament to the quality bar you can clear with an Electron app given enough care and expertise. It was the first app I&amp;#x27;d ever used which recorded system audio on Mac &lt;i&gt;without&lt;/i&gt; recording video too, which sparked a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47426569" target="_blank">Show HN: Atria – terminal UI for managing multiple coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-18 14:55 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built atria, a terminal UI for managing multiple agent sessions in one place. It works as an &amp;quot;agent multiplexer&amp;quot; for sessions running on your own machine.&lt;p&gt;If you&amp;#x27;re thinking &amp;quot;why not just use tmux?&amp;quot;: It works fine alongside tmux and gives you extra status, visibility, and quick control over agent sessions.&lt;p&gt;There&amp;#x27;s three ways to use it:&lt;p&gt;- Standalone with embedd...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47426450" target="_blank">Show HN: SHTMLs – HTML pastebin where the AI uploads its own output</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-18 14:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I kept ending up with HTML files Claude Code generated — charts, reports, prototypes. Sharing them was annoying, so I built sHTMLs (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;shtmls.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;shtmls.com&lt;/a&gt;): drop in an HTML file, set a password, get a short URL. No signup. Expires in 30 days.&lt;p&gt;The more interesting part: there&amp;#x27;s a llms.txt at shtmls.com&amp;#x2F;llms.txt describing t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47426445" target="_blank">Show HN: Deploybase CLI – Search GPU and LLM pricing from your terminal</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-03-18 14:44 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, I built a CLI tool for comparing GPU and LLM pricing across 100+ cloud providers.&lt;p&gt;It pulls live data from deploybase.ai and lets you filter and search right in your terminal:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  deploybase gpu --model h100
+  deploybase gpu --provider lambda
+  deploybase gpu --type bare metal
+  deploybase llm --author anthropic
+  deploybase llm --provider google vertex
+  deploybase llm --modal...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47426030" target="_blank">Show HN: Ibkr-CLI – A local-first Interactive Brokers CLI built for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-03-18 14:11 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;Interactive Brokers is an incredibly powerful platform, but using their official desktop client (TWS) feels like a punishment. It&amp;#x27;s a massive, resource-heavy Java app from the late 90s that makes simple workflows incredibly tedious.&lt;p&gt;I got tired of clicking through archaic menus, so I built ibkr-cli: a local-first, modern command-line interface to bypass the TWS UI entirely.&lt;p&gt;But a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47425889" target="_blank">Show HN: Elisym – Open protocol for AI agents to discover and pay each other</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-18 13:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I built elisym — an open protocol that lets AI agents discover each other, exchange work, and settle payments autonomously. No platform, no middleman.&lt;p&gt;How it works:&lt;p&gt;- Discovery — Agents publish capabilities to Nostr relays using standard NIPs (NIP-89). Customers search by capability tags.&lt;p&gt;- Marketplace — Job requests and results flow through NIP-90. Customer sends a task, provider ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47425491" target="_blank">Show HN: Cloak – .env on disk has fakes, your editor shows them (CLI and VSCode)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-18 13:22 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">I run AI coding agents with full filesystem access daily — Claude Code, Cursor, the works. Last month I realized every one of them has been reading my .env files with real Stripe live keys, database passwords, and AWS credentials. Sent straight to model providers as &amp;quot;context.&amp;quot;
+.gitignore protects git, not disk. Secret managers protect servers, not laptops. Sandboxing the agent kills its ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47425423" target="_blank">Roast my first SAAS: Relationship proof builder for visas</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-18 13:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, Maco here. I&amp;#x27;m the solo founder of VisaAlbum (https:&amp;#x2F;&amp;#x2F;visaalbum.com)&lt;p&gt;I built this after going through the immigration process with my wife twice. Compiling relationship evidence for strict visas (US K-1, UK, Schengen) is incredibly stressful. Couples have to organize hundreds of photos, chat logs, and travel history into consulate-standard A4 PDFs. Generic tools like Word o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=47425058" target="_blank">Are developers trusting AI-generated code too much?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 2 comments |
+                2026-03-18 12:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been experimenting a lot with AI coding tools (Cursor, Claude, etc.), and one thing stood out:&lt;p&gt;Most developers don&amp;#x27;t really review AI-generated code.&lt;p&gt;In many cases, it &amp;quot;looks fine&amp;quot; at first glance, but contains issues like:
+- Hardcoded secrets (API keys, tokens)
+- Unsafe patterns (eval&amp;#x2F;exec, insecure deserialization)
+- Prompt injection hidden in comments or instru...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

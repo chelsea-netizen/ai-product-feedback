@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-03-21 17:17
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47468649" target="_blank">We Replaced Every Tool Claude Code Ships With</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-21 16:44 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Claude Code ships with Bash, Read, Write, Edit, Glob, Grep, WebFetch, Task, Plan. For a single agent on a single task, they&amp;#x27;re fine. Once you&amp;#x27;re running a multi-agent system, the defaults break fast.&lt;p&gt;The problems we hit:&lt;p&gt;1) No cross-repo exploration. Want an agent to read another project&amp;#x27;s code? You need to manually configure permissions. There&amp;#x27;s no &amp;quot;go explore this OS...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47468537" target="_blank">Show HN: Orchestrator, tmux-style split pane Claude sessions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 9 comments |
+                2026-03-21 16:33 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Yesterday, during a YC company&amp;#x27;s interview, the CTO asked me to claude up &amp;quot;a claude code thing where he can have like 5 different claudes and see them at a glance&amp;quot;&lt;p&gt;I cooked something up during the interview, but I realized this was actually kind of useful and kept going after.&lt;p&gt;Anyways,&lt;p&gt;Orchestrator(tbh I named this pretty arbitrarily) is a desktop app that lets you run multipl...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47468317" target="_blank">Re: AI Team OS – Turn Claude Code into a Self-Managing...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-21 16:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I see some tools like this that keep popping up (don&amp;#x27;t mean that in a bad way! it&amp;#x27;s clearly exciting and the README itself compares itself to similar tools). however, for coordination strategies like this, aren&amp;#x27;t you always having to use token-based pricing via some API Key? that&amp;#x27;s the largest think that holds me personally back from getting into something like these frameworks...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47467684" target="_blank">Re: The Nexus: Open-Source Local AI Workspace (LangGra...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-21 15:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I got tired of drowning in terminal windows and manual git commits while vibecoding, so I built The Nexus: an open-source cyberpunk local command center to manage, orchestrate, and automate my AI projects.&lt;p&gt;My background is in Operations Research, not coding. I love designing complicated workflows, but really hated staring at code all day. When GenAI arrived, my workspace quickly got cha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47467671" target="_blank">Show HN: Joonote – A note-taking app on your lock screen and notification panel</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-21 15:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I finally built this app after many years of being sick of unlocking my phone every goddamn time I need to take or view my notes. It particularly sucks when I&amp;#x27;m doing my grocery and going down the list.&lt;p&gt;I started building last year June. This is a native app written in Kotlin. And since I&amp;#x27;m a 100% Web dev guy, I gotta say this wouldn&amp;#x27;t have been possible without this AI to assist ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47466998" target="_blank">Re: Claude × Codex Collab Two AI Coding Agents. One Or...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-21 13:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">My friend Alessio made the following, wanted to give him a shout out with this post&lt;p&gt;[Description]&lt;p&gt;A dead-simple system that makes Claude Code and OpenAI Codex CLI work together as a team — Claude as the PM, Codex as a second engineer. They debate architecture, delegate implementation, and cross-review code. All running on your existing subscriptions. No API keys. No third-party tools. No MCP s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47466968" target="_blank">Show HN: Deterministic security solution for AI agents – OpenClaw and 2 more</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 6 comments |
+                2026-03-21 13:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I wanted to share a solution that I made initially for myself for OpenClaw, that helps control what your ai agents can reach when you let it do stuff without impacting its power, I hope it&amp;#x27;s useful to you.&lt;p&gt;Basically the solution lets you experiment freely with your agent within safe boundaries.&lt;p&gt;It&amp;#x27;s deterministic on purpose (doesn&amp;#x27;t include any Al layer) which means the solution...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47466513" target="_blank">Show HN: AI SDLC Scaffold, repo template for AI-assisted software development</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                7 points | 1 comments |
+                2026-03-21 12:43 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built an open-source repo template that brings structure to AI-assisted software development, starting from the pre-coding phases: objectives, user stories, requirements, architecture decisions.&lt;p&gt;It&amp;#x27;s designed around Claude Code but the ideas are tool-agnostic. I&amp;#x27;ve been a computer science researcher and full-stack software engineer for 25 years, working mainly in startups. I&amp;#x27;ve ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47464326" target="_blank">Re: Double-O, agent's best friend...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-21 05:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey, so I have been tinkering lately with locally running LLMs for programming purposes, on a Strix Halo machine with 128GB of RAM. I quickly realised that in order to get more speed out of the setup I need to save on stuff that ends up in model context. I built (with agents!) this simple bash command runner that swallows large output, passing only the relevant stuff to agent.&lt;p&gt;Think pytest only ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47464265" target="_blank">Re: Why do we need apps like cursor?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-21 05:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The only way Cursor can justify their $50B valuation or even a $29B valuation is that they should sell the source code + prompts and outputs you send to them to the AI labs (They cannot do that for enterprise customers).&lt;p&gt;Otherwise their valuation does not make any sense.&lt;p&gt;The switching cost is practically 0 and can be replaced by VSCode or Claude Code.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47464045" target="_blank">Why do we need apps like cursor?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 3 comments |
+                2026-03-21 04:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m a Claude code and codex maxi, use both on the highest plan on my terminal and the web interface for heavy research and sometimes design. Now the whole moat of apps like cursor is multi agent orchestration if I understand correctly? And no cursor new coding model is not a moat there is no way on earth that they can compete with anthr&amp;#x2F;openai. For me I just launch claude code and tell i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47462796" target="_blank">Show HN: Pairform Running – Great AI coaching with excellent fitness context</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-21 00:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">LLMs got very good at coaching, especially for extremely well studied sports like running.&lt;p&gt;I built Pairform to provide some structure and context for the models to use for MUCH butter consistency and accuracy in coaching help.&lt;p&gt;It was surprisingly difficult to get consistent accurate analysis for things related to dates, total distances, etc. But, think it&amp;#x27;s in a pretty good place now!&lt;p&gt;F...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

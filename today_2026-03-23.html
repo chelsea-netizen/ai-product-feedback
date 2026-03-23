@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-03-23 17:42
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47491133" target="_blank">Show HN: Sleuther, a ohmyzsh plugin for local LLM debugging with Ollama</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-23 15:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Recently, I noticed my debugging workflow had become: copy error into ChatGPT&amp;#x2F;Claude -&amp;gt; go back and repeat (while being cautious not copying over sensitive stuff like paths, names etc.)&lt;p&gt;So, I built Sleuther, a Oh My Zsh plugin that asks a local LLM via Ollama to explain and debug errors directly in the terminal. Right now I am using Qwen2.5-Coder.&lt;p&gt;At a previous job, I used warp.dev ext...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47490117" target="_blank">Export all of your Apple Notes data in 2 seconds</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-23 14:33 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I can&amp;#x27;t believe I reverse engineered Apple Notes with Claude Code.&lt;p&gt;I can export everything from Apple Notes like folders, notes, formatting, images, voice recordings etc.&lt;p&gt;This is the video, it&amp;#x27;s not sped up. It takes 2 seconds to export 2K notes with attachments.
+https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=ZZPYrNbueJs&lt;p&gt;You can try it for free. It&amp;#x27;s available for Mac and Wind...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47489163" target="_blank">Show HN: Kage – TUI for managing multiple AI agents with tmux and Git worktrees</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-03-23 13:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN! I built kage to manage multiple AI coding agents (Claude Code, Codex, etc.) in parallel using tmux and git worktrees.&lt;p&gt;The idea came from wanting to parallelize feature development instead of waiting on one agent at a time.&lt;p&gt;Would love feedback on:
+- usability of the TUI
+- workflow with tmux&amp;#x2F;worktrees
+- any missing features&lt;p&gt;Thanks!</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47488675" target="_blank">Show HN: Oo – compress output for coding agents (cargo test → &quot;47 passed, 2.1s&quot;)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-23 12:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been running coding agents heavily for the past year or so using frontier model APIs, open weight model APIs and, most recently, local models (Qwen family models on a Strix Halo).&lt;p&gt;Starting to run local inference has highlighted something I&amp;#x27;ve been aware for longer: just running tests output shedloads of text into the context window that is there for good until compaction or starti...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47488103" target="_blank">Vroxscript – A coding language build by me specifically for bug hunters</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-23 11:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Show HN: VroxScript — Security scripting language 
+built on Android at 14&lt;p&gt;I&amp;#x27;m 14 from India. Built a security scripting 
+language called VroxScript on my Android phone 
+using Termux. No laptop.&lt;p&gt;Full recon in 6 lines of code.&lt;p&gt;GitHub: github.com&amp;#x2F;InterviewCopilot350&amp;#x2F;vroxscript&lt;p&gt;Would love feedback from the community.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47487997" target="_blank">Re: Redesigning My Personal Website with Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-23 11:29 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Since I started using Claude Code I mostly used it for new side projects and were too afraid of giving it access to my blog. I designed and coded the theme and everything myself so I could understand the code fully and was afraid of losing it.&lt;p&gt;But Claude Code allowed me to fix a few annoying things, finally convert my Hugo setup to page bundles, and then deal with image conversions, which I fail...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47487899" target="_blank">Redesigning My Personal Website with Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-03-23 11:18 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

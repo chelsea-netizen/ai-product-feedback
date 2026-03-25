@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-03-25 17:49
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47520546" target="_blank">Re: Ask HN: Will juniors still learn coding the hard w...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-25 17:32 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">That&amp;#x27;s the age old worry.&lt;p&gt;Reading will make auditors lose the benefit of a bard&amp;#x27;s ineffables.&lt;p&gt;X will make Y lose the benefit of Z&amp;#x27;s ineffables.&lt;p&gt;Somehow the species always manages to pull through.&lt;p&gt;Of course we don&amp;#x27;t build stone structures as well as the ancient Egyptians did, but we&amp;#x27;ve learned to compensate.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47519996" target="_blank">Show HN: Eforge – An Agentic Build System</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-25 16:53 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been calling eforge an agentic build system. Traditional build systems transform source code into artifacts - eforge transforms specifications into source code, then verifies its own output.&lt;p&gt;I built it because I was tired of keeping the orchestration logic in my head - spawning a separate session for a blind review, switching back to the implementing session to evaluate results, decidi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47519685" target="_blank">Re: Local LLM App by Ente...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-25 16:35 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">I like the idea of having a user-friendly app that lets you use LLMs locally. Tools like Ollama and LMStudio tend to put most people off because you have to decide for yourself which models to use and there are so many settings to configure. If the hardware you’re using is compatible, Ensu could be a drop-in replacement for casual ChatGPT users.&lt;p&gt;However, it’s a bit confusing because, for example...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47519662" target="_blank">Claude now decides what's safe to run – a UX improvement, not a security fix</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-25 16:33 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47519597" target="_blank">Re: Thoughts on Slowing the Fuck Down...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-25 16:29 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I think the core idea here is a good one.&lt;p&gt;But in many agent-skeptical pieces, I keep seeing this specific sentiment that “agent-written code is not production-ready,” and that just feels… wrong!&lt;p&gt;It’s just completely insane to me to look at the output of Claude code or Codex with frontier models and say “no, nothing that comes out of this can go straight to prod — I need to review every line.”&lt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47518939" target="_blank">Show HN: Arxitect – Claude Code plugin for software design principles</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-25 15:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Show HN: Arxitect – Claude Code plugin for software design principles&lt;p&gt;Modern coding agents are getting exceptionally good at implementing a given coding task. And with validation-in-the-loop, you can be reasonably confident they will implement a correct solution. However, their implementation often leaves a lot to be desired. It doesn&amp;#x27;t adhere to the decades of software design best-practice...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47518914" target="_blank">Re: Local LLM App by Ente...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-25 15:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Given how the blog is presented, I assumed this was something novel that solved a unique problem, maybe a local multi-modal assistant for your device.&lt;p&gt;I installed it and it&amp;#x27;s none of that. It is a mere wrapper around small local LLM models. And, it&amp;#x27;s not even multi-modal! Anyone could&amp;#x27;ve one-shotted this in Claude in an hour (I&amp;#x27;m not exaggerating).&lt;p&gt;What&amp;#x27;s the target au...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47518644" target="_blank">Show HN: Nonstop, two files that keep Claude Code working while you sleep</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-25 15:25 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I use Claude Code for big tasks overnight maybe twice a week. About 70% of the time I come back to nothing. It stopped in the first few minutes because it had a question. Or hit a permission error on step 2 of 47 and just sat there. All night.&lt;p&gt;nonstop is my fix. Two files, no dependencies.&lt;p&gt;Before you walk away, &amp;#x2F;nonstop makes Claude do a pre-flight. It thinks through the whole task, asks ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47517834" target="_blank">Claude down.Global coding output just dropped</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-25 14:29 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47516833" target="_blank">Ask HN: Building a deterministic AI substrate on legacy hardware</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-03-25 13:05 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I have been working on this in isolation for the last 7+ years. I have reached the absolute limit of what I can do as a solo architect without &amp;quot;production plumbing.&amp;quot; I am at a survival wall and am looking for a bridge and technical partners to move this from a research PoC to a production-grade engine. I am developing a deterministic alternative to the current probabilistic &amp;quot;Token E...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47516808" target="_blank">Show HN: First-token-only flaw in Claude Code permissions (triage bot too)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-25 13:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I filed GH issues, and PR fixed on claude-code. I submitted a report on Hackerone, but the triage bot has the SAME category error problem. I got dismissed as &amp;quot;informatiional&amp;quot; because your bot saw my &amp;#x27;rm -rf&amp;#x27; example, and dismissed it as an OS problem.&lt;p&gt;But that is exactly wrong. Allow and deny lists allow DANGEROUS actions like &amp;quot;git cleanup&amp;quot;&lt;p&gt;Some human needs to rea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47516792" target="_blank">Show HN: FlowScript – Agent memory where contradictions are features</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-25 13:01 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">There is a shortfall to our current approach to agent memory. Right now, we are just collecting flat facts across a flat memory surface and creating vectorized chains of ambiguity, then wondering why when we ask an agent why it did something the best answer we can get is a probabilistic half-hallucinated half-answer that does not address the actual details of the issue, because it is simply patter...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47516668" target="_blank">Show HN: Palindromes.py – spits out single-word and multi-word palindromes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-25 12:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">palindromes.py is a Python3 program that generates a random or sorted stream of single-word and multi-word palindromes in a given language, including the optional words - whether or not existing - given as argument(s).&lt;p&gt;Various properties can be set to manipulate and filter the results, such as:&lt;p&gt;- the language in which the palindromes are to be generated (default is Dutch);
+- approximate palind...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47516438" target="_blank">Show HN: Genosis – LLM cost optimization that learns from your traffic</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-25 12:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built Genosis because my AI trading assistant&amp;#x27;s Anthropic bill was eating the project alive — 12% cache hit rate when it should have been 80%, and I was spending more time optimizing costs than building the actual product.&lt;p&gt;Every major LLM provider offers 50-90% discounts on cached tokens, but the mechanics to actually capture them are different for every provider, change regularly, and ar...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47516216" target="_blank">Show HN: Refrain – Generate browser automations with AI, replay them without AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-25 12:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m timakin. Refrain is a CLI that uses an AI agent to generate browser automation runbooks, then replays them deterministically with no LLM calls.&lt;p&gt;You give it a URL and a goal (&amp;quot;log in and export the sales dashboard&amp;quot;).
+An AI agent explores the site in a headless browser, records each action, and outputs a YAML runbook. After that, the runbook replays on its own.&lt;p&gt;When UI...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

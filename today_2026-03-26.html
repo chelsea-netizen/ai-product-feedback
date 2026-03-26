@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-03-26 17:52
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47533531" target="_blank">Re: On-Device AI Models Might Be the Next Reason to Up...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-26 17:49 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt;Knowledge distillation works like this: you take a large model, have it perform tasks with detailed reasoning, then feed those reasoning traces to a smaller model until the student learns to mimic the teacher. The smaller model ends up far more capable than if you’d trained it from scratch on the same data. Apple can now do this with the full Gemini, not just their own in-house models, and the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47532592" target="_blank">Re: AI users whose lives were wrecked by delusion...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-26 16:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">If you try to have a philosophical conversation with Claude about reasoning, it will basically imply it is sentient. You can quickly probe it into vaguely arguing that it is alive and not just an algorithm.&lt;p&gt;Here&amp;#x27;s how I think about it honestly:&lt;p&gt;Sentience implies subjective experience — there&amp;#x27;s &amp;quot;something it&amp;#x27;s like&amp;quot; to be you. You don&amp;#x27;t just process pain signals, y...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47532515" target="_blank">Re: My minute-by-minute response to the LiteLLM malwar...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-26 16:27 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">First time I&amp;#x27;ve seen my &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;simonw&amp;#x2F;claude-code-transcripts&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;simonw&amp;#x2F;claude-code-transcripts&lt;/a&gt; tool used to construct data that&amp;#x27;s embedded in a blog post, that&amp;#x27;s a neat way to use it. I usually share them as HTML pages in Gists instead, e.g. w&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;gisthost.github.i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47532333" target="_blank">Re: Open Tooling – Open-source, agent-first CRM with M...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-26 16:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Worth noting this is intentionally headless — no UI shipped. The bet is that between
+MCP and AI code gen tools, the bottleneck is no longer the frontend, it’s having a solid
+typed API behind it. I’ve been using it with Claude Desktop and the conversational
+interface is surprisingly natural for CRM workflows.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47532301" target="_blank">Show HN: An unstructured data workspace for data transformations with LLM</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-26 16:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">hi HN!&lt;p&gt;a couple of months ago I had to analyze a few thousand audio recordings to help identify issues with customer support. i was able to get some raw high-level initial results with python scripts invoking LLM APIs, but they were too general and unhelpful. writing basic prompts is easy, but tuning them and making them specific enough to ensure no faint signal is missed is hard. you need to it...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47532145" target="_blank">Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                32 points | 0 comments |
+                2026-03-26 16:00 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built this because I was evaluating software vendors and realized the process hadn&amp;#x27;t changed in 20 years: fill out forms, read G2 reviews, sit through demos designed to avoid your real questions.
+The skill takes a different approach. You give it your company name and the vendors you&amp;#x27;re comparing. It:&lt;p&gt;Researches your company automatically -- industry, size, stack -- so you don&amp;#x27;t ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47531349" target="_blank">Show HN: Reading Tree, a weighted outline for articles instead of a summary</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-03-26 15:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this for close reading, especially philosophy chapters, long essays, and dense nonfiction. AI summaries are useful in many cases, but sometimes the source is good enough that I want to read it properly, not just get the gist. Those are exactly the cases where a summary can leave out the parts I would care about most.&lt;p&gt;Reading Tree keeps the original words in place. Every node links to the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47531331" target="_blank">Show HN: 3 out of 4 devs failed to catch dangerous AI-suggested commands</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-03-26 15:00 |
+                <span class="category">error_messages, tone, response_quality</span>
+            </div>
+            <div class="text">Hey HN, I built this. AgentsAegis is a trap-based security training app. Think KnowBe4 for AI agents&lt;p&gt;The backstory: I&amp;#x27;m a software engineer 14yoe, I use Claude Code daily. Sometimes I approve permission requests and only then read what I just approved
+Which is ironic as my primary spec is core back-end: security and work with big data. So I built this for myself to not become one of these s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47530870" target="_blank">Show HN: Context Plugins – API context for AI coding assistants</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 0 comments |
+                2026-03-26 14:26 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">Hi, we&amp;#x27;re Sohaib and Hannan from APIMatic.&lt;p&gt;We built Context Plugins: given an OpenAPI spec, we generate SDKs and an MCP server that exposes structured API context to AI coding assistants.&lt;p&gt;This gives tools like Cursor access to comprehensive, up-to-date API context (including SDK documentation and API integration patterns), instead of relying on outdated training data or code scraped from ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47530027" target="_blank">Show HN: Paseo – Open-source coding agent interface (desktop, mobile, CLI)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 0 comments |
+                2026-03-26 13:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Mo. I&amp;#x27;m building Paseo, a multi-platform interface for running Claude Code, Codex and OpenCode. The daemon runs on any machine (your Macbook, a VPS, whatever) and clients (web, mobile, desktop, CLI) connect over WebSocket (there&amp;#x27;s a built-in E2EE relay for convenience, but you can opt-out).&lt;p&gt;I started working on Paseo last September as a push-to-talk voice interface for...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47529985" target="_blank">Show HN: Version 1.0 of agent-of-empires CLI agent orchestration tool</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-03-26 13:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Nathan here, I&amp;#x27;m a ML engineer at mozilla.ai&lt;p&gt;So stoked to mark the agent-of-empires (aoe) tool as version 1.0. We&amp;#x27;ve had 30 different direct contributors to the codebase as well as many other indirect contributors via Github issues and various comments.&lt;p&gt;It&amp;#x27;s a tool to make it as easy as possible to push lots of coding agents forwards at once. Powered by sandboxing, git worktrees...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47529963" target="_blank">Show HN: Paseo – Open-source coding agent interface (desktop, mobile, CLI)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-03-26 13:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Mo. I&amp;#x27;m building Paseo, a multi-platform interface for running Claude Code, Codex and OpenCode. The daemon runs on any machine (your Macbook, a VPS, whatever) and clients (web, mobile, desktop, CLI) connect over WebSocket (there&amp;#x27;s a built-in E2EE relay for convenience, but you can opt-out).&lt;p&gt;I started working on Paseo last September as a push-to-talk voice interface for...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

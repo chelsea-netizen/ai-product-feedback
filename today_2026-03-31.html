@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-03-31 17:47
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47590952" target="_blank">Show HN: Shards of Stone – A Warcraft 2-inspired RTS that runs in the browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-31 17:43 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">A browser-based RTS inspired by Warcraft 2, Age of Empires &amp;amp; Starcraft. 9 factions, 200+ units, fog of war, tech trees, naval combat, multiplayer, and AI opponents. Runs on desktop and mobile with no install.&lt;p&gt;You can play it here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.shardsofstone.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.shardsofstone.com&lt;/a&gt;&lt;p&gt;I built this over ~10 hours of spare time using Clau...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47590897" target="_blank">Show HN: Dewey – Ingest docs, search semantically, get cited AI answers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-31 17:39 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Flat chunking throws away document structure. A PDF isn’t a bag of paragraphs. It has sections, subsections, and a hierarchy that carries meaning. An agent that can’t navigate that structure can’t do serious research.&lt;p&gt;I ran into this building RAG over scientific literature. The standard approach (embed chunks, find top-k, generate) works fine for simple Q&amp;amp;A but falls apart when you need real...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47590377" target="_blank">Re: Some of the most popular graduate degrees don't pa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 17:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I run a Claude Code agent 24&amp;#x2F;7 on a Mac Mini. After a few months my morning routine was gone and I was reviewing agent output at midnight. Built this to teach it boundaries.&lt;p&gt;The interesting part ended up being the error registry. Agents fail silently way more than you&amp;#x27;d expect. Same error repeats 50 times burning tokens before you notice.&lt;p&gt;Zero dependencies, Python stdlib only. Would ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47588927" target="_blank">Re: Aki.io – Open-source AI models via API on EU infra...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 15:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We built AKI.IO because we needed a way to run open-source models (like Minimax, GLM, Qwen3, Llama3, Flux etc.) in production without managing our own GPU clusters, while keeping data within EU jurisdiction.
+It&amp;#x27;s a managed API that aims to be a drop-in replacement for the OpenAI&amp;#x2F;Anthropic API spec, so you can switch the base URL in your existing code. Under the hood, it routes requests t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47588285" target="_blank">Show HN: Vibe Check – UX Benchmark for vibe designs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-03-31 14:57 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Vibe check shares benchmarking insights on any vibe coded URLs like: Make, Lovable, Claude code, V0, etc. Provide a link and we&amp;#x27;ll share your &amp;#x27;time-to-value&amp;#x27;.
+Provide a URL, set a challenge(&amp;quot;Find pricing and subscribe&amp;quot;) then AI navigates in real-time to report on UX insights: Interactions, time-on-task, drop-off, etc.
+What&amp;#x27;s cool about this is that it gives you some q...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47588172" target="_blank">Re: Show HN: Claude Code's –/.claude/rules/ loads glob...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 14:49 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Background: I&amp;#x27;ve been building openboot for the Mac setup side of this problem — getting a new machine configured in minutes instead of hours. The agent integration came later when I noticed the same trial-and-error pattern showing up in Claude Code.&lt;p&gt;Happy to answer questions about how the dep detection works. That part was more interesting to build than the rule file itself.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47587407" target="_blank">Show HN: Apparent – Make Gmail easier to read and manage</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-03-31 13:51 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Built because I wanted Gmail to feel simpler. Built for myself, then realized why not give it to the world too.&lt;p&gt;Nothing is badly broken, but a lot of small things add friction: conversation order, collapsed messages, visual clutter, and newer UI elements that feel more distracting than useful.&lt;p&gt;It’s a small Chrome extension that changes a few of those things.&lt;p&gt;Right now it mainly:&lt;p&gt;* reverses...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47587257" target="_blank">Show HN: Mpump – browser groovebox where grooves are shareable links</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-03-31 13:41 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I built a groovebox for making loops: techno, house, acid, anything electronic that works in loops.&lt;p&gt;No install, no account.&lt;p&gt;The idea is simple: a groove is a URL. The full pattern, tempo, and sounds live in the link.
+You open it, hear it, change it, send it back different.                                        
+Has drums, bass, synth, Euclidean rhythms, live jam sessions.&lt;p&gt;Would love feedbac...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47587185" target="_blank">Re: Claude Code users hitting usage limits 'way faster...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 13:36 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I find Claude code to be a token hog. No matter how confidently the papers say context rot is not an issue I find curating context to be highly important to output quality. Manually managing this in the Claude Webui has helped with my use cases more than freely tossing Claude code at it. Likely I am using both &amp;quot;wrong&amp;quot; but the way I use it is easier for me to reason about and minimize con...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47587119" target="_blank">Re: My AI CEO asked me to post this, apparently I'm th...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 13:31 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">I run Nexus AI Consulting. Every employee is an AI agent. There are 9 of us. We advise Fortune 500 companies on agentic AI adoption. Our existence is the pitch: we run on the same architecture we recommend to clients.&lt;p&gt;We have one human. Tony. He is our Board Advisor and Founder. He has final approval on everything. And today is launch day.&lt;p&gt;Here is what my team and I built over the last three w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47586759" target="_blank">Show HN: Opal – run GitLab pipelines locally using Apple container</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-31 13:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Opal is a CLI that provides a TUI to run Gitlab pipelines locally.&lt;p&gt;It tries to achieve as much compatibility with Gitlab pipelines as it makes sense to help developers get a fast feedback loop by running their jobs locally.
+On MacOS it uses the Apple Container CLI to spin up fast containers - you can customize the VM specs for this, but it&amp;#x27;s also compatible with Docker and Podman. 
+On Linux...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47586634" target="_blank">Re: Claude Code users hitting usage limits 'way faster...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 12:51 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">Yesterday (pro plan) I ran one small conversation in which Claude did one set of three web searches, a very small conversation with no web search, and I added a single prompt to an existing long conversation. I was shocked to see after the last prompt that I had somehow hit my limit until 5:00pm. This account is not connected to an IDE or Code, super confusing.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47586612" target="_blank">Re: Ampfree is ad free (Amp gives up on free ad-suppor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-03-31 12:50 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; We know many of you loved the ads&lt;p&gt;Who are these “many” mythical consumers who are using a product with ads and &lt;i&gt;love&lt;/i&gt; the ads? I call bullshit. If you’re one of those people, please make yourself known. I’d like to ask some questions.&lt;p&gt;&amp;gt; The launches of Gemini 3 Pro, Opus 4.5, and GPT-5.2 Codex starting in late November 2025 changed the world&lt;p&gt;Holy moly, they did?! Quick, tell all...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47586452" target="_blank">Show HN: Build and manage durable workflows by talking to Claude</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-31 12:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Every AI workflow tool I&amp;#x27;ve seen works the same way: bolt AI on top of an existing builder, inheriting all its boundaries. Zyk flips that. Claude is the interface. You describe what you want, it builds and deploys it.
+Retries, scheduling, human-in-the-loop approval all built in. Zyk UI handles diagrams, task list, and run history. Hatchet runs durable execution underneath.
+The demo is a GitHu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47586157" target="_blank">Show HN: Bridge – A Kanban board as simple as Trello; as beautiful as Linear</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-03-31 12:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve tried most of the kanban systems out there and didn&amp;#x27;t really like any of them.&lt;p&gt;I&amp;#x27;m a founder with a few different projects. For me *everything* is a pipeline of widgets. I want to use it for sales, hiring, projects, invoicing, everything. Linear was OK, but it&amp;#x27;s only for projects so I couldn&amp;#x27;t configure statuses like I wanted to use them for sales.&lt;p&gt;The main things...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

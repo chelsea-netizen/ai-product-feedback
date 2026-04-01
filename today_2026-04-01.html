@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-04-01 17:41
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47603512" target="_blank">Show HN: Agent Instructions and Bootstrap Components</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-01 17:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello,&lt;p&gt;We started using AI tools intensively about 1.5 years ago. Initially, we used Gemini and Claude for creating specifications, generating concept mocks and UI mocks. That was an OK experience. Then we subscribed to Claude Code (Pro plan) and started building applications. Quite quickly, we realized that Claude (or Gemini or Codex) are quite adept at creating a lot of code quickly but they a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47602986" target="_blank">Show HN: Real-time dashboard for Claude Code agent teams</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                29 points | 7 comments |
+                2026-04-01 16:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This project (Agents Observe) started as an exploration into building automation harnesses around claude code. I needed a way to see exactly what teams of agents were doing in realtime and to filter and search their output.&lt;p&gt;A few interesting learnings from building and using this:&lt;p&gt;- Claude code hooks are blocking - performance degrades rapidly if you have a lot of plugins that use hooks&lt;p&gt;- Ho...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47602147" target="_blank">Re: Show HN: Baton – A desktop app for developing with...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-01 15:24 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This looks dangerously close to cmux but with a narrower focus (Just Claude code)&lt;p&gt;BTW, the claude app kind supports this with the &amp;#x2F;remote-control command, and that was what made me move away from cmux (I still have to start the sessions there)</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47601556" target="_blank">Show HN: 0XDEAD.space: A cryptographic succession protocol for the AT Protocol</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-01 14:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; &amp;quot;On the Revocation of Meatspace Certificates&amp;quot;&lt;p&gt;As devs get older, and we see more of our fellow maintainers sadly pass away, I can&amp;#x27;t help but think of the mess those types of events typically leave in their wake. Not only are they sad, tragic events, but they have real world consequences for the work and projects they leave behind.&lt;p&gt;I started brainstorming with Claude and oth...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47601273" target="_blank">Re: Wedeo – a Rust Rewrite of FFmpeg...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-01 14:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">After playing around with Claude Code for a bit, rewriting some Python tooling in Rust to great effect, I was interested in pushing the boundaries of what LLMs could do in terms of rewriting projects in Rust. The result is `wedeo`.&lt;p&gt;For those unfamiliar, [FFmpeg](&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.ffmpeg.org&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.ffmpeg.org&amp;#x2F;&lt;/a&gt;) is &amp;quot;a complete, cross-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47600002" target="_blank">Show HN: I made a Mario Galaxy game with Claude Code and Three.js in 53 days</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 12 comments |
+                2026-04-01 12:34 |
+                <span class="category">error_messages, tone</span>
+            </div>
+            <div class="text">I&amp;#x27;m the developer. Happy to share the process and learnings.&lt;p&gt;Architecture:&lt;p&gt;- Custom SoA ECS for cache-friendly iteration, zero allocations in hot loops. Benchmarked against bitECS&amp;#x2F;miniplex.&lt;p&gt;- Process manager inspired by Game Code Complete&amp;#x27;s but data-oriented so processes are pure data, systems contain the logic.&lt;p&gt;- Multi-field gravity with 5 types (point, parallel, segment, c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47599944" target="_blank">Show HN: Agent Arnold – Gym tracker 100% vibe-coded from my phone between sets</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-04-01 12:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Agent Arnold is a gym tracker with a built-in AI coach. Here&amp;#x27;s how I use it:&lt;p&gt;- &amp;quot;this exercise hurts my shoulder at the end of the movement, remind me proper form and cues&amp;quot;&lt;p&gt;- &amp;quot;how should I modify my workout today based off last week&amp;#x27;s reps and weights&amp;quot;&lt;p&gt;- `&amp;#x2F;generate` a bouldering-focused workout routine&lt;p&gt;The app is free, your data is fully exportable (no wal...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

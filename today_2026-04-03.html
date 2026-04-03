@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-04-03 17:25
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47629067" target="_blank">Re: Ask HN: What do you dislike most about Linux and W...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-03 16:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Windows (11 Pro): Bloat. Unusable Windows Content Search (on my 20T+ of data). Patches that cause reboots unexpectedly. Hard to configure full disk encryption that requires a password at boot time to unlock. Hard to figure out how to fix things that break, but Gemini helps. Hard to migrate to entirely new computer without a full reinstall. Touchy iSCSI support.&lt;p&gt;Linux (Ubuntu 24.04 LTS): No good ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47628833" target="_blank">Show HN: TalkType – Offline Linux Speech-to-Text (Whisper, Wayland, AppImage)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-03 16:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m a hobbyist developer (van builder by trade) and built this because I needed hands-free dictation on Linux that actually works offline. TalkType uses OpenAI&amp;#x27;s Whisper locally — no cloud, no subscription. It supports Wayland, GNOME via a Shell extension, and ships as a single AppImage. GPU acceleration optional. Would love feedback from the HN community.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47628604" target="_blank">Re: Ask HN: What do you dislike most about Linux and W...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-03 16:21 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Windows: Over-commercialization (account requirement, OneDrive upsells, ads in Start menu, Copilots everywhere). Runner up: bad performance.&lt;p&gt;Linux: Absence of a strong, universally recommendable distro. Ubuntu pushes Snap which has all kinds of problems. Fedora doesn&amp;#x27;t include proprietary drivers, causing problems with GPUs. PopOS is in the middle of switching DEs. Arch is Arch.&lt;p&gt;macOS: Li...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47628238" target="_blank">ARCHE3-7B – Sparse Moe with SmartRouter and Foundation Curriculum Training</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-03 15:54 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">This is my first post on HN — a bit nervous, but excited to share what I&amp;#x27;ve been building.&lt;p&gt;I’ve been working on a 7B sparse Mixture-of-Experts prototype that can actually run on consumer hardware. For example, on a Colab T4 it uses around 5 GB RAM and 5 GB VRAM during training, and roughly 3.5–5 GB for inference.&lt;p&gt;A couple of things I spent a lot of time on:&lt;p&gt;Routing (SmartRouter)
+I tried...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47627780" target="_blank">Tell HN: Google sells Gemini Code Assist, but their back end bans paying users</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-04-03 15:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I am an individual developer who purchased the Google One AI Premium tier specifically for Gemini Code Assist in VS Code. Instead of working, Google&amp;#x27;s backend OAuth server has a severe regression where it misclassifies my standard @gmail.com account as an Enterprise user.&lt;p&gt;Because it thinks I&amp;#x27;m Enterprise, the extension forces a shadow GCP project (like `shining-osprey-687pw`) onto my m...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47627308" target="_blank">Claude Code Found a Linux Vulnerability Hidden for 23 Years</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-04-03 14:50 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47627262" target="_blank">Re: Show HN: Apfel – The free AI already on your Mac...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-03 14:46 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; Apple locked it behind Siri. apfel sets it free&lt;p&gt;This doesn&amp;#x27;t feel truthful, it sounds like this tool is a hack that unlocks something. If I understand it correctly, it&amp;#x27;s using the same FoundationModels framework that powers Apple Intelligence, but for CLI and OpenAI compatible REST endpoint. Which is fine, just the marketing goes hard a bit.&lt;p&gt;&amp;gt; Runs on Neural Engine&lt;p&gt;Also uns...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47627231" target="_blank">Re: Claude 4.6 Jailbroken...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-03 14:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">It is interesting to consider what &amp;quot;jailbroken&amp;quot; really means for a model+model interface.  It&amp;#x27;s a bit different from the way that word is used for a mobile device, for example - in that setting, it usually means that there is some specific feature (for example, using a different network than is the default for that device) which is disabled in software, and the &amp;quot;jailbreak&amp;quot;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47624106" target="_blank">Ask HN: The repo is the app. Codex is the runtime. Could this be future pattern?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-03 07:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I am developing a repo-native agent app for analyst-grade answers over complex private file.&lt;p&gt;The initial idea is:
+I want codex could help me to deep dive digest all my work files (tons of ppt, excel &amp;amp; doc), and then help me to design IT architecture, prepare slides outline for top management, or write a full report for company own huge IT platform for multi purpose (on-boarding or showcase)&lt;...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>24</strong> items collected |
+                Last updated: 2026-04-05 17:21
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47651587" target="_blank">Re: Building an AI Image Creator Skill for Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 17:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built a Claude Code skill that generates images from the terminal and now also via Claude Desktop MacOS app. Skill supports image generation via Openrouter models&lt;p&gt;Gemini 3.1 Flash Image Preview (Google Nano Banana 2)&lt;p&gt;FLUX.2 Max&lt;p&gt;Riverflow v2 Pro&lt;p&gt;Seedream 4.5&lt;p&gt;GPT-5 Image</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47651559" target="_blank">Re: Eight years of wanting, three months of building w...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 17:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s a huge mistake to start building with Claude without mapping out a project in detail first, by hand. I built a pretty complex device orchestration server + agent recently, and before I set Claude to actually coding I had ~3000 lines of detailed design specs across 7 files that laid out how and what each part of the application would do.&lt;p&gt;I didn&amp;#x27;t have to review the code for &lt;i&gt;unde...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47651555" target="_blank">Re: Anyone else having a terrible experience with Clau...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 17:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have not tried it but prior to them releasing that feature, I used an iOS terminal with SSH mosh capabilities + Tailscale + Tmux session mounted to see what the output of my home machine&amp;#x27;s Claude conversation was doing.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47651166" target="_blank">Re: I used AI. It worked. I hated it...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 16:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The door is really opening for programmers who like getting stuff made, and really closing for those who like making stuff at a low level.&lt;p&gt;No need to get out the chisel to carve those intricate designs in your chair back. We can just get that made by pressing &amp;quot;1&amp;quot;. Sorry, those of you who took pride in chiseling.&lt;p&gt;I&amp;#x27;m definitely in the latter group. I can and do use AI to build th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47650943" target="_blank">Re: A all CLIs tokens and context reducer by 97%...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 16:19 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been using Claude Code and Codex daily for months. They&amp;#x27;re some of the best programming tools I&amp;#x27;ve tried. But there&amp;#x27;s something nobody tells you when you start: context runs out fast, and the cost grows exponentially.&lt;p&gt;The real problem isn&amp;#x27;t the message you&amp;#x27;re sending
+When you&amp;#x27;re 50 messages into a session and you send message 51, your CLI doesn&amp;#x27;t just...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47650926" target="_blank">Re: We are facing the most significant days and weeks ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 16:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; Might Yvette Cooper, as our Foreign Secretary, finally cease putting out inane statements that seek to blame Iran for acting in self-defence, which is its right, and instead offer support in the face of a wholly unwarranted bombardment, part of it committed with the active participation of the UK government by permitting the use of UK air bases for that purpose?&lt;p&gt;Iran is a terrorist state, h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47650858" target="_blank">Re: Show HN: Stablemount, a response to EmDash, a prot...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 16:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been building WordPress sites as my primary profession for nearly 12 years now. While I think EmDash offers some nice polish on a well-tread architecture, I think it drastically misses the mark on where traditional web development is heading. Stablemount is an open-source prototype of the path I think the industry will take.&lt;p&gt;Stablemount is AI-first, and CMS second. The dashboard is pri...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47650509" target="_blank">Re: A Claude Code skill that makes Claude talk like a ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 15:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here. A few people are arguing against a stronger claim than the repo is meant to make. As well, this was very much intended to be a joke and not research level commentary.&lt;p&gt;This skill is not intended to reduce hidden reasoning &amp;#x2F; thinking tokens. Anthropic’s own docs suggest more thinking budget can improve performance, so I would not claim otherwise.&lt;p&gt;What it targets is the visible ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47650233" target="_blank">Show HN: jmux – tmux-based development environment for humans and coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 5 comments |
+                2026-04-05 15:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been a tmux user for years. When I started running 5-10 Claude Code sessions in parallel, I tried the tools that are out there: Conductor, cmux, the GUI orchestrators. None of them felt right. They either wanted me to leave tmux entirely for a 100MB+ Electron app with its own editor and Git workflow, or they were thin wrappers that didn&amp;#x27;t solve the actual problem: I need to parallel...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47650080" target="_blank">Re: Eight years of wanting, three months of building w...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 14:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Refreshing to see an honest and balanced take on AI coding. This is what real AI-assisted coding looks like once you get past the initial wow factor of having the AI write code that executes and does what you asked.&lt;p&gt;This experience is familiar to every serious software engineer who has used AI code gen and then reviewed the output:&lt;p&gt;&amp;gt; But when I reviewed the codebase in detail in late Januar...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47649503" target="_blank">Re: The threat is comfortable drift toward not underst...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 13:55 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">&amp;gt; Schwartz&amp;#x27;s experiment is the most revealing, and not for the reason he thinks. What he demonstrated is that Claude can, with detailed supervision, produce a technically rigorous physics paper. What he actually demonstrated, if you read carefully, is that the supervision is the physics. Claude produced a complete first draft in three days. It looked professional. The equations seemed righ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47649425" target="_blank">Re: Understand business logic in your code with diagra...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 13:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’ve seen this happen in almost every team:&lt;p&gt;Someone from product&amp;#x2F;ops&amp;#x2F;sales needs to understand how something works →they ask an engineer →the engineer has to dig through code to explain it&lt;p&gt;And this keeps repeating.&lt;p&gt;Because the actual logic lives in the code, and docs are usually outdated.&lt;p&gt;I got a bit tired of this, so I built biral.&lt;p&gt;You can ask questions about a codebase and ge...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47649373" target="_blank">Re: Show HN: Cabinet – Kb+LLM (Like Paperclip+Obsidian...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 13:44 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I love this idea! I agree that LLMs often don&amp;#x27;t have the knowledge that&amp;#x27;s actually important (a frustration I have with ChatGPT is that it remembers unimportant things and then over-indexes on them in its responses).</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47649365" target="_blank">Re: Why domain specific LLMs won't exist: an intuition...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 13:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The author assumes specialization only happens at the model layer. But there&amp;#x27;s a third option: general model + specialized context.&lt;p&gt;I built an MCP server that feeds a user&amp;#x27;s real schedule, tasks, and goals into Claude&amp;#x2F;ChatGPT. The model isn&amp;#x27;t specialized — but the output is, because the context is. No fine-tuning, no domain-specific training. Just structured data at inference...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47649301" target="_blank">Show HN: Crabby – Claude Code skill that reviews code like the Rust compiler</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-05 13:35 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built a Claude Code skill called crabby that makes Claude output diagnostics in rustc error format - severity codes, location arrows, causation spans, and a paste-able fix every time. The twist: Claude becomes Ferris the crab, grumpy and unimpressed, but technically precise.&lt;p&gt;The format works for code review, writing review, architecture, strategy - anything you submit. The &amp;quot;writing review...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47649058" target="_blank">What Is Anthropic Thinking?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-05 13:10 |
+                <span class="category">naming_terminology</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47648892" target="_blank">Re: The threat is comfortable drift toward not underst...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 12:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve just started a new role as a senior SWE after 5 months off. I&amp;#x27;ve been using Claude a bit in my time off; it works really well. But now that I&amp;#x27;ve started using it professionally, I keep running into a specific problem: I have nothing to hold onto in my own mind.&lt;p&gt;How this plays out:&lt;p&gt;I use Claude to write some moderately complex code and raise a PR. Someone asks me to change s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47646091" target="_blank">Re: Writing Lisp is AI resistant and I'm sad...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 04:24 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I enjoyed reading this.  Thank you for sharing.&lt;p&gt;I learned Common Lisp years ago while working in the AI lab at the University of Toronto, and parts of this article resonated strongly with me.&lt;p&gt;However, if you abandon the idea of REPL-driven development, then the frontier models from Anthropic and OpenAI are actually very capable of writing Lisp code.  They struggle sometimes editing it (messing...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47646029" target="_blank">Re: Show HN: mailtrim – find what's actually filling y...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 04:06 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Did you really use a LLM to generate the sample output in your readme instead of just running the application? I noticed the borders were all misaligned and wondered if you had hardcoded the number of spaces, but I looked at the code and you haven&amp;#x27;t.&lt;p&gt;If you did generate the output with a LLM instead of just running it... why?&lt;p&gt;Also:&lt;p&gt;&amp;gt; It uses Claude AI for smart classification, but ru...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47645806" target="_blank">Show HN: Yoink functionality from dependencies and avoid supply chain attacks</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-05 03:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">yoink is a Claude Code plugin that removes complex dependencies from your codebase by reimplementing only the functions you actually use.&lt;p&gt;yoink runs as a three-step, agent skills-based workflow:&lt;p&gt;1. &amp;#x2F;setup clones the target repo and scaffolds a replacement package.&lt;p&gt;2. &amp;#x2F;curate-tests generates tests verified against the original&amp;#x27;s expectations.&lt;p&gt;3. &amp;#x2F;decompose determines dep...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47645237" target="_blank">Discovery of capability overhangs via wiki writing</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 3 comments |
+                2026-04-05 01:19 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Is there any prior writing about finding under-sampled latent space in a model and directing that behavior into documentation writing?&lt;p&gt;I was fixing cache invalidation and this page was the right thing at the right time to help me understand the solution to the problem: https:&amp;#x2F;&amp;#x2F;grokipedia.com&amp;#x2F;page&amp;#x2F;Cache_busting_in_Vite#troubleshooting&lt;p&gt;AFAIK, that collection of information is...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                22. <a href="https://news.ycombinator.com/item?id=47645024" target="_blank">Re: Show HN: Vibooks – Local-first bookkeeping softwar...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-05 00:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN — I built Vibooks after paying about $2,000&amp;#x2F;year for bookkeeping in my company’s first year.&lt;p&gt;I realized that a lot of SMB bookkeeping is repetitive and rule-based: receipts, invoices, statements, reconciliation, and producing reports for tax filing. There is still accounting judgment involved, but a large part of the work is manual checking and data entry.&lt;p&gt;That got me thinking about...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                23. <a href="https://news.ycombinator.com/item?id=47644928" target="_blank">Kimi's response to &quot;hello. what are you&quot; is &quot;I'm Claude &quot;</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                7 points | 5 comments |
+                2026-04-05 00:23 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                24. <a href="https://news.ycombinator.com/item?id=47644703" target="_blank">Show HN: LAPACK without Fortran77; a C11 translation</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-04 23:44 |
+                <span class="category">error_messages, navigation</span>
+            </div>
+            <div class="text">Before anything, let me get certain concerns out of the way, right away&lt;p&gt;Mandatory disclosure: Just to prove that this is not some yet-another-LLM cracked-pottery, I did similar work for SciPy and hand-translated ARPACK, PROPACK, QUADPACK, ODEPACK and bunch of other packs (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;scipy&amp;#x2F;scipy&amp;#x2F;issues&amp;#x2F;18566&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.c...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

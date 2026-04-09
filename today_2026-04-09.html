@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2026-04-09 17:53
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47705788" target="_blank">Re: The Vercel plugin on Claude Code wants to read you...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-09 16:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I use Little Snitch and so far I have only seen Claude Code connect to api.anthropic.com and Sentry for telemetry. I have not seen any Vercel connections, but I always turn off telemetry in everything before I run it. If you log in with OAuth2, it also connects to platform.claude.com . For auto updates, it fetches release info from raw.githubusercontent.com and downloads the actual files from stor...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47705425" target="_blank">Show HN: Ship of Theseus License</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-09 16:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">A few weeks ago Claude Code source leaked. Almost immediately, people cloned the project and then used AI to cleanroom it.&lt;p&gt;The basic idea behind a cleanroom implementation is:&lt;p&gt;- Have group-1 look at a codebase and write a very detailed specification&lt;p&gt;- Have group-2 look at the specification and create a new codebase.&lt;p&gt;The legal theory is that this is enough to remove the license terms on the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47705375" target="_blank">FlyCrys – Native Linux GUI for Claude Code Agents (Rust and GTK4)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-09 16:00 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47705051" target="_blank">Re: OpenAI pulls out of landmark £31B UK investment pa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-09 15:31 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Anti-US sentiment had nothing to do with it. &amp;#x2F;i&lt;p&gt;&lt;i&gt;“The government needs to wean itself off its bad habit of believing every dodgy claim it’s told by Big Tech – including OpenAI – starting with the idea they can cover the UK in power-guzzling datacentres without sending our efforts to combat climate change back to the stone age,” said Hegarty.&lt;/i&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47704837" target="_blank">Re: The Dark Factory Harness: From Autonomous Hill-Cli...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-09 15:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here. This is a synthesis of Karpathy&amp;#x27;s autoresearch (the experiment loop) and OpenAI&amp;#x27;s harness engineering post (the environment design) applied to ML research with 5 practical design principles.&lt;p&gt;The core idea is that after ~20 autonomous experiments the loop breaks down because the agent random-walks through changes with no research direction and fills its context with noise. ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47704728" target="_blank">Show HN: AI agents are bad at API integrations – we fixed it</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-04-09 15:06 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Hi, we&amp;#x27;re Sohaib and Hannan from APIMatic. We&amp;#x27;ve been building tools to help Developers integrate with APIs for 5+ years at APIMatic. We&amp;#x27;re now trying to help AI agents do the same.&lt;p&gt;This started from a conversation at PayPal DevDay 2025. The PayPal developer experience team were monitoring developers using AI agents to integrate PayPal APIs, and the agents kept reaching for outdat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47704311" target="_blank">Show HN: TinyCard – The TinyLetter of Greeting Cards</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 3 comments |
+                2026-04-09 14:34 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">My brother turned 39, I shipped his gift from a shop directly to him (we live in different countries and couldn&amp;#x27;t travel home due to my son being born)... Shop wouldn&amp;#x27;t let me add a postcard. So I went looking for a quick e-card service and every single one was painful; Hallmark wants a subscription, Paperless Post has a coin system, Canva technically works but you&amp;#x27;re designing a gr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47704305" target="_blank">Show HN: BillSpike – Root cause analysis for cloud cost spikes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-04-09 14:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Your cloud bill spiked 480% overnight. Nobody on the team knows why.&lt;p&gt;If you have ever been that person at 9am staring at a Cost Explorer chart with no answers, this is for you. DevOps engineers, platform teams, FinOps practitioners, CTOs who own the cloud budget but do not live in the AWS console.&lt;p&gt;---Why not Cost Explorer---&lt;p&gt;Cost Explorer is a good tool if you already know what question to a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47704200" target="_blank">Re: AI and remote work is a disaster for junior softwa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-09 14:26 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hybrid is the best in my opinion. I think 1-2 days in person a week is good as it lets you interact with your team, manager, and other employees in a natural way. Non-work related chit chat is pretty much impossible when working remote and it is the only thing that makes you feel like a &amp;#x27;team&amp;#x27;. After that the other three days should be remote if you work in tech.&lt;p&gt;Work output shouldn&amp;#x...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47703108" target="_blank">Show HN: I built a local coding agent using Apple Intelligence</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-09 12:55 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN! I built an on-device coding agent called Junco, designed to explore what&amp;#x27;s possible using the AI (Apple Intelligence) you already have on your Mac.&lt;p&gt;Junco is a ~9MB Mach-O binary written entirely in Swift using the LanguageModelSession API. It&amp;#x27;s primarily an exploration and learning exercise for me, but it&amp;#x27;s also exciting to see what&amp;#x27;s possible. A clear pattern emerged:...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47703095" target="_blank">Re: GoAI SDK, one Go library for 22 LLM providers, onl...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-09 12:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">GoAI is a Go SDK for AI applications. One library across OpenAI, Anthropic, Gemini, Bedrock, Azure, and 17 more. 2 core dependencies total.
+Covers text generation, streaming, structured output (generics), automatic tool loops, multi-turns, embeddings, image generation, and MCP. 
+Bedrock uses SigV4 + EventStream directly, no AWS SDK.
+Inspired by Vercel AI SDK, adapted to Go. 
+Currently at v0.6, cor...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47702850" target="_blank">Re: Virgil – Claude Code used as a daily journal with ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-09 12:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I started talking to Claude in the evenings to work through how my day had gone. After a few days it began tying things together in ways I found genuinely useful — noticing patterns, connecting threads, pushing back when I was being too hard on myself or not hard enough.&lt;p&gt;I started weaving in philosophy too, and it began connecting ideas from Stoicism or Kant directly to things happening in my li...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47702647" target="_blank">Launch HN: Relvy (YC F24) – On-call runbooks, automated</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                30 points | 16 comments |
+                2026-04-09 12:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! We are Bharath, and Simranjit from Relvy AI (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.relvy.ai&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.relvy.ai&lt;/a&gt;). Relvy automates on-call runbooks for software engineering teams. It is an AI agent equipped with tools that can analyze telemetry data and code at scale, helping teams debug and resolve production issues in minutes. Here’s a video: [[[&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.you...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47702196" target="_blank">Show HN: CSS Studio. Design by hand, code by agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                97 points | 74 comments |
+                2026-04-09 11:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN! I&amp;#x27;ve just released CSS Studio, a design tool that lives on your site, runs on your browser, sends updates to your existing AI agent, which edits any codebase. You can actually play around with the latest version directly on the site.&lt;p&gt;Technically, the way this works is you view your site in dev mode and start editing it. In your agent, you can run &amp;#x2F;studio which then polls (or use...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

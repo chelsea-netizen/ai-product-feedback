@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>10</strong> items collected |
+                Last updated: 2026-04-10 17:39
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47721255" target="_blank">Show HN: Eve – Managed OpenClaw for Work</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-10 17:31 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Eve is an AI agent harness that runs in an isolated Linux sandbox (2 vCPUs, 4GB RAM, 10GB disk) with a real filesystem, headless Chromium, code execution, and connectors to 1000+ services.&lt;p&gt;You give it a task and it works in the background until it&amp;#x27;s done.&lt;p&gt;I built this because I wanted OpenClaw without the self-hosting, pointed at actual day-to-day work. I’m thinking less personal assistan...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47720324" target="_blank">Re: The AI Productivity Lie...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-10 16:15 |
+                <span class="category">content_clarity, onboarding, navigation</span>
+            </div>
+            <div class="text">&amp;gt; If so, why is the pace of innovation and updates in their AI development products (Codex, Claude Code, Antigravity) so pedestrian? Compare the rate of improvement in their products to products from other multi-billion dollar companies, or indeed to the rate of innovation before the advent of AI driven development, and you’re hard pressed to find anything justifying the claims of acceleration....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47720094" target="_blank">Show HN: Formally Verified Leaderless Log Protocol for Kafka</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-04-10 16:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We open-sourced the TLA+ and Fizzbee verified spec behind Ursa&amp;#x27;s storage engine. Verification across ~200K states caught a design bug that years of production missed. We then handed the spec to Claude Code — it produced a working Rust implementation (concurrent producers, compaction, fencing) without back-and-forth. We think verified specs are the best harness for coding agents: open-source t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47719403" target="_blank">Show HN: Skilldeck – Desktop app to manage AI agent skill files across tools</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-10 15:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Skill files (.claude&amp;#x2F;skills&amp;#x2F;, .cursor&amp;#x2F;rules&amp;#x2F;*.mdc, 
+AGENTS.md, .windsurfrules) are becoming a core part of 
+AI-assisted development workflows. The problem: they 
+scatter across projects, diverge silently, and every new 
+repo means rebuilding behavioral config from scratch. Each 
+tool uses a different format and location.&lt;p&gt;Skilldeck keeps one local library and deploys to any to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47719309" target="_blank">Re: Ads in ChatGPT...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-10 15:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Google&lt;p&gt;Before: “Advertising funded search engines will be inherently biased toward the advertisers and away from the needs of the consumers.”&lt;p&gt;After: ~75–80%+ of revenue comes from ads&lt;p&gt;Facebook&lt;p&gt;Before: “Facebook is not about making money… it’s about building something cool.”,  “We don’t build services to make money; we make money to build better services.”&lt;p&gt;After: ~97%+ of revenue comes fr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47718043" target="_blank">Ask HN: How do designers and marketers use Command Line? AI? Technical tools?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-04-10 13:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I sit near the Director of Marketing and she got a claude access and is slowly learning to use it. I know absolutely nothing about design and marketing workflow but was interested in how a little technical skills can seriously upgrade someone&amp;#x27;s workflow. Does anyone have any links or stories or anecdotes to tell?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47718018" target="_blank">Re: OpenAI backs Illinois bill that would limit when A...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-10 13:41 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I have made both GPT 5.4 and Opus 4.6 produce me content on creating neurotoxic agents from items you can get at most everyday stores. It struggled to suggest how to source 
+phosphorus, but eventually lead me to some ebay listings that sell phosphorus elemental &amp;#x27;decorations&amp;#x27; and also lead me towards real!! blackmarket codewords for sourcing such materials.&lt;p&gt;It coached me how to: stay sa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47716787" target="_blank">Re: France Launches Government Linux Desktop Plan as W...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-10 12:01 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Interestingly, Microsoft has been trying to get ahead of this for a couple of years now with their National Partner Clouds program [0], which they describe as:&lt;p&gt;&amp;gt; designed for scenarios where full ownership and operational independence from Microsoft is required&lt;p&gt;In France&amp;#x27;s case, Capgemini and Orange have a joint venture to operate datacenters that Microsoft runs Azure and Office on top...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47716494" target="_blank">Re: France Launches Government Linux Desktop Plan as W...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-10 11:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I used Linux 10 years ago, but then due to job or corp. and needing Teams and Outlook I was forced to uses Windows. Now with corp job over I was finally able to switch to Linux this week (Fedora + KDE). Loving improvements made in the last 10 years, KDE will always have its quirks, but it is fast and smooth with no crashes yet.  I got Claude to make me a migration script which worked brilliantly, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47716436" target="_blank">Re: We're Getting the Wrong Message from Mythos...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-10 11:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Even the website follows anthropic’s piss yellow design.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

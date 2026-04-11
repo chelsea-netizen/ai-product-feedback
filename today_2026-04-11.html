@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-04-11 17:23
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47730983" target="_blank">Re: Cirrus Labs to join OpenAI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-11 14:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">FTA:&lt;p&gt;&amp;gt; In 2022, we built Tart, which became the most popular virtualization solution for Apple Silicon, along with several other tools along the way.&lt;p&gt;from Tart&amp;#x27;s github:&lt;p&gt;&amp;gt;  [Tart is for] macOS and Linux VMs on Apple Silicon to use in CI and other automations&lt;p&gt;My (naive?) hypothesis is this kind of expertise is why OpenAI chose to acquihire.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47730652" target="_blank">Show HN: Helix – open-source self-healing back end for production crashes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-04-11 13:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Helix watches your error tracker (Sentry or Rollbar). When a bug hits production, a pipeline of agents kicks off automatically:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  1. Crash Handler parses the webhook and extracts context
+  2. QA Agent follows test driven development approach and writes a failing test then opens a GitHub Issue
+  3. Dev Agent clones the repo, writes a fix for failing test, and creates a PR.
+  4. Notifie...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47730586" target="_blank">Show HN: Superpowers-UML – UML-Enabled Superpowers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-11 13:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Superpowers-UML modifies Superpowers to ensure a software development workflow in which AI agents design through UML modeling, for Claude Code users.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47729922" target="_blank">Re: I built a pure WGSL LLM engine to run Llama on my ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-11 12:16 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I recently bought a Snapdragon X Elite Copilot+ laptop and realized my integrated Adreno GPU was basically a paperweight for local AI. Standard tools like LM Studio and the massive PyTorch ecosystem didn&amp;#x27;t support it, forcing everything onto the CPU. I didn&amp;#x27;t want to wait for the ecosystem to catch up, so I built a from-scratch inference engine to bypass it entirely.&lt;p&gt;It’s writ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47729477" target="_blank">Show HN: Hormuz Havoc, a satirical game that got overrun by AI bots in 24 hours</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                42 points | 12 comments |
+                2026-04-11 10:58 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">I built a satirical browser game to share with friends (Hormuz Havoc: you play an American president managing a crisis in the Middle East, only &amp;quot;loosely&amp;quot; inspired by current events). I had good fun making this, but that&amp;#x27;s not necessarily the interesting part.&lt;p&gt;The interesting part was that within a few hours of sharing it with my friends, some of them set about trying to overrun th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47729065" target="_blank">Show HN: Cyber Pulse. AI pipeline for triage and alerting on cyber news/intel</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-11 09:37 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">I work in cyber security and built this android app to help me keep up to date with the latest news stories and summarise the most important information. It provides two executive summaries per day and alerts for critical news throughout.&lt;p&gt;I’m using Gemini Pro 3 to analyse recent articles from a list of trusted sources. It identifies the 5 highest priority stories, considering things like if a vu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47728522" target="_blank">Claude API Error: 529</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-04-11 08:04 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">API Error: 529 {&amp;quot;type&amp;quot;:&amp;quot;error&amp;quot;,&amp;quot;error&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;overloaded_error&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Overloaded&amp;quot;},&amp;quot;request_id&amp;quot;:&amp;quot;req_011CZwdriX9NLKTydq5m3KmV&amp;quot;}</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47728093" target="_blank">Re: Ramp Up AI Skills...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-11 06:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I often hear on podcast such as this one giving career advice that folks should become AI native, and improve their AI skills. I’m not a software developer, so I am not using Claude Code or other frameworks — my office basically authorizes us to use  a Gemini chat interface. For non programming jobs does that mean just getting better at prompts? Is there another avenue I should be learning?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47728039" target="_blank">Show HN: Provepy – A Python decorator that proves your code using Lean and LLMs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-11 06:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi all,&lt;p&gt;I have recently been playing around with AI and formal methods and built Provepy. It&amp;#x27;s an experiment to see if we can use frontier LLMs to bridge the gap between everyday Python code and formal verification in Lean.&lt;p&gt;The idea is to make formal methods more accessible by burying the complex Lean syntax behind a standard Python decorator. You add @provable to your function, give it a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47727890" target="_blank">Show HN: Dux, a TUI Agent Multiplexer</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-04-11 06:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN!&lt;p&gt;I built this over the past couple of weeks out of frustration of not having something like Claude Code Desktop, Conductor, Emdash and a few others in a Linux Environment (and a Windows&amp;#x2F;WSL environment).&lt;p&gt;Dux takes some of the good learnings from most of the UIs today but offers it in a nicely packaged form. You can create multiple agents off the same repo via Git Worktrees, and you...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47726056" target="_blank">Show HN: Collabmem – a memory system for long-term collaboration with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 1 comments |
+                2026-04-11 01:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN! I built collabmem, a simple memory system for long-term collaboration between humans and AI assistants. And it&amp;#x27;s easy to install, just ask Claude Code:&lt;p&gt;&lt;pre&gt;&lt;code&gt;    Install the long-term collaboration memory system by cloning https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;visionscaper&amp;#x2F;collabmem to a temporary location and following the instructions in it.
+&lt;/code&gt;&lt;/pre&gt;
+To collaborate wi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47726001" target="_blank">I Built Anthropic's Internal Sandbox Platform on a Single Linux Box</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-11 00:57 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47725899" target="_blank">Re: Open Source LLM Comparison – Is Opus Cooked?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-11 00:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m moving off of Claude Code due to constant limit hits. I use it for some personal software development, but I mostly use it for simple personal assistant queries via the Hermes harness and signal.&lt;p&gt;As I was moving off, I wanted a quick and easy way to compare what Opus would produce with what some open solutions can do. So I spun up a little comparison markdown and generated a webpage fro...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>18</strong> items collected |
+                Last updated: 2026-04-12 17:26
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47741889" target="_blank">Show HN: Claudraband – Claude Code for the Power User</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-12 16:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello everyone.&lt;p&gt;Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.&lt;p&gt;One example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: &lt;a href...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47741778" target="_blank">Re: Introducing Project Glasswing...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 16:46 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I find it quite irritating that the Linux Foundation posts this and gives Anthropic free marketing. Yes, they offer credits for open-source, and yes, it can help making open-source more secure, but still.. feels off. Like I expected such a blog post from Anthropic, not from the Linux Foundation.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47741279" target="_blank">Show HN: Lazyagent – a local TUI for watching what your coding agents are doing</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-12 16:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Lazyagent a simple way to see what your coding agents were actually doing across Claude, Codex, and OpenCode.&lt;p&gt;Once you have more than 1 agent running, its really hard to answer the simple question: what is it doing right now and why?&lt;p&gt;It is a local terminal UI that collects your agents runtime events and shows their activity in one place.&lt;p&gt;You can inspect:&lt;p&gt;- agents and subagents&lt;p&gt;- tool cal...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47741084" target="_blank">Show HN: The cutest WhatsApp concierge for dog friendly travel</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-04-12 15:45 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">&amp;quot;Pet-friendly&amp;quot; is a LIE, its the most meaningless tag in hospitality. Nobody verifies what it means and its hairy out there, I see breed restrictions, weight limits, off leash space, fee structures, and what made me crazy is that none of it standardized, none of it checked. So I built a structured dataset covering 58,000 venues and 85,000 trails across 56 countries, all verified, the val...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47741064" target="_blank">Show HN: Run AI coding agents in real sandboxes, not Git worktrees</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-12 15:44 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, I built SuperHQ, an app that lets you run coding agents in local sandboxes (powered by Shuru).&lt;p&gt;No custom UI wrapping the agents, they run as CLI&amp;#x2F;TUI like they were designed to. It just provides you the tools most of us (okay, maybe just me?) needed for running multiple coding agents in parallel without worrying about breaking your system or work environment.&lt;p&gt;Each agent runs in its...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47740884" target="_blank">Re: Tell HN: OpenAI silently removed Study Mode from C...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 15:30 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Has ChatGPT gotten worse over past few months or is it I just have seen other things higher quality, or they stopped caring about user or something?&lt;p&gt;All of a sudden feels like it gives me boilerplate and boiler plate of PR and cheesy reasoning, and like no actual answers - worse even - highly confident wrong answers that it then seeks to justify or explain (like it doesn&amp;#x27;t seem humble enoug...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47740829" target="_blank">Re: Pro Max 5x quota exhausted in 1.5 hours despite mo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 15:25 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">I did my (out of the ordinary) taxes this year using agents, kind of as an experiment and kind of to save ~$750. Opus 4.6 max in CC, 5.4 xhigh in codex, and 3.1 high in antigravity. All on the $20&amp;#x2F;mo plans.&lt;p&gt;I have a day job, a side business, actively trade shares options and futures, and have a few energy credit items.&lt;p&gt;All were given the same copied folder containing all the needed docume...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47740541" target="_blank">Re: Pro Max 5x quota exhausted in 1.5 hours despite mo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 15:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey all, Boris from the Claude Code team here.&lt;p&gt;We&amp;#x27;ve been investigating these reports, and a few of the top issues we&amp;#x27;ve found are:&lt;p&gt;1. Prompt cache misses when using 1M token context window are expensive. Since Claude Code uses a 1 hour prompt cache window for the main agent, if you leave your computer for over an hour then continue a stale session, it&amp;#x27;s often a full cache miss....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47740074" target="_blank">Re: Pro Max 5x quota exhausted in 1.5 hours despite mo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 14:25 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I skimmed the issue. No wonder Anthropic closes these tickets out without much action. That’s just a wall of AI garbage.&lt;p&gt;Here’s what I’ve done to mostly fix my usage issues:&lt;p&gt;* Turn on max thinking on every session. It save tokens overall because I’m not correcting it of having it waste energy on dead paths.&lt;p&gt;* keep active sessions active. It seems like caches are expiring after ~5 minutes (es...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47739925" target="_blank">Re: Show HN: Codex Workers AI Proxy – Use Cloudflare W...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 14:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">These days I reach for Codex CLI more than Claude Code. Not just for token economics, Codex has been catching up fast and is already ahead in some areas. It was open source from day one, arguably better code quality than the leaked Claude Code source, yet nobody cared. It&amp;#x27;s been improving quietly under the radar.&lt;p&gt;I subscribe to ChatGPT Pro, but Ralph + Fast Mode can still burn through token...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47739625" target="_blank">Re: Pro Max 5x quota exhausted in 1.5 hours despite mo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 13:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Claude has gotten noticeably worse for me too. It goes into long exploration loops for 5+ minutes even when I point it to the exact files to inspect. Then 30 minutes later I hit session limits. Three sessions like that in a day, and suddenly 25% of the weekly limit is gone.&lt;p&gt;I ended up buying the $100 Codex plan. So far it has been much more generous with usage and more accurate than Claude for t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47739420" target="_blank">Re: Anthropic downgraded cache TTL on March 6th...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 13:30 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">So a side effect of this is --  even at 1 hour caching --  ...&lt;p&gt;If you run out of session quota too quickly and need to wait more than an hour to resume your work ... you are paying even more penalty just to resume your work -- a penalty you wouldnt have needed if session quota was not so restrictive in first place, and which in turn causes you to burn through next session quota even faster.&lt;p&gt;Se...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47738195" target="_blank">Show HN: Contrails – App to watch coding agents chats and save them to your repo</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-12 10:46 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">## Description
+I made an app that watches coding agents sessions, and saves them to your repo as markdown
+So that you can reference one chat in another chat, share what you and the agent did (e.g., when contributing to a project), or keeping full trails of what was worked on.&lt;p&gt;GitHub (stars appreciated): &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ThreePalmTrees&amp;#x2F;Contrails&quot; rel=&quot;nofollow&quot;&gt;http...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47737984" target="_blank">Re: I run multiple $10K MRR companies on a $20/month t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 10:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; I bought a GitHub Copilot subscription in 2023, plugged it into standard VS Code, and never left. I tried Cursor and the other fancy forks when they briefly surpassed it with agentic coding, but Copilot Chat always catches up.&lt;p&gt;&amp;gt; Here is the trick that you might have missed: somehow, Microsoft is able to charge per request, not per token. And a &amp;quot;request&amp;quot; is simply what I type in...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47737643" target="_blank">Re: Lawyer behind AI psychosis cases warns of mass cas...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 09:29 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; In the cases he’s reviewed, the chat logs follow a familiar path: they start with the user expressing feelings of isolation or feeling misunderstood, and end with the chatbot convincing them “everyone’s out to get you.”&lt;p&gt;&amp;gt; “It can take a fairly innocuous thread and then start creating these worlds where it’s pushing the narratives that others are trying to kill the user, there’s a vast co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47736414" target="_blank">Re: The Grand Line...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 05:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I tried writing a short novel using Claude Opus 4.6, I gave it outline and raw draft, and the style is very similar to this writing.&lt;p&gt;I tried to steer it away from this kind of writing because it feels weird. But it always try to output something similar to this. Or maybe I am just not used to reading novel.&lt;p&gt;So I was curious, what kind of training data was Claude trained on, that its very hard ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47736402" target="_blank">Show HN: MCP is for tools. A2A is for agents. What's for websites?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-04-12 05:30 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">HTTP lets agents fetch pages. Cloudflare&amp;#x27;s Markdown for Agents lets them fetch more efficiently. MCP (Anthropic) connects agents to developer-defined tools. A2A (Google) lets agents delegate to other agents. But there&amp;#x27;s a missing layer: how does an agent execute a multi-step task on a website -- add to cart, fill a form, complete a checkout - with the site owner&amp;#x27;s consent and visibi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47736241" target="_blank">Re: The biggest advance in AI since the LLM...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-12 04:51 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Is this the function he is referring to:&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;yasasbanukaofficial&amp;#x2F;claude-code&amp;#x2F;blob&amp;#x2F;main&amp;#x2F;src&amp;#x2F;cli&amp;#x2F;print.ts&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;yasasbanukaofficial&amp;#x2F;claude-code&amp;#x2F;blob&amp;#x2F;main...&lt;/a&gt;&lt;p&gt;?&lt;p&gt;How is that “neurosymbolic”?&lt;p&gt;It just looks like poorly structured overly verbose ai generated code.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

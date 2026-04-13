@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>21</strong> items collected |
+                Last updated: 2026-04-13 17:51
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47754967" target="_blank">Re: Claude Mythos: The System Card...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 17:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The &amp;quot;hiding from researchers&amp;quot; framing is particularly bad. The parsimonious explanation for why a model produces different outputs when it detects eval contexts: eval contexts appear differently in the training distribution and the model learned different output patterns for them. No theory of mind required. Occam&amp;#x27;s razor.&lt;p&gt;The agentic behaviors emerge from optimization pressure pl...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47754424" target="_blank">Show HN: Aeolus – a library for unified access to air quality sensor networks</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-13 16:26 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Aeolus is a Python library to provide a unified interface for air quality data from sources around the world.&lt;p&gt;Air quality data is now very widely available, but managing access to multiple networks is challenging when they all have different access requirements, APIs and data formats. Some great solutions exist (like openair and openAQ) but these are limited in the data they cover.&lt;p&gt;Integrating...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47754296" target="_blank">Show HN: Dbg – One CLI debugger for every language (AI-agent ready)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-13 16:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">AI agents are great at writing code but blind at runtime. They guess, print, and waste tokens.&lt;p&gt;I built dbg to give them a real debugger experience. Since it is backend based with the few I implemented (still at basic level) it can support 15+ languages with one simple CLI (still some work needed but it is functional as it is):&lt;p&gt;LLDB, Delve, PDB, JDB, node inspect, rdbg, phpdbg, GHCi, etc.
+Profi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47754056" target="_blank">Re: Stealthy RCE on Hardened Linux: Noexec and Userlan...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 16:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m getting a little tired of blog posts that are just raw, unedited ChatGPT output, chief.&lt;p&gt;If you have arbitrary code execution, you can execute more arbitrary code on disk without calling exec. Better yet if you care about stealth is to not touch the disk at all, and keep everything in memory, downloading your next stage from a server directly into RAM.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47754042" target="_blank">Linux rules on using AI-code: Copilot is OK, humans to take full responsibility</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-13 16:02 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47753770" target="_blank">CC – API Error: 500</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-04-13 15:48 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Apr 13, 2026 - 15:40 UTC&lt;p&gt;https:&amp;#x2F;&amp;#x2F;status.claude.com&amp;#x2F;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47753726" target="_blank">Re: Make Tmux Pretty and Usable (2024)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 15:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I left tmux for zellij after several unsuccessful attempts to get Shift+Enter working.&lt;p&gt;Was quite impressed initially and invested weeks in building new muscle memory, but somehow Zellij crashed with panic more than once, leaving all my processes orphaned. Decided to go back to tmux, and found a simple fix for my Shift+Enter issue.&lt;p&gt;In case anyone is looking for it, the fix is &amp;quot;bind-key -T ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47753672" target="_blank">Ask HN: Is Claude Down Again?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-04-13 15:43 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Getting lots of errors like this:&lt;p&gt;API Error: 500 {&amp;quot;type&amp;quot;:&amp;quot;error&amp;quot;,&amp;quot;error&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;api_error&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Internal server error&amp;quot;},&amp;quot;request_id&amp;quot;:&amp;quot;...&amp;quot;}&lt;p&gt;But https:&amp;#x2F;&amp;#x2F;status.claude.com&amp;#x2F; shows everything is operational. Is it just me?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47753630" target="_blank">Tell HN: Claude Opus elevated &quot;Internal server error&quot; again</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-04-13 15:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">No official report as of yet on https:&amp;#x2F;&amp;#x2F;status.claude.com&amp;#x2F; however my team&amp;#x27;s sessions across different accounts have been ridden with errors the last 5-10 minutes.&lt;p&gt;This is more of a &amp;quot;it&amp;#x27;s not just you&amp;quot; post for those affected since Claude&amp;#x27;s status page is useless (&amp;quot;All Systems Operational&amp;quot;!)</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47753627" target="_blank">Tell HN: Another Monday, Another Claude Outage</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-04-13 15:40 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Still not showing in status:&lt;p&gt;https:&amp;#x2F;&amp;#x2F;status.claude.com&amp;#x2F;&lt;p&gt;But: I was logged off, can&amp;#x27;t login, and code returns 500&lt;p&gt;&lt;pre&gt;&lt;code&gt;    API Error: 500 {&amp;quot;type&amp;quot;:&amp;quot;error&amp;quot;,&amp;quot;error&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;api_error&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Internal server
+     error&amp;quot;},&amp;quot;request_id&amp;quot;:&amp;quot;req_STRING&amp;quot;}&lt;/code&gt;&lt;/pre&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47753550" target="_blank">Re: Open Source Mystery: 3.5M downloads, But what are ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 15:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">10 years ago I published a package on npm called `url-metadata`. It scrapes structured metadata from any URL into a clean, SEO-friendly JSON template format. I would get feature requests in the first few years, mostly SEO-related. Academia.edu asked me to add citations. Other people wanted &amp;quot;price&amp;quot; and &amp;quot;priceCurrency&amp;quot; fields for scraping product pages. Someone recently told me i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47753430" target="_blank">Show HN: Context Surgeon – Let AI agents edit their own context window</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-04-13 15:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">AI agents accumulate stale tool results — file reads, web fetches, bash outputs — in their context window. Every one sits there for the entire conversation, consuming tokens and degrading quality. The standard fix is auto-compaction: wait until full, then drop content indiscriminately.&lt;p&gt;Context Surgeon gives the agent three operations — evict, replace, and restore — so it can manage its own conte...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47753223" target="_blank">Ask HN: What's the best AI model for system design nowadays?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-04-13 15:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m specifically asking about software system design tasks like:&lt;p&gt;Designing backend architectures
+Tradeoff analysis (DB, queues, caching, others)
+Infra diagrams
+Documentation&lt;p&gt;My current pick would be Claude Opus 4.6, because I&amp;#x27;ve found it strong at structured reasoning and long context&lt;p&gt;But I&amp;#x27;m curious what others are using today</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47752976" target="_blank">Show HN: I built a tool that automatically turns tickets into design doc and PRs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-13 14:58 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Hi HN! I built Code Prodigy ( &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;codeprodigy.io&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;codeprodigy.io&amp;#x2F;&lt;/a&gt; ), an autonomous AI engineer that lives on your ticket tracker. When someone files a ticket in Jira (or Linear, Asana, Trello...), it:&lt;p&gt;1. Investigates the ticket across all your repos, and creates a design doc
+2. Opens one or more PRs implementing the requested...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47752072" target="_blank">Re: Show HN: Is Claude Nerfed Today?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 13:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Heavy Claude Code user here (Max20, running 10-15 subagents in parallel most days). The &amp;quot;nerfed&amp;quot; feeling is real but I think it&amp;#x27;s mostly rate limiting rather than actual model changes. When you push the API hard enough, you get throttled to a lower priority and responses feel slower and lazier. Switch to a fresh session or wait an hour and suddenly it&amp;#x27;s &amp;quot;smart&amp;quot; again....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47751819" target="_blank">Re: AI could be the end of the digital wave, not the n...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 13:40 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">The lack of robotics mention somewhat undermines this article.&lt;p&gt;I don&amp;#x27;t think it&amp;#x27;s intrinsically wrong, we are in a late stage of a transformation. Software is eating the world and AI is (so far) most profitably an automation of software.&lt;p&gt;There is plenty of money to be made along the way. I don&amp;#x27;t really buy the article&amp;#x27;s seeming confusion about where the money is going to co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47751692" target="_blank">Show HN: Zero-identity messaging app with physics-based post-quantum encryption</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-13 13:29 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Show HN: Zero-identity messaging app with physics-based post-quantum encryption (Layer 2 from my own paper)&lt;p&gt;Hey HN,&lt;p&gt;I&amp;#x27;m building a privacy-first messaging app in Flutter&amp;#x2F;Dart, developed with AI assistance (Gemini 2.5 Pro + Claude Opus 4.6). No phone number, no email, no account — no identity, nothing to track. Currently focused on Android.&lt;p&gt;*Six-layer defense architecture*&lt;p&gt;Layer 0...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47751444" target="_blank">Ask HN: How can I identify and prevent graceful degradation when using ChatGPT</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-13 13:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I use chatgpt plus and for some scenarios where i use extended thinking i would rather have the system abort or fail my request than subject me to a graceful degradation by shuffling me to a lower model. How do i prevent the graceful degradation issue.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47751163" target="_blank">Re: OpenAI GPT worst AI GPT/model vs. Claude/MinMax...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 12:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I have been experimenting with openclaw for the past 3 months and I am Software Engineer and I had difficulties setting it up and managing it. I almost bought Mac Studio to run it, bought into the hype. I do believe it absolutely amazing product. I recently launched AlitaGPT.COM (Alita.com was already registered) to provide a managed openclaw with hundreds of custom application integration. I used...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47751138" target="_blank">Re: Cursor Agent is Anthropic's Claude Code SDK runnin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-13 12:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Makes sense architecturally. The Claude Code SDK is well-designed 
+for agentic use — sub-agents, hooks, session management all work 
+cleanly. If you&amp;#x27;re building an IDE on top of it you&amp;#x27;d want that 
+foundation rather than rolling your own.&lt;p&gt;The interesting question is what Cursor adds on top — their UX 
+and context management decisions are where differentiation actually 
+lives.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47750678" target="_blank">Commitgen – AI-generated Conventional Commit messages from your staged diff</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-13 11:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,
+Built this because I kept writing lazy commit messages like &amp;quot;fix stuff&amp;quot; and &amp;quot;update&amp;quot;.
+commitgen reads your staged git diff and returns a properly formatted
+Conventional Commit message (feat&amp;#x2F;fix&amp;#x2F;refactor etc) using Gemini.
+Written in C++ on the CLI side, Vercel serverless for the backend.
+Windows and linux supported along with zsh and fish
+Would love feedback o...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

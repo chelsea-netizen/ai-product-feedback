@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>21</strong> items collected |
+                Last updated: 2026-04-15 17:58
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47781944" target="_blank">Show HN: Tine – Drive Wayland Around with Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 3 comments |
+                2026-04-15 17:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">So recently Anthropic came out with tools that let you drive Windows and Mac OS around. But I don&amp;#x27;t use Windows or MacOS, and was curious about some Wayland internals stuff and whether it would be possible to build something usable on a relatively restrictive platform like Wayland. So I made Tine.&lt;p&gt;Tine is a GNOME extension and CLI that lets an agent (I have used Claude but in theory any age...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47781464" target="_blank">Re: Ask HN: How do you find motivation to do stuff?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 16:30 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">As far as work? I haven’t found a method to get over my addiction to food and shelter and I need money to support my addictions and need to convince companies to keep giving me money by doing work. Thats my motivation.&lt;p&gt;As far as learning new “things”, it depends on what those things are.&lt;p&gt;I’ve been working in the AWS + app dev consulting space for six years and have been working with AWS for ar...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47781289" target="_blank">Show HN: Hormuz Trail - Oregon Trail parody/black-box AI coding exercise</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-15 16:19 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I jokingly told a co-worker Iran might make a good Oregon Trail parody. Then I built it.&lt;p&gt;I wanted to see how far I could go black-boxing the app with AI. I expected a weekend of work, but getting it right took:&lt;p&gt;- Three weekends&lt;p&gt;- ~ $150 in Cursor spend&lt;p&gt;- $50 for asset creation (Layer.ai)&lt;p&gt;Core learnings:&lt;p&gt;- No single model or provider is sufficient at this point. Opus + GPT 5.4 for plann...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47781177" target="_blank">Re: Show HN: Moxn – Git-like version control for colla...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 16:12 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Moxn is a collaborative editor with git-like version control for documents and a filesystem interface for agents.&lt;p&gt;Even before AI, I wanted docs to behave more like repos for two reasons:&lt;p&gt;- With multiple users live-editing in the same doc, the content I was working on would bounce around in the UI.&lt;p&gt;- I&amp;#x27;m naturally iterative and I don’t one-shot prose well.&lt;p&gt;Collaborating with AI added t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47781028" target="_blank">Show HN: Cush – curl your shell, an HTTP tunnel for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-15 16:01 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I built cush because coding agents can be helpful to diagnose and troubleshoot server issues.&lt;p&gt;The problem is that getting said agents onto a remote server, especially one you don&amp;#x27;t control, means dealing with VPNs, bastion hosts, firewall rules, access controls, or audit trails. That&amp;#x27;s assuming SSH isn&amp;#x27;t even blocked.&lt;p&gt;cush takes a different approach. Instead of a shell, it opens...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47780622" target="_blank">Show HN: MCP server gives your agent a budget (save tokens, get smarter results)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-15 15:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">As a consultant I foot my own Cursor bills, and last month was $1,263. Opus is too good not to use, but there&amp;#x27;s no way to cap spending per session. After blowing through my Ultra limit, I realized how token-hungry Cursor + Opus really is. It spins up sub-agents, balloons the context window, and suddenly, a task I expected to cost $2 comes back at $8. My bill kept going up, but was I really go...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47780527" target="_blank">Re: US v. Heppner (S.D.N.Y. 2026) no attorney-client p...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 15:31 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Obviously this (along with the original unwritten order a few weeks ago) is causing a stir, but this decision isn&amp;#x27;t as weird as it sounds. The defendant&amp;#x27;s assertion was essentially a retroactive application of privilege: he didn&amp;#x27;t use Claude to draft documents at his attorney&amp;#x27;s request but instead used Claude effectively in lieu of an attorney and later provided the Claude-draf...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47780373" target="_blank">Re: Show HN: I built on-device TTS app because I run o...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 15:20 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">Extra context since the post got long. A few things that ate more time than I expected:&lt;p&gt;Streaming was the worst one. Kokoro doesn&amp;#x27;t expose a streaming interface as far as I could find, you hand it a chunk of text, it gives you back the full audio for that chunk. For a reading app you can&amp;#x27;t wait for a whole paragraph before playback starts, so the whole streaming layer had to be built o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47780283" target="_blank">Re: Five Things I Learned About Making AI Coding Agent...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 15:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been building a coding agent from scratch in Swift and using Claude Code, Cursor, and similar tools daily. This post distills five scaffolding lessons:&lt;p&gt;- Instruction files: Anthropic recommends &amp;lt;200 lines for CLAUDE.md. The &amp;quot;lost in the middle&amp;quot; problem shows 30%+ accuracy drop for information in the middle of the context window.&lt;p&gt;- Project structure: Independent benchmark...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47780234" target="_blank">Show HN: I built on-device TTS app because I run out of audiobooks on a flight</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-04-15 15:11 |
+                <span class="category">onboarding, navigation</span>
+            </div>
+            <div class="text">I didn&amp;#x27;t want to upload my own material to a third party cloud service, use mobile data for voice synthesis and kept running out of podcast queue on flights, so I spent a while trying to get Kokoro running on my iPhone.&lt;p&gt;LoudReader is what came out of it - an iOS app that reads essays, articles, and books aloud, fully on-device. No account, no network after install.&lt;p&gt;The model running once ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47779906" target="_blank">Elevated Errors on Claude.ai, API, Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-04-15 14:53 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47779853" target="_blank">Re: Gemini Robotics-ER 1.6...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 14:50 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I’ve been thinking about AI robotics lately… if internally at labs they have a GPT-2, GPT-3 “equivalent” for robotics, you can’t really release that. If a robot unloading your dishwasher breaks one of your dishes once, this is a massive failure.&lt;p&gt;So there might be awesome progress behind the scenes, just not ready for the general public.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47779849" target="_blank">Re: Elevated errors on Claude.ai, API, Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 14:50 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">Funny that I just saw this after have &amp;quot;Console temporarily unavailable&amp;quot;. I am currently at the stage that: 1) I think Claude Code is very impressive 2) I think pretty much everything else about them is terrible.&lt;p&gt;* Support really poor, raised a ticket last week and have heard nothing back at all
+* Separation of claude.ai accounts and console accounts is super confusing
+* Couldn&amp;#x27;t l...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47779785" target="_blank">Re: Elevated errors on Claude.ai, API, Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 14:46 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Seems to be a very regular occurrence starting around this time of day (14:30 UTC)...&lt;p&gt;Claude Code returning: 
+API Error: 500 {&amp;quot;type&amp;quot;:&amp;quot;error&amp;quot;,&amp;quot;error&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;api_error&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Internal server error&amp;quot;},&amp;quot;request_id&amp;quot;:&amp;quot;---&amp;quot;}&lt;p&gt;Over and over again!</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47779730" target="_blank">Elevated errors on Claude.ai, API, Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                216 points | 201 comments |
+                2026-04-15 14:44 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47779128" target="_blank">Re: Why Vibe Coding Fails...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 14:05 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; because it LOOKS like good engineering&lt;p&gt;That is the whole problem imho. I&amp;#x27;ve found that I can use LLMs to do programming only if I fully understand the problem and solution. Because if I don&amp;#x27;t, it will just pretend that I&amp;#x27;m right and happily spend hours trying to implement a broken idea.&lt;p&gt;The problem is that it&amp;#x27;s very hard to known whether my understanding of something i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47779094" target="_blank">Gemini Robotics-ER 1.6</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                141 points | 41 comments |
+                2026-04-15 14:02 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47778946" target="_blank">Why Vibe Coding Fails</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                7 points | 3 comments |
+                2026-04-15 13:50 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">i am using claude to maintain an agent loop, which will pause to ask for users&amp;#x27; approval before important tool call. while doing some bug fixes，i have identified some clear patterns and reasons why vibe coding can fail for people who dont have technical knowledge and architecture expertise.&lt;p&gt;let me describe my workflow first - this has been my workflow across hundreds of successful sessions:...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47778930" target="_blank">Re: So I Decided to Build My Own Analytics, This Is Ho...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-15 13:48 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">I needed analytics for side projects. PostHog was overkill for what I wanted (Country, Origin, UTMs, per-user attribution, entry page, revenue) and events are immutable, so removing test data needs manual SQL filters everywhere.&lt;p&gt;Plausible had no per-user attribution. DataFast looked perfect, installed with a proxy. Months later the bill hit $40&amp;#x2F;m. My whole infra is $150&amp;#x2F;m. Not paying $...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                20. <a href="https://news.ycombinator.com/item?id=47778141" target="_blank">Claude Code Goes Full Workstation: Anthropic Redesigns the Desktop App</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-15 12:32 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                21. <a href="https://news.ycombinator.com/item?id=47778035" target="_blank">Ask HN: Is Claude Getting Worse?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 10 comments |
+                2026-04-15 12:20 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">It feels like most Claude Code users have already noticed a quality drop in the Claude models. As a Claude Pro subscriber (Web version; I don&amp;#x27;t use Claude Code), I’ve seen a clear decline over the last couple of weeks. I can’t complete tasks in a single turn anymore. Claude often stops streaming because it hits some internal tool-call&amp;#x2F;turn limit, so I have to keep pressing “Continue.” Ea...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

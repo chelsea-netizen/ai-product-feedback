@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-04-16 18:03
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47796754" target="_blank">Re: Codex for Almost Everything...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 17:31 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Codex is my favorite UX for anything as it edits the files and I can use the proper tooling to adjust and test stuff, so in my experience it was already able to do everything. However lately the limits seem to have got extremely tight, I keep spending out the daily limits way too quickly. The weekly limits are also often spent out early so I switch to Claude or Gemini or something.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47796658" target="_blank">Re: Codex for Almost Everything...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 17:24 |
+                <span class="category">content_clarity, onboarding, response_quality</span>
+            </div>
+            <div class="text">My current expectation is that the Cowork&amp;#x2F;Codex set of &amp;quot;professional agents&amp;quot; for non-technical users will be one of the most important and fastest growing product categories of all time, so far.&lt;p&gt;i.e. agents for knowledge workers who are not software engineers&lt;p&gt;A few thoughts and questions:&lt;p&gt;1. I expect that this set of products will be extremely disruptive to many software busin...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47796266" target="_blank">Show HN: Mulligan Labs – multiplayer Magic: The Gathering in the browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-04-16 16:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Mulligan Labs is a browser-based playtester for Magic: The Gathering. No account or install needed. Just create a room, share the link, import a decklist from Archidekt or Moxfield, and play with mouse and keyboard (mobile support is not great right now).&lt;p&gt;Stack: SvelteKit on Cloudflare Workers, PartyKit (Durable Objects) for the authoritative game server. Clients propose actions over WebSocket; ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47796117" target="_blank">Re: Show HN: We beat Google, Cognition, Claude Code at...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 16:47 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m Nilesh. My brother Abhishek and I built ProdE. Carnegie Mellon and IIT Delhi.&lt;p&gt;We benchmarked four AI code documentation tools: ProdE, DeepWiki, Claude Code, and Google Code Wiki. ProdE scored highest on usefulness for coding agents. 15% ahead of DeepWiki, 38% ahead of Google, 40% ahead of Claude Code.&lt;p&gt;I know this might feel like self praise, but we couldn&amp;#x27;t find an existing bench...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47796041" target="_blank">Tell HN: Opus 4.6/4.7 cyber policy changes break authorized bug bounty workflows</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-16 16:42 |
+                <span class="category">error_messages, navigation, response_quality</span>
+            </div>
+            <div class="text">As of today, Anthropic&amp;#x27;s tightened cyber usage filters are blocking work that was fully functional yesterday, including on targets where the entire bounty program scope and authorization language is in the model&amp;#x27;s context window. This was announced during the Opus 4.7 release (https:&amp;#x2F;&amp;#x2F;www.anthropic.com&amp;#x2F;news&amp;#x2F;claude-opus-4-7)  but is retroactive on Opus 4.6 as well.&lt;p&gt;I...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47795405" target="_blank">Re: Skwik – Turn iPhone photos into scaled measurement...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 16:04 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I do CAD work and constantly need dimensions for real objects — furniture, mechanical parts, custom brackets. Calipers handle simple shapes, but anything curved or weirdly profiled is painful to measure point-by-point.&lt;p&gt;What I wanted: drop the object on the floor next to a sheet of A4, take an iPhone photo from above, and get a scaled top-down image I can trace in Fusion 360. The existing tools e...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47794834" target="_blank">Re: Claude Opus 4.7 Model Card...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 15:34 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; The technical error that caused accidental chain-of-thought supervision in some prior models (including Mythos Preview) was also present during the training of Claude Opus 4.7, affecting 7.8% of episodes.&lt;p&gt;&amp;gt;_&amp;gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47794768" target="_blank">Re: Claude Opus 4.7...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 15:31 |
+                <span class="category">content_clarity, navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m finding the &amp;quot;adaptive thinking&amp;quot; thing very confusing, especially having written code against the previous thinking budget &amp;#x2F; thinking effort &amp;#x2F; etc modes: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;platform.claude.com&amp;#x2F;docs&amp;#x2F;en&amp;#x2F;build-with-claude&amp;#x2F;adaptive-thinking&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;platform.claude.com&amp;#x2F;docs&amp;#x2F;en&amp;#x2F;build-with-claude&amp;#x2F;adapti....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47794403" target="_blank">Re: Cloudflare Email Service...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 15:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I seriously think this great! I’ve been saying that email is the right interface for agents for a while now. It is available anywhere, natively threaded, and works for asynchronous long-form communication. Comes with great clients as well.&lt;p&gt;I’ve been developing last three months by emailing Claude, with email threads mapping to an isolated workspace and claude -p. Works super well, especially whe...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47793245" target="_blank">Show HN: EDDI – Multi-agent AI engine where agent logic lives in JSON, not code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-16 14:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I started EDDI in 2006 as a rule-based dialog engine. Back then it was pattern matching and state machines. When LLMs showed up, the interesting question wasn&amp;#x27;t &amp;quot;how do I call GPT&amp;quot; but &amp;quot;how do I keep control over what the AI does in production?&amp;quot;&lt;p&gt;My answer was: agent logic belongs in JSON configs, not code. You describe what an agent should do, which LLM to use, what tool...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47793084" target="_blank">Re: Ask HN: How are you using LLMs in production?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 13:59 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m a full-stack software dev, proficient in AI but also sceptical. I&amp;#x27;ve found that staying away from the hype is key. Stop thinking about &amp;quot;WHAT COULD THIS DO&amp;quot;, but rather try to find cases where LLMs actually benefit. I&amp;#x27;ve seen so many projects trying to throw LLMs at things that could have been solved deterministically.&lt;p&gt;My personal opinion is: LLMs give you the power o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47792741" target="_blank">Re: Buddy – Anthropic killed /buddy. We made it perman...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-16 13:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN — I built this during a week-long sabbatical after Anthropic removed &amp;#x2F;buddy from Claude Code. It&amp;#x27;s an MCP server, so it works with any MCP-compatible client (Claude Code, Cursor, Codex, Gemini, Copilot).&lt;p&gt;Two things I&amp;#x27;m proud of:&lt;p&gt;1&amp;#x2F; Rescue mode: if you had an old buddy before Anthropic killed the feature, you can import it. Your companion&amp;#x27;s identity is preserved.&lt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47791900" target="_blank">Extract any website's design system as AI-ready tokens (Claude plugin and CLI)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-16 12:16 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47791664" target="_blank">Idea Discussion: Can We Replace Needs of Static Websites with AI Profiles?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 3 comments |
+                2026-04-16 11:45 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">A lot of people only use websites for a few simple things:&lt;p&gt;- To have an online presence 
+- Show what they do 
+- Share a portfolio 
+- To show contact details and answer common questions.&lt;p&gt;Not everyone needs this? Nowadays, we go to AI first and then website. Even Google shows an AI summary first.&lt;p&gt;And it has become hard for simple websites to fight through SEO competition to get on the first pa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47791559" target="_blank">Show HN: Kilroy – Knowledge base for teams using Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-16 11:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN — we’re a small team that uses Claude Code + Codex for basically everything in our company: coding, data analysis, marketing, ad campaigns, copywriting, design.&lt;p&gt;There’s a truckload of tribal knowledge we’ve accumulated; major decisions, gotchas, user feedback driven changes. Providing this to our agents manually every time is very mundane.&lt;p&gt;We built Kilroy to solve this in a simple way: ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

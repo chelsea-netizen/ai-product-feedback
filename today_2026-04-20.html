@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>19</strong> items collected |
+                Last updated: 2026-04-20 17:49
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47837106" target="_blank">Re: We accepted surveillance as default...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 16:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">WHATWG wants to co-mingle document rendering with javascript (this is the real reason they are removing XSLT and not proposing a replacement, it skirts this enforcement) so that when you try to disable javascript or block tracking it breaks the document rendering, leaving the only option to leave Javascript enabled and ad blockers off. Other protocols gemini, gopher etc don’t have the same issues ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47836484" target="_blank">Re: I prompted ChatGPT, Claude, Perplexity, and Gemini...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 16:20 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">Gah, the writing on this is so painful to read, it feels like this was most likely written by an LLM.&lt;p&gt;The writing style is so unclear, it&amp;#x27;s hard to figure out one of the key points: it mentions that Gemini doesn&amp;#x27;t use a distinct user-agent for its grounding. It doesn&amp;#x27;t mention whether it actually hit the endpoint during the test, though it kind of implies that with &amp;quot;Silence f...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47835430" target="_blank">Show HN: SkillCatalog, a Git-native skill manager for AI coding tools</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-20 15:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">AI coding tools like Claude Code, Cursor, and Codex read instructions from files on disk: .claude&amp;#x2F;skills&amp;#x2F;, .cursor&amp;#x2F;skills&amp;#x2F;, .agents&amp;#x2F;skills&amp;#x2F;. These files shape how each tool behaves. On a team of ten engineers working across several repositories, managing them by hand breaks down fast.&lt;p&gt;I built SkillCatalog to solve this without a SaaS dependency. Skills live in Git r...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47835110" target="_blank">Re: Show HN: Scryptian – Run Local AI Skills via Ctrl ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 14:42 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">(GIF demo on GitHub)&lt;p&gt;I’m sharing this project because I thought such a utility might be useful to someone. I decided to check if local models (SLMs) are capable eniugh for most routine tasks. It is incredibly simple, but the logic of AI Skills is not limited by anything - anything the Python language can do, this product can do. And over time, as local AI becomes even smarter, it will become eve...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47835009" target="_blank">Show HN: The Trawl CLI, trudge through agent harness logs for shit and giggles</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-20 14:36 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">After &lt;i&gt;using&lt;/i&gt; session logs for compounding learnings, etc, I quickly started running agents manually to retrieve and extract all these ridiculous or frustrating moments and interaction. Turns out, there were a lot.&lt;p&gt;So I turned it into a CLI (or rather, had Claude do it and Gemini &amp;amp; Codex review it), shared it with a few friends and colleagues, and thought others might be interested. It ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47834726" target="_blank">Show HN: We trained a 32B model to beat Opus 4 at credit card optimization</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-04-20 14:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We built an RL environment for credit card reward optimization and trained Qwen 32B with GRPO against it. The trained model scores ~0.51 on held-out tasks vs. Opus 4 at ~0.41 and GPT-4o at 0.36. Environment is open source (Apache 2.0). Blog post explains the reward design, what broke during training, how we fixed it, and what we&amp;#x27;d do differently.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47834302" target="_blank">Re: Amazon's AI boom is creating mess of duplicate too...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 13:49 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Brooks&amp;#x27;s Law: Adding manpower to a late software project makes it later. &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;en.wikipedia.org&amp;#x2F;wiki&amp;#x2F;The_Mythical_Man-Month&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;en.wikipedia.org&amp;#x2F;wiki&amp;#x2F;The_Mythical_Man-Month&lt;/a&gt;&lt;p&gt;With the obvious preface of &amp;quot;thoughtlessly adding.&amp;quot; Of course it&amp;#x27;s not a real law, it&amp;#x27;s a tongue-in-cheek observation about h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47833747" target="_blank">Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 3 comments |
+                2026-04-20 13:07 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Apple has quietly shipped a pretty complete on-device AI stack into macOS, with these features first getting API access in MacOS 26. There are multiple components in the foundation model, but the skills it shipped with actually make this ~3b parameter model useful. The API to hit the model is super easy, and no one is really wiring them together yet.&lt;p&gt;- Foundation Models (macOS 26) - a ~3B-parame...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47833724" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 13:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I don&amp;#x27;t have much experience with Figma but looking at their prices I&amp;#x27;d think that for someone who isn&amp;#x27;t doing a one off designs Claude Design would be much more expensive (especially if not on subscriptions)
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.figma.com&amp;#x2F;pricing&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.figma.com&amp;#x2F;pricing&amp;#x2F;&lt;/a&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47833523" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 12:48 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">Not sure Claude Design really competes with Figma.&lt;p&gt;While it has a strong potential to let people iterate on using a design without the nuts and bolts of going back and forth with a designer, CD operates at the &amp;quot;leaf-node&amp;quot; level, where the output is generated.&lt;p&gt;However, a lot of design has a deeper life-cycle than that. There&amp;#x27;s the collaboration, pitching, review, iteration, asset...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47833401" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 12:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">While a big fan of Claude&amp;#x27;s models, I am starting to worry about the &amp;quot;winner takes all&amp;quot; game starting to play out in the open. With free inference to them (as pointed out in the article), why won&amp;#x27;t Anthropic build significantly more products related to software development, and kill all other competitors? Developers first, Designers next, would some kind of a clone of Jira &amp;#x2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47833400" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 12:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s funny to see all of these dramatic articles coming out about Claude Design, when Google&amp;#x27;s Stitch[0] has been around for at least 6 months and no one has batted an eye. &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;stitch.withgoogle.com&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;stitch.withgoogle.com&amp;#x2F;&lt;/a&gt;&lt;p&gt;I&amp;#x27;m not sure how much of that is overhyping Claude, or Google&amp;#x27;s poor marketing of th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47833278" target="_blank">Is anyone else bothered that AI agents can basically do what they want?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 3 comments |
+                2026-04-20 12:25 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I’ve been into AI agents and assisted coding for a while, and it&amp;#x27;s the stories of agents &amp;quot;going rogue&amp;quot; that stick with me. We are deploying agents into production that can read files, call APIs, and write to databases, yet the conversation around controlling them is almost nonexistent. It’s like we collectively decided to skip that chapter.&lt;p&gt;Maybe I’m overthinking it, and we can re...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=47833070" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 12:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Claude Design into PenPot via its MCP was a really neat flow, for something generic looking anyway. With the correct prompts and it even built out reusable PenPot components and design system tokens etc</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=47832995" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 11:54 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Used Claude Design to build the landing page for my side project (strimoza.com) over the weekend. Honestly impressive for a solo dev with no design background — got something shippable in a few hours. That said, I still ended up going back to tweak things manually. It&amp;#x27;s great for 80%, the last 20% still needs judgment. Not sure it kills Figma for teams, but for indie devs it&amp;#x27;s a game cha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=47832921" target="_blank">Re: Figma's woes compound with Claude Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 11:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; Anthropic themselves launched Claude Design which is a pretty direct competitor to Figma in many ways. While it&amp;#x27;s nowhere near functional and polished enough to replace Figma&amp;#x27;s core design product, I expect it will get significant traction outside of that&lt;p&gt;The reaction that designers I know have given Claude Design couldn’t be different than how Claude Code was received by software...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=47832913" target="_blank">Re: ChatGPT thinks I speak Hindi. I don't...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-20 11:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Had ChatGPT keeping inserting Hindi words in its responses to my clearly English prompts and had to kept asking to re-think carefully in English. Low and behold, others have been experiencing the same thing.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=47832842" target="_blank">Ask HN: What Vercel alternatives do you recommend?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-20 11:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Having read some of the comments about this company after the breach, I&amp;#x27;m concerned about building anything else on this platform as my company needs to maintain several security compliance certs. The platform is obviously slick from a usability perspective and is nearly seamless to use along with Claude Code.&lt;p&gt;Curious what others are doing.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                19. <a href="https://news.ycombinator.com/item?id=47832366" target="_blank">Figma's woes compound with Claude Design</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                64 points | 57 comments |
+                2026-04-20 10:26 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

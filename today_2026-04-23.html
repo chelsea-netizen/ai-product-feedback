@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-04-23 18:02
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47878977" target="_blank">Re: An update on recent Claude Code quality reports...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-23 17:53 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">1. They changed the default in March from high to medium, however Claude Code still showed high (took 1 month 3 days to notice and remediate)&lt;p&gt;2. Old sessions had the thinking tokens stripped, resuming the session made Claude stupid (took 15 days to notice and remediate)&lt;p&gt;3. System prompt to make Claude less verbose reducing coding quality (4 days - better)&lt;p&gt;All this to say... the experience of...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47877455" target="_blank">Is Claude Code going to cost $100/month? Probably not–it's all confusing</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-23 16:08 |
+                <span class="category">content_clarity</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47877352" target="_blank">Re: ASI Asolaria 16 GB RAM OS that operate UNDER the b...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-23 15:58 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Asolaria BEHCS-256
+Federated multi-agent civilization toolkit. Built to let heterogeneous Claude nodes (desktop, phone, remote) ship and onboard each other with the current-version toolkit instantly — no stale installs, no divergent forks.&lt;p&gt;SMP v5+ v3 SEALED 2026-04-20T22:30Z · 205&amp;#x2F;205 items · 7 batches · 13 commits (5cfa3e0 → b8b7984) · bilateral multi-agent gate (acer + liris) satisfied ev...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47876812" target="_blank">Re: LLM pricing has never made sense...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-23 15:21 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">So recently I moved from a Anthropic model to a qwen 3.5 model running on my Mac to summarize ticket activity over 7 days. I used to do this manually with a colleague and it would take us a couple hours to go through. Opus took 58 seconds, and Qwen took 2.5 minutes. The quality of the qwen output was comparable, but the there was a 2.5x difference in time.&lt;p&gt;All that said I actually don’t think th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47876724" target="_blank">Show HN: Core – open-source AI butler that clears your backlog without you</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-23 15:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, we&amp;#x27;re Manik, Manoj and Harshith, and we&amp;#x27;re building CORE (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;RedPlanetHQ&amp;#x2F;core&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;RedPlanetHQ&amp;#x2F;core&lt;/a&gt;), an open source AI butler that acts and clears out your backlog.&lt;p&gt;Write `[ ] Fix the search auth bug` in a scratchpad. Three minutes later, without you at the keyboard, CORE picks it...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47876306" target="_blank">Claude Design Just Wants You to Stop Burning Tokens</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-23 14:39 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47876116" target="_blank">Show HN: Nimble.css minimal classless CSS library for great-looking default HTML</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-04-23 14:22 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Source code: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;Leftium&amp;#x2F;nimble.css&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;Leftium&amp;#x2F;nimble.css&lt;/a&gt;&lt;p&gt;---&lt;p&gt;# About&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;PicoCSS.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;PicoCSS.com&lt;/a&gt; was a great starting point for projects, but there was some friction:&lt;p&gt;- Global styles leaked into other components (like Userfront wi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47876111" target="_blank">Re: ChatGPT vs. a specialized medical AI on 5 clinical...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-23 14:22 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here - we&amp;#x27;re the team behind Wizey, one of the two AIs in the comparison. A few things up front:&lt;p&gt;* Methodology was fixed before the runs.&lt;p&gt;* All outputs are quoted verbatim, including Case 2 (MGUS) where ChatGPT beat us cleanly.&lt;p&gt;* Panels are reconstructed from published case reports (Blood, Annals of Family Medicine, and others), so anyone can reproduce the experiment on Claude, G...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47876104" target="_blank">ChatGPT vs. a specialized medical AI on 5 clinical cases (verbatim outputs)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-04-23 14:22 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47875939" target="_blank">Show HN: Lilith-zero update: fast Rust security for agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-23 14:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We added support for claude code, vs code copilot, gh copilot cli and MCP servers
+You simply connect Lilith to the hooks and define your security policies.&lt;p&gt;Lilith Zero is a high-performance security runtime designed to mitigate data exfiltration and unauthorized tool invocation in LLM-based agent systems. By interposing at the transport layer, Lilith Zero enforces security invariants through det...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47875513" target="_blank">Show HN: Open-source database CLI that doubles as an MCP server for agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-23 13:26 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I work on WhoDB (a database management tool) and we&amp;#x27;ve recently added a lot of updates to our cli so I wanted to share it here.&lt;p&gt;WhoDB (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;clidey&amp;#x2F;whodb&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;clidey&amp;#x2F;whodb&lt;/a&gt;) is a database management tool for SQL and NoSQL databases, runs in your browser, can be launched via Docker, and is a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47875508" target="_blank">Bombardier, Colab (YC S19) sign multimillion-dollar deal to design jets using AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-23 13:26 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=47874972" target="_blank">Re: Permission Slip – Self-hostable approval layer for...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-23 12:31 |
+                <span class="category">tone, onboarding</span>
+            </div>
+            <div class="text">Permission Slip is an open-source approval layer that sits between an AI agent  and your accounts (I built it for Openclaw, but works with Claude code local, etc)&lt;p&gt;You configure what the agent can do on its own vs. what needs you. eg. Auto-approve read actions. Require a tap on your phone for anything destructive or irreversible — sending an email, merging a PR, moving money. The agent submits a ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

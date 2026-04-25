@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>6</strong> items collected |
+                Last updated: 2026-04-25 17:30
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47902431" target="_blank">Re: Andromeda – Making local AI accessible to non-tech...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-25 16:01 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,
+ I&amp;#x27;m Ricky, and I want to introduce you to Andromeda. Andromeda is designed to make local AI mass-market ready, so that even people without any technical background can use it.
+ It all started with me, as a vibe-coder, using Gemini daily to help me out on the side. Since I like to speak and Gemini constantly had dropouts with STT (Speech-to-Text), I built a small interface myself to us...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47902426" target="_blank">Show HN: Mux0 – Open-source macOS terminal with workspace tabs and agent hooks</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-25 16:00 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Mux0 is a macOS terminal I built because I spend most of my day running coding agents (Claude Code, OpenCode, Codex) in tabs, and
+  existing terminals don&amp;#x27;t know they&amp;#x27;re there. You end up with a wall of identical tabs and have to click through them to find which
+   agent is waiting on input.
+
+  It&amp;#x27;s organized around workspaces with tabs and splits. Each workspace sho...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47901927" target="_blank">Re: Show HN: MultiTable – I built a dashboard so I cou...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-25 14:48 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Author here. I built MultiTable because I kept losing context running Claude Code, Codex, and a bunch of dev servers in parallel — six tmux panes, missed permission prompts, no idea which agent was waiting on me. I also wanted to be able to approve a Claude permission prompt from my phone without ssh-ing into anything.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47899642" target="_blank">Re: Turbo Vision 2.0 – a modern port...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-25 08:07 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">How awesome to see this on the front page! I&amp;#x27;ve been writing a wrapper for this repo. Right now I&amp;#x27;m running Turbo Vision -- this repo -- under .Net on macOS. It&amp;#x27;s a magical feeling.&lt;p&gt;The wrapper gives a higher level API, and solves some of the things like the rather antique palette API (or wraps it), is adding layout, etc.&lt;p&gt;```&lt;p&gt;var lMenuBar := new MenuBar;&lt;p&gt;&lt;pre&gt;&lt;code&gt;  lMenuBa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47899375" target="_blank">Show HN: Agent MCP Studio – build multi-agent MCP systems in a browser tab</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 3 comments |
+                2026-04-25 07:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built a browser-only studio for designing and orchestrating MCP agent systems for development and experimental purposes. The whole stack — tool authoring, multi-agent orchestration, RAG, code execution — runs from a single static HTML file via WebAssembly. No backend.&lt;p&gt;The bet: WASM is a hard sandbox for free. When you generate tools with an LLM (or write them by hand), the studio AST-validates...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47897605" target="_blank">Re: Google is building a Claude Code challenger, Serge...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-25 00:53 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">To be completely honest, setting aside the raw model performance of Gemini, using Google’s AI ecosystem overall feels like a failure.&lt;p&gt;From JULE to AI Studio to the Gemini web chat, everything feels fragmented. The pricing is inconsistent, tools are slow, and even basic issues like the AUTO ACCEPT bug in Antigravity have been left unresolved for weeks. Every time I try to decide whether to use Ve...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

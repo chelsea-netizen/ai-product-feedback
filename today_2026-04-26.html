@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>10</strong> items collected |
+                Last updated: 2026-04-26 17:30
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47911967" target="_blank">Show HN: I made Claude Code listen before it codes (MIT)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-26 17:16 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">heylo! open sourcing a plugin that I&amp;#x27;ve been daily driving for a month. And I promise, I can&amp;#x27;t go back to vanilla Claude Code.&lt;p&gt;I&amp;#x27;m a heavy Claude Code user, and a couple of things kept bugging me. Claude really likes to jump into code. And its responses are too long. I&amp;#x27;d skim past walls of text just to find the recommendation. Plan mode helps, but it didn&amp;#x27;t go deep enoug...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47911720" target="_blank">Re: An AI agent deleted our production database. The a...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-26 16:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">There is something darkly comical about using an LLM to write up your “a coding agent deleted our production database” Twitter post.&lt;p&gt;On another note, I consider users asking a coding agent “why did you do that” to be illustrating a misunderstanding in the users mind about how the agent works. It doesn’t decide to do something and then do it, it just outputs text. Then again, anthropic has made s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47910999" target="_blank">Show HN: ReadTube – Turn YouTube subscriptions into a personal Substack</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-26 15:15 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I built ReadTube so that I can read my YouTube subscriptions.&lt;p&gt;YouTube has lots of high quality content. However, videos can be difficult to consume efficiently, especially those that are long and about series topics (e.g. general relativity, quantum physics). So I created this app to solve this need.&lt;p&gt;There are already many existing YouTube AI transcription websites. However, ReadTube is one st...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47910824" target="_blank">Tell HN: Claude Code is unable to respond to this request</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 3 comments |
+                2026-04-26 14:53 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Hey HN, I have been seeing this happen quite frequently ever since Opus 4.7 and I have no clue what triggers it, it seems to be totally random.&lt;p&gt;&amp;quot;API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https:&amp;#x2F;&amp;#x2F;www.anthropic.com&amp;#x2F;legal&amp;#x2F;aup). Please double press esc to edit your last message or start a new session for Claude Co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47910413" target="_blank">Anthropic's Argument for Mythos SWE-bench improvement contains a fatal error</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-26 14:00 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47908515" target="_blank">Re: Show HN: Understand Anything – a codebase knowledg...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-26 08:32 |
+                <span class="category">onboarding, navigation</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built Understand Anything to help with a problem I run into often: understanding an unfamiliar codebase without spending hours jumping between files, docs, and dependency paths.&lt;p&gt;The tool analyzes a repo and builds an interactive map of files, functions, classes, dependencies, and architectural relationships. You can explore the map, search across the project, ask questions, generate o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47908041" target="_blank">Re: Airprompt – SSH into your Mac from your phone for ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-26 06:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built this because long-running Claude&amp;#x2F;Codex sessions sometimes need a quick confirmation while away from desk.&lt;p&gt;airprompt sets up Tailscale + tmux + macOS Remote Login so you can SSH into your Mac from your phone and respond from anywhere. It has --dry-run and status commands so you can see what it will change.&lt;p&gt;Mac-only for now.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47908021" target="_blank">Re: Godot 4.7 Beta with HDR Output, Ray-Tracing Improv...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-26 06:54 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I used to love Godot, then moved to WickedEngine. But AI is helping me replace it all.&lt;p&gt;For my games I manually worked through the Vulkan tutorial along with other essential components like input and sound.&lt;p&gt;Those austere code bases now act as constraints and frameworks for AI; the AI fills in the blanks for the specific game project.&lt;p&gt;I feed AI designs and it figures out the missing functional...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47906737" target="_blank">Re: Agents Aren't Coworkers, Embed Them in Your Softwa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-26 02:31 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;quot;Agents&amp;quot; can&amp;#x27;t think and LLMs aren&amp;#x27;t sentient.  They aren&amp;#x27;t suited to be your coworker, but they also aren&amp;#x27;t suited for generation computational tasks.  The chat interface &lt;i&gt;is all that there is&lt;/i&gt; and their behavior in chat is not deterministic or bounded enough to be useful in most applications.  They mimic tokens in reply to the tokens you give them, and that is ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47906523" target="_blank">Re: Agents Aren't Coworkers, Embed Them in Your Softwa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-26 01:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Ambient agents premise lands and is thought provoking.&lt;p&gt;But the more you read the article the more the point is lost. The prescriptions given aren&amp;#x27;t ambient?&lt;p&gt;&lt;pre&gt;&lt;code&gt;    CLI: a good command-line interface makes it easy for an agent loop to interact with your system and saves tokens.
+    Specs: Declarative configs, schemas, manifests. Artifacts that state the desired outcome, not the ste...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

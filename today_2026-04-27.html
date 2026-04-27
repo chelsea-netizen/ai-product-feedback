@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-04-27 17:59
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47924285" target="_blank">GitHub Copilot is moving to usage-based billing and retiring annual plans</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-04-27 17:05 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi there,&lt;p&gt;You&amp;#x27;re receiving this because you have an annual Copilot Pro or Pro+ plan.&lt;p&gt;GitHub Copilot isn&amp;#x27;t the same product it was a year ago. It has evolved from an in-editor assistant into an agentic platform capable of running long, multi-step coding sessions, using the latest models, and iterating across entire repositories. Agentic usage is becoming the default, and it brings sig...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47924251" target="_blank">What does the &quot;S&quot; in ChatGPT stands for? [video]</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-27 17:02 |
+                <span class="category">naming_terminology</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47924205" target="_blank">Re: Google DeepMind Paper Argues LLMs Will Never Be Co...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-27 16:59 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">The argument made is reductive, as it confines itself to pure LLMs.  It ignores the possibility of an LLM as a component of a robotic body, for example.  While technically much more complex than Claude Code, a multi-modal LLM coupled with memory, sensors and a self-initiated motor facility could be implemented within an analogous execution loop.    Roger Penrose and Stuart Hammeroff would still ob...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47924053" target="_blank">Show HN: Pylon – Sentry Errors to PRs via Claude Code, with Telegram Approval</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-04-27 16:49 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47923669" target="_blank">Re: Learning to Orchestrate Agents in Natural Language...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-27 16:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Sakana AI has presented their work “Learning to Orchestrate Agents in Natural Language with the Conductor,” which has been accepted to ICLR 2026. The idea is simple but powerful: instead of forcing a single model to handle an entire task on its own, the researchers trained a separate 7B model to act as a manager for other AIs.&lt;p&gt;This Conductor doesn’t write code or solve tasks directly. It looks a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47923211" target="_blank">Re: Tendril – a self-extending agent that builds and r...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-27 15:51 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Get outta my swamp! Just kidding, it’s cool to see other people working on this stuff.&lt;p&gt;I think right now this is still a bit too fresh out of Claude Code to be usable by anybody but the people developing it. I got to around the same point with my first tempt at building a tool registry (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;accretional&amp;#x2F;collector&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47922617" target="_blank">Re: Ubuntu Linux Will Begin Landing AI Features Throug...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-27 15:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">If they can improve the driver situation and make those copilot+ NPU better supported under Linux I am all for it.&lt;p&gt;But if AI is going to be the new snap, I think more people will switch to Debian despite their ancient kernel and applications.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47922187" target="_blank">Show HN: NetCopilot – AI-native terminal for network engineers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-27 14:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I’m a network engineer and I built NetCopilot to solve a problem I kept facing in real workflows.&lt;p&gt;When troubleshooting, I constantly switch between terminal sessions, docs, and AI tools just to understand what’s happening.&lt;p&gt;So I built a terminal (SSH, Telnet, Serial) with AI built directly into it.&lt;p&gt;It reads command outputs and helps explain issues like BGP problems, routing issues, e...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47921679" target="_blank">The &quot;just build it with Claude&quot; paradox</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                11 points | 13 comments |
+                2026-04-27 13:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">There’s a weird paradigm right now where people don’t value their own time anywhere close to what it’s actually worth. This has always been true to a degree, but AI seems to have pushed it into overdrive.&lt;p&gt;I keep running into “why can’t I just build this with Claude?”&lt;p&gt;And it’s like… yeah, you probably can?  I’ve put ~100 hours into getting an MVP working and trying to market it at around 30-50 ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47921479" target="_blank">Show HN: Drive any macOS app in the background without stealing the cursor</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-27 13:44 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, Francesco from Cua here.&lt;p&gt;I hacked this project together last weekend, inspired by the Codex Computer-Use release and lessons learned from deploying GUI-operating agents for our customers.&lt;p&gt;The main problem: when a UI automation process controls a desktop app today, it usually takes over the human’s session. Your cursor moves, keyboard focus gets stolen, windows jump to the front, and you...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47920787" target="_blank">Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                218 points | 77 comments |
+                2026-04-27 12:35 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Scored 65.2% vs google&amp;#x27;s official 47.8%, and the existing top closed source model Junie CLI&amp;#x27;s 64.3%.&lt;p&gt;Since there are a lot of reports of deliberate cheating on TerminalBench 2.0 lately (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;debugml.github.io&amp;#x2F;cheating-agents&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;debugml.github.io&amp;#x2F;cheating-agents&amp;#x2F;&lt;/a&gt;), I would like to also clarify a few things&lt;p&gt;1...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47920629" target="_blank">Re: AI gives back more equality than it takes away...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-27 12:19 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I strongly disagree. AI is a knowledge gap amplifier—to an almost absurd degree. I’ve watched top-tier professors in their respective fields write prompts, and the results they extract from the models are exponentially better than what average users get.&lt;p&gt;Umberto Eco once said that the internet amplifies the wealth gap. AI is the absolute pinnacle of that phenomenon.&lt;p&gt;I&amp;#x27;m from South Korea, ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

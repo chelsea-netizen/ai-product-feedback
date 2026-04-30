@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-04-30 18:03
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=47965960" target="_blank">Show HN: Milkdrop Visualizations with WASM+WebGPU [TW: flashing lights]</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-04-30 17:51 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Went on a side quest while working on an unrelated project. Milkdrop is an audio visualizer that was popular among many Winamp users, and I asked Claude to build a WASM+WebGPU port, and &amp;#x2F;mostly&amp;#x2F; walked away with some guidance peppered throughout the multi-day session.&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;milkdrop.mahae.dev&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;milkdrop.mahae.dev&amp;#x2F;&lt;/a&gt;&lt;p&gt;If...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=47964572" target="_blank">Re: Accurate infographics with ChatGPT Images 2...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 16:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&lt;i&gt;TLDR: Be prepared to verify the information produced in infographs even when using Extended Thinking mode.&lt;/i&gt;&lt;p&gt;Using Extended Thinking + web search does extend its knowledge beyond the training data cutoff point of Dec 2025 but (from my testing) seems limited to ChatGPT interface.&lt;p&gt;When I tried using the OpenAI gpt-image-2 API directly to create an infographic based on the results of the Apr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=47964510" target="_blank">Re: Claude Code refuses requests or charges extra if y...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 16:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Claude.ai is now at a 98.85% uptime. There&amp;#x27;s been so many frustrations with Claude &amp;#x2F; Anthropic lately (very heavy usage limits, wrong A &amp;#x2F; B testing, etc.).&lt;p&gt;Claude status: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;status.claude.com&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;status.claude.com&amp;#x2F;&lt;/a&gt;&lt;p&gt;I have been really happy with my Codex subscription lately, but feels like these things change ev...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=47964271" target="_blank">Re: Granite 4.1: IBM's 8B Model Matching 32B MoE...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 15:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">On the topic of local models, is there a good equivalent to something like Claude&amp;#x27;s chat interface? I&amp;#x27;ve recently started transitioning to open models after getting fed up with Claude&amp;#x27;s usage limits (I&amp;#x27;m not in a position to drop $200&amp;#x2F;month), and for coding tasks Kimi 2.6 has been about the same as Sonnet in my experience. The only thing I&amp;#x27;ve found myself missing is a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=47963973" target="_blank">Re: Claude Code refuses requests or charges extra if y...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 15:27 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I think it goes beyond this. I was just using claude to edit a blog post which mentioned OpenClaw and I got this response: &amp;quot;The &amp;quot;OpenClaw&amp;quot; reference — I assume that&amp;#x27;s a typo or playful reference; if you mean a real product, I couldn&amp;#x27;t find it under that spelling and you&amp;#x27;ll want to fix or footnote it.&amp;quot;. I gave it a direct link to openclaw.ai and the chat instantly...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=47963724" target="_blank">Re: Claude Code refuses requests or charges extra if y...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 15:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">That’s incredibly frustrating.&lt;p&gt;I’ve got a NixOS Qemu VM I use to run openclaw in. I had Claude help me set it up, and it runs local models on my own machine in a config based sandbox.&lt;p&gt;Why should Claude block or charge extra to work on that?&lt;p&gt;Why should Claude care if I have instructions for Hermes or OpenClaw in my project repos?&lt;p&gt;This fingerprinting is incredibly sloppy for how much access ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=47963671" target="_blank">Whose Trust Is It Anyway? Configuration Boundaries in AI Development Tools</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-04-30 15:07 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Writeup: https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;kunn007&amp;#x2F;claude-code-trust-boundaries&lt;p&gt;When an AI coding agent runs in a CI&amp;#x2F;CD pipeline against a repository it didn&amp;#x27;t author, should that repository&amp;#x27;s configuration be able to expand the agent&amp;#x27;s permissions?&lt;p&gt;Two vendors gave opposite answers in April 2026 to closely related versions of this question. Google rated Gemini CLI&amp;#x2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=47963022" target="_blank">Re: I over-engineered my simple AI backend: distillati...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 14:26 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I was creating an AI chat companion for one of my products and this is the compilation of my decisions and reflections. Plenty of technical parts that you&amp;#x27;d like to look into.&lt;p&gt;*Things I think worth highlighting*&lt;p&gt;1. Cloudflare Workers&lt;p&gt;2. Custom static site for interface&lt;p&gt;3. Full system prompt at the beginning: 17000 tokens -&amp;gt; Ultimately 2500 tokens&lt;p&gt;4. Tried two LLMs: one a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=47962629" target="_blank">Show HN: You can now run Gemini CLI in the browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-04-30 13:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN, we are thrilled to share with you in preview BrowserCode: A FOSS web app to run TUI agents (such as Claude Code, OpenCode, Gemini CLI and the like) fully in the browser. This first release focuses on Gemini CLI and Claude Code will follow soon. BrowserCode is released under the Apache License, version 2.0.&lt;p&gt;BrowserCode is based on BrowserPod (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;browserpod.io&quot; re...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=47962403" target="_blank">Re: The FCC is about to ban 21% of its test labs today...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-04-30 13:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been building a certification intelligence tool for hardware teams (markready.io) and needed a good test lab directory. The FCC publishes accreditation data through a Socrata API but it&amp;#x27;s pretty bare - names, addresses, designation numbers, and expiration dates that are often years stale. No websites, no capabilities, nothing to tell you whether a lab is a two-person shop or an Inte...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=47962230" target="_blank">Show HN: Nimbalyst open-source visual workspace for ClaudeCode, Codex, OpenCode</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 4 comments |
+                2026-04-30 13:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We&amp;#x27;re open sourcing Nimbalyst, a multi-agent, visual workspace for building with Claude Code, Codex, and Opencode (alpha). It pairs parallel session management with WYSIWYG editors so you and your agents can work on the same files at the same time.&lt;p&gt;The core idea: agents edit files, you edit files, and Nimbalyst makes that collaboration legible. Built-in WYSIWYG editors cover markdown, mocku...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=47960861" target="_blank">We Asked GPT-5.5 and Claude Opus 4.7 to Design 5 UIs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-04-30 11:21 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

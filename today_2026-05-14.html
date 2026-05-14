@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-05-14 18:28
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48139177" target="_blank">Show HN: PlanBridge: open-source tool for precise feedback on coding agent plans</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-05-14 18:22 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, we&amp;#x27;re Donnie, Josh, and Ben from ContextBridge.&lt;p&gt;We open sourced PlanBridge, a CLI tool for precision feedback on your coding agent&amp;#x27;s plans. It uses standard coding agent hooks (or skills) to open a local browser with the rendered markdown plan, letting you select text and leave inline comments on the plan.&lt;p&gt;Like most engineers, we use coding agents daily, but we realized the UX...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48138371" target="_blank">Re: Claude Code cost observability to prevent tokenmax...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 17:24 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s consensus that token usage is a poor metric for developer productivity. However, it&amp;#x27;s difficult to derive more sophisticated metrics from Claude Code.&lt;p&gt;Introducing Ledger: a local cost observability tool that scans local session files to track per-PR, runaway (p99) sessions, and per-session cost.&lt;p&gt;Hopefully eng teams can use Ledger to optimize token spend instead of spamming AI to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48137884" target="_blank">Re: Anthropic forms $200M partnership with the Gates F...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 16:46 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I&amp;#x27;m a fan of Anthropic&amp;#x27;s product but this is incredibly tone deaf and makes me reconsider the judgement of their leadership.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48137496" target="_blank">Re: GLiNER2-PII: 0.3B open-source PII model outperform...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 16:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HackerNews,&lt;p&gt;We’re Ash and George from Fastino Labs, and today we’re releasing GLiNER2-PII, an 0.3B parameter open source encoder model for PII detection.&lt;p&gt;Removing personal identifiable information (PII) from documentation and data sources continues to be a challenge. Since PII can look different depending on the country, context, and document type, it’s difficult for most models to keep up....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48137064" target="_blank">Re: HN: Shoute – Yes, another dictation app. Why the l...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 15:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been working on Shoute, a speak-to-text app for Mac and Windows that&amp;#x27;s built around one idea: the full loop has to feel instant&lt;p&gt;I do know this isn’t a new category. A lot of people here already have some version of this: whisper.cpp behind a hotkey, macOS dictation, SuperWhisper, Wispr Flow, or some other hand-rolled version.&lt;p&gt;I built one anyway because I kept bouncing off dictat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48136879" target="_blank">Show HN: 1-800-CODER, macOS app where you call an AI developer to edit your page</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-05-14 15:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Sharing a small Mac app I built around OpenAI’s gpt-realtime-2 model. You call up a voice coding agent and talk to it like you’d talk to a freelancer (&amp;quot;make the hero tighter, put a product image on the right, that one&amp;#x27;s too big&amp;quot;). You can even point at things on your webpage and say “remove this” or “make that bold”. Pointing feels like a killer feature. It pushes the conversation b...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48136833" target="_blank">Show HN: A multi-model interface where LLMs discuss &amp; argue with each other</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 5 comments |
+                2026-05-14 15:25 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hey HN, I am Robin from Rauno (link: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;rauno.ai&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;rauno.ai&lt;/a&gt;). I built this tool because I’m tired of AI hallucinations.&lt;p&gt;I got sick of manually copy-pasting every prompt into 3 different windows just to verify the truth. I realized the only way to get real accuracy was to let the models debate &amp;amp; fact-check each other in real-time, in...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48136707" target="_blank">Re: Claude AI recovers an 11 yrs old BTC wallet holdin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 15:17 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; Bitcoin trader recovers $400,000 using Claude AI after getting &amp;#x27;stoned&amp;#x27; and losing wallet password 11 years ago — bot tried 3.5 trillion passwords before decrypting an old wallet backup&lt;p&gt;Man. I wish I had a lost wallet worth a quarter of that even, technically didn&amp;#x27;t need Claude for this, just needed any password cracking software.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48136472" target="_blank">Re: Violin: An open-source video translation tool (and...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 15:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Upload a video. Violin transcribes the speech, translates it, synthesizes a native-sounding voice-over in the target language, and remuxes it back into the video — fully aligned, with optional SRT subtitles.&lt;p&gt;Available as a CLI, a FastAPI web app, and a Claude Code skill.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48136069" target="_blank">Dude where's my password? Claude reunites forgetful stoner with $400k Bitcoin</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-05-14 14:37 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48135901" target="_blank">Re: Sam Altman's Business Dealings Under GOP Scrutiny ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-14 14:25 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; The moves follow an April article in The Wall Street Journal that detailed Altman’s efforts to have OpenAI back companies he personally invested in.&lt;p&gt;Sounds a bit like Wework.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

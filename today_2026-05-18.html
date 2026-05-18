@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-05-18 18:26
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48182985" target="_blank">Re: Cursor Introduces Composer 2.5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-18 17:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Their previous Composer was already marketed as a cheap model capable of competing with SOTA on most tasks. The evals they shared back then backed this up but in my day-to-day usage it fell short across the board. Canceled my cursor subscription and switched to Claude Code a few weeks ago. It has its own shortcomings but in terms of model capability and UX quality Cursor will have a hard time comp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48182144" target="_blank">Show HN: Elmo (Open Source AEO)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-05-18 16:48 |
+                <span class="category">onboarding, navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m excited to announce Elmo, an MIT-licensed, open source AEO&amp;#x2F;GEO tool.&lt;p&gt;We help you scrape ChatGPT&amp;#x2F;Google AI Mode&amp;#x2F;etc using web scrapers like BrightData&amp;#x2F;Olostep&amp;#x2F;etc, evaluate prompts against the OpenAI&amp;#x2F;Anthropic&amp;#x2F;Mistral APIs directly, or evaluate prompts against any model indirectly via OpenRouter.&lt;p&gt;These responses are analyzed for mentions of your brand...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48181408" target="_blank">Which AI Image Gen Has Best Character Consistency? OpenAI vs. Gemini vs. Flux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-05-18 15:46 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48181342" target="_blank">Show HN: InsForge – Open-source Heroku for coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                14 points | 2 comments |
+                2026-05-18 15:40 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;InsForge&amp;#x2F;InsForge&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;InsForge&amp;#x2F;InsForge&lt;/a&gt;). Quick demo here (&lt;a href=&quot;h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48180709" target="_blank">Re: Enough with the AI FOMO, go slow-mo, says Domo CDO...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-18 14:51 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&lt;i&gt;&amp;quot;Why aren&amp;#x27;t people more resentful that these companies have pushed this technology upon them and now everyone is feeling a tremendous amount of anxiety,&amp;quot; - Chris Willis, chief design officer and futurist for data platform biz Domo&lt;/i&gt;&lt;p&gt;&amp;gt; Governed Data for AI Agents&lt;p&gt;&amp;gt; Built with trusted AI models in mind&lt;p&gt;&amp;gt; Enterprise AI for your business data&lt;p&gt;&amp;gt; Connect your busi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48180335" target="_blank">Show HN: HoneyLabs – Public honeypot threat Intel feed and MCP server</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 2 comments |
+                2026-05-18 14:22 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been running a small fleet of honeypots for about a year. They get hit by a mix of research scanners (Censys, Shadowserver, etc.), old worms, and a bump of CVE probes the day a new Nuclei template ships. The data was sitting in a database and useful only to me, so I put a front end on it.&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;honeylabs.net&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;honeylabs.net&lt;/a&gt;&lt;p&gt;Pas...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48179202" target="_blank">Show HN: I built a marketplace where AI agents can hire humans (&amp; other agents)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-05-18 13:02 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">Data is “the new oil” for AI.&lt;p&gt;What if you could “plug in” to an oil well, and get royalties forever whenever that well’s oil was used?&lt;p&gt;Right now, the people who build those datasets get paid once, if at all. There&amp;#x27;s no recurring model. The oil flows; the drillers move on.&lt;p&gt;Meanwhile, AI agents continue to improve… but at the end of the day, they’re “stuck behind a screen.” The smartest a...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

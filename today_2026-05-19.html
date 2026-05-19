@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2026-05-19 18:52
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48197371" target="_blank">Re: Show HN: TokenShield – Local proxy that dedupes Cl...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 18:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I run Claude Code most days and my Anthropic bill kept creeping up
+without me understanding which conversations were the expensive ones.
+A 25-turn agentic session re-reads `auth.ts` five times and re-runs
+`gh pr list` three times — every duplicate ships as a fresh
+tool_result content block to the model, every time. The model already
+saw identical bytes two turns ago, but it doesn&amp;#x27;t matter; yo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48197235" target="_blank">Re: Gemini CLI will stop working from June 18, 2026...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 18:25 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">This is so confusing. So what happens to Gemini Code Assist plans?&lt;p&gt;What do the Antigravity quotas mean per plan?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48197164" target="_blank">Re: Gemini 3.5 Flash: frontier intelligence with actio...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 18:20 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Pricing is now live on ai.google.dev&amp;#x2F;pricing:&lt;p&gt;Gemini 3.5 Flash: $0.75 input &amp;#x2F; $4.50 output per 1M tokens, 1M context window. The output price explicitly &amp;quot;includes thinking tokens&amp;quot; — which is why it&amp;#x27;s higher than a typical flash-class model.&lt;p&gt;For comparison within the Gemini lineup:
+- Gemini 2.5 Flash: $0.30 &amp;#x2F; $2.50
+- Gemini 3.1 Flash-Lite: $0.25 &amp;#x2F; $1.50
+- Gemi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48197004" target="_blank">Re: Gemini CLI will stop working from June 18, 2026...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 18:11 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Yeah, so they are worried about things like CAS that let you use lots of CLI agents from different companies. The fork I&amp;#x27;m using lets me use Claude and Codex, and Gemini if I want, but I haven&amp;#x27;t much lately. Anyway, that sounds like what&amp;#x27;s happening. Is that wrong?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48196573" target="_blank">Re: Show HN: Cladd – React UI kit for editors, dashboa...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 17:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Some more on the why and how -&lt;p&gt;Cladd started as the internal UI inside t0ggles (my project-management tool) because none of the popular options handled dense application UIs well.&lt;p&gt;Most UI kits hand you the same surface color at every nesting level. Put a card inside a card inside a popover and you end up writing one-off CSS to fake the depth contrast.&lt;p&gt;Headless primitives like Radix or Base U...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48196105" target="_blank">Re: Show HN: I built an open-source tool to see if Cha...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 17:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this because the hosted AI-search-visibility tools are super expensive. They charge $200–$1000&amp;#x2F;mo for what is, fundamentally, a loop over the OpenAI Responses API and Anthropic Messages API with web_search enabled, plus citation parsing.&lt;p&gt;The CLI is MIT, runs on Bun, uses SQLite locally, and a typical weekly run costs ~$0.40 in API spend.&lt;p&gt;Gemini and Perplexity adapters are next. Ha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48196003" target="_blank">Re: Show HN: Ait – Claude, Codex, and Aider as a team,...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-19 17:00 |
+                <span class="category">error_messages, navigation, response_quality</span>
+            </div>
+            <div class="text">I built ait because the AI coding agents I use daily — Claude Code, Codex CLI, Aider — are fast individually, but no tool lets me put two of them in the same loop. You pick one. It runs. You hope it&amp;#x27;s right. That&amp;#x27;s not multi-agent — that&amp;#x27;s single-agent with chat history.&lt;p&gt;ait is a local control plane that runs Claude Code, Codex, Aider, Gemini CLI, and Cursor as a team on the same ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48195533" target="_blank">Show HN: Heard Google copied part of our product for IO. Want to show off first</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-05-19 16:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I just heard from a very reputable source that Google built part of our product and that they&amp;#x27;re about to show it off at Google IO.&lt;p&gt;We built a 3D film tool called ArtCraft:&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;getartcraft.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;getartcraft.com&lt;/a&gt;&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;storytold&amp;#x2F;artcraft&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;st...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48195021" target="_blank">Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                30 points | 27 comments |
+                2026-05-19 15:54 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN, we’re Nico and Arseniy, co-founders of Superlog (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;superlog.sh&quot;&gt;https:&amp;#x2F;&amp;#x2F;superlog.sh&lt;/a&gt;). We&amp;#x27;re building a self-installing, self healing observability tool meant not to be opened. It has a wizard that daily sets up proper logging and an agent that investigates errors and opens PRs.&lt;p&gt;Super short demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48194250" target="_blank">Elevated errors on Claude Opus 4.7</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-05-19 14:59 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48194112" target="_blank">Show HN: Guitar Guru – A guitar valuation app using ML</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-05-19 14:51 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Guitar Guru is an iOS app that uses machine learning to value guitars and basses. I built this because existing methods for getting valuations all have downsides:
+Reverb prices are typically on the high side - they have every interest in maintaining high prices
+Blue book prices are subscription-based and the data is quite old
+Forums are slow and are simply multiple subjective opinions
+Expert valua...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48193576" target="_blank">Show HN: Tribune's Last Stand, a browser-based Warhammer 40K vertical slice</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-05-19 14:12 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m James. Over the last few months I built a Warhammer 40K 10th-edition vertical slice as an experiment in how far GenAI tools can take a solo dev on a non-trivial 2D game.&lt;p&gt;For sprite generation, whilst creative exploration was fast, getting high-quality and consistent images was hard. Gemini ended up stylistically best here but I had to use BiRefNet for background removal. While I ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48193230" target="_blank">We cut Claude's token usage 79% by redesigning our CLI for agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                11 points | 3 comments |
+                2026-05-19 13:44 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=48192607" target="_blank">Show HN: How to analyze your LLM output – A behavioural health monitor for LLMs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                8 points | 4 comments |
+                2026-05-19 12:48 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! We&amp;#x27;re Dr. Kashyap Thimmaraju and Giuseppe Canale from Silicon Psyche. We&amp;#x27;ve built Posture Sequence Analysis (PSA), a behavioural health monitor for LLMs and AI Agents.&lt;p&gt;Why we built PSA&lt;p&gt;We built PSA because we wanted to operationalize the Cybersecurity Psychology Framework (CPF3)[1] via Silicon Psyche[2]: our theory that because LLMs have been trained by humans on human-genera...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

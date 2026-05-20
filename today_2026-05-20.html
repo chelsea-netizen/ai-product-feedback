@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-05-20 19:13
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48211646" target="_blank">Re: Apparently Google hates us now...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-20 18:04 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">After yesterday&amp;#x27;s keynote and the changes to Search, it became clear in the near future, Google will cease to direct any traffic to websites and the search results will just become a footnote in Gemini&amp;#x27;s response.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48210682" target="_blank">Re: VSM Loop: Viable-System Orchestration for Multi-Ag...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-20 16:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I guess noone would ever pay any attention but this thing works wonders (even its sub-skills are very valuable). It turns Claude&amp;#x2F;Codex into persistently working machines with much higher output quality - and without need for a custom harness (which actually could improve token usage, quality and discipline but comes with maintenance costs).&lt;p&gt;With these skills Claude can work completely auton...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48210472" target="_blank">Show HN: Catio - AWS Diagrams and Architecture Copilot</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-05-20 16:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN, I’m working on Catio, a tool that builds live digital twin diagrams of your AWS infrastructure and includes an AI copilot that can answer questions and reason against that model.&lt;p&gt;The diagram and chat experience is free to use, read-only, and can be connected to dev or sandbox AWS accounts if you want to try it without touching production. We also have a paid product around AI-generated r...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48210011" target="_blank">Re: Stopgap for Claude -p before Anthropic's June 15 b...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-20 16:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Anthropic is moving claude -p to per-token API billing on June 15 — interactive sessions stay subscription-billed. If you have any pipelines that use claude -p today, they&amp;#x27;ll start generating API charges.&lt;p&gt;I just thought of a quick stopgap — a ~50-line Python wrapper that replicates claude -p&amp;#x27;s one-shot behavior using an interactive session instead.&lt;p&gt;The trick is getting the interactiv...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48208998" target="_blank">ChatGPT and other AI bots made errors before Scottish election, study finds</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-05-20 15:02 |
+                <span class="category">navigation</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48208427" target="_blank">Re: I Caught ChatGPT for Finance Making Up a Transacti...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-20 14:26 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Drives me crazy when someone identifies a bad inconsistency in output like this and says &amp;quot;OpenAI should look into this issue&amp;quot;, like it&amp;#x27;s not a core limitation of this technology at a foundational level.&lt;p&gt;That&amp;#x27;s what scares me the most about this stuff. People see the generated output and get wowed by it, then notice the issues and think &amp;quot;they&amp;#x27;ll get that problem iron...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48207935" target="_blank">Show HN: Sticky Icky – a ditherpunk sticker designer for the Zebra LP2844</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-05-20 13:59 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Browser-based sticker designer for a Zebra LP2844 thermal label printer. I bought an $40 UPS branded LP2844 to print stickers and ended up building this after I couldn&amp;#x27;t find existing tools that did what I wanted.&lt;p&gt;GW raster appears to be broken over USB on firmware V4.29, so it prints over serial from a FastAPI backend. More notes on what I ran into are in the README. Image pipeline does XO...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-05-22 18:27
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48239072" target="_blank">Re: DeepSeek makes the V4 Pro price discount permanent...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-22 17:48 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Props to them. That makes DeepSeek v4 Pro extremely cheap compared to others, even in the same category. Look at these prices per million outputs tokens:&lt;p&gt;DeepSeek V4 Pro: $0.87&lt;p&gt;Qwen 3.7 Max: $7.50&lt;p&gt;Grok 4.3: $2.50&lt;p&gt;GLM 1.5: $3.08&lt;p&gt;Opus 4.7: $25.00&lt;p&gt;GPT-5.5: $30.00</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48238250" target="_blank">Re: Antigravity 2.0 Tops the OpenSCAD Architectural 3D...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-22 16:39 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I tried Claude code designing a snap fit, vase mode printed box. Ultimately didn&amp;#x27;t work out, it couldn&amp;#x27;t get the tolerances right and kept designing features that wouldn&amp;#x27;t print in vase mode.&lt;p&gt;Scad needs unit tests. It would be powerful to asset that a profile doesn&amp;#x27;t have slope greater than 45°, that intersection of two objects is null, or specific volume.&lt;p&gt;It also needs cut...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48237817" target="_blank">Show HN: Interactive first-principles climate physics simulation with explainer</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-05-22 16:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">A 3D visualizer of earth&amp;#x27;s climate in the browser. Introduces physics step by step so you can watch each process unfold as a piece of the overall climate.
+I built this over 6 months, almost entirely with AI, mostly Opus 4.6 in Claude Code. SF weather made no sense to me (Barely any seasons? September is the warmest month?) and I wanted to understand it better myself. This is a polished versio...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48237449" target="_blank">Re: LLemdashes...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-22 15:45 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">This phenomenon (and&amp;#x2F;or the fear of being falsely accused) is why I find myself being an annoying unpaid evangelist for Pangram every few days.&lt;p&gt;Right now a lot of people are developing their own heuristics, some much more well-calibrated than others, for sniffing out AI generated text but it&amp;#x27;s kind of an unfalsifiable accusation since you&amp;#x27;re really just saying &amp;quot;this sounds li...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48237415" target="_blank">Show HN: Pablo – a Chrome extension that copies UI from any website</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-05-22 15:42 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Pablo is a Chrome extension that copies the HTML and CSS behind any element you hover.&lt;p&gt;It captures computed styles, fonts (with @font-face and Google Fonts links), CSS keyframes, and animation props from GSAP and Framer Motion. The output is structured so it pastes cleanly into Claude Code, Cursor, or Codex when you want to rebuild a component in your own stack.&lt;p&gt;Manifest v3, no host permission...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48237353" target="_blank">Re: The current AI pricing was always going to go away...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-22 15:37 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">This is where open source models are important.&lt;p&gt;The latest deepseek v4 pro model is 2-5x cheaper than Claude Sonnet 4.6. Cursor&amp;#x27;s Compose 2.5 that was just recently released is 6x cheaper than Sonnet.&lt;p&gt;The state of the art models are going to get better and more expensive and smaller models are going to get cheaper.&lt;p&gt;There will be a point where the intelligence of both the cheap and state...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48236770" target="_blank">Launch HN: Superset (YC P26) – IDE for the agents era</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                40 points | 57 comments |
+                2026-05-22 14:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;superset-sh&amp;#x2F;superset&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;superset-sh&amp;#x2F;superset&lt;/a&gt;), an open-source agentic IDE for running coding agents like Claude Code, Codex, OpenCode etc in parallel.&lt;p&gt;Demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=YWDHn7gUwfg&quot; rel=&quot;no...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48236462" target="_blank">Re: Ask HN: How much AI is in your writing?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-22 14:34 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">AI writing has now become boring; large language models no longer write real prose because they have been trained too strictly not to make mistakes and to use the right tools. However, they have now lost their human character. I am tired of seeing AI-written text everywhere, which in fact has such a distinct tone that I instantly understand if it is from Claude or ChatGPT. The only AI I know that ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48236029" target="_blank">Re: Ceres, an open copilot for VS Code with budget and...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-22 14:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;Ceres copilot is a lightweight AI real UI for llms inside IDE... not autonomous (like Copilot or Claude Code) that constantly making API requests, blindly searching my workspace, and bloating token usage and not leaving on a separate window.&lt;p&gt;Instead of letting an AI &amp;quot;agent&amp;quot; try to be clever by autonomously searching through your terminal or files.... which really just burns t...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

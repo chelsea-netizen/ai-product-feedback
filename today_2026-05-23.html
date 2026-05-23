@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-05-23 17:54
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48249487" target="_blank">Re: Show HN: I built a RAG and knowledge graph agent t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-23 17:34 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">hi gabriel, the problem you are trying to solve is valid, but both claude-code and codex natively support local models ran through ollama. i&amp;#x27;ve tried doing this before, and SLMs still fail to do basic tasks because they are put in a harness that has too many features and tools.&lt;p&gt;i&amp;#x27;ve had really good success though in using them in minimal harnesses like pi-coding-agent. without an open-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48249067" target="_blank">Re: Bun in Rust is better than the original...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-23 16:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">People will hate me for saying this, but I&amp;#x27;m now on the camp of AI will write better softwares than human, regardless of the level, we are at the beginning only, it&amp;#x27;s extremely likely that we will be able to zeroshot &lt;i&gt;(including all the tooling of course, doesn&amp;#x27;t matter, it&amp;#x27;s just a technicality)&lt;/i&gt; virtually any sort of software, including entire Kernel&amp;#x2F;OS and so-on.&lt;p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48248801" target="_blank">Show HN: I built a RAG and knowledge graph agent that runs locally</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 4 comments |
+                2026-05-23 16:06 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder.
+Why was claw-coder created? Answer: To solve the problem of privacy and security. When you use an agent that is configured with a cloud model like codex, cursor, Claude etc. You are not just getting the agent but you are giving...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48247677" target="_blank">Re: I Miss Terry Pratchett...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-23 13:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">How to get your AI company&amp;#x27;s blog to No. 1 on Hacker News:&lt;p&gt;1. Pick an author nerds like.&lt;p&gt;2. Tell Claude &amp;quot;Write an article about Terry Pratchett, in his style.&amp;quot;&lt;p&gt;3. Don&amp;#x27;t even fix the faux-witty phrases that, upon closer inspection, make zero sense, like &amp;quot;Sir Terry Pratchett, who knew more about furniture than most&amp;quot;, or &amp;quot;Most physics departments would settle ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48247549" target="_blank">Re: Why AI writes software but doesn't build a good pr...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-23 13:34 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">If you believe Death by Claude, Trello, Notion, and other tools are &amp;quot;already dead.&amp;quot; When I read that and realized that many are declaring SaaS dead for reasons like these, I thought: Why should I prefer an ugly but functional solution that Claude Code or Claude Design can build for me in minutes to a tool that has been developed over years and optimized in terms of UI and UX?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48246659" target="_blank">Show HN: I built a powerful RAG and knowledge graph agent that runs locally</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 3 comments |
+                2026-05-23 11:05 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder.&lt;p&gt;Why was claw-coder created?
+Answer: To solve the problem of privacy and security. When you use an agent that is configured with a cloud model like codex, cursor, Claude etc. You are not just getting the agent but you are givi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48244670" target="_blank">Perplexity Bumblebee: Read-Only Tool for Dev Supply Chain Checks on macOS/Linux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-05-23 04:26 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-05-28 19:32
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48313908" target="_blank">Re: Dynamic Workflows in Claude Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-28 19:08 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">I just hit my Claude Max limit for the first time _ever_ thanks to workflows lol&lt;p&gt;Like 90 agents ran to do a code review of a fairly small package I have.&lt;p&gt;They&amp;#x27;re really looking for us to increase token usage aren&amp;#x27;t they?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48313174" target="_blank">Show HN: Notification when coding agent is done, free</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-05-28 18:18 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">You just install this.
+Ask for claude&amp;#x2F;codex to wake you up, summarize, or whatever you want when the task is done and it is going to do it.
+Free - uses in-built voices from your MacOS&amp;#x2F;Windows to do TTS and the voice sounds neat&lt;p&gt;I personally use it when I &amp;#x2F;loop and ask it to wake me up if something goes sideways while I am asleep lol :D</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48312841" target="_blank">Re: We replaced Zendesk...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-28 17:57 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Funny timing for this article to appear on the front page as I was just thinking of Zendesk today.&lt;p&gt;We kind of tried Zendesk maybe 8 years ago and even integrated the chat into our Electron app.&lt;p&gt;What put me off though is that support articles didn’t work off markdown, there was no way I wanted us having all our docs formatting and images locked up by them. We had already started using DocFX whi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48312609" target="_blank">Re: Claude Opus 4.8...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-28 17:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Unfortunately they seem to have straight up broken Claude Code either with this release in the backend or the new CC version. Errors about &amp;quot;can&amp;#x27;t modify thinking blocks&amp;quot; are bricking long-running sessions: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;anthropics&amp;#x2F;claude-code&amp;#x2F;issues?q=is%3Aissue%20state%3Aopen%20blocks%20modified&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48312377" target="_blank">Ask HN: What Is an &quot;AI Engineer&quot;?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 8 comments |
+                2026-05-28 17:26 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I&amp;#x27;m seeing an enormous contingency of my LinkedIn connections change their titles to &amp;quot;AI Engineer.&amp;quot; I know for a fact that they&amp;#x27;re not working on any models or even AI workflows, they&amp;#x27;re just building apps and backends using AI tools like Claude.&lt;p&gt;Is that what &amp;quot;AI Engineer&amp;quot; means nowadays? Is that what companies are looking for when they open recs for &amp;quot;AI E...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48311998" target="_blank">Re: Claude Opus 4.8...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-28 17:06 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">A rambling comment:&lt;p&gt;I think this is the first time we&amp;#x27;ve had a third &lt;i&gt;minor&lt;/i&gt; version bump on a frontier Anthropic model. (I count the 0.5s as major here, because they&amp;#x27;ve been issued non-sequentially and also corresponded to massive capability leaps, eg, Sonnet 3.5, Opus 4.5).&lt;p&gt;So now the Opus 4.5 family has successors 4.6, 4.7, and 4.8, each posting fairly modest claimed gains. M...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48309978" target="_blank">Re: Claude Code hook that plays a random sound on nega...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-28 15:04 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I sometimes long for audio feedback when interacting with Claude, so I&amp;#x27;ve made a Claude Code hook that makes Claude reply to negative feedback with sounds from a folder. You can use any sound you want.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48309959" target="_blank">Re: How long until AI automates all cognitive labor?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-05-28 15:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">One of my reports just sent me a giant design doc that Claude enthusiastically generated packed with plausible looking technical detail. Unfortunately the problem it&amp;#x27;s trying to solve is completely misguided and we shouldn&amp;#x27;t be doing it at all. So I&amp;#x27;d say as answer to the question posed by this title: a while.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48309501" target="_blank">Show HN: Search Router – retrieval-ready web search for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-05-28 14:32 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Search Router is a web search API built for AI agents and RAG systems.&lt;p&gt;We built it internally at first, when working on AI tools. Got tired of messy web retrieval in most LLM workflows - and built our own stack for it.&lt;p&gt;Right now, web search for AI means chaining together a search API, scraping, captcha handling, HTML cleanup, content extraction, prompt formatting. And the models still end up p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48309273" target="_blank">Show HN: Multiplayer, a debugging agent to run locally next to your coding agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-05-28 14:16 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We built Multiplayer because we kept running into the same problem: coding agents connected to existing observability stacks inherit all the limitations those stacks were built with. Sampled traces, aggregated metrics, context that stops at service boundaries, missing request&amp;#x2F;response content from deep within the system. The PRs they produce look plausible and fail in production (i.e. “PR slo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48308149" target="_blank">Show HN: Audit your Anki flashcards at flashcardaudit.com</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-05-28 12:44 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey, my name is Tyler, I made this. flashcardaudit.com is a tool that allows users to upload an Anki collection so that an AI auditor (Gemini 3.5 Flash) can review the factual correctness of each Anki card. I discovered that a non-trivial number of cards contain obvious factual errors; which means people are likely memorizing false information every day.&lt;p&gt;Here is a free example of what the audit ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

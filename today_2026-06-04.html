@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-06-04 19:12
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48402552" target="_blank">Re: Show HN: Boxes.dev: ditch localhost; run Claude Co...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 18:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Why is this better than running Claude on my own home server? I can remotely monitor the agent with Termux from my phone.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48402393" target="_blank">Re: When AI Builds Itself: Our progress toward recursi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 18:10 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">Okay, so anthropic has amazing AI which supposedly writes most of their code and can continuously improve... meanwhile they have outages on a regular basis, and any kind of long-running work will now consistently hit &amp;#x27;API Error: Server is temporarily limiting requests&amp;#x27;. Not sure of this is intentional to force a reduction of token usage, but at this point I need to build around these thr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48402368" target="_blank">Re: When AI Builds Itself: Our progress toward recursi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 18:09 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">&amp;gt;A caveat: Lines of code is an imperfect measure, as it measures quantity over quality. So 8× lines of code&amp;#x2F;engineer&amp;#x2F;day in the second quarter of 2026 is almost certainly an overstatement of the true productivity gain. Nonetheless, it indicates an acceleration. At Anthropic, we don’t reward people for how many lines of code they write; rather, team members are producing more code simp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48402089" target="_blank">Re: The whole world will be one big lab...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 17:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Creating new knowledge is an act of transitioning from known effect to unknown cause. That unknown cause we imagine as some external object. We call this hypothesis.&lt;p&gt;This transition from known effect to unknown cause is known also as abductive reasoning (Pierce), conjecture (Popper), understanding (Schopenhauer) or a simply a guess.&lt;p&gt;Now, no matter how smart AGI gets he does not have ability to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48401773" target="_blank">Re: Show HN: Boxes.dev: ditch localhost; run Claude Co...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 17:25 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This looks very clean, great job!&lt;p&gt;If your CTO didn&amp;#x27;t spend the past year making an orchestration tool and a baby is he even qualified?&lt;p&gt;I have a vibe-coded orchestrator that I use to manage my claude and codex sessions across multiple machines, can also spin up sprites from fly.&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;tinkerer&amp;#x2F;propanes&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48401455" target="_blank">Re: The LLM warnings Google fired Timnit Gebru over ha...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 17:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The first issue I have with the article is the title. I followed this whole saga very closely when it happened, and while I definitely understand the nuance of her separation, I agree with Google that Gebru wasn&amp;#x27;t fired - she quit.&lt;p&gt;I do not understand what universe you must live in to think you can come to your employer and make a large list of demands (including demands that can easily be ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48400277" target="_blank">Re: 'Bots have now passed human traffic online,' Cloud...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-04 15:40 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">(( I started writing a simple comment and it spun out into a larger rumination.  The following is not discussed in the article ))&lt;p&gt;What _content_ will bots&amp;#x2F;LLMs actually have access to in... 3 years?  PubMed, Wikipedia, and various company&amp;#x27;s sales decks and documentation?  What incentives exist in the future for people to actually produce content?  The existing framework is being disrup...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48399358" target="_blank">Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                69 points | 45 comments |
+                2026-06-04 14:38 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, we’re Nick and Drew, and we’re building boxes.dev – the first cloud-only agentic dev environment (ADE) that gives every Codex and Claude Code agent its own cloud computer.&lt;p&gt;We’re two engineers who previously built Gem (co-founder&amp;#x2F;CTO and first hire), and we spent the last year coding almost exclusively using Codex and Claude Code. It’s been a huge change to how we code, and it’s been ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48397889" target="_blank">AI-Effiecency in the Workplace</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-04 12:47 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Someone at my workplace took 3 days to write a PROMPT to Claude to write a PRD.
+It generated magnificent 12 notion pages with graphs, schema defenitions, expected behaviors, what-have-you.
+I read through all of them and raised some questions regrading the architecture he decided to go with, as he went on a different direction that what we discussed, and thats OK. Most of his responses where &amp;quot;...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

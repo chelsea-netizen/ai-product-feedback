@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-06-07 17:58
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48436956" target="_blank">Re: Anthropic, please ship an official Claude Desktop ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 17:33 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">OK, just please be careful how you frame what you&amp;#x27;re asking for.&lt;p&gt;For software development use of Claude, I&amp;#x27;d be happy if the `claude` CLI executable does everything I need, within the Linux KVM VM sandboxes I create for the work, without a desktop client.  The cleaner and more trustworthy, the better.&lt;p&gt;Also, for random interactive use of Claude for asking questions, I use it from my h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48436791" target="_blank">Re: Anthropic, please ship an official Claude Desktop ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 17:14 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Anthropic, if you&amp;#x27;re reading this: I&amp;#x27;m a developer trying to figure out LLMs, I use them 8h per day to do my work. Claude Desktop is a missing piece I don&amp;#x27;t have access to because I&amp;#x27;m only on Linux! I&amp;#x27;m happy with a simple AppImage.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48436738" target="_blank">Re: Wispr-Flow-Linux – Wispr Flow via Apt, DNF, AUR, A...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 17:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey All,&lt;p&gt;Wanted to try Wispr Flow but they don&amp;#x27;t have a linux distro yet. I already run aaddrick&amp;#x2F;claude-desktop-debian (not just debian...), so I ran the same playbook here to create an auto-updating release pipeline.&lt;p&gt;I&amp;#x27;ve only tested on Nobara (Fedora) KDE. Mind testing on your various setups?&lt;p&gt;If you run into issues on other backends&amp;#x2F;compositors&amp;#x2F;etc, feel free to fi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48436529" target="_blank">Re: Show HN: OpenPayphone – open-source guts for a 199...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 16:47 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Author here. My wife gave me a dead ~1996 Ernest D3 coin payphone for my birthday; the original board was toast, so I gutted it and rebuilt the internals with a Raspberry Pi Zero 2W, with PoE, audio, and custom HATs + an open-source SIP stack and kept it genuinely coin-operated (escrow, rate plans, intercept tones, and a hidden hold-# refund trick).&lt;p&gt;Two highlights: the call-progress tones come f...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48436024" target="_blank">Show HN: Help SourceLibrary.org Translate the Renaissance</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-06-07 15:52 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">SourceLibrary.org is currently the world’s largest online library of translated ancient sources. It contains over 15,000 books translated from dozens of languages (Latin, Greek, Chinese, Sanskrit, Arabic, Hebrew, Egyptian, etc)—from sacred texts to early science. Our vision is to make ancient wisdom accessible to both people and AI.&lt;p&gt;Did you know that less than 3% of the Latin Renaissance has eve...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48435040" target="_blank">Re: Anthropic/OpenAI may be spending more than $1000 f...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 14:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Anthropic and openai has the most efficient tokens per unit of compute on the planet and honestly that&amp;#x27;s their current moat. They&amp;#x27;re able to serve tokens at half the cost of any opensource provider. Here&amp;#x27;s the costs to serve opus 4.7 in china on aws according to one of my connections that operates  an enterprise account in the region:&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Input: $0.257
+  Output: $1.286
+  ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48434916" target="_blank">Re: Anthropic, please ship an official Claude Desktop ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 13:55 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey!&lt;p&gt;I manage the unofficial build at &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;aaddrick&amp;#x2F;claude-desktop-debian&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;aaddrick&amp;#x2F;claude-desktop-debian&lt;/a&gt;&lt;p&gt;Debian is in the name, but scope has grown to all backends, compositors, etc.&lt;p&gt;The main reason must companies don&amp;#x27;t publish Linux electron apps is fragmentation. If you&amp;#x27;re doing ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48434436" target="_blank">Anthropic, please ship an official Claude Desktop for Linux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                267 points | 139 comments |
+                2026-06-07 13:06 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48434240" target="_blank">Ask HN: How are thinking efforts implemented?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                12 points | 5 comments |
+                2026-06-07 12:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Claude and ChatGPT have thinking efforts where you can tune the amount of thinking allowed.&lt;p&gt;Like low, medium, high, xhigh and so on.&lt;p&gt;But are they different models underneath? Or same model with different parameter?&lt;p&gt;The reason I ask is because, if I change the effort param mid conversation in Claude code, I get a warning suggesting I’m breaking the cache.&lt;p&gt;I don’t think this happens in Codex...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48433756" target="_blank">Show HN: Lathe – Use LLMs to learn a new domain, not skip past it</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                116 points | 20 comments |
+                2026-06-07 11:16 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN!&lt;p&gt;Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand (&lt;i&gt;gasp&lt;/i&gt;) in a local UI built for exactly that.&lt;p&gt;It&amp;#x27;s a Go CLI plus LLM agent skills (Claude Code &amp;#x2F; Cursor &amp;#x2F;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48432387" target="_blank">Re: I design with Claude more than Figma now...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 06:26 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I use the same approach a lot. Before AI I also did this manually. First sit down with a user and just paper and pencil, then hack together a frontend POC &amp;#x2F; demo, have them play with it and adjust until it works as they wanted.&lt;p&gt;For me building a quick (not production quality) frontend demo in code was already often faster than getting the right interaction working in Figma. And it allowed t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48432249" target="_blank">Re: I design with Claude more than Figma now...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-07 05:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’ve been using Claude Design for my front ends. The output looks and feels good enough, but the designs often look very similar and generally adhere to contemporary web tropes.&lt;p&gt;Keen to hear if anyone has had unconventional creative adventures with it.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48431981" target="_blank">I design with Claude more than Figma now</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                213 points | 193 comments |
+                2026-06-07 05:04 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=48431928" target="_blank">Show HN: TabyAgent – A lighter and easier alternative to OpenClaw/Hermes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-07 04:51 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I created TabyAgent, a lighter and easier-to-use alternative to OpenClaw and Hermes.&lt;p&gt;It runs exclusively within Docker without requiring host mounts and allows you to chat via Telegram.&lt;p&gt;I’ve used both OpenClaw and Hermes in the past, but I decided to build this myself because of their instability and, in the case of OpenClaw, its heavy footprint and numerous bugs.&lt;p&gt;It was intentionally design...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=48431648" target="_blank">Show HN: Markdown Editor and Reader for Mac</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 4 comments |
+                2026-06-07 04:00 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I read Markdown all day, mostly Claude .md, and other AI outputs. Every app I have tried felt janky or too much work to just read an md file. I just wanted to open a .md file and read it the way Preview opens a PDF.&lt;p&gt;So I built Kite, a Markdown reader for Mac. It has QuickLook just like Preview and I have baked in features that help people reading lot&amp;#x27;s of AI markdowns.&lt;p&gt;It one-time purchas...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

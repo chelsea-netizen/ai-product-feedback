@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-06-09 19:06
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48464975" target="_blank">Re: Claude Fable 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 18:03 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Impressions from testing Fable 5 prior to launch:&lt;p&gt;• My most noticeable immediate jump was in how its frontend design was much more intentionally crafted, and delightful without feeling like &amp;#x27;AI vibe coded&amp;#x27;; with better end-user usability too.&lt;p&gt;• In some internal agentic harnesses, it achieved better results with about half the tokens, making it cost the ~same as Opus 4.8 price-wise! T...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48464732" target="_blank">Re: System Card: Claude Fable 5 and Claude Mythos 5 [p...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 17:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; In light of the ability of recent models to accelerate their own development, we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but en...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48464596" target="_blank">Re: Unified Controllable and Faithful Text-to-CAD Gene...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 17:42 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The only time text-to-SCAD has ever worked for me was when Claude (the app, not even Claude Code) decided spontaneously to spin up an environment and check the renderings of its SCAD code. That session lead to something 90-95% of the way to the finished product, and in some ways even surpassing my expectations by looking up measurements for relevant products instead of using placeholders.&lt;p&gt;Modify...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48464558" target="_blank">Re: System Card: Claude Fable 5 and Claude Mythos 5 [p...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 17:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I just posted this in the other thread, restating here. From the model card:&lt;p&gt;1. Mythos and Fable share the same underlying model weights. Fable has active classifiers that block high-risk biology and cybersecurity tasks. When Fable 5 detects a restricted task, it automatically falls back to Claude Opus 4.8.&lt;p&gt;2. Evaluation awareness: In white-box testing, the model sometimes alters its behavior ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48464054" target="_blank">Re: Claude Fable 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 17:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Pelican for Fable 5 on default settings is a clear improvement on Opus 4.8&lt;p&gt;Fable 5 default: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;gist.github.com&amp;#x2F;simonw&amp;#x2F;036bee5a703e7ec84e34efa97443828d&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;gist.github.com&amp;#x2F;simonw&amp;#x2F;036bee5a703e7ec84e34efa974438...&lt;/a&gt;&lt;p&gt;Opus 4.8 (the &amp;quot;max&amp;quot; one is closest to Fable): &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;simonwillison.net&amp;#x2F;2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48463979" target="_blank">Re: Claude Fable 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 17:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The system card is 319 pages, at what point do we call it a &amp;quot;book&amp;quot; instead of a &amp;quot;card&amp;quot;?&lt;p&gt;There&amp;#x27;s a quote from a METR report on page 52:&lt;p&gt;&amp;gt;We ran [Mythos 5] on 38 of our hardest software tasks, including tasks centered around R&amp;amp;D. [Mythos5] generally outperformed an early checkpoint of Claude Mythos Preview in these, including by succeeding on some tasks that had n...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48463855" target="_blank">Re: Ask HN: How are you preserving your skills while u...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-09 17:01 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I’m in this exercise right now, and I’m thinking about, how do I stay in the drivers seat.  I think it’s a version of, bionics not robots.&lt;p&gt;Im trying to go back in time to when AI was more autocomplete than agent and write my code with assistance.  Find the file, find where the code goes autocomplete the fix.  Rather than one shot multi file changes do one at a time.&lt;p&gt;The bosses probably don’t w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48462782" target="_blank">Blackstone, Anthropic Joint Venture Acquires Fractional AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-09 15:56 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48462489" target="_blank">Show HN: Local-first history, search, and analytics for Claude Code and Codex</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-06-09 15:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m an indiehacking type, which means I work on like 5 different things at any given time.&lt;p&gt;Claude and codex are incredible. But, there were a few problems I had with them. AgentGraphed pretty much solves for those.&lt;p&gt;It works locally - indexes every conversation you have, live, into a local sqlite db. With it, theres a lot we can render in a nice UX.&lt;p&gt;Among other things..&lt;p&gt;Problem: I want...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48462248" target="_blank">Claude Desktop for Linux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-06-09 15:17 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48462192" target="_blank">AI in the Workplace – Part 2</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-09 15:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m convinced that majority of developers never liked development.
+They, perhaps, like the money, or the status, or other aspects in the work. But they most certainly don&amp;#x27;t like development. I have people in my workplace that, in the last 6 months, have been only interacting with other colleagues, through Claude. They responses go through Claude, their code, their answers on their PRs, t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48461287" target="_blank">Show HN: Sandbox AI-app lifecycle, from build to run</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-06-09 14:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;This is a project I&amp;#x27;ve been working on since the beginning of 2025 full time, without funding.&lt;p&gt;Coding agents have fundamentally changed the way we write software. When you let an agent write code, pull dependencies, and run scripts, you are delegating trust while still keeping the responsibility. You shouldn&amp;#x27;t have to choose between moving fast with agents and maintaining basi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48460682" target="_blank">Show HN: Simten – design hardware in TypeScript and simulate it in the browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-09 13:11 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I mostly wanted to prototype hardware ideas quickly, with as little as possible between writing a circuit and watching it run. There are already solid embedded HDLs in general-purpose languages i.e. Chisel (Scala), Amaranth (Python), SpinalHDL. They all also have their own simulators, but they live inside the JVM or Python toolchains. I wanted something I could open in a browser and just start bui...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

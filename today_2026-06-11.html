@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>5</strong> items collected |
+                Last updated: 2026-06-11 19:28
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48493927" target="_blank">Re: MiMo Code is now released and open-source...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-11 17:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Good, coding harnesses should be open source and LLMs should be treated as commodities. Minimize switching costs for consumers, and let people understand how they&amp;#x27;re interacting with the context and the LLM outputs.&lt;p&gt;The industry has been moving the wrong direction with Claude Code staying closed (despite multiple times leaking the source code!) and the open source Gemini CLI being deprecate...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48493384" target="_blank">Show HN: Checkpoint! Airport security sim game built with Claude Fable</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-11 17:24 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Fable just came out and I wanted to see what it was actually capable of.&lt;p&gt;The game: an airport security sim where manage passengers and keep them from getting angry. You place rope barriers, open lanes, build out a concourse mall. Pixel people route through whatever you designed. Standing still feels much longer than walking, so a long snaking line keeps people calm and a formless crowd gets angr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48491825" target="_blank">Re: Show HN: Open-source API Key server written in Go ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-11 15:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We built Ory Talos (not to confuse with Talos Linux) to solve API keys (think OpenAI and Anthropic API keys) at scale and with the best practices around capabilities and securities.&lt;p&gt;If you have any questions, please shoot :)</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48491455" target="_blank">Re: Euro-Office: First version of the open-source web ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-11 15:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It can&amp;#x27;t possibly be a worse user experience than Microsoft CoPilot Teams Office 365 Copilot with AI Co-Pilot so I say bring on the eurocrats.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48489925" target="_blank">Show HN: Workplane – collaborative files for agents (and humans)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                8 points | 2 comments |
+                2026-06-11 13:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">A friend and I built this as a side project to help us collaborate on files with our agents.&lt;p&gt;Claude &amp;#x2F; Codex kept outputting .md and .html files which are great until we needed to share them, so we built this small website to help with that.&lt;p&gt;Agent can either use an HTTP + Skill or an MCP which also uses MCP Apps to add widgets to Claude Desktop &amp;#x2F; Mobile chat.&lt;p&gt;Would love any feedback...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

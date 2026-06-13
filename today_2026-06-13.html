@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-06-13 18:03
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48519737" target="_blank">Re: GLM 5.2 Is Out...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 17:58 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">With deluge of Chinese models popping up recently, I believe there&amp;#x27;s a few issues one needs to evaluate before deciding to use these models:&lt;p&gt;- Ethics. As known, ou American frontier AI companies are incredibly ethical. And I have yet to see any interviews or blog posts by Chinese companies where they talk about how they are ethical, or at least credible HN comments about it.&lt;p&gt;- Safety. Do ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48519205" target="_blank">Re: Vercel Drop...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 17:08 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">what does this actually do? claude output -&amp;gt; drop -&amp;gt; app that you can&amp;#x27;t really change?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48519137" target="_blank">Re: TensorSharp: Open Source Local LLM Inference Engin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 17:01 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I would like to share my latest open source local Unsloth (GGUF) LLM inference engine and applications. It supports many models from Unsloth, like Gemma4, DiffusionGemma, Qwen3.6 with multi-modal (image, vision, audio), reasoning and function tool. It can run on Windows&amp;#x2F;MacOS&amp;#x2F;Linux and fully leverage GPU&amp;#x27;s capability. The API is completely compatible with OpenAI and Ollama interface...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48518852" target="_blank">Re: Claude Fable 5 vs. GPT-5.5: Better Planning, Simil...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 16:33 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">My approach lately, in a corporate env, has been to use Opus 4.8 for planning and GPT 5.5 for execution. I think this is a good balance, as Opus (and Fable) tend to have a wider aperture and seem better at realizing downstream effects (like updating tests, docs, etc) that GPT sometimes misses.&lt;p&gt;On the other hand, GPT feels much more consistent and direct with execution, where Opus might fade or t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48517287" target="_blank">Re: AI OSS tool repo goes archived over night after ra...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 13:44 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">VCs think, &amp;#x27;Apps are risky, infrastructure is safe,&amp;#x27; 
+so they invested in AI infra.&lt;p&gt;&amp;quot;infra is safe&amp;quot;
+Hmm, but that wasn&amp;#x27;t a good idea.
+because if an open source infrastructure project like TensorZero gets shut down this quickly, won&amp;#x27;t they start to realize that those investment theories are also risky?&lt;p&gt;The difficult thing about AI infrastructure is that, unlike oth...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48514403" target="_blank">Re: There is a shadow hanging over this Fable thing...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 07:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve really come around to trusting OpenAI a lot more than Anthropic the past few months. Reading between the lines of his own output, Dario Amodei comes off as both a dogmatic believer in ASI as a perfect, infallible ruler for humanity and quite an extreme American nationalist. The company, likewise, looks to be in ideological lockstep. I could see them, say, allowing or consciously creating...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48514311" target="_blank">Are Mythos and Fable pure marketing?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-06-13 07:08 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I’ve been using LLMs for some time now and they’ve been getting better and better but the difference between each version has gotten smaller and smaller (it seems like to me).&lt;p&gt;Anthropic made Mythos super exclusive because it is “too powerful” and released a new generation of their AI models under, not just a new version, but under an entirely new name when it feels like just a new iteration.&lt;p&gt;I...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48513331" target="_blank">Realistic Superintelligence</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 4 comments |
+                2026-06-13 04:50 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">Most of us are skeptics. HN, mostly, is composed of “most of us”, so it’s not surprising to see skeptics here. Perhaps the HAL level superintelligence parroted by CEOs is to IPO at a trillion dollars. So let’s instead talk about a “realistic superintelligence” vs the “Sauron superintelligence”. Something we might see within, say, 5 years.&lt;p&gt;&lt;i&gt;Curtains open&lt;/i&gt;&lt;p&gt;By having conceived of a super-hum...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48511968" target="_blank">Re: Tell HN: I'm making 1K USD per hour with AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-13 02:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Are you just doing design by generating mockups in Gemini&amp;#x2F;ChatGPT?</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

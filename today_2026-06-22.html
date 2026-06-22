@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-06-22 19:59
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48634964" target="_blank">Re: The text in Claude Code’s “Extended Thinking” outp...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-22 19:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; I’m underwhelmed by how Anthropic is presenting the behavior of their application. If you ever need a record of the logic a used by YOUR AGENT during a session.&lt;p&gt;Nope, not your agent, if you&amp;#x27;re not running it locally. You just get to use it in whatever way they allow (also see the whole OpenClaw backlash and claude -p changes), unless there&amp;#x27;d be regulation and laws around this (whi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48634961" target="_blank">Where are all the supposed productivity gains going on HN?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 3 comments |
+                2026-06-22 19:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">At best, average credibility across HN from what I can see has remained roughly the same, though it realistically went down a bit compared to 3 years ago. (When GPT-4 became widely used with decently useful outputs)&lt;p&gt;Same for the average credibility of submissions, YC startup batches, and so on.&lt;p&gt;The average level of detail of HN comments is not any higher either.&lt;p&gt;There are more comments and m...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48634720" target="_blank">Claude: Elevated errors across many models</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-06-22 19:15 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48633378" target="_blank">Re: Show HN: Oak – Git replacement designed for agents...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-22 17:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve built my own workflow for using agents on git, as i now often have to do changes across repositories, or in the same repository for different tasks. I could use worktrees, but I&amp;#x27;d rather invert it, give agents the ability to have a workspace, that they pull repositories into, create branches as they want, commit on main it doesn&amp;#x27;t matter. the agents don&amp;#x27;t bother each other...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48631977" target="_blank">Show HN: Build and Host AI apps on your own servers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-06-22 15:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I wanted a way to build and host some vibecoded apps&amp;#x2F;dashboards etc , but figured there was no good way outside using things like lovable and replit , where the code and data and the hosting lives on their servers&lt;p&gt;Many of the online app builders don&amp;#x27;t allow you to switch the model to an open model and charge premiums for tokens, Some of the app builders even want you to paste DB creden...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48631634" target="_blank">Re: The text in Claude Code’s “Extended Thinking” outp...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-22 15:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I won&amp;#x27;t use or recommend models with hidden reasoning, (thats all American models). It&amp;#x27;s too much of a risk and makes prompt optimization harder. Risky because it makes it possible for an attacker to prompt inject the reasoning chain to carry out a secret objective, and to hide that from the summary and output.&lt;p&gt;Interleaved reasoning and function calling makes this even more dangerous. ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48631351" target="_blank">Re: Grand Unified Theory:Cosmic Philosophical Conjectu...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-22 15:14 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Grand Unified Theory: Cosmic Philosophical Conjecture (Explanation: Universe, Physics, Consciousness, AGI, Time Dimension)&lt;p&gt;The ebook “Cosmic Philosophical Conjecture” authored by Cheng in December 2025, explains these concepts (universe, physics, consciousness, AGI, time dimension).As stated on the book cover, the most fundamental questions are explained using the simplest of questions:Have you ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48630535" target="_blank">The text in Claude Code’s “Extended Thinking” output</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                224 points | 167 comments |
+                2026-06-22 14:22 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48630401" target="_blank">Seekstone – a filesystem-direct Obsidian MCP server for Claude</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-22 14:12 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48630243" target="_blank">Re: WhatsApp's &quot;End-to-End Encryption&quot; Is the Biggest ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-22 13:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This is just bad. The writing is more horrible Claude garbage. It also begins with this quote from Durov:&lt;p&gt;&amp;gt; Despite its claims, it reads users’ messages and shares them with third parties.&lt;p&gt;Note this claim. When it goes into its first smoking gun,&lt;p&gt;&amp;gt; WhatsApp [...] automatically backs up your entire chat history to iCloud or Google Drive&lt;p&gt;&amp;gt; This is what Durov meant. This is why he sa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48629948" target="_blank">Ask HN: Is Fable Back?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-06-22 13:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Claude Code just started a Fable 5 subagent and it didn’t error out? A new one whose explicit purpose was to identify itself said it was Fable.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

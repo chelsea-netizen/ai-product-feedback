@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-06-23 19:01
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48649724" target="_blank">Re: Claude Tag...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 18:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Slack is such a simple product, and is so strategic as an interface for AI, Anthropic has to be considering building their own Slack. Hopefully this tag approach is an MVP and it proves the potential of workplace messaging as an interface for AI, but also the limitations of relying on the extension points they salesforce chooses to provide, and it turns into a full fledged slack competitor from an...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48649575" target="_blank">Re: Elevated error rate across multiple models...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 18:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Speaking of LLM looping techniques, Claude seems to be having elevated error rate on a &amp;#x2F;loop as well.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48649530" target="_blank">Re: Show HN: FuckUI - AI hates your UI. Feed it the we...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 18:45 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It is true that LLMs just don &amp;#x27;get&amp;#x27; UX. It is a lot of trial, error, hallucination, fixing to get to a working state for even simple pages. If there are no specifics, it can generate a nice looking page to impress people, but add functionality, buttons, layouts, login, list, image tags and suddenly it goes into never ending loop of hallucinations.
+Claude still does better than other.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48647274" target="_blank">Show HN: I gave Claude Code the keys to the Visual Studio debugger</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-06-23 16:14 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I use Visual Studio daily, and Claude Code only ships native integration for VS Code (annoying). So, I built the Visual Studio half myself. It&amp;#x27;s an unofficial extension that speaks Claude Code&amp;#x27;s undocumented IDE protocol.&lt;p&gt;It started simple. Review Claude&amp;#x27;s edits in the real VS diff and accept or reject there, with no duplicate y&amp;#x2F;n prompt in the terminal, plus sharing the C# a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48646800" target="_blank">Re: How 2 Designers ditched Figma (sort of) to rebuild...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 15:39 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We&amp;#x27;re two product designers at Fern and we recently rebuilt the buildwithfern.com site in five weeks with no developer help. The three things worth mentioning here from the blog:&lt;p&gt;- Figma has become a very expensive virtual whiteboard. It’s still in our loop, but only as a starting point for ideation and moodboarding. Then we quickly move to claude.ai&amp;#x2F;design for iteration and Claude Cod...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48646323" target="_blank">Re: Elevated error rate across multiple models...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 15:13 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">I signed up for paid plan on Claude just 3 hours ago for the first time and was scratching my head on how that thing gets praised so much if I can&amp;#x27;t even send a question half of the time....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48646299" target="_blank">Show HN: Publish.my – Static hosting where the AI agent is the customer</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-06-23 15:12 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello Hackernews!&lt;p&gt;I&amp;#x27;m a solo developer in Malaysia, 20 years building CMS &amp;amp; infra for newsroom.&lt;p&gt;I would like to introduce to you, Publish.my.&lt;p&gt;2026; vibing a website is a norm for non-technical people, especially when maturity of AI agent today. In fact, I encorage my clients and friends to starts develop website themself when they need a corporate site, personal profile or microsite...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48645722" target="_blank">Show HN: Mimic: control Android from CLI or MCP with fine-grained permissions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-06-23 14:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">because it registers as an accessibility service, it has access to screen contents which `adb uiautomation` doesn&amp;#x27;t.&lt;p&gt;i&amp;#x27;m using this with termux + pi.dev to control my phone for routine automation tasks, but it can be configured to bind to other interfaces for control via claude over a VPN for example.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48645481" target="_blank">Anthropic – Elevated error rate across multiple models</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-06-23 14:26 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48645465" target="_blank">Re: Ask HN: Am I missing something with AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 14:25 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">We&amp;#x27;re reaching a point currently where output quality is very much determined by input quality. Previously output quality was hampered fundamentally by model knowledge, hallucinations, and model quality.&lt;p&gt;Now, we have better knowledge of prompting as people have learnt what to say, models are better, models make use of memory from other conversations, they have skills written by humans or ev...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48645334" target="_blank">Re: Chat is a solvent...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-23 14:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Author here - this is something I&amp;#x27;ve been thinking about while using Claude.ai and Claude Code. I&amp;#x27;m often using them to prepare large documents and the UX isn&amp;#x27;t there. Thought this analogy works quite well to pin down the feeling of cognitive load.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48645072" target="_blank">Ask HN: Am I missing something with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 7 comments |
+                2026-06-23 13:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I constantly hear developers around me talk about how AI has completely changed their life and how they don&amp;#x27;t even program anymore, they just prompt. But any time I&amp;#x27;ve used it, the output has always been off. And when the output is off I have to go and read through everything, learn how it works and fix it, which at that point I might as well write it myself.&lt;p&gt;I just don&amp;#x27;t understa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48644310" target="_blank">Deploy from Claude Design to Vercel</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-06-23 12:59 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

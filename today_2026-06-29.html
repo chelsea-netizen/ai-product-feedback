@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>8</strong> items collected |
+                Last updated: 2026-06-29 18:57
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48722978" target="_blank">Re: Microsoft Needs Windows Lite...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-29 18:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Exactly, we need Windows Lite! Just Win32, media encoders, graphics drivers, CoPilot, and enough to run movie maker and Office, the rest is useless anyway!&lt;p&gt;Or do you mean no Office support, just everything you need to run Steam?&lt;p&gt;Or maybe you mean no UI and just the admin interface so you don&amp;#x27;t need all that bloat when all you need is a server. Except for Powershell and the management inte...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48722900" target="_blank">Re: Qwen 3.6 27B is the sweet spot for local developme...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-29 18:10 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been working with local models for the past year. There&amp;#x27;s so many possibilities, but I don&amp;#x27;t think coding is one. Coding requires so many layers beyond inference; I spent so much time trying to replicate what Claude Code does end to end locally. Understanding all the layers and keeping up with the advancements feels like a slog. Even this article messes up and misunderstands wh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48722493" target="_blank">Re: Show HN: Uselink – publish and collaborate on AI-g...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-29 17:45 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Nathan, one of the seven-person team building Uselink, a tool that hosts the HTML docs Claude or Codex generate and lets you edit them and control who sees them after they&amp;#x27;re published.&lt;p&gt;It started as an internal tool. Our team write a lot of internal docs with AI now, like RFCs, architecture docs, reports. We had a client who didn&amp;#x27;t want to join our Notion workspace ju...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48720675" target="_blank">Re: Working with AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-29 15:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Interesting read! Creating tests is highlighted as something Claude did well, but it strikes me that all the weaker rejected solutions could have been avoided if it were &lt;i&gt;really&lt;/i&gt; good at designing intelligent tests for itself. For example, the first solution “was very specific to the reported bug and wouldn’t have fixed the general case” and the third suggestion “prevented the perfectly valid...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48720603" target="_blank">Re: WSJ Article Claiming China Has Matched Anthropic I...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-29 15:31 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Just fighting nonsense with nonsense.&lt;p&gt;Is Mythos &amp;#x2F; Fable good: yes
+Is it 10x better: no&lt;p&gt;So this special &amp;quot;Mythos&amp;quot; class especially in security -- what does it even mean? Is it ChatGPT 10 class?&lt;p&gt;i.e. it is just marketing.&lt;p&gt;What does banning a model if it is Mythos class mean? Where&amp;#x27;s the guideline? Security benchmark XYZ reaching 99&amp;#x2F;100? No.&lt;p&gt;So China has matched hype...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48718983" target="_blank">Re: We deleted every secret from our GitHub Actions wo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-06-29 13:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Author here. Last week it was codfish&amp;#x2F;semantic-release-action, a GitHub Action repointed to a malicious commit to steal CI&amp;#x2F;CD secrets. A month before that, the Claude Code action was leaking secrets straight out of &amp;#x2F;proc&amp;#x2F;self&amp;#x2F;environ. Same root cause every time: a CI runner is full of long-lived secrets in env vars, and anything running in the job can read them.&lt;p&gt;We give ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48718498" target="_blank">Show HN: Running a vision model on every screenshot on-device</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                17 points | 3 comments |
+                2026-06-29 12:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">hi author here, Screenmind is privacy first Microsoft recall alternative .
+It runs on gemma 4 which is one of the fewer models supporting vision audio and reasoning all 3, so your data never leaves you machine.&lt;p&gt;With screenmind you can keep a track of your timeline , how much time you spent on what..search any screenshot with any text on it.. and the coolest thing, you can chat with your screen h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48718276" target="_blank">Ask HN: AI robbed my joy of reading books?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 5 comments |
+                2026-06-29 12:16 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">I use AI everyday(Claude Code, ChatGPT, and so on..), and I&amp;#x27;m used to getting  answer immediately from AI.
+I read the novel for the first time in several months, But I couldn&amp;#x27;t concentrate. I felt a strong urge to skip ahead and know the ending right away.&lt;p&gt;AI can summarize books for free. It seems efficient at first glance.
+but I&amp;#x27;m concerned that AI has robbed my joy of reading bo...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

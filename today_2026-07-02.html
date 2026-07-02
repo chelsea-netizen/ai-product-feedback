@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>16</strong> items collected |
+                Last updated: 2026-07-02 18:22
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48764800" target="_blank">Show HN: Muxer – open-source model multiplexer for Claude Code</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-02 17:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Keeps the top model in charge. Hands the typing to cheaper tiers, with routing rules that don&amp;#x27;t compromise on quality. Prints $ saved after each task.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48763718" target="_blank">Re: How to ask for help from people who don't know you...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 16:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; One of the strongest ways to show that you’re worth helping is to demonstrate that you are a serious person&lt;p&gt;When I’ve been in positions where a lot of people ask for help, this is the #1 place I saw people drop the ball.&lt;p&gt;The advice to show proof of work up front is important. What isn’t so obvious is that the proof of work needs to go deeper than surface level. Putting up a single blog po...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48763592" target="_blank">Blog HN: Claude Code Making an Ass Out of You and Me</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-07-02 16:08 |
+                <span class="category">naming_terminology, response_quality</span>
+            </div>
+            <div class="text">I had an interesting experience today: Claude Code asked me a question that required consideration and, after I didn&amp;#x27;t reply within a short time frame, it said &amp;quot;You&amp;#x27;re busy. I&amp;#x27;ll just assume...&amp;quot; and simply went on.&lt;p&gt;Even though I have regularly run with &amp;quot;Accept Edits&amp;quot; or even occasionally &amp;quot;Auto Mode&amp;quot; (once a plan was agreed), I consider this behaviour ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48763576" target="_blank">Re: Launch HN: Manufact (YC S25) – MCP Cloud...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 16:06 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I am really impressed with your demo video, particularly the analytics, logs, and test suite features.&lt;p&gt;I&amp;#x27;m a target customer where I have a few curious customers, but I&amp;#x27;m not fully ready to roll it out yet across the customer base. One thing that&amp;#x27;s stopping me, what does credits mean on your pricing page? And what is the pay as you go price after you hit your limit? I would need t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48763571" target="_blank">Re: Ask HN: What are you working on? (July 2026)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 16:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Working on claudex (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;hsyvy&amp;#x2F;claudex&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;hsyvy&amp;#x2F;claudex&lt;/a&gt;) a harness inside Claude Code&amp;#x2F; codex. Designing it to complete the complex task autonomously.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48763504" target="_blank">Re: Ask HN: What are you working on? (July 2026)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 16:01 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Original co-founder and CEO of Loggly here. Since Covid, with some fits and starts, I&amp;#x27;ve been soloing on a whole fleet of agentic services to help unbundle what makes an LLM agentic (or any type of model for that matter). All is open source at: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;deepbluedynamics&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;deepbluedynamics&lt;/a&gt;&lt;p&gt;Nemesis8(n8) -&amp;gt...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48763396" target="_blank">Re: Launch HN: Manufact (YC S25) – MCP Cloud...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 15:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is cool. I was skeptical of MCP&amp;#x27;s until I made one recently. They&amp;#x27;re essentially the exact same as 1) giving your agent a CLI tool or REST API and 2) pointing it there in an AGENT.md&amp;#x2F;CLAUDE.md. Agents are great at using built-for-human CLI tools and IMO they don&amp;#x27;t need anything purpose-built for agents. The key difference, which ends up being a usability win for non-techni...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48763093" target="_blank">Re: Will tech giants ever let us opt out of AI search ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 15:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Just do what Kagi does.&lt;p&gt;One older traditional search bar. A 2nd AI chat interface for people who want AI.&lt;p&gt;I seriously can&amp;#x27;t believe how simple the solution is, but how much Google refuses to do it. AI search is a totally different product, just make a new tab like Google Images, Google News or Google Finance. Make it Google AI or Google Gemini.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48762947" target="_blank">Re: I made a macOS desktop app to manage Nix-Darwin an...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 15:18 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Ever since I switched from dotfiles to nix-darwin I&amp;#x27;ve fallen into the rabbit hole of wanting to make more and more of my system reproducible.&lt;p&gt;Eventually `claude -p` allowed me to write a script that let me just prompt the changes I wanted to my config rather than have to keep looking up the options in the nix-darwin docs. Over time I found that it would rarely fail to one-shot my request, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48762862" target="_blank">Launch HN: Manufact (YC S25) – MCP Cloud</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                70 points | 43 comments |
+                2026-07-02 15:11 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Hi HN, we are Pietro and Luigi, cofounders of Manufact (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;manufact.com&quot;&gt;https:&amp;#x2F;&amp;#x2F;manufact.com&lt;/a&gt;), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;mcp-use&amp;#x2F;mcp-use&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;mcp-use&amp;#x2F;mcp-use&lt;/a&gt;. We d...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48762460" target="_blank">Fable via API and Me</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-02 14:46 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve found that I can generate a design for most of my projects via the Anthropic Fable (on low) via API for under a dollar or less and then pass it on to any of the lesser models to be implemented. The end result is about as good as letting Fable finish it off.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48761676" target="_blank">Re: America should not imprison frontier AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 13:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; New rules often come out of disasters. America’s Federal Reserve was founded following the Panic of 1907, when stock prices fell by half. Pressure from muckrakers such as Upton Sinclair brought about the Food and Drug Administration. The Securities and Exchange Commission was founded during the Great Depression. Artificial intelligence has not yet caused a calamity, but it might. Models like ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48761447" target="_blank">Show HN: Matrix, an open-source cloud computer for coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-02 13:38 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Matrix is an operating system for cloud computers (vps).&lt;p&gt;Just like a normal computer, you can use it for anything that can run on &amp;quot;linux&amp;quot; computers. Matrix adds visual ui that&amp;#x27;s accessible from web, mobile, desktop and cli.&lt;p&gt;I started Matrix OS in the Anthropic hackathon back in feb and got to the top 20 finalists.&lt;p&gt;We are building Matrix inside Matrix ourselves, running all our...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=48761119" target="_blank">Re: Agentic Software Engineering (ASE): Agentic AI Cod...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 13:19 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">We are glad to initially announce the public availability of Agentic Software Engineering (ASE, &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;ase.tools&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;ase.tools&lt;/a&gt;), the Apache-2.0-licensed Open Source toolkit of Dr. Ralf S. Engelschall, for fusing the concept of Agentic AI Coding and traditional Software Engineering. ASE ships as a plugin for the software development tool Anthrop...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=48761096" target="_blank">Show HN: I built an open-source alternative to Claude Cowork</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                17 points | 4 comments |
+                2026-07-02 13:17 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;A few months ago, I tried to automate some of my work with the popular AI agent OpenClaw, and then I quickly realized how difficult it is to get it to work with APIs and third-party services securely, which is essential for a lot of work-related tasks.&lt;p&gt;Then I realized OpenClaw is more of a personal assistant and it was not designed to get actual work done as a coworker. So I started to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=48760841" target="_blank">Re: Karp: Anthropic/OpenAI are stealing customer IP an...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-02 12:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Is this in response to now Mythos&amp;#x2F;Fable and OpenAI starting to compete more directly with Palantir for defense business, and it is timed with the day Fable is re-released?</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-07-05 17:54
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48795930" target="_blank">Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-07-05 17:14 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m a father of two, 7 and 12. They are obsessed with Roblox, especially Rivals.&lt;p&gt;Like a lot of parents, we did not love it. We tried the usual things: block it, limit it, set timers.&amp;quot; It became a daily battle, a lose-lose situation.&lt;p&gt;So I flipped the problem.&lt;p&gt;Instead of fighting what they loved, I decided to lean into it, but with a twist.&lt;p&gt;Why just play an FPS when you could build...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48794646" target="_blank">Re: Show HN: KiCad in the Browser...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 14:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is really cool. I think a lot of people will initially dismiss your demo as ‘slop’ unless the landing page drops some of the Claude-isms (text and design) because it’s clear this is a project with passion in it, but the demo page and landing page both look like something Claude might’ve made with a single prompt.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48794126" target="_blank">Re: Claude Design System Prompt...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 13:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been using Claude Design to make animated SVGs, and I&amp;#x27;ve learned a thing or two about its limits and how to get around them for that narrow purpose.&lt;p&gt;One thing I&amp;#x27;ve learned is that you have to ask it to first come up with a robust way to define the geometry and then apply that to an SVG. Without that first step, it just guesses at where everything should be that isn&amp;#x27;t dir...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48793950" target="_blank">Re: Claude Design System Prompt...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 12:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I trust on this: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;elder-plinius&amp;#x2F;CL4R1T4S&amp;#x2F;blob&amp;#x2F;main&amp;#x2F;ANTHROPIC&amp;#x2F;Claude-Design-Sys-Prompt.txt&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;elder-plinius&amp;#x2F;CL4R1T4S&amp;#x2F;blob&amp;#x2F;main&amp;#x2F;ANTHROPI...&lt;/a&gt;&lt;p&gt;It’s different than this one shared by the op, but Anthropic maybe updated the prompt</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48793916" target="_blank">Re: Claude Design System Prompt...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 12:52 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I can&amp;#x27;t even tell if this repository is based on prompts extracted from Claude Design or if the author had an LLM create all of these prompts in it from scratch.&lt;p&gt;The fact that they encourage and accept PRs indicates that this isn&amp;#x27;t intended as a direct prompt extraction exposure project - plus the license, which should indicate they have the authorship necessary to license that content...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48793720" target="_blank">Re: Claude Design System Prompt...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 12:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is pretty awesome. I’ve wanted to use Claude design, but with my regular MCP servers.&lt;p&gt;Side note: ironic use of an llm writing the readme.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48793542" target="_blank">Show HN: KiCad in the Browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                67 points | 26 comments |
+                2026-07-05 12:06 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">KiCad, a PCB EDA suite is now working in a browser, you can try it at the link, there&amp;#x27;s a demo project or you can bring your own. Firefox is best, Chrome is good, Safari is &amp;quot;working&amp;quot;.&lt;p&gt;We’re Emergence Engineering, a dev shop from Hungary, mostly working with rich text editors, CRDTs. PCBJam started as my (Viktor, CTO, ex-electrical engineer) hobby project but as time went on I put ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48793341" target="_blank">Re: Claude Design System Prompt...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 11:36 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This would be much more interesting if it detailed how the prompt&amp;#x2F;skills were reverse-engineered. As it is it seems like this could just be the output from “hey Claude write me a system prompt that works like Claude Design”.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48792914" target="_blank">Show HN: Selbstbild – What Fable 5 thinks of your HN comment history</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-07-05 10:21 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">Like everyone on HN, I love nothing more than to (re)read my own comments. Getting my intuition that I am among the smartest, most humble, highest quality commenters on here confirmed by an LLM so capable that the US government had to temporarily export restrict it [0] seemed only natural.&lt;p&gt;Having had my perfection confirmed, I decided to share this joy with you as I had a few percent usage left ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48792399" target="_blank">Claude Design System Prompt</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                106 points | 29 comments |
+                2026-07-05 08:43 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48792349" target="_blank">Re: Surus Agentic Postgres Companion...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-05 08:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I got fed up with the current binary state of DB clients so I built one from scratch for myself.
+For the past several years the SQL tooling has been stuck between two bad options:&lt;p&gt;- On one side, the classic database IDEs — DataGrip, pgAdmin, DbBeaver etc... All are very mature, but also completely indifferent to what you’re actually trying to do. They’ll autocomplete a column name, but they don’...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48791105" target="_blank">Drawbridge – Design Editor for Claude Code and Cursor</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-05 03:48 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48790887" target="_blank">Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-07-05 02:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I kept hitting the same wall: AI assistants are great until they need &lt;i&gt;my&lt;/i&gt; context — the email thread, the calendar, the iMessage, the file on my disk. Cloud connectors can only reach things with a public API, so they physically can&amp;#x27;t touch the stuff that lives only on my machine.&lt;p&gt;So I built Local MCP — a native macOS app that connects Claude Desktop, Claude Code, Cursor, and ChatGPT t...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

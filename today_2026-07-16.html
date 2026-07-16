@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-07-16 17:58
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48937734" target="_blank">Re: Kimi K3 is now live...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-16 17:43 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">I finished benchmarking[0] it, but it was not fun, it only supports (max) reasoning and the model is quite slow. Apart from a few requests timing out, it also has some issues with tool calling&amp;#x2F;response format schemas (Moonshot rejected tools.function.parameters with anyOf schema).&lt;p&gt;It also, for some reason failed to generate either of the 2 coding demos (hamster svg and solar system css anim...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48937132" target="_blank">Why Domain-Driven Design Is a Great Fit for Coding with Claude</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-16 17:01 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48936797" target="_blank">Re: Kimi K3 is now live...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-16 16:35 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Working with chinese models is giving me a fullfilment sensation. I think that I  have enough quality for the work that I need to do and lots of extra tokens to work with. With Claude and ChatGPT I reach the limits fairly easy, but not with OpenCode Go. So I will use Claude once in a while for difficult tasks to see how much better it still is (but use Chinese on a daily basis)</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48935997" target="_blank">Show HN: Tmux tab markers for Claude Code, Grok, and pi sessions</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-16 15:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Inspired by cmux&amp;#x27;s tabs, but works in vanilla tmux.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48934991" target="_blank">Show HN: An MCP server that frames screen recordings and shots in Apple bezels</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-07-16 14:21 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Creating device-framed screenshots and screen recordings for my iOS, macOS, and tvOS apps is a pain so I looked for a tool, preferably with an MCP server that could do it for me. I couldn&amp;#x27;t find anything that did everything I wanted (images and videos, scaling, transparent backgrounds for both, etc) so I made one: Bezelbub.&lt;p&gt;I started with a macOS app. Handy when putting together App Store l...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48934870" target="_blank">Show HN: Estratos – stacked memory system for AI assistants</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-07-16 14:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">When collaborating as a (mostly) non-technical team, each of us uses our own AI assistants like Cowork and Codex.&lt;p&gt;The problem we kept hitting is that there&amp;#x27;s no &amp;quot;multiplayer mode&amp;quot; for assistants, that share project knowledge.&lt;p&gt;Today we&amp;#x27;re rolling out Estratos at &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;estratos.ai&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;estratos.ai&lt;/a&gt;&lt;p&gt;Estratos gives teams sh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48934803" target="_blank">Show HN: Mac App to turn your computer into a hands-off coding agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-16 14:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Demo Video: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;lgE5c8tCuys&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;lgE5c8tCuys&lt;/a&gt;&lt;p&gt;I have multiple GitHub repos to manage. I realized lately that I am the bottleneck for the speed of development on my repos - because I need to manually use Claude&amp;#x2F;Antigravity to code them up one by one. The only way was to take GitHub Copilot subscription which i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48934603" target="_blank">Re: Show HN: AI Law Tracker – one audited API for US, ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-16 13:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this because tracking AI regulation by hand stopped being possible. The EU&amp;#x27;s Digital Omnibus just reshuffled the AI Act, and it&amp;#x27;s easy to confuse the headline with what&amp;#x27;s actually in force — e.g. the Article 50 transparency duties still land on 2 August 2026 even after the reshuffle.&lt;p&gt;What it is: one API covering AI law across 50 US states + DC + federal + EU + other jurisd...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48934140" target="_blank">Show HN: Marigold – Get more done with your agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-07-16 13:18 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Two things I&amp;#x27;ve settled on after a lot of agent work: 
+1. For most outputs, reviewing a fit-for-purpose rich HTML doc beats reviewing markdown (diagrams, charts, dynamic elements). 
+2. Feedback works best as in-line comments on the output, rather than re-describing what your feedback applies to.&lt;p&gt;Marigold wires both into one loop. Your agent drafts output as a local HTML file. The file opens...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48933593" target="_blank">Show HN: I kept rewriting scripts for my teams, so I built a visual tool instead</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-16 12:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Nuru. Ipek is a desktop automation app that resulted from my laziness: automating API calls, Excel&amp;#x2F;CSV parsing locally, OCR and LLM calls by hand; they all take too much time to maintain, especially when various teams request additional tools on top of those scripts.&lt;p&gt;So I built a visual workflow builder where my non-technical teams can run those deterministic workers themsel...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48933481" target="_blank">Show HN: My design portfolio is a Claude agent (no vector DB, no RAG stack)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-07-16 12:21 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48932993" target="_blank">Ask HN: What are you using for authn/authz and payments?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 4 comments |
+                2026-07-16 11:19 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve had a few side project ideas over the years but have never implemented one because I lack knowledge in &lt;i&gt;(but willing to learn)&lt;/i&gt;:&lt;p&gt;* implementing social logins (OAuth), account management, etc.&lt;p&gt;* managing backend permissions (RBAC always looks more complicated than it should be). My projects might have three tiers: free, hobbyist, pro&lt;p&gt;* handling payments securely while actually ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-07-17 17:56
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48950192" target="_blank">Show HN: Lific, an issue tracker that works as memory for coding agents (Rust)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-17 17:52 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I built Lific because I direct AI coding agents on largish projects and needed somewhere for project state to live that isn&amp;#x27;t markdown files in the repo.&lt;p&gt;When I was begging to work on long horizon ideas, I started on Linear, but my agent files issues faster than a human does, and I hit their limits and pricing wall almost immediately. Then I self-hosted a popular open source tracker which m...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48949099" target="_blank">Re: Claude Code: Anatomy of a Misfeature...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 16:17 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">So much attribution to malintent here, but most likely they&amp;#x27;re trying to build a product with the features that they themselves would use, and from my own experience it&amp;#x27;s very frustrating to leave a Claude session running and come back to find it did nothing because it got stuck on a question.&lt;p&gt;Furthermore, believing that the only thing saving you from disaster is Claude deciding to ask...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48948995" target="_blank">Re: Claude Code: Anatomy of a Misfeature...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 16:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">One of the things I&amp;#x27;m baffled about with Claude code is it seems like it setup a really chunky VM on my computer, and yet by default it doesn&amp;#x27;t seem to sandbox anything. Also the newer models seem really aggressive about modifying your computer. Yesterday Claude started rewriting system files on my linux machine (user accessible, but still way outside the scope of what I asked.) This was...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48948848" target="_blank">Re: I have built a supervision and Orchestration layer...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 15:54 |
+                <span class="category">naming_terminology, navigation</span>
+            </div>
+            <div class="text">Hi ! My name is Jérémy, and I&amp;#x27;m one of those late-night builders, juggling with 6 claude code terminals.&lt;p&gt;TLDR; I have built a &amp;quot;Harness Engineering&amp;quot; layer, and it&amp;#x27;s open source. Now you can spin a Hermes&amp;#x2F;Deepseek agent from Claude Code, Codex or any CLI.&lt;p&gt;Open to contributions and feedbacks.
+Why did I build this ?
+I was very tired of having to babysit my agents every few...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48948656" target="_blank">Re: Claude Code: Anatomy of a Misfeature...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 15:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; Not every feature will necessarily appear in the changelog&lt;p&gt;This was such a frustrating part of this incident, along with Anthropic&amp;#x27;s refusal to explain why the changelog is no longer  a complete record, what else is going out? [1]&lt;p&gt;Boris Cherny&amp;#x27;s only participation in the thread was to delete &amp;quot;extreme danger&amp;quot; from the GH issue title [2]&lt;p&gt;I guess we should be thankful t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48948274" target="_blank">Re: Mozilla: The state of open source AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 15:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The design and layout made it harder to read than it needed to be.&lt;p&gt;Regardless, the inference costs dropping almost 50× is really amazing to see. And now Kimi K3 release has shown how open models are getting closer to the frontier level already. Open source AI is moving a lot faster than Anthropic and OpenAI would have expected lol.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48948110" target="_blank">Re: Mozilla: The state of open source AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 14:53 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Speculation: open models is what will kill Anthropic and OpenAI. Hyperscalers can run the models without a licensing fee. Apple can make them smaller and put them on the device.&lt;p&gt;The frontier models are an edge and a liability. They&amp;#x27;re astronomically expensive to train. Without them, their models will fade into obscurity. Their marketing depends on people believing the models are meaningfull...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48947961" target="_blank">Re: AWS: Inaccurate Estimated Billing Data – $1.7 bill...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 14:41 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">AWS saw Anthropic billing a guy for $16 million on zero usage and thought, why stop at the millions?&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.techtimes.com&amp;#x2F;articles&amp;#x2F;320266&amp;#x2F;20260712&amp;#x2F;anthropic-confirms-166m-billing-error-auditors-find-17m-enterprise-overcharges.htm&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.techtimes.com&amp;#x2F;articles&amp;#x2F;320266&amp;#x2F;20260712&amp;#x2F;anthropic...&lt;/a&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48947835" target="_blank">Re: Minikotlin...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 14:31 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Really looking forward to when we advance past the &amp;quot;Design — by Claude&amp;quot; phase.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48947203" target="_blank">Re: Ask HN: Do you say please and thank you to your LL...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 13:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Actually quite a lot in the last week, as it seems to frame the responses better.&lt;p&gt;I complimented ChatGPT yesterday for saying &amp;quot;I don&amp;#x27;t know&amp;quot;.&lt;p&gt;It thanked me for observing that, before explaining in depth why that was the most appropriate response.&lt;p&gt;Does it actually appreciate it, absolutely not. It&amp;#x27;s not capable of that.&lt;p&gt;It has no desire to continue our conversation.&lt;p&gt;No...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48945446" target="_blank">How OpenAI's Sol Learned Design Taste</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-07-17 10:12 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48944260" target="_blank">Re: A few thoughts on building a terminal ePub reader ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-17 07:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I like to do things in the terminal.
+It has little to do with efficiency.
+It is more my obsession with fiddling with software,
+so I don&amp;#x27;t have to think about all the depressing things happening in the world.&lt;p&gt;One terminal program I tried is [epy](&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;wustho&amp;#x2F;epy&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;wustho&amp;#x2F;epy&lt;/a&gt;),
+an e-book reader...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

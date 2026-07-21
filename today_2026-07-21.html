@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>18</strong> items collected |
+                Last updated: 2026-07-21 18:08
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=48995804" target="_blank">Re: Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cy...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 17:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Pelican svg and a near-perfect 3D MacBook at max effort for $0.16, about a fifth of Fable&amp;#x27;s price.&lt;p&gt;Fable 5 still wins on detail with no visible errors, but it&amp;#x27;s close. And this isn&amp;#x27;t a memorized pelican;&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;playcode.io&amp;#x2F;blog&amp;#x2F;macbook-svg-benchmark#gemini-3-6-flash&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;playcode.io&amp;#x2F;blog&amp;#x2F;macbook-svg-benchmark#g...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=48995181" target="_blank">Show HN: CodeAlmanac – Karpathy-style codebase wiki from your conversations</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 1 comments |
+                2026-07-21 17:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! This is Divit from Almanac (YC S26). We built CodeAlmanac, a wiki for your coding agents that updates as you talk to them. It is open-source, local, and free.&lt;p&gt;Here’s a demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=XNQWV3TFBWM&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=XNQWV3TFBWM&lt;/a&gt;&lt;p&gt;Your CC&amp;#x2F;Codex conversations contain a LOT of knowledge that is...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=48994997" target="_blank">Show HN: PMG, open source package firewall</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-07-21 16:58 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN&lt;p&gt;I am the founder of SafeDep. We have been detecting malicious packages for a while. Coming from DevSecOps background, I always considered malicious package detection &amp;amp; protection to be a build stage problem. But I was wrong since the S1ngularity and early Shai-Hulud days.&lt;p&gt;In 2026, we pretty much started worrying more about our own dev machines than CI&amp;#x2F;CD environment. Depending o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=48994848" target="_blank">Show HN: WorldBuild Bench repo: testing LLM world coherence with 3D games</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-21 16:48 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built WorldBuild Bench because, as we all know, llm bench scores often say something very different from what models actually feel like to use. It&amp;#x27;s really dependent on the type of tasks.&lt;p&gt;I personally want to test spatial, temporal, and causal coherence in an interactive 3D world. Does the model understand where things are, world stays consistent over time and do the consequences make sen...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=48994494" target="_blank">Re: Quoting Sam Altman...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 16:25 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s frustrating to see open source used as a tool to damage market competition and therefore consumer choice.&lt;p&gt;But it&amp;#x27;s also interesting to see that reality didn&amp;#x27;t quite turn out the way that Sam is musing here and instead other companies from other countries are doing to OpenAI what he wanted to do to the industry as a whole.&lt;p&gt;And yet some with similar actions but the roles reve...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=48994389" target="_blank">Re: I benchmarked AI cost-saving claims instead of tru...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 16:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I spent 10 years at Google, where part of my work involved analyzing and improving cost, performance, and latency.&lt;p&gt;While I was exhausting my token limits, I searched for tools that claimed to be saving tokens. but what they don&amp;#x27;t say is the full agent $ cost saving.&lt;p&gt;That is why I created LemonCrow: to optimize agent context end to end rather than focusing on a single token category. Resul...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=48994373" target="_blank">Re: Claude Is Not a Compiler...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 16:17 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve heard something along the lines of &amp;quot;Claude is like a compiler: source code is the new object code, you don&amp;#x27;t look at that anymore&amp;quot; many times.&lt;p&gt;And I don&amp;#x27;t really think this is true. Compilers are usually deterministic, and whilst we can find edge cases, it&amp;#x27;s nothing like an AI agent writing all the code for you.&lt;p&gt;I think you have two choices, given the Claude ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=48993972" target="_blank">Re: Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cy...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 15:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wonder how big the Pro model is that Google is using behind the scenes to train these smaller ones.&lt;p&gt;Going on baseless speculation, the lack of accompanying pro models with these flash releases either means: 1) the model is too big to be economical, 2) google doesn&amp;#x27;t have the compute to serve the big model, 3) their big model has too many alignment issues to serve to the public.&lt;p&gt;edit: lo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=48993888" target="_blank">Re: Claude Is Not a Compiler...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 15:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; Claude wasn’t just a compiler here. I never handed off a task and let an agent make a bunch of decisions in order to reduce it to practice.&lt;p&gt;&amp;gt; I’d say that, in all the ways that matter, I understand the code.&lt;p&gt;I think the dissonance here is really important, and not a bad thing at all. A lot of the decision _were_ handed off the the AI, but they weren&amp;#x27;t the decisions the author care...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=48993767" target="_blank">Re: Gemini 3.6 Flash...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 15:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I would be fine lauding Gemini models if the only benefit of them was superior understanding of intent (read between the lines).  I don&amp;#x27;t need it to code because other models are tuned for that explicitly, but I would like a model that is tuned to produce less mechanical output.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=48993693" target="_blank">Re: Gemini 3.6 Flash...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 15:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m not at all an industry pundit. But I suspect there&amp;#x27;s a reason we&amp;#x27;re not seeing leading models from Google recently.&lt;p&gt;Judging from my own frustrating attempts to use Gemini for vibe-coding, it seems like Google is badly over-sold (i.e., under-provisioned).&lt;p&gt;From all those promos giving away their pro-level subscription with phones; spinning up a mid-level subscription to underc...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=48993690" target="_blank">Ask HN: Claude Blind Test Results: Bug or Feature?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-21 15:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I asked Claude to organise my conversation logs with another leading model for me, removing company and product names. After organising some of the information, abnormal outputs began to appear. I asked Claude, “Why is this happening?” Claude replied, “You’re asking why—why AI is behaving this way. I don’t know how to answer you, because ‘why’ is a vast question in itself. From a commercial perspe...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=48993634" target="_blank">Re: Claude Is Not a Compiler...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 15:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">A compiler is an algorithm and Claude isn&amp;#x27;t*. A compiler almost never produces a wrong output, even when compiling an extremely complicated program. But a compiler must be clearly defined and is limited to input&amp;#x2F;commands it&amp;#x27;s defined for. A compiler will &amp;quot;correctly&amp;quot; process input into unintuitive output, but that&amp;#x27;s not always what the user intended (e.g. omitting larg...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=48993423" target="_blank">Show HN: OpenAI Hackathon Submission: ADE</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-21 15:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">After 2 months of hard work, 
+Cycling through three 20x Codex Subs,
+three 20x Claude Code subs,
+and using over 90 billion tokens,&lt;p&gt;I have finally submitted a working Native App (Cross-Platform, but mainly MacOS and Windows Supported, Linux is kind of untested as I don&amp;#x27;t have a linux device).&lt;p&gt;Main takeaway is that: its a Wrapper for your AI Agents that allow you to use multiple terminals si...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=48993010" target="_blank">Show HN: Hale – A Concurrent Systems Language</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-07-21 14:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;d like to share Hale, a concurrent systems language that I&amp;#x27;ve been working on this year.&lt;p&gt;The general thesis is that good software design is an actual thing. In everything I&amp;#x27;ve ever programmed or designed, in any part of the stack, I&amp;#x27;ve always felt like the design &amp;quot;to be implemented&amp;quot; is always the same, but given the actual intersect of language, libraries and doma...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=48993003" target="_blank">Show HN: Inflexa – open-source Intelligence for Biology</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 2 comments |
+                2026-07-21 14:44 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN!&lt;p&gt;Inflexa is an OSS-first TUI for agentic-AI reproducible biological analysis with provenance tracked on every step. It&amp;#x27;s a better designed Claude Science (bar the GUI for now).&lt;p&gt;Before this, we spent years building a cloud multi-omics analysis platform, working alongside research teams in pharma, biotech, and academia.&lt;p&gt;Our vision is as follows:
+- OSS first
+- Data privacy, and secu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=48992474" target="_blank">Show HN: Back up Claude Code sessions from Codespaces to a private repo</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-21 14:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I prefer to run Claude Code in GitHub Codespaces rather than on my local machine, but there is one problem: Claude Code logs disappear when the remote Codespace is deleted or rebuilt.&lt;p&gt;Logkeeper saves a human-readable conversation log and an age-encrypted copy of the full JSONL to a designated private repository whenever a Claude Code session stops.&lt;p&gt;After creating the private repository, adding...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                18. <a href="https://news.ycombinator.com/item?id=48991728" target="_blank">Re: A level up on voice interaction with agents – and ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-21 12:55 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I built a local menu-bar voice utility for Mac&amp;#x27;s which is lightweight and super speedy. Its UX is super convent and unobstructive, and the context capabilities I&amp;#x27;ve built it with have genuinely sped up my AI development workflow significantly. It offers a new workflow for voice interaction for agentic development which I believe will become standard for other tools in the field given som...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

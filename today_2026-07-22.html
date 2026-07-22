@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>17</strong> items collected |
+                Last updated: 2026-07-22 18:01
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49010414" target="_blank">Re: &quot;We have information that Moonshot distilled Fable...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 17:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Here&amp;#x27;s a site that asks the same questions to 22 models and compares how similar their responses are.&lt;p&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;typebulb.com&amp;#x2F;u&amp;#x2F;lab&amp;#x2F;you-re-relatively-right&amp;#x2F;full&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;typebulb.com&amp;#x2F;u&amp;#x2F;lab&amp;#x2F;you-re-relatively-right&amp;#x2F;full&lt;/a&gt;&lt;p&gt;According to these results GLM 5.2 is very similar to Google Gemini and Kimi K3 is very ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49010310" target="_blank">Grok is a surprisingly good automated theorem prover</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-07-22 17:28 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">TL;DR: I&amp;#x27;m working on a Python package called OpenATP [1] that provides a common interface to coding agents for automated theorem proving in Lean. In the latest release, I added support for Leanstral 1.5 [2,3], Grok, and Kimi Code [4]. I was surprised to find that Grok has accuracy competitive with Claude Code and Codex at faster wall-clock times and a fraction of the cost. See the rest of th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49010155" target="_blank">Re: Ghost Cut – or why Cut and Paste is broken everywh...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 17:19 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Cut and Paste is three operations.&lt;p&gt;Cut is two operations copy and delete, copy is never undone by undo it should not be undone when you cut either. I cut, undo,  ..., undo, and paste multiple times a day. It&amp;#x27;s a feature not a bug.&lt;p&gt;&amp;gt; Cut &amp;amp; Paste is not atomic&lt;p&gt;Yes because it&amp;#x27;s two different actions.&lt;p&gt;What does &amp;quot;Ghost Cut&amp;quot; do if you paste multiple times? Paste the cu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49010131" target="_blank">Re: Making...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 17:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m trying to get it back. I went through a period of 2 months or so where I didn&amp;#x27;t want to do anything not even watch TV except drink. So I&amp;#x27;ve been sober for a couple weeks now, think I&amp;#x27;m starting to get it back. But I&amp;#x27;m still lazy af right now. I miss making hardware, I design&amp;#x2F;make my own cameras and little self navigating robots. I did finally fix my camera after i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49010011" target="_blank">Re: &quot;We have information that Moonshot distilled Fable...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 17:10 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Does this matter? Distillation is not illegal by every definition of the word.&lt;p&gt;There are millions of samples available on huggingface and models explicitely trained on output produced by fable. There has been no action taken against them.&lt;p&gt;Another example is that it appears that the upper limit of what you can do is ultimately dependent on people working on the model, otherwise grok would be a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49009686" target="_blank">Re: Dissecting Claude Science...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 16:48 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Author here. Anthropic recently released claude science, a new desktop app for scientific workflow. I found it very interesting so did a bit of learning of it&amp;#x27;s design</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49009644" target="_blank">Re: Show HN: Vifu – A runtime and visual workflow for ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 16:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’m building Vifu, an open-source AI runtime and web creator for making AI-native games. Vifu is designed to work with any game rather than being tied to one engine. It can run through a cloud endpoint, locally alongside the game, or eventually be compiled for the target device.
+What It Is&lt;p&gt;Vifu decouples AI state and orchestration from traditional game engines, it builds with single Rust Binary,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49009414" target="_blank">Show HN: Codify – Terraform for Developer Environments</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 5 comments |
+                2026-07-22 16:30 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">Setting up developer environments is surprisingly manual. Most teams rely on a mix of docs, shell scripts, and tribal knowledge. We built Codify to make the process reproducible with a Terraform-like workflow.&lt;p&gt;The project consists of an open-source CLI, a JSON5 based configuration language, a library of 50+ resources, a web&amp;#x2F;desktop editor, and an AI assistant. The workflow mirrors Terraform...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49009227" target="_blank">Re: OpenAI Presence...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 16:20 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This article was incredibly hard to parse before I eventually realized they built a virtual support agent.
+The unintended consequence being that now im more cautious than ever to trust OpenAI to write marketing prose.&lt;p&gt;Otherwise, I see this as potentially useful for firms that dont have global pressence and want to service a support system across multiple timezones where it might be difficult to ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49008434" target="_blank">Show HN: Yorishiro – a macOS terminal where AI agents live</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-22 15:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’ve been building Yorishiro, an open-source macOS terminal for working with coding agents like Claude Code and Codex.&lt;p&gt;The name is Japanese — a yorishiro is an object inhabited by a spirit. That’s roughly the idea: instead of treating the terminal as a window onto an agent, treat it as the place the agent lives.&lt;p&gt;The active agent appears as a 3D character. States such as thinking, errors, and c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49008044" target="_blank">Re: How to Read a Painting...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 15:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been playing around with a similar problem &amp;#x27;Can AI help me increase my literacy around Art &amp;amp; Design&amp;#x27; but have taken a bit of a different approach, essentially:&lt;p&gt;1. Have a rough rubric around areas of knowledge and where I&amp;#x27;m strong&amp;#x2F;weak&lt;p&gt;2. Every day an agent builds a ~30min task + short answer question and slacks it to me.  Tasks are designed to have minimal AI ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49007917" target="_blank">Re: Loop Engineering Workflow Based on Anthropic and G...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 15:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi guys,&lt;p&gt;I was reading some Anthropic and Google papers about how models achieve successful long-task running and their goals based on a deterministic harness (Claude Dynamic Workflow feature), and decided to create a harness engineering workflow that turned my entrepreneur project, CauseFlow AI SRE Tool, into an open-source solution, using free models.&lt;p&gt;The papers that I&amp;#x27;ve read:&lt;p&gt;&lt;a hre...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=49006906" target="_blank">Re: Businesses with ugly AI menu redesigns...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-22 13:55 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m fascinated by how AI poster designs have taken over local advertising in seemingly just the last six months - presumably because ChatGPT Images and Gemini Nano Banana finally got good enough at outputting text without obvious defects in the typography.&lt;p&gt;The posters all look good - much better than their desktop publishing predecessors. And yet they also eat away at the credibility of the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=49006862" target="_blank">Show HN: Agent in 9 Lines Python</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                11 points | 6 comments |
+                2026-07-22 13:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I asked myself: what would a minimal implementation of an agent look like?&lt;p&gt;Something that works out of the box, is a real agent with tool calling, but without 1000s of lines of code, without dozens or hundreds of npm or pypi dependencies. Something with just a few &amp;#x27;essential&amp;#x27; features (not a whole kitchen sink that most agent harnesses come with nowadays).&lt;p&gt;An implementation close to ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=49006149" target="_blank">Show HN: Housecat.com – Gmail + durable workflows + sandbox VM</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                13 points | 6 comments |
+                2026-07-22 13:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey we are Housecat.&lt;p&gt;I&amp;#x27;ve spend the last 15 years building dev tools at Heroku, Convox (YC S15), and Segment. Dev tools have gotten insanely good over the decades, now we&amp;#x27;re working to level up productivity tools for everyday work.&lt;p&gt;Housecat is an email inbox running on an single-tenant agent computer with a durable workflow engine and connections to common tools for day-to-day work.&lt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=49005996" target="_blank">Show HN: Ipek – a visual IDE for workflow automations</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-22 12:51 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Nuru. Ipek is a desktop app that runs file and API automation workflows locally. It actually resulted from my laziness: automating API calls, Excel&amp;#x2F;CSV parsing, OCR and LLM calls by hand takes too much time to maintain, especially when various teams request additional tools on top of those scripts.&lt;p&gt;So I built a visual workflow builder where my non-technical teams can create ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                17. <a href="https://news.ycombinator.com/item?id=49005819" target="_blank">Show HN: Diktafon – Voice memos on cassette tapes, transcribed on-device</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-22 12:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Diktafon is a voice-memo app: each topic is a cassette, memos are appended
+to its tape, and a cassette plays back as one continuous recording. Every
+memo is transcribed and every cassette summarised, fully on-device:
+whisper.cpp for transcription, Qwen3 via llama.cpp for summaries — vendored
+behind two small C shims sharing one ggml build, driven from Dart (Flutter)
+over FFI in worker isolates. A ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

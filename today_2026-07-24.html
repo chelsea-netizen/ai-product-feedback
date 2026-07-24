@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-07-24 18:10
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49039064" target="_blank">Re: The front end framework for correctness: built on ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-24 17:33 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The project seems super interesting and I&amp;#x27;ve been following since the creator went on an effect podcast I listened to. My only gripe&amp;#x2F;concern is the  fact that the docs are so glaringly AI (likely claude) generated which is something I&amp;#x27;ve come to not expect from technical documentation writing specifically. All in all though, the verbosity tradeoff for explicit design choice here is ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49039052" target="_blank">Re: Claude Opus 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-24 17:33 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">Their communication is confusing. They say &amp;quot;Opus 5 is not more capable overall than Fable 5&amp;quot;, but their blog post proceeds to list how much better Opus 5 is than Fable 5 on __most__ benchmarks listed.&lt;p&gt;Then system card goes on to &amp;quot;Its AI R&amp;amp;D capabilities are comparable to those of Claude Mythos 5&amp;quot;, which is supposed to be fable minus restrictions.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49038745" target="_blank">Re: Claude Opus 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-24 17:15 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Edit: It was pointed out to me that Opus 4.8 got &amp;quot;21%&amp;quot; for successfully fully completing ~1-in-5 tasks, but also got &amp;quot;55.7%&amp;quot; for obtaining significant partial credit on some of the ~4-in-5 tasks it could not fully complete.&lt;p&gt;---------------&lt;p&gt;Why does Anthropic say here that Opus 4.8 scored 55.7% on OSWorld 2.0 benchmark, but the paper published by the authors of OSWorld 2.0 s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49038690" target="_blank">Re: Claude Opus 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-24 17:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">From the prompting guide&amp;lt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;platform.claude.com&amp;#x2F;docs&amp;#x2F;en&amp;#x2F;build-with-claude&amp;#x2F;prompt-engineering&amp;#x2F;prompting-claude-opus-5&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;platform.claude.com&amp;#x2F;docs&amp;#x2F;en&amp;#x2F;build-with-claude&amp;#x2F;prompt...&lt;/a&gt;&amp;gt;:&lt;p&gt;&amp;gt; Claude Opus 5&amp;#x27;s default user-facing responses run longer than prior Opus models&amp;#x27;.&lt;p&gt;The benchma...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49038589" target="_blank">Re: Claude Opus 5...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-24 17:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Great that there&amp;#x27;s a new model but they could fix their existing infra. We&amp;#x27;re considering dropping our Claude Team sub cause it&amp;#x27;s unusable recently. Constant bugs, dropped sessions, issues switching models, http errors. It&amp;#x27;s becoming ridiculous</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49037941" target="_blank">Asked Codex to redesign a page; it pushed my repo to OpenAI infra</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 4 comments |
+                2026-07-24 16:26 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49037807" target="_blank">Tell HN: ChatGPT exports do not contain all conversation messages</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-24 16:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Just FYI - if you do an export from ChatGPT, verify the export data. I requested an export from ChatGPT a few days ago and received the zip this morning, but the zip is missing messages.&lt;p&gt;I know this because I manually downloaded several of the conversations before requesting the export, and the manual downloads contain the messages, but the export doesn&amp;#x27;t. I actually had ChatGPT do a second...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49036787" target="_blank">FreeBSD ports frozen after someone commits the 150MB Linux Copilot binary</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                9 points | 0 comments |
+                2026-07-24 15:05 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49035196" target="_blank">Re: I Tried Building a Real App with AI. It Took a Yea...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-24 13:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve used AI for building a hobbyist note app myself. It&amp;#x27;s also a mixed bag but a lot of that comes down to how I&amp;#x27;ve changed.&lt;p&gt;Before AI dev was expensive so I&amp;#x27;d spend hours planning features. I filled 5 notebooks with UI sketches and data schemas and lists of names of what to call things. Building was more or less final as I only had 5-10 hrs a week max and wanted to move on....</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49034749" target="_blank">Show HN: Devdex – a pixel-art identity page for builders</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-07-24 12:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I made this because my GitHub profile is a grid of green squares and a README, and neither one tells you anything about me.&lt;p&gt;You type in a GitHub username and it renders as a pixel-art page — levels, streaks, achievements, a few themes. Same repos, same commits. It just doesn&amp;#x27;t look like a spreadsheet anymore. Chocolate tastes the same in a plain brown wrapper, you just don&amp;#x27;t reach for ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49034424" target="_blank">Show HN: A monorepo where AI agents can safely build and maintain applications</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-24 12:10 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hello everyone,&lt;p&gt;I have spent dozens of hours working on my ideal template to quickly bring applications into production, which could be of interest to those who want to rapidly deliver a scalable prototype, in an AI-native manner and at low cost on Cloudflare infrastructures.&lt;p&gt;In this template, you will find:&lt;p&gt;- A pnpm monorepo in strictly typed TypeScript with Zod, allowing you to develop bot...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

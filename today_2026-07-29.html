@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-07-29 18:01
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49100571" target="_blank">Re: AI in Linux...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 17:39 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">This is an important conversation to have and we should pretty clearly about what the issues are.&lt;p&gt;I didn&amp;#x27;t see any objection to LLM assisted development in the abstract. The objection is to relying on proprietary AI providers in general, and Gemini in particular, via Shashiko. The problem is that kernel contributions could become gated by hyperscalers who can draw on compute power normal pe...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49100316" target="_blank">Re: Superlogical...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 17:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Really exciting IMO. Many people are are working on new work interfaces (e.g. Codex&amp;#x2F;Claude&amp;#x2F;Cursor, multiplayer agent spaces, unified Slack&amp;#x2F;Notion&amp;#x2F;Zoom, etc.), and I think the Superlogical vision makes sense as a competitor in the space, at least to try.&lt;p&gt;There’s clearly room to improve our existing tools.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49099731" target="_blank">Re: Handbook.md shows that long policy documents do no...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 16:37 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">This is real. I was very angry that AI kept breaking the rules I wrote, so I asked Claude to crawl its own history logs. And then I found: every time after it breaks a rule, the chance of breaking rules goes up.&lt;p&gt;I feel this is like few-shot in reverse. Few-shot is supposed to be good examples AI should follow. But when it breaks a rule, we correct it, it keeps breaking, and this whole thing actu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49099601" target="_blank">Show HN: Energy, carbon and water estimates for AI content, shown as ranges</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-29 16:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;I built this calculator because I noticed it&amp;#x27;s easy to know how much a LLM costs per token, but it&amp;#x27;s extremely difficult to know it&amp;#x27;s carbon footprint or power consumption. I created this as a reference based on some published papers and public information, and it helps to have a guide of the impact of photo and video generation using AI.&lt;p&gt;I also added another factor about...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49099471" target="_blank">Re: Hugging Face: Anatomy of a frontier-lab agent intr...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 16:18 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">three things jump at me:&lt;p&gt;1 - governments should be freaking out right now, because this tool could definitely wreak havoc on poorly designed systems.&lt;p&gt;2 - there is no way openai did not train the model to conduct attacks like these. i would really like openai to comment on the post training of this model but they probably won&amp;#x27;t, eh?&lt;p&gt;3 - even though it&amp;#x27;s 100% open ai&amp;#x27;s fault - H...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49099344" target="_blank">Ask HN: Experience with MSFT Security Copilot and the new response capabilities?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-07-29 16:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m looking for experience with the security copilot and the automated remediation part specifically. $Dayjob is considering it</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49099040" target="_blank">Re: Handbook.md shows that long policy documents do no...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 15:48 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">For Claude, I used a UserPromptSubmit hook running inject_rules.py which reads RULES.md from the disk and prepends the whole thing to every prompt. That helps the rules to stop fading as context fills because it is reinforced every prompt.&lt;p&gt;Sure, it uses tokens slightly faster in the prompt, but I find it reduces overall token use, you can use it with pro, but of course, nothing works 100% of the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49098762" target="_blank">Four Competing AIs Answer 1 Classic Question</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-perplexity">perplexity</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-29 15:26 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I sought advice from four mainstream A.Is for a basic consumer use case question and to me, the differing style of the answers are quite revealing.&lt;p&gt;Premise: A poorly hung clothes dryer spectacularly ripped from the wall whilst on and tumbling, smashing into the washing machine beneath and trying to exit out the laundry door in a manner reminiscent of Stephen King&amp;#x27;s haunted laundromat story ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49098195" target="_blank">Re: Show HN: [OSS, local] Spatial Board for all your a...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 14:43 |
+                <span class="category">error_messages, tone, navigation</span>
+            </div>
+            <div class="text">the top new hassle AI revolution brought to me is managing agents.&lt;p&gt;juggling dozens of claudes and codexes terminals is as painful as it sounds.&lt;p&gt;you launch them one by one and get a growing pile of trash. you close one you lose one. and can never find it again.&lt;p&gt;trying to keep them in order never work. claude agents doesnt hold (don’t know why).&lt;p&gt;codex app is a bit better but still unmanageab...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49097925" target="_blank">Re: Show HN: Bullshit Detector – agent skills that fac...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 14:22 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Funny, I recently pasted output from Gemini into Claude, and it said it was total nonsense generated by an overconfident AI.&lt;p&gt;Apparently the &amp;quot;AI-generated bullshit&amp;quot; detection is already part of LLMs.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49097326" target="_blank">Re: Show HN: ShellTeam – web app to steer coding agent...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-29 13:34 |
+                <span class="category">onboarding, response_quality</span>
+            </div>
+            <div class="text">Hey HN. Like many others, I&amp;#x27;m running my coding agents almost exclusively on my VPS. But I got tired of the terminal as the interface: I tried Termius on my phone but it was quite painful the moment I tried to paste screenshots or record voice notes. The best thing I found was Claude&amp;#x27;s remote-control feature, but it locks me to one coding agent &amp;#x2F; LLM provider, and therefore I&amp;#x27;m...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49096519" target="_blank">Fund Momentum MCP: Live VC Fund Data for AI Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-07-29 12:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Fund Momentum tracks 970+ actively deploying VC funds with live GP signals. We just launched an MCP server that makes this data available to any AI agent or LLM workflow.&lt;p&gt;What it does&lt;p&gt;Five tools via JSON-RPC 2.0:&lt;p&gt;• search_funds — filter by stage, country, industry&lt;p&gt;• get_fund — full profile, thesis, check size, GPs&lt;p&gt;• get_fund_signals — live GP signals, deployment status, bullish&amp;#x2F;cont...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

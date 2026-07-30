@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>14</strong> items collected |
+                Last updated: 2026-07-30 18:09
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49113344" target="_blank">Re: Stacked PRs are now live on GitHub...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 17:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Both GitHub and GitLab have recently released new stacked MR tech: I guess everyone is submitting giant AI-authored PRs these days, and there&amp;#x27;s a real need to break them up into human-reviewable chunks.&lt;p&gt;Both are an improvement (GH&amp;#x27;s seems a little better, with their one-button merge that GL lacks) ... bit both are so incredibly &amp;quot;meh&amp;quot;.&lt;p&gt;When are we going to see the major host...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49112933" target="_blank">Re: Gemini Robotics 2 brings whole body intelligence t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 17:21 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I&amp;#x27;m a researcher at Deepmind that contributed to these models. (And the opinions here are my own)&lt;p&gt;Just want to say, Deepmind is a great place to work and the only (Edit: one the few unique labs!) lab where you can move from large frontier models (Gemini), open models (Gemma), robotics (what you see here), science (weather, biology, more) and basically any other topic related to intelligence...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49112804" target="_blank">Re: Show HN: Claude-account – switch Claude Code accou...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 17:10 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">appreciate you building this! I have two Claude max accounts. The way I do it is that I have two app launchers (claude desktop). I use the desktop app and a different data directory for each launcher like `open -n -a &amp;#x2F;Applications&amp;#x2F;Claude.app --args --user-data-dir=&amp;quot;&amp;lt;its profile directory&amp;gt;&amp;quot;`. I got my first Claude to make me two different launchers for the two apps, and it...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49112659" target="_blank">Re: Production AI Systems – 34 chapters, 1,026 runnabl...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 16:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wrote a technical book on the infrastructure layer behind LLM                                                                                                                                             
+  applications - the part between &amp;quot;call the API&amp;quot; and &amp;quot;it works in                                                                                                                   ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49112454" target="_blank">Re: Gemini Robotics 2 brings whole body intelligence t...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 16:43 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">While Anthropic and Open AI get 80% of the attention here, it&amp;#x27;s impressive to see how much Google is doing: near frontier model, fast models, open weight models, image generation, video generation, music generation, robotics, etc.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49112195" target="_blank">Show HN: Tuneloop – a local CLI for analyzing coding agent session transcripts</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-07-30 16:23 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;I think session transcripts written by coding agents like Claude Code and Codex are very interesting because they offer a detailed window into &lt;i&gt;how&lt;/i&gt; work gets shipped. You can see the sequence of decisions that resulted in the final PR, what the agent got wrong, tools used etc. So I built a cli that analyzes these sessions and provides a local dashboard that shows what each session ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49111864" target="_blank">Show HN: Drug Boat, Strike</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-30 15:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It&amp;#x27;s been nearly a year since the Trump administration launched what we think is the single most impactful opioid policy initiative ever attempted in the decades-long crisis: blowing up boats in the Caribbean to end the fentanyl crisis.&lt;p&gt;By the administration&amp;#x27;s own very accurate math, this operation has saved 1,650,000 American lives and only cost ~$2.7 billion. Add that to the 119 to 2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49111413" target="_blank">Gemini Robotics ER 2</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-30 15:30 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49111237" target="_blank">Gemini Robotics 2 brings whole body intelligence to robots</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                256 points | 253 comments |
+                2026-07-30 15:15 |
+                <span class="category">tone</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49110723" target="_blank">Re: Launch HN: Prized (YC S26) – Let non-engineer staf...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 14:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Very cool. What model is used for the judge? We use setoku for Claude-built internal tooling but the design doesn’t allow writes so that there’s no inference cost on the server. Having the judge check for danger is a neat design.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49110349" target="_blank">Re: Why don't people use formal methods? (2019)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 14:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been a big nerd for formal methods for quite awhile, and have been broadly unsuccessful in getting employers onboard.&lt;p&gt;I have pretty cynical opinions as to the &amp;quot;why&amp;quot; of this, largely involving the fact that the vast majority of software engineers &lt;i&gt;refuse to learn anything that they weren&amp;#x27;t explicitly taught in college&lt;/i&gt;, but regardless of the reason whenever I have tr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49109791" target="_blank">Re: First Contact: The most important question in AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-30 13:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here. For context, I spent the last decade running one of the first fully AI-native quantitative hedge funds, watching machine learning systems behave under adversarial pressure where mistakes cost millions. This was years before mainstream adoption of agents and language models. My essay is written from that vantage point.&lt;p&gt;Recent thought pieces shaping the AI conversation are forecasts. ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=49109663" target="_blank">Show HN: Local text, image, video, music and 3D from one CLI, no Python</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-07-30 13:25 |
+                <span class="category">onboarding, navigation</span>
+            </div>
+            <div class="text">Hi HN! I&amp;#x27;m the author of mere.run a local first inference runtime built around an installable CLI. I believe that whenever possible we should use the stuff we already own (like our Mac laptops, decent machines gathering dust, our gaming PC) and the limited electrical power we have easy access to, like the socket in the wall next to most of us. We shouldn&amp;#x27;t have to send our data to the cl...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=49109106" target="_blank">Show HN: Memsprout – share AI context with your teammates</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-07-30 12:29 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’m an architect at my company and everyone on my team is now using Claude&amp;#x2F;Codex agents for their work. Managing context in claude.md&amp;#x2F;agents.md files is fine but so much of the knowledge required doesn’t fit cleanly in one repo or the other. Plus, much of the team (product, design, support) does not work in repos but still needs a place to share context.
+I searched for existing solutions...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

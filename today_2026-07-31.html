@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-07-31 18:14
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49126081" target="_blank">Re: 13 Models and 4 Agents on SWE Tasks: Go, Java, Pyt...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-31 17:24 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">What does it mean when Fable 5 is 1st place and Opus 5 is 3rd place, while Claude code is 7th place? Which model and effort is used for Claude in 7th place, compared to 1st and 3rd?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49125938" target="_blank">Re: Is AI reasoning right for the wrong reasons?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-31 17:12 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">LLMs lack qualia, among other things.&lt;p&gt;If I ask an LLM &amp;quot;what is an apple?&amp;quot; it tells me:&lt;p&gt;&amp;gt; An apple is the edible fruit of the apple tree, scientifically known as Malus domestica. It is one of the world&amp;#x27;s most widely grown fruits and is eaten fresh or used in many foods and drinks.&lt;p&gt;If I ask an LLM &amp;quot;what is a mundu fruit?&amp;quot; it tells me:&lt;p&gt;&amp;gt; Mundu is a tropical frui...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49125918" target="_blank">Show HN: The Goal is simple, there should be an actual free editor</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-07-31 17:11 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Saai, one of the creators of Sylix. I made this open-minded version of Cursor where you can get all of the core features of Cursor but in a fully customizable IDE (Ctrl+K, @docs, parallel agents). We love Cursor so much, but there are so many other features we&amp;#x27;re building, including all things like multi-edit, parallel swaps, agent indexing (but not the traditional one), para...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49125840" target="_blank">Re: Show HN: Digital Surface - Never Lose Work...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-31 17:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">OP here: Ask me anything about the product.&lt;p&gt;A few details below:&lt;p&gt;- Captures land as .md (transcripts, dictation) and .json (screen from OCR)
+- Works with Claude, Codex, etc - any CLI&amp;#x2F;LLM that has disk access 
+- Your data does leave your machine. Point is to provide access via MCP on other devices. And laptop isn&amp;#x27;t always on. Default to local filesystem and then remote.
+-- Means that ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49123905" target="_blank">Show HN: AI Security Breaches, the problems and it's causes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-07-31 14:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">There has been a recent security breaches by Anthropic and OpenAI that they have problems in difficulty in working and handling with these advance AI models.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49123896" target="_blank">Re: Is AI Capable of Novelty?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-31 14:49 |
+                <span class="category">naming_terminology, navigation</span>
+            </div>
+            <div class="text">I find this question fascinating and my instinct is kinda yes, but no.  I&amp;#x27;m very curious what this google AI engineer&amp;#x27;s experience was like, and maybe the internal models were way less tuned or focused then the models we get, but like, I talk to AI regularly and it feels like a frustratingly on rails experience.  Maybe it&amp;#x27;s my psych background, I dunno, but it really feels almost li...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49123660" target="_blank">Re: Moonshot’s Kimi uses 20k Nvidia chip cluster from ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-07-31 14:32 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">Interesting if true - that Moonshot can train a ~3T SOTA model on only 20K NVIDIA GPUs, while others like Musk (who freely admits to distilling OpenAI&amp;#x27;s models) struggle to build a competitive 1T model (Grok 4.5) with massively more compute (Colossus-1 100-250K GPUs, Colossus-2 500K+ GPUs).&lt;p&gt;I guess at least partly a reflection of all the optimizations in the Kimi 3 architecture.&lt;p&gt;In the re...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49123254" target="_blank">Show HN: Yet Another Markup Language Engineering Toolkit</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-07-31 14:00 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Over the past few weeks I&amp;#x27;ve grown tired of these super, all in one, agentic AI Skill plugins, MCP servers and whatnot that promise you the world. Of course, there is a world of vibes that survives off that, but there is also a world of more constraints and responsibilities.&lt;p&gt;Hence I built Yamlet: A CLI tool with accompanying Claude Code skillset, that merges both deterministic checks with h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49123174" target="_blank">Tell HN: Gemini uses your email drafts (if you have &quot;smart features&quot; turned on)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-07-31 13:54 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">If you use Gmail, I think you all should know that if you turn your &amp;quot;smart features&amp;quot; on (a setting in gmail), the contents of your email drafts will make it into public-facing AI-generated content you generate. (I did have a chance to review it).&lt;p&gt;It was surprising behavior to me that&amp;#x27;s worth keeping in mind.&lt;p&gt;Detailed story:&lt;p&gt;I usually keep &amp;quot;Smart features&amp;quot; turned off ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-08-05 18:14
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49186250" target="_blank">Re: Show HN: Lucidos, a local AI OS that keeps the app...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-05 17:42 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Kenneth!&lt;p&gt;I&amp;#x27;ve been a software engineer&amp;#x2F;architect since 2000. I built Lucidos, a self-hosted personal agent platform. It has a workspace of files, an event-sourced memory, cron and event triggers, and it builds apps for you on demand and keeps them running. Here&amp;#x27;s a demo video it made of itself, role-playing a user: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;hNN5bL1nq...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49185920" target="_blank">Re: Building an Advanced Agentic Harness...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-05 17:19 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Contrary to the title and intro, this appears to be an agentic _workflow_ builder&amp;#x2F;runner, not an advanced “agent harness”&lt;p&gt;A few things:&lt;p&gt;- they note: “nothing in this post proves it actually works in most cases”&lt;p&gt;- the DAG sounds good, but LLMs often split tasks into smaller pieces than they need to, which can cause them to lose the forest for the trees&lt;p&gt;- the forced JSON interplay, in m...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49185389" target="_blank">Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                15 points | 9 comments |
+                2026-08-05 16:47 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production.&lt;p&gt;When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that logs don’t have.&lt;p&gt;All this saves time and effort for engineers who’d otherwise dig through logs and trace...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49184717" target="_blank">Show HN: Everfree -AI cowriter note app on GitHub backend &amp; Evernote migration</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-05 16:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">EverFree started as a script to get my notes out of Evernote, and grew into the writing tool I actually wanted: a focused editor where notes stay in Github in a repo I own, with an AI cowriter&lt;p&gt;With an in-built AI assistant using free models like Gemini 3.5 to help me in my daily writing The AI has a search and image generation feature as well, for which you will need paid licenses from Gemini or...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49184296" target="_blank">Show HN: XBin - A self-hosted, sandboxed, self-modifying workspace</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-05 15:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Started with the problem &amp;quot;how do I host and manage 100x more code over the next few years&amp;quot;.&lt;p&gt;I wrote 5 iterations of &amp;#x27;Agentic OS&amp;#x27; over the past few months, this one seems to finally be the correct shape.&lt;p&gt;Tried WASM runtimes &amp;#x2F; WASM-OS, containers, k8s, microVMs, functions&amp;#x2F;lambda - all of that fell short, was too far out of distribution to work well with LLMs, wasted...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49184224" target="_blank">Re: People who tell you 'AI is changing everything' ar...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-05 15:22 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I&amp;#x27;ll grant you that companies trying to force &amp;quot;AI&amp;quot; into everything are going about it mostly the wrong way but speaking from the position of someone who writes code and oversees people that write code: AI (aka LLMs) is absolutely changing everything.&lt;p&gt;I can&amp;#x27;t speak to other industries but LLMs have completely changed many if not all aspects of my job. We&amp;#x27;re producing more...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49184142" target="_blank">Re: Not hiring junior engineers won't solve the proble...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-05 15:16 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Pre-AI juniors were valuable because on many tasks, it was faster for me (senior eng) to write a quick spec have a conversation with a junior, and have them go off for a few hours or a few days and write the code, and then come back with it for review. I could do that with several junior engineers and pretty reasonably paralellize the work.&lt;p&gt;Now a junior takes my spec, drops it into Claude, and s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49183633" target="_blank">Re: Show HN: WeaveMark – a specification language for ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-05 14:36 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Hi folks,&lt;p&gt;WeaveMark is an open-source specification language for prompts: you specify abstract intent (using Markdown + special directives) and an LLM-based processor makes it concrete (either by &amp;quot;compilation&amp;quot; or - optionally - actual execution). The prompt specifications (which I call &amp;quot;promplets&amp;quot;) allow composition, refinement, control flow branching, and other useful abstra...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49182903" target="_blank">Show HN: I built one of the most advanced web-based drum/beat sequencers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 2 comments |
+                2026-08-05 13:50 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Hi there! Just wanted to share an open source music project I&amp;#x27;ve been working on. There are already a number of web-based drum machines, but I think most of them are pretty basic (small fixed drum kit, single pattern, no effects, etc), so I built something more advanced.&lt;p&gt;The app is live here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;maximecb.github.io&amp;#x2F;groovie&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;maxime...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49181570" target="_blank">Ask HN: How do you correct spatial reasoning of LLMs?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 4 comments |
+                2026-08-05 11:53 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m working on a complex multi-part 3D-printed product, and I needed some engineering input from LLMs. I use highest Gemini Pro reasoning levels, Fable, and K3 Max with everything tuned to highest.&lt;p&gt;The problem I&amp;#x27;m facing is mounting a sensor on a barbell sleeve. The sensor is a semi-hollow 100mm cylinder, 60mm diameter, with a 50mm diameter 50mm deep tube cutout for the sleeve. (It&amp;#x2...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49181478" target="_blank">Show HN: Claude-account now works on macOS too</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-08-05 11:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">A few days ago, I shared claude-account here. I received far more feedback and support than I expected, so thank you to everyone who commented, tested it, and contributed.&lt;p&gt;The most requested update was macOS support. So it now works on both Linux and macOS.&lt;p&gt;You can add your work and personal Claude Code accounts once, then switch between them with a simple command without logging in again.&lt;p&gt;T...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

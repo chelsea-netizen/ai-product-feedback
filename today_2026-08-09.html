@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>8</strong> items collected |
+                Last updated: 2026-08-09 17:20
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49233326" target="_blank">Re: I Wanted to Own the Harness. Then Codex Desktop Wo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-09 17:12 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Maybe I’m missing something.  How is codex desktop more feature rich that Claude desktop?  Aren’t they about the same now?  I actually found codex desktop cloud mode to be more difficult to use in the codex desktop vs Claude because i have to create a new “environment” per GitHub repo in the same org at work.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49231744" target="_blank">Show HN: A tool to auto-generate .vscode/settings.json and extensions.json</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-08-09 14:26 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN,&lt;p&gt;I built a tool that automatically generates .vscode&amp;#x27;s settings.json and extensions.json.&lt;p&gt;## Why I built this&lt;p&gt;At my job, our project didn&amp;#x27;t have a properly set up dev environment, and each developer managed their own .vscode settings individually. I felt this was hurting PR review efficiency due to formatting differences and similar issues.&lt;p&gt;We were allowed to use Claude ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49231705" target="_blank">Re: Mea Culpa – Dark Hours...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-09 14:23 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’d love to see the other repo, and the prompts that led to both.&lt;p&gt;Did Godier copy the other guy’s repo, name and all, and try to pass it off as his own work? That seems like the obvious conclusion, albeit brazen to the point of insanity.&lt;p&gt;Did &lt;i&gt;Claude&lt;/i&gt; copy the repo, in response to a prompt? If Claude copies a Claude vibe-coded project, can any plagiarism really be said to have taken place?...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49231407" target="_blank">Re: Mea Culpa – Dark Hours...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-09 13:49 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">On the previous HN posts I got this impression:&lt;p&gt;The developer&amp;#x27;s astrology app containing tarot reading features was rejected from Apple&amp;#x27;s App Store that prohibits astrology apps.&lt;p&gt;He then replaced the app&amp;#x27;s content with a clone of, if not the identical open source astronomy app &amp;quot;Dark Hours&amp;quot;, copying even the name. The original is here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;darkhou...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49231031" target="_blank">Show HN: YC Startup School, but AI-Native</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-08-09 13:04 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;YC Startup School is a great resource and was part of the inspiration. But I think right now, much of the startup education model became capable of actually working alongside a founder with AI agents.&lt;p&gt;So I&amp;#x27;m experimenting with what an AI-native version of Startup School.&lt;p&gt;I&amp;#x27;m looking for early users who are willing to try it and give me brutally useful feedback.&lt;p&gt;At Foundera...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49228995" target="_blank">Re: Designing with Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-09 06:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Don&amp;#x27;t you think Gemini and Claude Design are doing justice to huge chunk of designing tasks already?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49228963" target="_blank">Re: Incentives are for losers...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-09 06:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The game theorists&amp;#x2F;economists have studied this stuff in depth under the rubric of &amp;quot;mechanism design&amp;quot; or &amp;quot;market design&amp;quot;. The relevant concept is &amp;quot;incentive compatibility&amp;quot; where the agents in the system do the right thing (whatever that was intended to be&amp;#x2F;designed for) because any deviation from that costs them more than playing nice.&lt;p&gt;The Wikipedia article...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49226998" target="_blank">Re: AFK – Command center for teams running coding agen...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-08 23:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">does anyone else feel like this kind of web design is like the em-dash of web design? im not trying to knock the project itself, just wondering because every website that claude makes me looks like this until i tell it to look like something else.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

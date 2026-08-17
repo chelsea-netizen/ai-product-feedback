@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-08-17 17:17
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49333588" target="_blank">Re: Launch HN: Speko (YC S26) – OpenRouter for Voice A...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-17 16:24 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; &lt;i&gt;Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS.&lt;/i&gt;&lt;p&gt;To use a &lt;i&gt;claudism&lt;/i&gt;, I would like to push back on this. The industry is very much moving towards one-model-does-all end to end trained similar to LLMs and VLMs. Mostly for latency reasons and partially because the results for the end to end trained models are just so much better than those using...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49333167" target="_blank">Trivially bypass text watermarks by requesting a Base64 response</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-17 16:01 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Anthropic plans to release text watermarking based on SynthID, which modulates the PNRG behind the token choosing mechanism deterministically in a way that lets another tool later estimate whether text was written by AI.&lt;p&gt;This is trivial to bypass that, it&amp;#x27;s current form:
+1. Ask for the response&amp;#x2F;essay&amp;#x2F;email encoded in base64
+2. Decode it using https:&amp;#x2F;&amp;#x2F;www.base64decode.org...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49332693" target="_blank">Re: The Unexpected AI Stack: C# + .NET (Part 1)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-17 15:31 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This is a 5 part series that is intentionally (hand) written to help dev teams understand how to scaffold a codebase for agentic engineering by focusing on key, underlying technical decisions and manual wiring &lt;i&gt;before&lt;/i&gt; building with AI.  Getting the foundations right helps provide the tools and safeguards for coding agents to iterate more efficiently while reducing slop.&lt;p&gt;Specifically:&lt;p&gt;- G...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49332326" target="_blank">Show HN: Agent Mesh – Shared memory for multi-Agent coordination</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-17 15:10 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">I built a Human + multi-Agent shared memory system I use daily for my coding workflow. It helps reduce Agent drift by formalizing Human decisions and storing coordination logs. We&amp;#x27;re calling it Agent Mesh.&lt;p&gt;You can try it out yourself via the GitHub link or pip install my-agent-mesh. Simply point your AI Agent to Agent Mesh and ask it to review the README and adoption docs. Your Agent will a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49330604" target="_blank">Show HN: 1667, a terminal UI for writing fiction with language models</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                31 points | 86 comments |
+                2026-08-17 13:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN. I built 1667 for my own fiction work and now use it each day. This probably has a limited audience. Maybe an audience of one...&lt;p&gt;Why a terminal interface for story writing? I&amp;#x27;m a dev. I like to use terminals for a lot of stuff. Most WebUIs feel off to me. That&amp;#x27;s the only  reason.&lt;p&gt;One thing that bothers me about writing in existing tools is that they don&amp;#x27;t fit the way I wri...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49330290" target="_blank">Re: A local-first scanner for hidden Unicode in AI-gen...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-17 13:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Which AI tools generate hidden unicode? I just pasted a random response from Gemini and ChatGPT to it and they did not have any.&lt;p&gt;Supposedly Anthropic now has watermarking, but as I undestand it, it&amp;#x27;s not done by inserting hidden unicode characters.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49330004" target="_blank">Re: GPT 5.6 Sol is the best &quot;vision&quot; model OpenAI ever...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-17 12:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Anecdotal, opinion:&lt;p&gt;Gpt is really good in vision stuff, or at least their MoE seems to be really cohesive. From my experience Claude models can be really good at language but the moment they need to look at a picture and decide why the design is not good what parts need improvement it degrades a lot. My easiest benchmark is giving them a screenshot of a feature in my app and tell it &amp;quot;identi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49328917" target="_blank">Re: AI Native Review Collection on auto pilot mode...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-17 10:45 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">Online business owners used to collect video testimonials by asking customers to come to google meet or zoom call, ask bunch of questions, and real time founder used to change the questions based on customer&amp;#x27;s responses, record that call and ask video editor to edit and make social media worthy videos to post.&lt;p&gt;Feedspace has automated that entire process, with just a link, customers can reco...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49328101" target="_blank">How to copy equations from ChatGPT to word without losing formatting [video]</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-08-17 08:58 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

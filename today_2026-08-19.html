@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-08-19 17:16
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49364223" target="_blank">Show HN: Frugal Tokens – explore costs and usage across coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-08-19 17:07 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I wanted to share a project I’ve been working on called Frugal Tokens. I originally built it because I was curious to see how much all of my sessions cost and how much cache misses affected that spend. I’d noticed people had widely different spend profiles and wanted to better understand what might contribute to that.&lt;p&gt;As I’ve worked on this, the tool has grown to show more usage patterns across ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49364186" target="_blank">Show HN: Pingularity – scheduled Ookla/iperf3 speedtest dashboard, outage alerts</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-19 17:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I wanted something to monitor my speed tests over time, but what&amp;#x27;s out there (speedtest-tracker, myspeed, netcheck, orb, etc.) doesn&amp;#x27;t quite have the feature set I was looking for. I needed something simple enough that my dad could get it going by himself in Windows but that I could also configure to use my own iperf server.&lt;p&gt;Check the demo with dummy data first to see if it&amp;#x27;s wort...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49363138" target="_blank">Show HN: Flow – Claude Code CLI for feature planning → review/testing → merge</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-08-19 15:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Flow is my claude code supervisor for designing epics and shipping features really quickly. It was bootstrapped with itself so you can look at recent PRs to see what it produces.&lt;p&gt;Usage:&lt;p&gt;&amp;gt; flow feature create &amp;#x27;implement csv exports&amp;#x27; --model opus --effort high&lt;p&gt;• triage → plan → git worktree → code → verify → CI → review → merge&lt;p&gt;• pauses only for plan approval and subjective pre-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49362857" target="_blank">Claude 529 Errors Again Today</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-08-19 15:25 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49361986" target="_blank">Re: Show HN: Run, tests, and find issues in your servi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-19 14:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Try It Out :-&lt;p&gt;* GitHub: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;VinvAI&amp;#x2F;VinvAI&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;VinvAI&amp;#x2F;VinvAI&lt;/a&gt;&lt;p&gt;* VS Code &amp;amp; Cursor Extension: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;open-vsx.org&amp;#x2F;extension&amp;#x2F;VinvAI&amp;#x2F;VinvAI&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;open-vsx.org&amp;#x2F;extension&amp;#x2F;VinvAI&amp;#x2F;VinvAI&lt;/a&gt; (3.5k+ downloads)&lt;p&gt;* Demo Video: ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49361945" target="_blank">Show HN: Yado – Claude Code and Codex on Your iPhone</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-08-19 14:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I built Yado, an iOS app to use Claude Code &amp;amp; Codex on your phone.&lt;p&gt;- No laptop needed, you get a Linux box for your AI to work in
+- uses your own ChatGPT&amp;#x2F;Claude sub (no additional AI cost)
+- chat and terminal interface
+- Live previews
+- easy connection of MCP&amp;#x2F;CLI 
+- $19&amp;#x2F;mo with 7-day free trial&lt;p&gt;Each user gets their own Fly.io machine. The app speaks Claude Code&amp;#x27;s stream...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49361190" target="_blank">How Claude is accelerating protein design and analytical chemistry</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-19 13:12 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

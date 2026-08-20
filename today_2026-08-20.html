@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-08-20 17:18
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49376991" target="_blank">Show HN: Building Table Canon, an AI Campaign Memory Engine for TTRPGs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-08-20 16:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN! I built Table Canon to solve a problem my playgroup kept running into: 3-4 hour tabletop gaming sessions leave behind massive audio recordings, but standard meeting note-takers treat every session as an isolated island, butcher fantasy terms, and don&amp;#x27;t know who is speaking.&lt;p&gt;I wanted an engine that tracks long-term state across months of games, so I built a pipeline to extract entity...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49376834" target="_blank">Re: Clean up Claude 5's token vomit with a separate LL...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 16:27 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been grappling with this for weeks, not just in Claude but in Codex as well, which isn&amp;#x27;t quite as bad but still annoying. AGENTS.md does very little, agents will consistently violate the communication preferences, especially as the session drags on. It&amp;#x27;s incredible to me that there&amp;#x27;s no good way to reliably change the way an LLM responds to you that a workaround like this ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49376688" target="_blank">Re: Clean up Claude 5's token vomit with a separate LL...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 16:16 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">At some point one has to wonder if it&amp;#x27;s still worth using anthropic&amp;#x27;s models if we need to babysit 100% of its output with another vendor&amp;#x27;s model. Why not just use that other vendor&amp;#x27;s model for everything?&lt;p&gt;I can&amp;#x27;t help but feel the circumstances that enable this kind of front page article are vestigial from the days when OAI was super bad and Anthropic was beyond reproac...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49376503" target="_blank">Re: Clean up Claude 5's token vomit with a separate LL...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 16:04 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I hope at some point Anthropic does a post-mortem on the strange behavior their models have been displaying recently. I mostly switched to Codex because I was finding Claude&amp;#x27;s behavior increasingly frustrating.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49376394" target="_blank">Re: Launch HN: Vendo (YC S26) – Let users build featur...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 15:55 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">What benefit does this provide over an excellent API + MCP access?&lt;p&gt;I often find my users want to throw their Claude at it and have everything handled. Users have even developed their own local UIs using Claude Design. As long as they are within the bounds of the MCP I already provide access to, no problem. This also has the added benefit of using the AI subscription the org already pays for (or ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49376256" target="_blank">Show HN: Epho – run Claude Code with a curl</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-08-20 15:45 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey folks, Burak here.&lt;p&gt;Epho is an API that allows running Claude Code, Codex or Opencode in a sandbox in the cloud. It abstracts away sandboxes, and allows running coding agents with a single HTTP request.&lt;p&gt;Epho came out of our own struggles with building our own AI analyst:
+- Sandboxes give you bare machines; you need to configure them for agentic workloads.
+- Each agent behaves differently, a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49376038" target="_blank">Launch HN: Vendo (YC S26) – Let users build features on top of your product</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                17 points | 6 comments |
+                2026-08-20 15:29 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN, we’re Yousef &amp;amp; Nour, founders of Vendo (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;vendo.run&quot;&gt;https:&amp;#x2F;&amp;#x2F;vendo.run&lt;/a&gt;). Vendo lets users create new features inside the software they already use. A user describes the dashboard, workflow, or small app they need, and Vendo builds it on top of the product’s existing data, API, and interface.&lt;p&gt;Demo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49376011" target="_blank">Re: Slack Code...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 15:27 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I&amp;#x27;m shocked Teams + GitHub haven&amp;#x27;t already done something like this. But I suppose that&amp;#x27;s asking a lot from Teams.&lt;p&gt;I&amp;#x27;ve been using Claude and other agents in Slack for some code tasks. It&amp;#x27;s mostly fine for simpler projects and products. Things like docs or specific libraries. But I&amp;#x27;m not really convinced this is the ideal interface yet. Reviews are my bottleneck and...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49375650" target="_blank">Re: I spent twenty years becoming good at the wrong ga...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 15:02 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">&amp;gt; But it has one property much of my previous work lacked: reality gets a vote. Code fails. The parsers disagree. And the data can refuse the story I want to tell. In this project and elsewhere, I am now trying to judge work by what survives outside its own scoreboard: a transferable skill, a finished artifact, a reader, a useful result, an opportunity -- perhaps even a little more freedom.&lt;p&gt;S...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49375531" target="_blank">Re: Seeing beyond BMI: Estimating cardiometabolic risk...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 14:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Beating Smartwatch based Body Composition Analysis (using Bio impedance snalysis) approach isn&amp;#x27;t a great feat as its single point crude sensor is widely inaccurate compared to production grade multi segment multi frequency inbody machines using same technique&lt;p&gt;Google PhotoScan (~2.1 pp MAE) may put it between DXA and well performed multi site Bodyfat Caliper by an skilled operator and WAY AB...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49375402" target="_blank">Re: Every Model Cheats...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 14:48 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt;Anthropic’s Claude Opus 4.6 system card described Cybench as “saturated,” reporting near-100% pass rates without a cheating audit. If these estimates were representative, cheating would be a marginal artifact.&lt;p&gt;One would assume that LLM creators do run the benchmarks on systems with least privileges. Which means that the LLMs don&amp;#x27;t have general internet access, can&amp;#x27;t read config fil...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49375090" target="_blank">Re: Hacking with Claude on a $27 Smart Watch...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 14:29 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">&amp;gt; Although I’ve been saying “Claude”, I actually did most of the work in OpenCode with some of my favorite open weights models. Kimi K3 &amp;amp; K2.6, and DeepSeek v4 Pro &amp;amp; Flash.&lt;p&gt;... This seems needlessly confusing&amp;#x2F;misleading? Author continues to use &amp;quot;Claude&amp;quot; throughout the article.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=49374554" target="_blank">Show HN: LilScript makes JavaScript libraries smaller</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                14 points | 2 comments |
+                2026-08-20 13:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;yeargun.github.io&amp;#x2F;lilscript&amp;#x2F;&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;yeargun.github.io&amp;#x2F;lilscript&amp;#x2F;&lt;/a&gt;&lt;p&gt;LilScript is a typed, compression-first language that compiles into js and sometimes into exec(will be more stable in future). The compiler mangles, reshapes the program into optimized js that happens to be 5-15% smaller (after gzip&amp;#x2F;br compression or...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=49373569" target="_blank">Re: AI didn't erase the junior engineer's value, it in...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 12:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is something I&amp;#x27;ve been thinking about the last couple days: how to get junior engineers to be valuable.&lt;p&gt;I developed a system to help prepare for leet coding interviews so I never feel lost under pressure  solving a problem again. It is like a debugger that steps through the code showing all the values of all the variables with data visualizations that reflect the logic so I can grok wh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=49373052" target="_blank">Re: Agent Voice, communicate with your coding agent al...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-20 11:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">AgentVoice is a bridge from your voice portal to your desired coding agent (claude code, cursor, codex) via an custom, global mcp server and more granular cli commands specific to the provider, such as new agent. For wake word detection, it uses a browser loaded, very lightweight vosk model, or a VAD model (silero VAD) instead of outsourcing the entire stream to speech to text provider. It does no...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

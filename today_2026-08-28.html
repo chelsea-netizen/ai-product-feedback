@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>10</strong> items collected |
+                Last updated: 2026-08-28 01:12
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49471823" target="_blank">Re: Previewing the Model Hardware Standard...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-27 21:55 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The standard makes sense: models work much better when devices expose standardized, machine-readable interfaces.&lt;p&gt;But as far as I can tell, this technical &amp;quot;standard&amp;quot; isn&amp;#x27;t actually public yet (you have to apply for access to even see or implement it.) Anthropic says they plan to open source it later.&lt;p&gt;Quite a departure from the way foundational hardware standards like USB and CAN ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49471645" target="_blank">Re: Anomalyco/OpenCode, Aider-AI/aider, and Cline Revi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-27 21:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I hoped anomalyco&amp;#x2F;opencode would be a decent Claude Code alternative, and that it would work with a relatively small model like `qwen2.5-coder-14b-instruct-q5_k_m` for simple coding tasks.&lt;p&gt;Unfortunately, my experience was extremely disappointing. This happened on Fedora.&lt;p&gt;Instead of responding to simple prompts, it got stuck in what appeared to be an infinite loop producing nonsense like:&lt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49469914" target="_blank">Ask HN: Should we disclose AI use in our work?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-08-27 19:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Tim O&amp;#x27;Reilly just published an essay arguing that AI is a medium, like photography or painting. His key line: &amp;quot;I judge the output, not the means used to produce it.&amp;quot;&lt;p&gt;He describes his own process: a 300-word prompt becomes a 660-word draft, which he rewrites into a 3,000-word essay. Maybe 40-50 words are Claude&amp;#x27;s. He&amp;#x27;s proud of how he uses AI. He says we&amp;#x27;re still in ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49469681" target="_blank">Show HN: OpenWand – A mission to remove chat interface from working with AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-08-27 19:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi everyone,&lt;p&gt;I&amp;#x27;m working on OpenWand, an &amp;quot;LLM chat interface&amp;quot; that is optimized for AI co-work.&lt;p&gt;Its function is to truly integrate AI into your workflow, so no more switching windows, no more copying context, less prompt typing. You can focus on working, not prompting.&lt;p&gt;You can think of it as a free Chatgpt (the interface&amp;#x2F;frontend) alternative for your everyday work.&lt;p&gt;I w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49469393" target="_blank">Anthropic Announces Hardware Interface Standard (Model Hardware Standard, MHS)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 1 comments |
+                2026-08-27 18:44 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49468960" target="_blank">Re: Show HN: My Claude quota ran out in 10 minutes, so...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-27 18:13 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I made an &amp;quot;amateur hour&amp;quot; error with Codex. Given Anthropic&amp;#x27;s recent reliability problems I thought I&amp;#x27;d take a little time to try Codex with their $20&amp;#x2F;mo plan. So I downloaded it and gave it a whirl, not realizing that the default model was gpt-5.6-sol. Well after just an hour or two, I blew through my entire week&amp;#x27;s quota. Whoops! It would be cool if these harnesses co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49468946" target="_blank">Re: I measured what my Claude.md, skills and hooks are...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-27 18:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This came out of a simple question I could not answer: after a Claude Code release, does my setup still do what I think it does?&lt;p&gt;My CLAUDE.md, a conventions skill and a guard hook are how code gets written on my projects now. Claude Code shipped 25 versions in the last 30 days, the model behind an alias changes with no changelog, and a teammate can edit a skill in a PR nobody tests. The only sig...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49468840" target="_blank">Re: Grok Bot for Linux: Unofficial port of the officia...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-27 18:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It would be funny if Grok Bot for Windows was used to port itself to Linux :)</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49468252" target="_blank">Tell HN: Man, AI is killing my brain</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                47 points | 22 comments |
+                2026-08-27 17:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I was among the last to resist, but then I was given a subtle hint that if I won&amp;#x27;t &amp;quot;improve my productivity and be on par with my colleagues&amp;quot; my work will be at risk. So I started to use Claude Code about a year ago. At first, I&amp;#x27;d give it small tasks, review every line it wrote, opened a proper PR, review again, ask questions, ask it to fix stuff I don&amp;#x27;t like.&lt;p&gt;But I saw ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49467702" target="_blank">Grok Bot for Linux: Unofficial port of the official app (open source)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                29 points | 9 comments |
+                2026-08-27 16:49 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

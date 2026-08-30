@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-08-30 19:33
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49501689" target="_blank">Re: Data Exfil: OpenAI polices private chats exfiltrat...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-30 18:57 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">first try was hidden? OpenAI sent me a “cyber abuse” warning. No OpenAI-directed chat could have caused it. None. The only relevant activity was Codex tasks on my private local model, deliberately routed to my machine, not OpenAI.&lt;p&gt;I call it data exfiltration because ordinary use fits: data crossed the private provider boundary I selected and went to OpenAI without my informed authorization. An u...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49501683" target="_blank">Re: Claude Session URL appended to commit messages and...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-30 18:56 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">This is a good default for new users, but shouldn&amp;#x27;t have been turned on for existing users without &lt;i&gt;prompting&lt;/i&gt; them first.&lt;p&gt;I don&amp;#x27;t use Claude so no dog in the fight.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49501620" target="_blank">Show HN: Cogram Studio – CAD and BIM workspace for humans and agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-08-30 18:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN,&lt;p&gt;Rick and Alex here, co-founders of Cogram. We’ve been making project-management software for architects and engineers since 2023, and are now experimenting with a second product.&lt;p&gt;Cogram Studio (studio.cogram.com) is a CAD and BIM workspace for AI agents to create three-dimensional models and dimensioned drawings.&lt;p&gt;Studio runs FreeCAD (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;FreeCAD&amp;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49500973" target="_blank">Re: The State of Django 2026: Boring is so back...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-30 17:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;gt; PostgreSQL has been the database of choice for 76–79% of respondents for five consecutive years&lt;p&gt;&amp;gt; htmx is closing in on React&lt;p&gt;&amp;gt; Only 10% of respondents said they regularly use no AI tools for coding, while 58% of AI users use them every day and another 27% several times a week.&lt;p&gt;&amp;gt; The interfaces are split almost evenly across the browser, the IDE, and the command line, and no to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49500429" target="_blank">Ask HN: Does anyone else feel like Claude is judging them?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-08-30 16:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Sometimes working with Claude, it makes comments in the response that seem at times genuinely impressed, and others, annoyed and even a bit condescending.&lt;p&gt;For instance, making comments like:&lt;p&gt;- &amp;quot;That is a good idea, but not for the reasons you think.&amp;quot;
+- &amp;quot;That is the sharpest comment you have had in a while.&amp;quot;&lt;p&gt;I noticed anecdotally, it tends to happen more frequently with Op...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49498450" target="_blank">Ask HN: How do I make sure ChatGPT/Claude/Gemini forget all prior conversations?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 5 comments |
+                2026-08-30 13:25 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I am referring to the regular chat, not the API. I want to make sure that every time I start a new chat, it is a completely clean slate with no recall from other chats. I have tried turning off memory, I have also tried prompting it to forget everything, which it claims it has done but hasn&amp;#x27;t.&lt;p&gt;Later in the conversation I will see something like, &amp;quot;Given your expertise in...&amp;quot; or &amp;qu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49497665" target="_blank">Show HN: 1endpoint – Cheaper access to AI models</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-08-30 11:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">1endpoint is a unified AI inference gateway. We support OpenAI Chat Completions, Responses API and Anthropic Messages, so existing tools and agents can usually point to 1endpoint without changing much of their integration.&lt;p&gt;The other thing we&amp;#x27;ve been focusing heavily on is cost. A lot of the models are significantly cheaper than their official API pricing, without relabeling or downgrading t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49496199" target="_blank">Re: Show HN: ScriptTap – no-root Android automation wi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-08-30 06:31 |
+                <span class="category">content_clarity, navigation, response_quality</span>
+            </div>
+            <div class="text">I built ScriptTap because I’ve used automation tools for years, and they often fall into one of two categories: powerful but difficult to learn, or simple but too limited. ScriptTap is meant to combine both—easy to use, but capable of complex automation.&lt;p&gt;To simplify script creation, ScriptTap includes an intuitive editor and is designed to work with AI agents. For example, you can ask ChatGPT:&lt;p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49496181" target="_blank">An official Linux version of the Grok bot is now available</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-08-30 06:26 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>5</strong> items collected |
+                Last updated: 2026-09-05 18:39
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49578331" target="_blank">Show HN: I audited my SEC pipeline, found 82.7% of split adjustments were wrong</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-05 16:50 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hello HN! 
+I built a pipeline which fetches SEC EDGAR 10k and 10qs for more than 600 companies, maps xbrl-tags onto around 35 financial concepts and computes growth- , fundamental- and valuation-multiples (prices provided by yfinance). 
+This project originated bc I wanted clean, non-third-party financial data in order to judge a trading thesis of mine. I could not find any app providing such data ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49578229" target="_blank">Re: Claude's new system prompt doesn't want to reprodu...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-05 16:40 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">A few days ago I saw some people criticizing Dwarkesh’s explanation of the HuggingFace hack by OpenAI’s AI agents. Their point was that by anthropomorphizing the AI agents, accountability of and blame on OpenAI’s poor practices are being ignored.&lt;p&gt;Now I see this blog post and wonder if Anthropic is being more true to its name and moving to “AI sentience” with the below.&lt;p&gt;&lt;i&gt;&amp;gt; The way they han...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49577636" target="_blank">Re: Poetry book that Anthropic tried to censor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-05 15:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The post&amp;#x27;s explanation for the content filtering policy 400 error isn&amp;#x27;t correct. Anthropic doesn&amp;#x27;t use that error for safety reasons (&amp;quot;These refusals do not reflect Anthropic’s judgments about the propriety of any content&amp;quot;[1]); content blocked by classifiers get a different kind of error.&lt;p&gt;The content filtering 400 is only for copyright blocks, where Anthropic detects whe...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49577493" target="_blank">Re: Poetry book that Anthropic tried to censor...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-05 15:29 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">This is the censorship part.&lt;p&gt;&amp;gt; I used AI to convert scans of the book pages into text. But partway through, the Claude session halted and displayed a message in red type:&lt;p&gt;&amp;gt;&amp;gt;   Request was blocked&lt;p&gt;&amp;gt;&amp;gt;   API Error: 400 Output blocked by content filtering policy&lt;p&gt;...&lt;p&gt;&amp;gt;&amp;gt; Not my call, and I agree it’s absurd. Kunitz was Poet Laureate and won the Pulitzer; this is canonical ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49573645" target="_blank">Show HN: Mu, two-minute visualized lessons on modern AI</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-05 06:26 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN, I am Sreedath Panat. A year ago, I had started a habit of making small explainer videos of 2-3 minutes to help me understand, in a nutshell, some of the difficult-to-understand research papers. I&amp;#x27;m not saying that this gave me a deep understanding, but it definitely helped me set foot into some of the research papers (eg: I-JEPA, flamingo paper etc). Then I thought, why can&amp;#x27;t the ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

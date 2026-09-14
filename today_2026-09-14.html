@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-09-14 20:45
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49703456" target="_blank">Re: A Beginning for Mathematics...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 20:28 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The author argues for evaluating Ph.D. candidates based more on the oral thesis defense than on the actual thesis.&lt;p&gt;By essentially the same reasoning, I’ve been arguing for prioritizing in-person design&amp;#x2F;code reviews over code-only async PR comments.&lt;p&gt;The important thing is to verify that the human has a coherent design in mind and can demonstrate that it got implemented, regardless of who o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49703409" target="_blank">Re: GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Goo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 20:24 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">I have been writing an internal code review tool that is a bit maximalist. I created subagents for many internal domains and technologies we manage, with prompts focused on best practices, common problems, owasp guidelines, etc), a separate tier of wider band subagents (design, rollout, security&amp;#x2F;privacy), and a final agent at the top orchestrating and combining. I also use adversarial validat...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49703353" target="_blank">Re: GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Goo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 20:20 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I was using Copilot Code Review pretty religiously for a while, as I get access for free (the $10 plan) due to my Open Source work, but it recently introduced a monster of a misfeature that caused a massive increase in complexity over time, while I wasn&amp;#x27;t paying close enough attention to it. Every subsequent model saw that change and the explanation for it in the changelog and assumed it was ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49702887" target="_blank">Show HN: Slowave – local adaptive memory for coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-14 19:49 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I started building Slowave because I kept running into the same problem with coding agents: every new session has the codebase and some documentation but not the context behind it, decisions that brought you there and especially the thinking process behind the code.&lt;p&gt;Most memory system solutions focus primarily on the storage and retrieval aspects (vector search&amp;#x2F;RAG&amp;#x2F;graphs&amp;#x2F; Markdow...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49702729" target="_blank">Re: Pion, an agent designed to run any company autonom...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 19:38 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I am in the process of attempting to have AI run my business. I&amp;#x27;m actually making very good progress, but it&amp;#x27;s happening in pieces - I document some task and have it take over, or I give it something to handle while staying in the loop and providing feedback until it&amp;#x27;s in good shape. At this point it&amp;#x27;s handling large swathes of my operations, marketing and finance.&lt;p&gt;The experi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49702360" target="_blank">Ask HN: Anyone creating their own entertainment?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 3 comments |
+                2026-09-14 19:13 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">This week I kept hearing animated sounds from my wife&amp;#x27;s phone while she played a new puzzle game. She very quickly got upset with the app after it started demanding she watch more ads to continue playing.&lt;p&gt;Last night, Claude recreated the app - a single HTML page with a daily challenge, all-time stats, as many generated puzzles as she wants without ads. Oh and it&amp;#x27;s cat themed this time ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49700879" target="_blank">Re: Will AI push programming to lower level abstractio...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 17:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Elon Musk recently said Grok 4.7 needs a few more days, but what caught my attention is that Grok 4.8 is being trained with a new C++ software stack. Earlier he also mentioned rewriting the training&amp;#x2F;inference stack in C&amp;#x2F;C++, removing many software layers and mapping it more directly to hardware.&lt;p&gt;This made me wonder: as AI writes more and more code, will we gradually move away from abst...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49700165" target="_blank">Re: Claude is a Contrarian...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 16:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I feel like recent versions of Claude were designed to burn tokens.
+It is always trying to highlight and revisit solved issues and it writes about them in an alarming way to draw your attention.&lt;p&gt;It feels like it has been prompted to provide some minimum level of conversation, and also to leave hooks for keeping the conversation going. It is exhausting.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49700077" target="_blank">Re: Claude is a Contrarian...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 16:54 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I work with Sol and Astra only in my daily work, and occasionally I check out Claude Code so I don&amp;#x27;t get completely out of touch.&lt;p&gt;I can&amp;#x27;t stand the way Opus is patronizing me as a user, and don&amp;#x27;t know how people put up with it. It uses language that I guess is supposed to instill confidence in what it says, and it just irks me, because I know the confidence is not justified. Just ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49699838" target="_blank">Re: 'Project Lily': The Humans Reading Your ChatGPT Ch...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 16:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">&amp;gt; “No,” someone who works with the prompts said when asked if they think ChatGPT users know that humans are reading their chats. “I don’t think they would imagine some contractor somewhere [...] is analyzing the conversations.”&lt;p&gt;&amp;gt; 404 Media asked OpenAI if it had explicitly told users that humans may review their prompts in order to improve ChatGPT’s responses, and if so, to point to where ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49699819" target="_blank">Show HN: Biloba: fast and stable Chrome-based browser tests in Go and Vitest</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 1 comments |
+                2026-09-14 16:41 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I wrote Ginkgo and Gomega over a decade ago.  Biloba&amp;#x27;s the browser-testing library I&amp;#x27;ve always wanted.  It&amp;#x27;s 2-3x faster than playwright and allows you to write expressive parallelizable browser tests and automations in Ginkgo and Gomega (for Go) and Vitest (for TypeScript).&lt;p&gt;Pragmatic atomic Javascript operations (b.Click(&amp;quot;#foo&amp;quot;) =&amp;gt; foo.click()) give you speed and sta...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49699287" target="_blank">Show HN: AgentDrive – persistent, versioned file storage for AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 3 comments |
+                2026-09-14 16:09 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We’re opening the private beta for AgentDrive, a persistent file&amp;#x2F;workspace layer for AI agents.&lt;p&gt;AgentDrive gives agents:&lt;p&gt;- Versioned artifacts and folders
+- Hosted MCP access for coding agents
+- Direct upload sessions for larger files
+- Share links and controlled public publishing
+- Workspace-scoped authorization and auditability
+- Many supported file formats such as MD, HTML, JSON, image...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=49698104" target="_blank">Re: More Money Than They Ever Imagined–and No Clue How...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-14 15:01 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I would like to see it go into more philanthropic endeavors. Of  course, setting aside for a reasonably comfortable future is important also. Some luxuries are always nice but are they really going to be that great when you get old enough to need assistance and there is no one around with the time or education to help.</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

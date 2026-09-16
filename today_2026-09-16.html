@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>10</strong> items collected |
+                Last updated: 2026-09-16 19:48
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49731903" target="_blank">Re: Claude Cowork and chat are now one Claude...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-16 19:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The problem is that knowledge workers just need the simplest way possible to automate their work. Currently I feel like Anthro is overcomplicating this. If I&amp;#x27;m an accountant, I want to open Claude App, describe my workflow for balancing some books, then have Claude design a reusable WORKFLOW that it runs whenever I ask. The workflow only needs 2 primitive skills to do anything: &amp;#x2F;work, an...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49731688" target="_blank">Re: The DeepMind Institute...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-16 19:24 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Here&amp;#x27;s my opinion on the &amp;quot;pacing the frontier&amp;quot; issue. Recursive self improvement can accelerate AI advances a lot. Whoever nails it first, has a huge first mover&amp;#x27;s advantage. But OpenAI is taking a &amp;quot;move fast and break things&amp;quot; attitude. This is making life very difficult for Anthropic: how can you retain your edge when you keep measuring twice to cut once, but your co...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49730399" target="_blank">Anthropic to fold Claude AI features into one interface, launches document tools</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-16 17:38 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49730393" target="_blank">Show HN: An ObjC-like compiler for Mac ARM, x86_64(Linux, Win), WASM, &amp; others</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-16 17:37 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi folks,&lt;p&gt;So this is my announcement of a compiler[1] I&amp;#x27;ve been working on for about 6 months now (so yes, to get the obvious out of the way early, this was written with Claude code).&lt;p&gt;The compiler is called &amp;#x27;xc&amp;#x27;, stands for &amp;#x27;cross-C&amp;#x27; or &amp;#x27;extended-C&amp;#x27; or whatever you want, really. It&amp;#x27;s fairly similar to Objective-C in style (without the [] brackets), and i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49730388" target="_blank">Where's My Alien Mind?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-09-16 17:37 |
+                <span class="category">naming_terminology, tone, response_quality</span>
+            </div>
+            <div class="text">If we are about to achieve the AI rapture and models are solving Millennium Prize Problems, where is my AGI??? I just tried for weeks to write a simple paper with Claude and even though I put a ton of effort in context engineering, material collection and prompting it degraded quickly into an unintelligible mess of a word salad. Mind you that was with Fable 5.1, a model that supposedly is so sharp...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49730108" target="_blank">Re: Claude Cowork and chat are now one Claude...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-16 17:18 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi, this is my team! Happy to answer any questions.&lt;p&gt;There&amp;#x27;s a lot in this launch, but the core idea is to simplify the product while giving users access to more capabilities. You no longer need to know ahead of time how much work a conversation might involve. If you&amp;#x27;re at your computer, Claude can use your local files and apps. If you close your laptop, Claude can keep working on its o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49729796" target="_blank">Show HN: Ivx/AI Chat, AI client that doesn't track you (with a better GUI imo)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-16 16:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Since ChatGPT started pushing ads and somehow my instagram reels started getting more and more related to what I talked with ChatGPT, I decided to get rid of it for good. So I built ivx&amp;#x2F;ai Chat. I know there are many many chat interfaces out there already but this one is special. It is built exactly around what I personally prefer. It is a lightweight, browser-based client with no backend, no...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49729683" target="_blank">Show HN: OpenDocBot – bring your own model to Word, Excel and PowerPoint</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-09-16 16:46 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I got tired of the lock-in and black-box nature of AI inside MS Office. One vendor decides which models you can use, where your document data goes, and what the agent is actually allowed to do. And when it fails, you can&amp;#x27;t see the code or send a PR to add a feature you may need.&lt;p&gt;Many people don&amp;#x27;t have that choice: they&amp;#x27;re forced to use these tools (MS Office) at work. For coding a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49728782" target="_blank">Re: Show HN: SeasonMap – when to travel where? visuali...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-16 15:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Author here. I&amp;#x27;m trying to visit every country and I&amp;#x27;ve been to 158 so far.&lt;p&gt;Before I decide where to travel, I&amp;#x27;d ask a local friend which season to avoid, or open up dozens of browser tabs on climate data to figure out what the place is like in a given month.&lt;p&gt;Climate data still miss things. Cancun in September looks great on paper, with 31°C and 10 hours of sun, but it&amp;#x27;s hu...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49728525" target="_blank">Show HN: Blue – open-source governance for coding agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-16 15:27 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN,&lt;p&gt;After migrating to an inference gateway to serve internal usage across an organization, problems have started to pop up. Once you detach from a managed ecosystem such as OpenAI or Anthropic you lose governance capabilities that makes the transition difficult.&lt;p&gt;- Losing access to a central plugin hub for delivering MCPs, skills, etc. A gateway can sort of do this but has low compatibilit...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

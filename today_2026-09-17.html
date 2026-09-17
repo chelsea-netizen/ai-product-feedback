@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>10</strong> items collected |
+                Last updated: 2026-09-17 19:56
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49745351" target="_blank">Show HN: MCPJam - the first testing &amp; evaluations platform for MCP servers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 1 comments |
+                2026-09-17 19:23 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">Prathmesh, CEO of MCPJam here.&lt;p&gt;Users now start in ChatGPT, Claude, Cursor, and other AI clients. They reach your product through your MCP server.&lt;p&gt;That means your users often aren’t in your product anymore. You can’t see what they prompted for, how the agent interpreted it, or whether your server helped them get the result they wanted.&lt;p&gt;I saw this firsthand leading MCP technical strategy at As...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49745346" target="_blank">Re: Launch HN: Skillsync (YC W26) – AI chat sessions m...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-17 19:23 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">This is really cool, especially in a world where you&amp;#x27;re using Claude as a workhorse, but want to be able to bring the entire session context into Codex so you can draft communications with full context but without Claude-isms. (You can train Claude to spawn e.g. a Codex session, but Codex wouldn&amp;#x27;t know what to ask for from the broader context, beyond the prompt Claude gives it.)&lt;p&gt;And sh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49744429" target="_blank">Re: Launch HN: Skillsync (YC W26) – AI chat sessions m...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-17 18:08 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I was thinking about doing this. If we treat ChatGPT like your local llm server, you basically open up a browser session, intercept all traffic  and stick a local OpenAI compatible rest server that mutilates your input upstream through the ChatGPT ui, and then intercepts downstream and pushes it out your server.&lt;p&gt;API call to server&lt;p&gt;Then&lt;p&gt;Server leverages chrome plugin to send your llm call thr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49743818" target="_blank">Anthropic opens first office in Spain, Madrid in response to strong local demand</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-17 17:23 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49743813" target="_blank">Whoever's doing OpenAI's system security is just incompetent in the worst way</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-09-17 17:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We&amp;#x27;re at what, 50 years of computing, and these people don&amp;#x27;t seem to know how to air gap a system?&lt;p&gt;It is pretty simple to prevent a rogue AI from hacking a third party. Make the system air gapped completely. You want a cache of internet or artifacts, you bring those into the air gapped data center, plug in, copy. You want info out, you go in, you collect, and inspect the inert data out...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49742570" target="_blank">Re: OpenAI's Misalignment Framework: A Tactical Bid to...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-17 15:49 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">OpenAI and Anthropic should be nationalized. I find it difficult to trust Sam Altman or Dario Amodei.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49741488" target="_blank">Re: I had Gemini train its own replacement for $9...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-17 14:38 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">The other day I wanted to gather Reddit comments about a solar panel vendor.  Claude doesn&amp;#x27;t have access to I had Gemini do some &amp;quot;deep research&amp;quot;.  When I fed the verbose report back to Claude it basically said it was a bunch of &amp;quot;hallucinated bullshit&amp;quot;.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49741059" target="_blank">Show HN: Pingularity – scheduled Ookla/iperf3 speedtest dashboard, outage alerts</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-17 14:12 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I was having intermittent issues with my ISP after switching and was looking for something that would let me easily trend downtimes, speed tests, and latency, but the existing projects out there (speedtest-tracker, myspeed, netcheck, etc.) lacked a few things I needed. I gradually put together my own, it&amp;#x27;s simple to install and supports Linux, macOS, Windows, and Docker.&lt;p&gt;Interactive demo wi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49740727" target="_blank">Re: I had Gemini train its own replacement for $9...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-17 13:49 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Request subtopic be changed to “I used Gemini to design a tool to replace specific uses of Gemini.”</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49740575" target="_blank">Show HN: I built a simple couples app that explores a new way of connecting them</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-09-17 13:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello HN.&lt;p&gt;I built my first serious mobile (OS - Android) application, Lune. Before I tell you about it, I wanna tell you the backstory in short:&lt;p&gt;One day I woke up from a bad dream and had an instant anxiety attack (I don&amp;#x27;t get those easily). I needed to call someone I love in that moment, but it wasn&amp;#x27;t practical given the time of the day. I just needed a way to feel that person&amp;#x27;...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

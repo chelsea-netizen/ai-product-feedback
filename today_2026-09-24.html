@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-09-24 20:12
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49835741" target="_blank">ChatGPT is my (new) GTD interface</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-24 19:31 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49835257" target="_blank">Re: Is A.I. Above the Law?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-24 18:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The level of technical understanding of journalists is so deplorably low… There is no rogue agents. That’s not a thing. Nothing about the HuggingFace incident has anything to do with an agent going rogue. It’s standard software that resulted in a hack, which is pretty much the expected output of the system OpenAI engineers implemented.&lt;p&gt;The company is obviously responsible for what their systems ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49834964" target="_blank">Show HN: Radix – Visual UI for agentic programming</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                14 points | 14 comments |
+                2026-09-24 18:35 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Jordan from Radix.&lt;p&gt;Radix is a UI tool for programming agents. You prompt your agent to generate a workspace for a task you&amp;#x27;re working on and get an interactive widget that persists locally on disk.&lt;p&gt;I built Radix because I always needed tools while I was writing code: tools to test little experiments, to play around with UI, to visualise results etc. Sometimes these would ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49834098" target="_blank">Show HN: Critic – Review code with the agent that wrote it</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-24 17:35 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Shreyash from Feyn. We help companies build custom models from their data. Today we&amp;#x27;re releasing Critic, a change review platform that lets you engage directly with the AI that wrote the code.&lt;p&gt;Agents write most of our code. While that has made us more productive, understanding a change and its consequences has become incredibly difficult. As our company adopted more agentic...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49833867" target="_blank">Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                114 points | 36 comments |
+                2026-09-24 17:21 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard, an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;devdotfast&amp;#x2F;whiteboard&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;devdotfast&amp;#x2F;whiteboard&lt;/a&gt; and our homepage: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;whiteboard.d...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49833248" target="_blank">Show HN: Blackbear.app – Thoughtful, Private Collaboration</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-24 16:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello! My name is Rheisen (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;rheisen.me&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;rheisen.me&lt;/a&gt;) and I’m the founding engineer &amp;#x2F; creator of &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;blackbear.app&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;blackbear.app&lt;/a&gt;. For the busy, here is the quick version of what Blackbear is: A private collaborative workspace. Completely free for single devices, $2&amp;#x2F;mo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49831744" target="_blank">Show HN: Are My ETFs Overvalued? Daily ETF insights and comparisons tool</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-24 15:13 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">I built ETF Copilot (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;etf-copilot.com&amp;#x2F;go&amp;#x2F;show-hn&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;etf-copilot.com&amp;#x2F;go&amp;#x2F;show-hn&lt;/a&gt;) as analytical support for my own investing. It answers what financial screeners and platforms do not: which valuation, growth, quality and risk metrics matter for each ETF, and how do they compare to own history and peers. It covers 1,000+...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49831231" target="_blank">Show HN: PlaceCall (YC W26) – agentic API to call businesses and get things done</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                15 points | 3 comments |
+                2026-09-24 14:36 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, this is Yarik and Vlad from VOYGR - we are building the tools for agents and apps to engage with local businesses.&lt;p&gt;It all started with our own pain point at VOYGR: calling businesses to verify if they are open. We are both from Google (Maps and Search) and even there, the merchants and venues don’t keep this info updated. So we built an API and started using it in-house.&lt;p&gt;On July 4th, we...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49830471" target="_blank">Show HN: I built a Tooling gateway for Claude Code that manages Approvals for me</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-24 13:43 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Sooner or later I auto-approve every tool call in my Claude Code session.&lt;p&gt;Still a strange feeling to basically give the AI Agent the full power of doing whatever on my PC.&lt;p&gt;So I started to build an AI Coding Tool Gateway that intercepts any tool call from my Claude Code Sessions and matches it with a defined list of rules.&lt;p&gt;In an local dashboard I can see all activity logs and add safe command...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

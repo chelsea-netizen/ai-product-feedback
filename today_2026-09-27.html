@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>12</strong> items collected |
+                Last updated: 2026-09-27 19:55
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49870007" target="_blank">Show HN: Squint – Drag a box on your screen and ask AI about it</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-09-27 19:29 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">It improves the usual workflow: take a screenshot, switch to a chat tab, upload it, switch back.
+- Built with Rust and Tauri v2, including a built-in native screenshot solution for maximum performance and stability.
+- Answers come from OpenAI models. Fast, the default, usually starts answering within 1–2 seconds; Best is slightly slower, but provides a much higher quality response.
+- Free is 3 cap...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49869508" target="_blank">Show HN: Orglet, an open source desktop app for your own team of cute AI workers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-27 18:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I’m building Orglet, a desktop app where you give AI workers (I call them orglets, and they are cute) their own instructions and talk to them individually or together in a group chat.&lt;p&gt;You can build your own army of orglets using your existing Claude Code or Codex subscription, an API provider, or even locally hosted models.&lt;p&gt;Like other agent harnesses, orglets can access a working folder you gi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49869237" target="_blank">Ask HN: What am I missing with Siri AI?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-09-27 18:12 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I have a lot of experience with LLM’s and have seen them become very good at interacting with tools within an environment. I’m truly amazed at how poorly the new Siri is at handling very basic requests for basic interactions with different parts of the ecosystem. I’m really beginning to question whether LLM technology is being leveraged at all here.  What am I missing with this? I have tons of exa...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49868510" target="_blank">Appeals Court Lets The Pentagon Designate Anthropic a Supply-Chain Risk</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-27 17:01 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49868462" target="_blank">Re: Is this what SW eng has come to...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-27 16:56 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">If you use open weight models, you can run several agents for the same budget. From what I&amp;#x27;ve seen of Claude, there is no difference for most daily work. Claude makes many mistakes too. The real thing that sets open weights appart is that you can leverage multiple model families from the same token vendor. Using multiple families has outsized impact imo. Like... don&amp;#x27;t have Claude review ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49867905" target="_blank">Show HN: swe-mux – A terminal multiplexer for coding agents optimized for mobile</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-27 16:02 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I run a lot of coding agents at once, mostly Claude Code, Codex and pi, across several projects. I got tired of having so many windows open, of agents leaving hung processes behind, of tracking which one needed input, and of having to remote into my desktop or SSH into a single shell to manage them from my phone. Even then, a terminal on a phone couldn&amp;#x27;t show me the frontend or output I neede...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49865950" target="_blank">Re: Show HN: Aldine. Self-hosted Overleaf alternative....</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-27 12:04 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Toby. While working on a research paper earlier this year, I got progressively frustrated with the available LaTeX editors. Most need a paid subscription service to enable proper collaboration, are clunky, and shove distracting non-features in your face.&lt;p&gt;This is why I built Aldine. It is a collaborative LaTeX editor that you can run yourself: two containers, every project as a gi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49865642" target="_blank">Re: Ask HN: What does your AI workflow look like?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-27 11:15 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Feeling behind is natural, there&amp;#x27;s far, &lt;i&gt;far&lt;/i&gt; more tools out there than accounted for. The main thing is to ask yourself how do &lt;i&gt;you&lt;/i&gt; work and what&amp;#x27;s needed for your goals, projects, etc. I&amp;#x27;m personally not quite there is letting the ai go autonomously, like if I&amp;#x27;m working on paper I have it connect to zotero so I have a list of what&amp;#x27;s being cited. I think a lot ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49865248" target="_blank">Ask HN: What does your AI workflow look like?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 4 comments |
+                2026-09-27 10:11 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">With the recently released models and various open source tooling like harnesses or even solutions such as Graphify (is anyone actually using this?) or the death of OpenClaw I feel rather behind with regards to how I apply AI during my day to day engineering tasks.&lt;p&gt;The goal for this post is then therefore to act as a probe into what the public considers as standard&amp;#x2F;best practices when worki...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49864439" target="_blank">Show HN: A Simple GPU Job Scheduler</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-27 08:08 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi guys,&lt;p&gt;A few months ago, I&amp;#x27;ve been training several simple models as a side hobby. I tried training N models at once on a single GPU, but OOM spikes kept crashing my runs. So I built my own simple way to manage this kind of training. At the time, I also wanted to make some sort of interface that AI agents could use to dynamically allocate GPU resources and train models on their own. It&amp;#x...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49863884" target="_blank">Show HN: Wet Bulb Tracker Tracker – sends you humid-heat alerts and forecasts</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-09-27 06:22 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">HN users may mostly know Wet Bulb Temperatures through Chapter 1 of &amp;#x27;Ministry for the Future&amp;#x27; set in India. Well, the topic was close to home, so I built something for myself.&lt;p&gt;Where I live, the difficult dry summer heat usually peaked in May&amp;#x2F;June, but now seems to extend into September.&lt;p&gt;I grew up with 100F &amp;#x2F; 37C summers, sometimes reaching 110F &amp;#x2F; 43C, and temperatures ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49863766" target="_blank">Re: Show HN: Jauvex, one app for Claude+Codex+Grok+Jev...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-27 06:01 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi author here, I&amp;#x27;ve been working day &amp;amp; night over the last week building Jauvex, haven&amp;#x27;t been so obsessed about building something in a while.&lt;p&gt;I originally started this project as a two-way voice chat for Claude, because I&amp;#x27;ve been missing that from Codex, which has a great voice chat. I really enjoy talking to my computer and orchestrating agents that way instead of typing.&lt;p...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

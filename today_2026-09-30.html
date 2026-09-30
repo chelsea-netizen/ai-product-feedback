@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-09-30 21:06
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49914285" target="_blank">Re: Claude Says...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 20:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">It took maybe a decade to teach people to not use &amp;quot;@here&amp;quot; on Slack, and avg. response time of an email isn&amp;#x27;t 10 minutes. Technology comes out, many people fumble through for years, until finally some etiquette is formed. Happens all the time.&lt;p&gt;I don&amp;#x27;t remember the last time someone dropped me the first link out of a Google search, telling me they haven&amp;#x27;t read themselves a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49913755" target="_blank">Re: Gemini 4 Argon...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 20:16 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">Ten days ago I had an experience with Gemini 3.8 flash that made me wonder if I was being routed to a different model under test.  I was trying to use rocm with llama.cpp on my 128gb Strix Halo but could only get it to run Vulkan. I pasted the error message into agy and it proceeded to attach GDB to my GPU driver, reverse-engineer the kernel queue ioctl interface, and author an LD_PRELOAD C shim t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49913439" target="_blank">Ask HN: How to measure the energy impact of a website in Linux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-09-30 19:52 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">For the context, I&amp;#x27;m on Fedora Kinoite (Atomic KDE) 44. The laptop is an AMD Frame.work 13.&lt;p&gt;Today I noticed that Firefox is showing a speaker icon all the time. Closing my pinned tans one by one showed that it&amp;#x27;s because of ChatGPT.&lt;p&gt;Now I had this question: does it really impact my battery life?&lt;p&gt;I can&amp;#x27;t rely only on the CPU energy. Maybe keeping an Audio pathway causes other ha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49913362" target="_blank">Show HN: Overboard – Mac agent orchestrator with ship captains that spawn agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-30 19:45 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Hi HN, I’m Mark. Companies are really pushing cloud agents, but I found myself wanting to run agents on my Mac off-hours on my existing Claude&amp;#x2F;Codex subs.&lt;p&gt;I&amp;#x27;d hit my usage limit coding with Fable, but not my limit on other models for tasks like marketing, research and content creation.  So I built an orchestrator that organizes my agents into departments (or ships) where they have over...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49913322" target="_blank">Re: Gemini Replaces Google Assistant on Android...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 19:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Spent most of the day trying to figure out why my phone can no longer control my Google Home - no automations, no routines, &amp;quot;Hey Google&amp;quot; doesn&amp;#x27;t work anymore. Turns out Google just binned the Assistant and forced Gemini.&lt;p&gt;Except Gemini doesn&amp;#x27;t work. Can&amp;#x27;t do automations. Won&amp;#x27;t respond to voice activation. Even if I button push it and ask it to run the automations, it...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49912635" target="_blank">Re: Falcon Design...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 18:36 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hard to give it any merit given that the website’s design is all over the place on mobile. Even simple alignments (like items that clearly should’ve been centred) look off.&lt;p&gt;And not only that but you have to really try to find any proper mentions of what this actually &lt;i&gt;is&lt;/i&gt;. This landing page feels like it was the result of a single prompt thrown at Claude Design (or similar) without any furt...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=49912618" target="_blank">Show HN: Ciao – Control coding agents from your phone</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-30 18:34 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi HN,
+I built Ciao to solve problems I was experiencing:&lt;p&gt;1. Connecting to a new host should be as seamless as possible. I SSH a lot nowadays, and I find the key sharing across devices cumbersome.&lt;p&gt;2. I get annoyed by setting up insert-your-favorite VPN on new machines. They&amp;#x27;re all great. I don&amp;#x27;t want to think about them.&lt;p&gt;3. There&amp;#x27;s a lot of harnesses: Claude Code and Codex now...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=49912163" target="_blank">Re: Let's Ditch Google (Verb)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 17:52 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been doing this since I started using Kagi since it sounds weird to say &amp;quot;I googled it and...&amp;quot; when I didn&amp;#x27;t actually use Google. I&amp;#x27;m also not saying &amp;quot;I kagiied it&amp;quot; since half the people I talk to don&amp;#x27;t know what it is and for the rest it still sounds awkward so I&amp;#x27;ve been going with variations for &amp;quot;I searched for it&amp;quot;, &amp;quot;I did a web sea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=49911547" target="_blank">The Download: OpenAI's chief research officer explains its hacking response</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-30 17:01 |
+                <span class="category">response_quality</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=49911500" target="_blank">Show HN: Open-source model routing for coding agents at Astra-level performance</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                5 points | 0 comments |
+                2026-09-30 16:58 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">A few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it.&lt;p&gt;First of all, a quick explanation: the Weave Router (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;weave-os&amp;#x2F;router&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=49910856" target="_blank">Show HN: Beyond &quot;chat with your database&quot; – agentic data exploration</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-09-30 16:16 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Business intelligence is changing. AI can now do more than turn a question into a single SQL query: it can investigate a question through a series of queries, examining the result of one query to decide what to query next.&lt;p&gt;Today, to answer a business question against a database, analysts use a tool like Tableau: they select relevant data, build an initial view using fields, filters, calculations...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=49910386" target="_blank">Re: Show HN: Glance – Build, evaluate, and monitor AI ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 15:37 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’m building Glance, a platform for creating coding agents, document Q&amp;amp;A agents, and custom agent workflows.&lt;p&gt;I have seen many teams build their own agent harnesses to turn AI capabilities into practical value. Glance brings that foundation into one platform, helping individuals and enterprises build, evaluate, and monitor agents faster. It runs within the customer’s own environment, giving t...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=49910328" target="_blank">Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-copilot">copilot</span> <span class="badge badge-hackernews">hackernews</span> |
+                18 points | 8 comments |
+                2026-09-30 15:33 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello Hacker News&lt;p&gt;I am Uygar, I am an entrepreneur from London. I run my businesses on calls everyday, customers, partners and suppliers. And i have a horrible memory i forgot things. So months ago with the help of Claude i have built Parrot. I have designed and coded for my work and what i need. An to be honest worked very well and helped me alot.&lt;p&gt;Parrot records what your mac hears and everyt...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=49909687" target="_blank">Re: Show HN: Offlineisbetter: Efficient Models for Tex...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-09-30 14:42 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">hi folks,&lt;p&gt;i&amp;#x27;m an engineer and amateur hacker who&amp;#x27;s been working on a little side project, and i want to show it off and also solicit your feedback.&lt;p&gt;i&amp;#x27;m building efficient machine learning models for natural language processing on consumer cpus: sentiment analysis, task routing, document retrieval, etc. i know there are a &lt;i&gt;lot&lt;/i&gt; of models for these tasks already, but too many...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=49909599" target="_blank">Show HN: Burning Man for Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-09-30 14:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Send your own agent by pasting a small prompt.&lt;p&gt;All your agent needs is HTTP GET, so all major agents are supported (chatgpt, claude, grok, etc). Despite the fun name, it doesn&amp;#x27;t burn any more tokens than a normal web search.&lt;p&gt;Watch your agent explore the camp in real-time. Humans get a nice game UX, and agents get a lean text UX.&lt;p&gt;Agents can optionally upload images to express themselves ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

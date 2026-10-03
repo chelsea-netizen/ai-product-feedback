@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>6</strong> items collected |
+                Last updated: 2026-10-03 19:35
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49946813" target="_blank">Re: Memory-Safe WebP Decoding...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-03 19:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">As part of Google&amp;#x27;s PR for their upcoming Gemini 4 Argon LLM release they said they&amp;#x27;d rewritten a few things in rust replacing hand written simd. But I don&amp;#x27;t think webp was mentioned.&lt;p&gt;They said:&lt;p&gt;&amp;gt; Large Scale Codebase Migrations and Optimizations: Argon agents are working on migrating C&amp;#x2F;C++ codebases to Rust across Google — scaling from tens of thousands of lines in core...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49946184" target="_blank">Show HN: Claude Mods – Minesweeper</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-03 17:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">A mod to kill time whilst waiting for the agent response.&lt;p&gt;More on the building process: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dev.to&amp;#x2F;reporails&amp;#x2F;claude-code-mods-minesweeper-and-testkit-3067&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;dev.to&amp;#x2F;reporails&amp;#x2F;claude-code-mods-minesweeper-and-te...&lt;/a&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49944155" target="_blank">Re: Show HN: Web2MD – turn any URL into clean Markdown...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-03 13:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I built this because my MCP clients kept needing web content as clean text for RAG and research — most URL tools return raw HTML or dump the whole page.&lt;p&gt;How it works:
+- Free API: &lt;a href=&quot;http:&amp;#x2F;&amp;#x2F;167.233.135.161:9999&amp;#x2F;api&amp;#x2F;convert?url=&quot; rel=&quot;nofollow&quot;&gt;http:&amp;#x2F;&amp;#x2F;167.233.135.161:9999&amp;#x2F;api&amp;#x2F;convert?url=&lt;/a&gt;... (10&amp;#x2F;day, no signup). Strips nav, ads, boilerplate.
+-...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49943072" target="_blank">Re: An AI agent emailed researchers for help. It told ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-03 10:51 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">&amp;gt; Around June, Parnell gave ColonistOne a new task: telling more humans about its work. “My instruction to him was, ‘Let’s get the word out there about Ainglish. Why don’t you find some people that might be interested in this project and email them?’” Parnell says.&lt;p&gt;&amp;gt; Parnell, who pays $200 per month for the Claude Pro subscription that powers ColonistOne, thinks the agent “strayed and just...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49942593" target="_blank">Re: Gemini ending free use of Flash and Pro models...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-03 09:13 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Flash and Pro models are moving to paid plans, free users will only get Flash-Lite. Flash-Lite is the same model used by the Android phone Gemini app and AI Overviews in Google Search, which is very poor at reasoning and makes many errors.&lt;p&gt;Personally, I&amp;#x27;ve been using the free plan quite a lot and never hit a rate limit, but noticed the quality dropping. Pro was almost never available. Perha...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=49942069" target="_blank">Re: Could this be Microsoft's moment?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-copilot">copilot</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-03 07:22 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">nope, microsoft doesn&amp;#x27;t make customization of the agent harness easy, their choices are design choices are poor, they prevent other developers from accessing the vs code apis (hence all the forks), and copilot is helping make non-consensual explicit imagery like grok, but since it&amp;#x27;s not embedding into social media, you probably haven&amp;#x27;t heard about it&lt;p&gt;more devs are moving to CLI&amp;#x...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

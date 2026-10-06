@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>5</strong> items collected |
+                Last updated: 2026-10-06 21:21
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=49983772" target="_blank">Re: Berthd...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-06 20:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">The more time goes on the more I think there is basically no moat in AI products because everyone is literally building the same shit. There is zero creativity in AI product right now. Yeah they might be different designs, but they are all the same exact product under the skin.&lt;p&gt;Cursor, Devin, Factory, Amp Code, Codex, Claude Codex, Antigravity, Conductor, OpenCode, T3 Code, Orca, Emdash, and hun...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=49981704" target="_blank">Re: Utah to let AI examine patients and prescribe medi...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-06 17:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is the type of reform that has been difficult to achieve in the US (And I presume other high-regulation, Western countries).&lt;p&gt;We usually regulate a one-size-fits-all approach to everything in medicine. An M.D. (or whatever NPs have?) is required to prescribe medicines, even medicines which are just the same or slightly stronger formulations of OTC medications like a 400mg Ibuprofen or a 1% h...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=49981343" target="_blank">Show HN: I visualized 35 years of Linux history with code [video]</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-06 17:13 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">35 years ago (Oct 5, 1991), Linux 0.02 was released.&lt;p&gt;I made an animated history of Linux using Claude Code + opus 5.5.&lt;p&gt;I&amp;#x27;ve been experimenting with a “video as code” workflow - source, prompts, assets, and rendering scripts live in Git, and the final video is a generated artifact.&lt;p&gt;you can try it out here:&lt;p&gt;Repo: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;sujee&amp;#x2F;visual-stories&amp;#x2F;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=49979793" target="_blank">Show HN: OpenChart – OSS TradingView alternative with your own AI agent</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                34 points | 12 comments |
+                2026-10-06 15:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Weilun, cofounder of OpenChart.&lt;p&gt;We built OpenChart because we wanted Claude and Codex to interface with the markets, like most of humans do, through charts rather than through CLIs.&lt;p&gt;With your existing AI plans, your agent can work directly with your charts: annotate a setup, write an indicator, investigate a market move, or create an alert. The chart, conversation, and research...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=49979264" target="_blank">Using Claude to design 74 homepages</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-06 14:41 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>4</strong> items collected |
+                Last updated: 2026-10-10 20:22
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50034509" target="_blank">Re: Blackcat – Yet Another Personal Agent...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-10 16:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I tried organising my personal life with openclaw and claudeclaw but didn&amp;#x27;t like it very much. I been coding for over 30 years so I figured I should build one myself. It would have taken me months but with claude code I was able to do it in a few weekends. It essentially keeps a local copy of messages from whatsup, telegram, Gmail ( mail and calenders) , creates a vector index so that its sea...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50033977" target="_blank">Re: Gauze Corrects LLM Responses...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-10 15:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">If you have worked with open-weight&amp;#x2F;local LLMs, you&amp;#x27;ve known both the highs and the lows. Lows there are many: malformed response tags, empty responses, stuck loops, overthinking, inference engine errors and much more. You don&amp;#x27;t notice those when using commercial models, because the vendors iron out those quirks in their gateways, but you&amp;#x27;re left standing when using free models...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50033558" target="_blank">Show HN: Peer-to-peer instant messaging with proof-of-work spam protection</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-10-10 14:51 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">Bitmessage.org still doesn&amp;#x27;t support Python 3 and over the years I&amp;#x27;ve tried several times to create something similar but each time have run up against unclear&amp;#x2F;incomplete&amp;#x2F;missing documentation in Python&amp;#x2F;Rust&amp;#x2F;flask&amp;#x2F;tokio&amp;#x2F;asyncio&amp;#x2F;etc. Finally decided to give ChatGPT a real try and with tutoring based on minimal examples managed to have something usable in...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50031116" target="_blank">Re: OpenAI's New ChatGPT Watermark Breaks If You Edit ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-10 09:20 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Not sure what EU regulators really expect here.  There&amp;#x27;s no way to watermark plaintext that can&amp;#x27;t be circumvented in a few seconds with even very simple methods.  Anybody with a Claude&amp;#x2F;Codex subscription can build their own &amp;quot;unwatermark text&amp;quot; webapp in five minutes flat.  (And if Claude&amp;#x2F;Codex refuse, that&amp;#x27;s what Mimo and DeepSeek are for...)&lt;p&gt;The risk is that th...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

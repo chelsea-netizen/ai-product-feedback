@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>9</strong> items collected |
+                Last updated: 2026-10-11 20:41
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50046981" target="_blank">Show HN: Tracon (air traffic control for subagents)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-11 19:35 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">My Claude Code workflow usually involves... a lot of subagents. I make one Opus model coordinate work as my tech lead, it dispatches subagents using models appropriate for the task into their own git worktrees, and then I try to multitask and do something else while they run.&lt;p&gt;I&amp;#x27;d been finding lately (particularly with Opus 5.5) that there was a ton of drift and instances of subagents not do...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50046459" target="_blank">Show HN: Tilefinch – a from-scratch* web browser for the PSP (333Mhz, 64MB RAM)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-11 18:47 |
+                <span class="category">onboarding, navigation, response_quality</span>
+            </div>
+            <div class="text">I picked up my PSP for the first time in about a decade and wanted to find out three things: how far the hardware could be pushed, how much of the modern web fits on it, and what today’s coding agents can do. A web browser tests all three.&lt;p&gt;Tilefinch runs entirely on a PSP-3000: networking, HTML, CSS, JavaScript, layout and rendering, over Wi-Fi, with no proxy or companion computer. The style, la...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50046381" target="_blank">Which Chrome extension is the best for saving ChatGPT chats as PDF files?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-11 18:40 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I am specifically interested in the formatting quality of text, images, charts, maps, mathematical&amp;#x2F;chemistry formulas and new ChatGPT Intelligent UI components. Some recommended Scriptilux PDF.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50045730" target="_blank">Re: IRCv3...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-11 17:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">As someone who&amp;#x27;s still on IRC daily and has built multiple IRC bots and clients over the years:&lt;p&gt;- most of the jank of IRC is client-side and can be fixed on the clients, IRCv3 protocol changes are nice, but not essential for a good experience.&lt;p&gt;- bots can make channels more engaging, just posting the titles of URLs pasted on the channels so even people without fancy rich clients can see wh...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50044264" target="_blank">Re: Does Claude Have Rights?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-11 15:21 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">These screeds always fall in the same trap of begging the question, but I do appreciate this one for not wasting any time getting there! Opening with the conclusion as your literal first sentence has gotta be a record.&lt;p&gt;Also: ctrl+f &amp;quot;Gunkel&amp;quot; does not return any results, which is a separate, completely-damning aspect of this essay. The author might not know that they&amp;#x27;re doing philos...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50043444" target="_blank">Show HN: InfiniWord – infinite multiplayer word search</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-11 14:05 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hi everyone! I’ve been on leave since welcoming our first child into the world which has given me time, in between 3 am diaper changes and with the tireless support of Claude, to get to personal projects.&lt;p&gt;One of those is a game for my wife who’s big into word searches. Around the time she expressed interest in wanting a word search game I was reminded of “1 million chessboards” (&lt;a href=&quot;https:&amp;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50043311" target="_blank">Show HN: Quaesito: a self-hosted app for quiz nights with friends</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-10-11 13:52 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hi, I built Quaesito, a self-hosted quiz-night app for playing with friends. I thought it might be useful to others, so I wanted to share it here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ggirelli&amp;#x2F;quaesito&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ggirelli&amp;#x2F;quaesito&lt;/a&gt;&lt;p&gt;It runs on your laptop, which you can cast or screen-share on to a TV. Friends then connect and answer from ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50042517" target="_blank">Re: AI is creating a 'human premium' for art created b...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-11 12:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’ve started to see (and react negatively) to a kind of “Claude design”. Apps, slides, images share the same aesthetic, and even after aggressive prompting it reverts to a the mean.&lt;p&gt;I even create these things. But that aesthetic has started to imply a kind of throwaway, low value thing&lt;p&gt;What will be interesting is if models can create more diverse styles than the neutral Claude default we see e...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50040528" target="_blank">Show HN: Modelship – an open source ray backed model cluster</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-11 07:28 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey all, just wanted to share how my spare time has been spent for quite some time now.&lt;p&gt;Ok, this one started oddly. My aim initially was just to serve multiple models on one GPU and fire it up in my unraid machine.&lt;p&gt;By the time that first bit was done, I realised I could just add one more thing... and another... and well, from beginning of this year when, imho, AI became useful, the whole thing...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

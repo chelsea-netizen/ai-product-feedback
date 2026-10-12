@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-10-12 23:20
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50064321" target="_blank">Re: The X Subscription...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 23:07 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">How is the the first time that this has all been available together? I don&amp;#x27;t see anything unique here and I know the constant CP image stories related to Grok mean serious orgs won&amp;#x27;t touch this with a bargepole dipped in disinfectant, let alone the fact it&amp;#x27;s associated with x, which is a cesspit of bots and led by a polarizing figure. Whatever this is, it&amp;#x27;s not going to make ba...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50063739" target="_blank">Re: &quot;Today we're laying off a large part of the Airtab...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 22:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Really enjoyed using Airtable over the years. It helped kickstart loooooads of cool projects.&lt;p&gt;Shame that they never really did anything with their billions in funding. Interfaces were underwhelming, and I would&amp;#x27;ve been embarrassed to release Omni to the public quite frankly.&lt;p&gt;The writing&amp;#x27;s been on the wall for a while. I practically rebuilt and improved it for myself using Claude and ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50063195" target="_blank">Re: Reverse engineer anything with agents, from app be...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 21:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I ported a linux game binary from a Cortex-A7 to a Allwinner A133P (32bit to 64bit) in about two hours using Claude over the weekend. (I didn&amp;#x27;t have the source). SDL and the games encryption were the only things that made it more than a 15 minute activity.&lt;p&gt;If it has a binary value you can aim the Ai at, (aka does it work or not), the models are able to figure it out.&lt;p&gt;For laughs I&amp;#x27;m p...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50062224" target="_blank">Linus Torvalds used Claude Code to rewrite how Linux reads cached files</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                14 points | 1 comments |
+                2026-10-12 20:06 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50061794" target="_blank">Re: Tidy – Open-Source Paper...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 19:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&amp;quot;Tidy is a product canvas for designers, engineers and agents&amp;quot; as also an alternative to claude design?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50061261" target="_blank">Re: Launch HN: Agent37 (YC F26) – Low-cost agent sandb...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 19:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Tangentially, I&amp;#x27;ve been investigating the last few days on how to setup a separate Linux box as an agent &amp;quot;playground&amp;quot;. I got a mac mini to use as my own personal driver and now my Linux box is free, so I want to have a local setup where I keep my personal machine a bit stricter while giving near free-reign for agents on the Linux machine.&lt;p&gt;It is like a locally-hosted version of the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50061258" target="_blank">Re: Codex CLI installs a persistent, self-updating bac...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 19:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">This is the same operational model as Claude Code.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  ls ~&amp;#x2F;.local&amp;#x2F;share&amp;#x2F;claude&amp;#x2F;versions&amp;#x2F;
+  ps auxww | grep &amp;quot;claude bg&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+I see a few prior versions of the Claude Code binary and several running background tasks, without any copy of Claude Code in the foreground. I regularly get a &amp;quot;Update available&amp;quot; message in my Claude Code UI to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50060549" target="_blank">Re: I ran Sol 6 vs. 6.1 on tasks from my own repo. It'...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 18:20 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Congratulations to the OpenAI team! It&amp;#x27;s nice that we start looking not only at input-output cost and token maxxing and also begin to look at how it actually completes the task at hand.&lt;p&gt;Diagrams on this page is a real struggle to read though</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50060403" target="_blank">Re: GLM-Legal...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 18:10 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">I’m not sure if this is the right solution, but we clearly need better tools for the legal space.  Anthropic&amp;#x27;s recent policy update makes this abundantly clear:&lt;p&gt;“When our products are used in ways that can affect someone&amp;#x27;s health, legal rights, finances, livelihood, or access to essential services, we require there to be a qualified ‘human in the loop’ (that is, someone who has the aut...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50060168" target="_blank">Re: AI coding agents generate more code, but not more ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-12 17:54 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">As is standard for academic papers, this is an attempt to describe the state of the world as of when they did the research.  But then it takes time to write it up and get it out, after which newspapers report it as current events.&lt;p&gt;In this case, we&amp;#x27;re looking at a picture from 2025.  The models involved in the main agent results were primarily Claude 3.5 through Sonnet 4.5, GPT-4.1 through G...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50059107" target="_blank">Show HN: Authrot – extract your story elements out of chapters and graph them</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-12 16:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been working on this app for a couple months, because I needed help outlining my story being written on Google Docs.&lt;p&gt;I kept adding new characters, and it was difficult for me to keep track of everything going on in the story.  I wasn&amp;#x27;t organized at all.&lt;p&gt;I do have a subscription to Claude, and it helps, sure, but it didn&amp;#x27;t exactly build a graph of all the story elements conn...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

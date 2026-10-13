@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>16</strong> items collected |
+                Last updated: 2026-10-13 21:38
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50077619" target="_blank">Show HN: Parsimony – an open-source benchmark for how much code AI models add</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                12 points | 1 comments |
+                2026-10-13 19:50 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Existing benchmarks measure solve rate and token output&amp;#x2F;cost, but don&amp;#x27;t punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects.&lt;p&gt;Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts &amp;quot;coding units&amp;quot;: syntax elements like...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50077412" target="_blank">Show HN: Tern – Native macOS SSH Client in Rust/GPUI (76 MB vs. Tabby's 580 MB)</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-10-13 19:37 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">On my day to day work i mostly use termius and tabby as multi project ssh tool with vault, somehow most of the features i use are just vault and password manager, and they are bulky, takes about 500mb ram for such simple program, and termius wants paid plan just to sync the vault. There are free tools but their ux is not at that level.&lt;p&gt;So i built my own simple ssh client with a little bit of my ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50076586" target="_blank">Show HN: Factory DS, A Factorio-Like Game for the Nintendo DS</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-10-13 18:42 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Ronan. I love the Nintendo DS but ran out of games that kept me hooked, so I tried porting the kind of game I play today: a factory game in the spirit of Factorio, on a 67 MHz ARM9 with 4 MB of RAM.&lt;p&gt;I had never written code for the DS, and I built it with Claude Code. I wrote the specs, the design and the balancing, and Claude wrote most of the C. The post goes through how that w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50076439" target="_blank">Show HN: Commit-Aware Router, route LLM traffic around your AI/cloud commitments</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-10-13 18:34 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">LLM routers can optimize for different factors like price, latency, quality, etc. Enterprises tend to  have prepaid AI credits, minimum-spend agreements, cloud commitments, or commercial ceilings across OpenAI, Anthropic, AWS, Azure, and other providers. We’ll call these “AI commits”.&lt;p&gt;This project is designed to consider the state of an enterprises’ current AI commits and use it to inform LLM ro...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50076430" target="_blank">Re: Choose Boring Technology (2018)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-13 18:33 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We were discussing this classic at work today...&lt;p&gt;How do you all think LLM-assisted coding has interacted with the thesis of this deck?&lt;p&gt;This is perhaps in contrast to this recent blog post: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.anthropic.com&amp;#x2F;engineering&amp;#x2F;redesigning-source-control&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.anthropic.com&amp;#x2F;engineering&amp;#x2F;redesigning-source-con...&lt;/a&gt;&lt;p&gt;In norm...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50076388" target="_blank">Show HN: Hatoba, an open-source SSH client with an AI assistant and E2EE sync</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-10-13 18:31 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I&amp;#x27;ve used SSH tools for years and didn&amp;#x27;t really plan on building yet another SSH client, but I ended up building one the way I wanted. Hatoba is a desktop SSH client for Windows, Linux and macOS. It&amp;#x27;s written in Rust with Tauri 2 and MIT licensed.&lt;p&gt;Each terminal has an AI assistant panel next to it. You describe the problem, and it reads the terminal screen, runs commands, types in...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50075872" target="_blank">Re: The Big Discount on Intelligence...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-13 17:56 |
+                <span class="category">naming_terminology, navigation, response_quality</span>
+            </div>
+            <div class="text">&amp;gt; I think that is also the case for the teams at the Labs. Anthropic plans to tell IPO investors that they see more than $30 trillion in addressable market potential&lt;p&gt;The white collar work at mega corps is 99% garbage. It only exists because the execs build empires. Its people creating make work for themselves so they can hire more people. Why do they need empires? Because compensation is base...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50075636" target="_blank">Show HN: Pippin – macOS High-Performance Screen Sharing Client for Linux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-10-13 17:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I built pippin, a native Rust client for macOS&amp;#x27;s &amp;quot;High-Performance&amp;quot; Screen Sharing mode on Linux. There are lots of options that can get you usable, high resolution remote access to macOS from non-Apple devices, but until recently there were no options that did not require installing and maintaining a server on your Mac.&lt;p&gt;Apple normally restricts High-Performance Screen Shar...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50075581" target="_blank">Re: New AI fake text generator may be too dangerous to...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-13 17:38 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">It&amp;#x27;s very funny how wildly good the output you can get out of a single, consumer grade GPU (or even CPU really) is compared to what was deemed &amp;quot;too dangerous to release&amp;quot; not too long ago.&lt;p&gt;At least thanks to Anthropic, OpenAI no longer holds the title of &amp;quot;Most closed AI company&amp;quot;.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50074869" target="_blank">Gemini 4 Argon for Robotics</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                151 points | 39 comments |
+                2026-10-13 16:55 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Main thread: &lt;i&gt;Gemini 4 Argon&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50073879&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50073879&lt;/a&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50074513" target="_blank">Re: Failing to give Meta Muse a soul...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-13 16:35 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi, I’ve found it kind of funny to watch Meta push soul.md files into the spotlight and see people&amp;#x27;s reactions to them.&lt;p&gt;I tried making some interesting &amp;quot;souls&amp;quot; for Muse.&lt;p&gt;Even though Meta is pushing Muse as this unique ever-evolving personal assistant, it still seems to have an iron grip on its personality.&lt;p&gt;I have never had such difficulty getting a model to use a given persona...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=50073879" target="_blank">Gemini 4 Argon</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                783 points | 636 comments |
+                2026-10-13 16:03 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">See also: &lt;i&gt;Gemini 4 Argon for Robotics&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50074869&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50074869&lt;/a&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=50073633" target="_blank">Redesigning source control at Anthropic</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                374 points | 379 comments |
+                2026-10-13 15:49 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=50073611" target="_blank">Re: Show HN: RemainderBot – spends leftover Claude/Cod...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-13 15:48 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hey folks; I’m the author of RemainderBot. Given your goals and task lists, it writes PRs that complete those tasks for you using excess Claude &amp;amp; Codex subscription tokens.&lt;p&gt;As the founder of Bakeoff, I spend my time on customer development and engineering architecture &amp;amp; review. RemainderBot solves two problems for me and I suspect for many others out there:&lt;p&gt;* There are many small tasks...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=50073471" target="_blank">Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                30 points | 16 comments |
+                2026-10-13 15:41 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">Hey Hacker News! I&amp;#x27;m Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure.
+Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High controls. FedRAMP High is the U.S. government’s strictest security baseline for cloud services handli...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                16. <a href="https://news.ycombinator.com/item?id=50072881" target="_blank">Show HN: Pi-Infinite-Context</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 6 comments |
+                2026-10-13 15:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hi HN! Since I created this extension and heavily refined its core design, I&amp;#x27;m not worrying about context size anymore. It just works so well. So I wanted to share. It is stress-tested with OpenAI and Anthropic models.&lt;p&gt;Since HN is sensitive to good readmes, I wanted to do it well here. I started writing it by hand, but noticed that it was not great. then I decided to go back to LLM help, bu...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

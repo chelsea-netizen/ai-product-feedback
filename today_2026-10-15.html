@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>13</strong> items collected |
+                Last updated: 2026-10-15 20:07
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50109482" target="_blank">Re: Neural networks are clean...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 20:04 |
+                <span class="category">feature_discovery, navigation, response_quality</span>
+            </div>
+            <div class="text">Oof, right at the top it points to how people were apparently convinced of this situation from &lt;i&gt;a single crappy example&lt;/i&gt;&lt;p&gt;You work in data science and you &lt;i&gt;over indexed on a singular example to explain away an entire set of phenomenon&lt;/i&gt;??&lt;p&gt;My experience with more.... directly testable NN models that are small seems to be that they absolutely can be far too interconnected to make strong ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50109417" target="_blank">Re: More on Anthropic's Scion ripping off Mononoke...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 19:59 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Re-designing a modern source control system for open source projects, you need to consider millions of developers have coding agents running on their computer and&amp;#x2F;or have Claude Code&amp;#x2F;Google&amp;#x2F;OpenAI coding agent accounts. And evidence from the Linux repo and many other GitHub repos, the open source projects are overflowing from coding agent submitted bug reports. If I was accepting a ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50108518" target="_blank">Re: Why We're Banning AI...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 18:56 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m kinda ambivalent on the Druckenmiller WSJ case. He&amp;#x27;s admittedly a poor writer, and probably wouldn&amp;#x27;t have published anything had it not been for AI.&lt;p&gt;Obviously the WSJ staff shouldn&amp;#x27;t be using it in the final output, but if it&amp;#x27;s a prominent guest&amp;#x27;s opinion filtered through ChatGPT, I&amp;#x27;m mostly fine with it.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50108212" target="_blank">Re: More on Anthropic's Scion ripping off Mononoke...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 18:37 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">The entire thing is beyond confusing. So Anthropic refers to an open-sourced project and credit it in the original article.&lt;p&gt;I don&amp;#x27;t know how the author is pissed off. Only thing the author aware is Claude agents researched Mononoke solution, then it claims a closed source repo is a plagiarism case.&lt;p&gt;I don&amp;#x27;t get it, and I&amp;#x27;m seeing more and more cope here.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50107972" target="_blank">Re: More on Anthropic's Scion ripping off Mononoke...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 18:23 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Recent and related:&lt;p&gt;&lt;i&gt;Redesigning source control at Anthropic&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50073633&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50073633&lt;/a&gt; (996 comments)&lt;p&gt;&lt;i&gt;Anthropic&amp;#x27;s Scion is heavily inspired by Mononoke&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50094694&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50106738" target="_blank">More on Anthropic's Scion ripping off Mononoke</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                177 points | 52 comments |
+                2026-10-15 17:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&lt;i&gt;Redesigning source control at Anthropic&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50073633&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50073633&lt;/a&gt; (996 comments)&lt;p&gt;&lt;i&gt;Anthropic&amp;#x27;s Scion is heavily inspired by Mononoke&lt;/i&gt; - &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50094694&quot;&gt;https:&amp;#x2F;&amp;#x2F;news.ycombinator.com&amp;#x2F;item?id=50094694&lt;/a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50106617" target="_blank">Re: Opus 5.5 made our product launch video (linked)...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 16:58 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">We&amp;#x27;ve been hacking on a side product and needed a launch video for it, but didn&amp;#x27;t want to pay an agency to make it. When Opus 5.5 came out and we saw some video examples, we tried to have it make us a video just from our codebase and some iterative feedback via Claude Code, and... it worked!!&lt;p&gt;It took a lot of iteration cycles over 2-3 days, and I found it helpful to spawn subagent revi...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50106153" target="_blank">Re: Using AI to reverse engineer hardware...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 16:32 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I reverse engineered almost all electronics I own. Does it have USB that does more than just charging? Connect it to a computer and let AI play with it. Unless it&amp;#x27;s heavily secured like a phone that&amp;#x27;s pretty much all you need to do. Making some old remote work with various devices? Simple. Dumping the entire state of Rodecaster and controlling it in any you want with software, or maybe a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50105780" target="_blank">A misbehaving test MCP server for stress-testing your MCP client</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-10-15 16:11 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">We needed an MCP server that misbehaves on our command to test our own MCP gateway at work, but could only find well-behaved MCPs. That’s why we built a misbehaving MCP server ourselves and now share it on here, might be helpful for others building MCP gateways.&lt;p&gt;It’s similar to the MCP Inspector, but lets you test your client not your server.&lt;p&gt;We called it MCP Test Kitchen and it’s a (also host...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50105695" target="_blank">Re: Using AI to reverse engineer hardware...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 16:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Soon: &amp;quot;Hi Claude, can you translate iOS so it runs in a sandbox on Linux?&amp;quot;&lt;p&gt;Or: &amp;quot;Can you turn this tablet I got from AliExpress into an iPad?&amp;quot;&lt;p&gt;It&amp;#x27;s going to be interesting to watch the big companies struggle with this.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50104879" target="_blank">Linus Torvalds let Claude Code fix the Linux page cache. reviewers found a race</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 1 comments |
+                2026-10-15 15:13 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=50104602" target="_blank">Re: Using AI to reverse engineer hardware...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-15 14:55 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Instead of targeting extremely ancient hardware that almost no-one uses, what if you got Claude to reverse engineer useful closed source hardware &lt;i&gt;and&lt;/i&gt; software?&lt;p&gt;Both Apple and Nvidia are the most hostile and have the most locked-down heavy hardware and software and now Claude can reverse engineer and build a driver to get Nvidia GPUs working on Intel Macs [0] and it can unlock the ability ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=50103970" target="_blank">Show HN: Nexus – open-source local-first message routing for agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-15 14:12 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hi HN, I built Nexus because I was tired of having multiple agents that I had to address one by one. I built an underlying mechanism where I could message all of them and have them have the capability to message each other and listen to wake events. I also got tired of having to run cron when I think that agents should have the capability to be event-driven.&lt;p&gt;Nexus is basically a daemon that runs...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

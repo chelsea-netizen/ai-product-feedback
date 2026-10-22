@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-10-22 20:21
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50199662" target="_blank">Re: How to spot AI science slop...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-22 19:06 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Reads kinda dumb, weird and painful.&lt;p&gt;&amp;gt; Note: Some people write the text, then format it with Claude. In my opinion this isn’t AI slop, whereas AI-generated text that’s manually formatted (also very common) would be AI slop.&lt;p&gt;I hate it when people do this. I had a manager that fed all our stories through Opus 4.x a year ago and they could easily turn from well defined human-readable requireme...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50199647" target="_blank">Re: OpenShell – A safe, private runtime for fleets of ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-22 19:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">In this vein, Anthropic&amp;#x27;s sandbox-runtime [0] has struck a good balance between security and convenience. Simple config, filesystem and network restrictions, and credential masking make me comfortable running Pi in YOLO mode.&lt;p&gt;Though I&amp;#x27;m often running into frustrating (albeit intentional) sandbox restrictions with common workflows e.g. xcode&amp;#x2F;swift and Docker access.&lt;p&gt;Would love su...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50199581" target="_blank">Show HN: Mnemolith – AI coding memory that goes stale when your code changes</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-22 18:59 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">Hi HN, I&amp;#x27;m Anish. I built Mnemolith because the AI coding tools I use (Claude Code, Cursor, Codex) either forget my project between sessions, or remember things that quietly stopped being true. Tell the agent &amp;quot;we use Postgres&amp;quot;, migrate to MySQL two weeks later, and it keeps building on the old fact.&lt;p&gt;How it works:&lt;p&gt;- It&amp;#x27;s an MCP server, so Claude Code, Cursor and Codex share ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50199096" target="_blank">ClaudeTTY: An Undying Replacement for Cmux</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-10-22 18:17 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50197889" target="_blank">One setjmp call was eating 81% of Geolith's emulator frame time</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-10-22 16:48 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m the developer of NeoBox (https:&amp;#x2F;&amp;#x2F;neo-box.app). It&amp;#x27;s a Neo Geo emulator frontend for Mac + iPhone + iPad as one universal app.&lt;p&gt;I&amp;#x27;m using Rupert Carmichael&amp;#x27;s amazing Geolith library https:&amp;#x2F;&amp;#x2F;gitlab.com&amp;#x2F;jgemu&amp;#x2F;geolith for the actual emulation. I then have a Metal-backed rendering pipeline.&lt;p&gt;Recent versions where I was porting NeoBox for iPhone an...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50197685" target="_blank">Show HN: Ternlux – Free, local-first, bring-your-own-key AI pipeline builder</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 0 comments |
+                2026-10-22 16:33 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">For the past 12 years as a data engineer, I&amp;#x27;ve been building pipelines across many different business categories and sizes. Most pipelines that I’ve encountered were relatively simple jobs and required more orchestration and infrastructure than the work seems to justify. I wanted to make it easier for business users or analysts to take on the less complicated requests and technical engineers ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50197252" target="_blank">Re: A sci-fi team of artificial contributors for Radic...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-22 16:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey everyone! I&amp;#x27;ve open-sourced radicle-team, a project I&amp;#x27;ve been working on for the last couple of months: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;radicle.network&amp;#x2F;nodes&amp;#x2F;index.radicle.garden&amp;#x2F;rad%3Az32RJhkP1WRhgJEcSCi5NgxAKLLwo&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;radicle.network&amp;#x2F;nodes&amp;#x2F;index.radicle.garden&amp;#x2F;rad%3Az32...&lt;/a&gt; and &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ales-...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

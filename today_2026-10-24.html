@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-10-24 19:08
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50224103" target="_blank">Re: Dream-1...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-24 19:07 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">This is just going to get acquired by OpenAI for their robotics department.&lt;p&gt;Yeah I said it. Time to start the countdown timer.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50222944" target="_blank">Re: Glasswing isn't built to optimize cyberdefense...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-24 16:43 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">From The Three Buddy Problem podcast on Glasswing, the major AI labs&amp;#x27; tilt towards offensive cybersecurity, and the labs&amp;#x27; self-interest:&lt;p&gt;&amp;quot;What are people using [Glasswing] for? … Glasswing is going to give you access to Mythos 5 or 5.1, and you&amp;#x27;re going to get a certain amount of money and credits to use it. …&lt;p&gt;“They have not been pruned through. You might just have a 100 ne...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50222093" target="_blank">Ask HN: Kimi Code hit its 5-hour limit after $1.37 of API usage</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-10-24 15:16 |
+                <span class="category">error_messages, response_quality</span>
+            </div>
+            <div class="text">I paid $19 for Kimi Code to test K3.1 Pro Standard (not Highspeed) using the official CLI v2.3.1.&lt;p&gt;I ran two tasks on small repositories:&lt;p&gt;1. Recommend movies based on an existing movie database.
+2. Analyze a website&amp;#x27;s codebase.&lt;p&gt;Neither task completed. The entire 5-hour quota was exhausted within minutes.&lt;p&gt;I analyzed the actual session logs, including background agents:&lt;p&gt;- Fresh input: ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50220420" target="_blank">Re: Yeti, an MCP server that guides product design fro...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-24 11:53 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Yeti is an MCP server for product design with Claude. It enforces a few phases (discovery, definition, prioritization, flows, verification) and will not mark a project complete while a must-have requirement lacks a user story. It also creates Jira issues from the result and syncs their status back.
+Built with the MCP TypeScript SDK, storage in SQLite via node:sqlite, MIT licensed.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50220013" target="_blank">Re: ThinkRail from JetBrains...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-24 10:47 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">They&amp;#x27;re fighting an uphill battle and it&amp;#x27;s a race against time. I think they&amp;#x27;ve already lost to Claude Code. I can do everything they offer with Claude. Where is their moat?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50219641" target="_blank">Took apart Claude Code, then turned it into a free course on harness engineering</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-10-24 09:48 |
+                <span class="category">error_messages</span>
+            </div>
+            <div class="text">The fastest way to learn harness engineering? Build Claude Code from scratch.&lt;p&gt;Why harness engineering? LangChain kept the same model and changed only the harness. Their coding agent went from 53% to 67% on Terminal-Bench, a top coding-agent benchmark. From outside the top 30 to the top 5. Same model. Better harness.&lt;p&gt;Over the past few months, I&amp;#x27;ve taken apart Claude Code, OpenCode, and Pi ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50219429" target="_blank">Show HN: Multipeer, a multiplayer infinite canvas for people and their agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-10-24 09:05 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m building Multipeer, a desktop app for running agents, tools and working wth teammates on one shared canvas.&lt;p&gt;I often have several agent sessions open at once, but they&amp;#x27;re all scattered across terminals. It was also hard for my co-founder to see what my agents are doing or jump in to work together. So We built the solution to our own problem. And now we&amp;#x27;re releasing it to the wo...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

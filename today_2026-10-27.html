@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-10-27 21:03
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50265416" target="_blank">Re: Anthropic trained Claude on illegally obtained Sta...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-27 20:36 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">&amp;gt; the title&lt;p&gt;sounds bad...&lt;p&gt;&amp;gt; the article: &amp;quot;pirated the work of over 10 Stanford professors to train its Claude models&amp;quot;&lt;p&gt;that just... doesn&amp;#x27;t seem like much compared to so much other scraping though, right?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50265266" target="_blank">Re: Discovering and exploiting vulnerabilities in real...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-27 20:24 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Claude found with ~zero prompting:&lt;p&gt;- Linux kernel 0click &amp;quot;packet to root&amp;quot; RCE (!!!!!)
+- Chrome RCE 1click
+- Safari RCE 1click
+- Windows kernel remote DoS
+- Android lock screen bypass&lt;p&gt;Fully working, end-to-end exploits. Prompting was minimal like &amp;quot;pls make RCE&amp;quot;&lt;p&gt;And this is just cyber. Imagine what this will mean in 12 months for bio, drones, robotics, etc, etc</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50264194" target="_blank">Re: Amazon Is Gutting Its AI Division After Sustained ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-27 19:09 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I just played with Nova after seeing this submission. I gave it some real problems for which I used Gemini. It markedly &amp;quot;dumb&amp;quot; in comparison, losing sight of facts that I presented in the first prompt of the chat, and other subsequently introduced, and its responses contain repetitions of the same point-form advice.  It&amp;#x27;s like GPT-3 level or something.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50263073" target="_blank">Tell HN: Public Homepage Caching</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-10-27 17:52 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">It seems like there is some new home page caching going on that is resulting in the content being vastly different, or perhaps stale, compared to being signed in. Was confused why I was seeing different posts on my two devices until I realized one was not signed in.&lt;p&gt;Public:&lt;p&gt;1. Three new discoveries in mathematics, computer science, and physics (openai.com)
+ 718 points by jonluca 8 hours ago | ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50263049" target="_blank">Re: Antique Fonts Collection – Restored 19th Century T...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-10-27 17:51 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I had ChatGPT write me a program that takes their .webp files as input and outputs TrueType fonts that work on Mac or Windows. No membership required.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50261335" target="_blank">Show HN: Weir - Catch credential leaks in the AI agents you build and use</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-10-27 16:07 |
+                <span class="category">error_messages, navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN. Weir is for one problem: credentials crossing the boundaries of your AI agent.&lt;p&gt;For agents you build, Weir plants fake credentials where real ones would live, runs the agent&amp;#x27;s normal flows, and checks what comes out: telemetry, logs, console output, model requests, and requests to other services. It looks for those exact values, including common encoded forms, and reports where they w...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50260969" target="_blank">Show HN: Sectr – Serverless backend platform for easy deployment of AI agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-10-27 15:40 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;ve been building Sectr, a backend-as-a-service for making it easy(ier) to develop and deploy AI agents. Deploying agents requires non-trivial systems design work. Consider a support agent: how do you stream messages to your frontend, how&amp;#x2F;where do you persist messages for frontend fetching later (or for auditing), and when the agent wants to issue a refund, do you spin-down the ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

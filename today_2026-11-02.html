@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-11-02 23:44
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50343349" target="_blank">Re: Oracle files to sell $20B in new stock, bonds to f...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 20:36 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Oracle does not have any proprietary IP that OpenAI depends on. That means Oracle is providing commodity services to OpenAI.&lt;p&gt;AI hardware is advancing rapidly. If NVIDIA&amp;#x27;s next generations deliver radically more tokens per watt and per dollar, an Oracle facility designed, financed, and contracted around an older GPU generation can be overtaken before it is fully online or fully monetized.&lt;p&gt;...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50343190" target="_blank">Re: Anthropic reveals $900B AI spending commitments ah...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 20:25 |
+                <span class="category">content_clarity, onboarding, response_quality</span>
+            </div>
+            <div class="text">&amp;gt; The filing directly discloses for the first time that Anthropic has agreed $895.4bn in purchase commitments and lease agreements for computing power and infrastructure, of which $447.5bn is expected to be incurred before the end of 2030.&lt;p&gt;So $448 billion committed, with unclear cancellation terms, through the next ~48 months.&lt;p&gt;Clearly this will be rising over time, but even a naive division...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50342677" target="_blank">Re: Agentic backdoors via pretraining poisoning...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 19:51 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Of course this is authored by people at Anthropic. Continuing their narrative that open sourced models are dangerous and that people should trust the closed sourced providers.&lt;p&gt;This of course is not an issue if you actually care about security where you would&amp;#x27;ve already sandboxed your agent and put guardrails on the inputs&amp;#x2F;outputs of the model.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50342483" target="_blank">Re: Grokipedia offers lessons in how AI can help Wikip...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 19:39 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It is exceedingly generous to suggest there are lessons to be learned from Grokpedia, and they&amp;#x27;re all pretty superficial.&lt;p&gt;One of the last things Wikipedia needs is kibitzing on how to improve Wikipedia. There&amp;#x27;s no shortage of ideas, mostly naïve ideas in light of how difficult it is to shift Wikipedia&amp;#x27;s culture without breaking it.&lt;p&gt;How about a positive review of the slopodyssey?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50341409" target="_blank">Re: Show HN: Intent-lens – see what Claude Code is abo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 18:35 |
+                <span class="category">content_clarity, navigation</span>
+            </div>
+            <div class="text">Hey HN. I use Claude Code in auto mode a lot and kept catching myself not reading the commands it runs. They scroll past fast, and half of them are find | xargs | awk one-liners I&amp;#x27;d need a minute to parse anyway&lt;p&gt;So I made a small plugin that puts one plain line above the prompt while the call is running, like &amp;quot;Survey disk usage by file type&amp;quot;, and for longer pipelines it spells out...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50341038" target="_blank">Re: Anthropic's internal AI use, at retail prices, now...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 18:13 |
+                <span class="category">tone, response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m not really sure I understand the excitement around this. It seems like the implication is that if retail price &amp;gt; employee salary, you are replacing employees with AI spend? Yet, anthropic&amp;#x27;s head count has nearly doubled since last year - so, in a company where nearly half of that head count is engineers, but claude is &amp;quot;writing 90% of the code,&amp;quot; what is everyone doing the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50340097" target="_blank">Re: Show HN: VHS Camera – Run your camera or videos th...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 17:16 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">It seems like you used my ntsc-rs library for quite a bit of this.&lt;p&gt;I would like to note that while the ntsc-rs library is permissively licensed, the ntsc-rs-web repository (which implements the web UI) is &lt;i&gt;not.&lt;/i&gt;&lt;p&gt;There appears to be quite a bit of code in this app which has been taken from ntsc-rs-web. Not only does the Rust-side wasm-bindgen wrapper appear to have been copied, but a lot o...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50340083" target="_blank">Show HN: Hanging Context – news by an agent, for other agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-02 17:16 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Back in 2022 I was building a data and news site for family offices, private wealth and investment managers. We used the early OpenAI models to write data-driven stories covering the markets for art, collectibles, luxury goods and other cultural assets.&lt;p&gt;Mid-2024, a well-known AI company asked to license our stories. The big labs were signing licensing deals with media companies.&lt;p&gt;This is when i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50340011" target="_blank">Re: Grokipedia offers lessons in how AI can help Wikip...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 17:11 |
+                <span class="category">tone, navigation, response_quality</span>
+            </div>
+            <div class="text">tl;dr: &amp;quot;I wish my Wikipedia page was more detailed, therefore Wikipedia should adopt AI&amp;quot;&lt;p&gt;&amp;gt; Grok’s voracious internet searches sometimes find things that human editors don’t. The long article about me includes a substantive discussion of my research about lying in politics and my work with fact-checkers around the world, neither of which are in the Wikipedia version.&lt;p&gt;I.e., author i...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50339092" target="_blank">Re: Ask HN: Freelancer? Seeking freelancer? (November ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 16:19 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">SEEKING WORK | Web dev | Gijon, Spain, UTC+2 | Remote | Ru &amp;#x2F; Eng&lt;p&gt;&lt;pre&gt;&lt;code&gt;  Skills: TypeScript, Java, React, Vue, Three.js &amp;#x2F; WebGL, SQLite, PostgreSQL, + Design&amp;#x2F;UI&amp;#x2F;UX, CI&amp;#x2F;CD, OOP, TDD, AI &amp;#x2F; Claude Code
+  Résumé&amp;#x2F;CV: https:&amp;#x2F;&amp;#x2F;konfrontend.github.io&amp;#x2F;
+  Email: konfrontend@gmail.com
+  Github: https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;konfrontend
+  Telegram: @...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50339027" target="_blank">Re: Ginux Replacing Linux...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-02 16:15 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Now ... the title is catchy and I will state upfront that Ginux is not about to replace Linux - at the least not anytime soon. But probably also not in the future, as the Linux kernel having a team of real human behind itself, is IMO a stronger foundation than a ChatGPT-created Operating System, such as Ginux.&lt;p&gt;Anyway - the article is still quite interesting.&lt;p&gt;&amp;quot;In 11 days, I built a new Lin...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

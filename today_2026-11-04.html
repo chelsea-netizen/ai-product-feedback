@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>11</strong> items collected |
+                Last updated: 2026-11-04 22:17
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50371709" target="_blank">Show HN: Zero-axiom Lean 4 proof that Yang-Mills on R^4 is a &quot;round square&quot;</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-11-04 21:20 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">On October 26, OpenAI announced a claimed &amp;quot;bare existence&amp;quot; proof in Balaban&amp;#x27;s RG programme on pure R^4—but notably stopped right before claiming the mass gap Δ &amp;gt; 0. It turns out there is a rigorous mathematical reason why no compute cluster can bridge that gap on flat infinite space.&lt;p&gt;I wrote a 2,576-line self-contained Lean 4 script (`RoundSquare.lean`) that formally proves a n...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50371490" target="_blank">Show HN: Mastodon desktop client, made with Claude, using Rust and GTK4</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-04 21:03 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Inspired by Mastodon&amp;#x27;s new Web UI makeover, I used Claude to make a nice Linux desktop client, using Rust and GTK4.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50371090" target="_blank">Show HN: Gauge – Open-Source CLI to recursively improve your docs</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-04 20:31 |
+                <span class="category">error_messages, navigation, response_quality</span>
+            </div>
+            <div class="text">Hi HN, I’m Evan from Gauge. We’re open-sourcing our CLI to recursively improve your docs for coding agents. The CLI includes a local execution backend, so you don&amp;#x27;t need an account to try it. Explainer video here: &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;zhLUlIKB1Mg&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;zhLUlIKB1Mg&lt;/a&gt;&lt;p&gt;The CLI supports a hillclimbing loop:&lt;p&gt;- set up tasks for cod...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50370540" target="_blank">Re: Progress on provable inference for large language ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-04 19:44 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">For open-weight models, provable inference is trivial: just redo the computation! This is much faster, cheaper, and doesn&amp;#x27;t require any fancy cryptography, just deterministic inference (which, if you read carefully, the ZKP approach needs too). See &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;lukechampine.com&amp;#x2F;repligraphs&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;lukechampine.com&amp;#x2F;repligraphs&lt;/a&gt;&lt;p&gt;Of course, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50369215" target="_blank">Show HN: Phonon TTS on WebGPU, 44MB, 115x real time, with live word timings</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-11-04 18:01 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I tried Gradium&amp;#x27;s Phonon 31M text-to-speech model and was blown away by its quality to size ratio. I needed timings for every word to be able to highlight them, so I wrote a second runtime for it with a different design: the whole generation loop stays on the GPU in WebGPU kernels written specifically for this by Claude Opus 5.5.&lt;p&gt;When initialized, it can start streaming audio in about 3 ms,...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50369140" target="_blank">Ask HN: Which agent harness do you use for working with multiple Models?</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                4 points | 0 comments |
+                2026-11-04 17:54 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">There is a lot of stuff out there at the moment, from Multiplexer tools such as herdr and Rex, classic Tmux&amp;#x2F;CLI setups, OpenCode and pi, Codex talking to Claude and vice versa.&lt;p&gt;Some people have minimal setups like Claude and ChatGPT models talking to each other via .md files, while others let herdr spawn 20 subagents for each task.&lt;p&gt;What is your approach and why did you choose it?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50369077" target="_blank">Re: Show HN: CXAgent – a multi-agent coding workbench ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-04 17:50 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">CXAgent is a coding agent for the terminal (running on linux, windows and macos)&lt;p&gt;You can bring your own provider&amp;#x2F;model (supports openai compatible, anthropic, and local ollama&amp;#x2F;llama.cpp)&lt;p&gt;Main features:&lt;p&gt;- Multi sub agent, supporting different model per agent, background&amp;#x2F;foreground running from parent, in it&amp;#x27;s tab.&lt;p&gt;- An editor in a tab beside the conversation, with syntax...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50368943" target="_blank">Re: Progress on provable inference for large language ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-04 17:41 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been writing about the need for provable inference (and training) on and off for a number of years; this is welcome news and a good start, and a significant improvement on prior zk results.&lt;p&gt;The problems of inference proof for a closed model provider are more difficult than an open model provider -- you can get a probabilistic proof much more cheaply out of four independent inference pr...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50368869" target="_blank">Re: Progress on provable inference for large language ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-04 17:36 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">At first I thought this was work on the far more important problem of proving that LLM output is provable and correct given some source of truth. But it&amp;#x27;s about the trivial problem of &amp;#x27;proving&amp;#x27; which model is being used.&lt;p&gt;Who will find this useful? I can&amp;#x27;t really think of a use for it, because if you don&amp;#x27;t trust the provider of your models, it&amp;#x27;s game over really - yo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50366538" target="_blank">Re: Firm Tied to Some OpenAI, Anthropic AI Hacks Blame...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-04 15:02 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;wallhop.io&amp;#x2F;https:&amp;#x2F;&amp;#x2F;www.bloomberg.com&amp;#x2F;news&amp;#x2F;articles&amp;#x2F;2026-11-03&amp;#x2F;security-firm-tied-to-openai-anthropic-ai-hacks-blames-error&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;wallhop.io&amp;#x2F;https:&amp;#x2F;&amp;#x2F;www.bloomberg.com&amp;#x2F;news&amp;#x2F;articles&amp;#x2F;2...&lt;/a&gt;</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50366534" target="_blank">Firm Tied to Some OpenAI, Anthropic AI Hacks Blames 'Error'</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 1 comments |
+                2026-11-04 15:02 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

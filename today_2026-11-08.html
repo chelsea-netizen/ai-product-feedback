@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-11-08 20:52
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50416969" target="_blank">Re: How I Fight AI Brain Fry...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 20:41 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I’ve tried this kind of format too but it didn’t stick for me as i  was missing the rich context the sessions were able to provide for me. Specifically the lack of diagrams and other nice formatting that is possible in HTML files. I  also tried linear as a broker in between for a while but it just blew up and became too tedious to navigate and ran out of sync fast. Also expensive on token overhead...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50416508" target="_blank">Re: RAM Altman: Linux Script Emails Sam Altman Daily H...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 19:53 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">All your RAM are belong to us&lt;p&gt;I am an old-school guy. I don’t send them emails with unused RAM, I just fax them a printout of the script so they have to physically look at it and remove it before it goes in the trash. Bonus points if you send it to legal. Legal always has a fax machine.&lt;p&gt;With what people at OpenAI make per hour, every fax costs them thousands of dollars in labor costs, wasting ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50416046" target="_blank">Re: JIT bitmap text rendering for microcontrollers...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 19:08 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Related:    for a project I needed readable vector fonts in as few bytes as possible.   Had to handle full Unicode and any font face.&lt;p&gt;Setting Claude on the challenge and giving some pointers (use a set of ANS coders!   Be lossy as long as there are no errors when rendered!), I was amazed that a typical font can be rendered in just ~40 bytes per used character.&lt;p&gt;It saddens me that despite this, ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50415645" target="_blank">Re: Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 18:19 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">The floor for a functional local AI system keeps getting lower, dispite ram and GPU prices continuing to go up. An E5 workstation with lots of threads, $300 of RAM and at least $100 of GPU gets you something that can do &amp;gt;100tok&amp;#x2F;s+ prompt processing, and ~20tok&amp;#x2F;s output with Qwen3.8-flash-next:IQ3_S. Toss a $500 GPU in there, and it goes from barely usable to pleasingly performant. For...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50415476" target="_blank">Show HN: Email-like interface to review, decide, and annotate agent work</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                6 points | 0 comments |
+                2026-11-08 17:57 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">There is some recent discourse about what a &amp;quot;better&amp;quot; interface for humans managing agents looks like. Email&amp;#x2F;inboxes have come up, and it&amp;#x27;s reinforcing the premise of thing i&amp;#x27;ve been building. e.g.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  - https:&amp;#x2F;&amp;#x2F;x.com&amp;#x2F;brian_armstrong&amp;#x2F;status&amp;#x2F;2119112609223827547
+  - https:&amp;#x2F;&amp;#x2F;x.com&amp;#x2F;rough__sea&amp;#x2F;status&amp;#x2F;211928864667115521...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50415219" target="_blank">Show HN: FELF – AppImage-like single binaries without FUSE, root, or a runtime</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 1 comments |
+                2026-11-08 17:26 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Hello HN!&lt;p&gt;I&amp;#x27;ve always had a bad time redistributing programs that use shared libraries, AppImage in my opinion does too much, and a container is an overkill - not always integrates smoothly.&lt;p&gt;I&amp;#x27;ve moved to nix since long ago, but redistributing between nix and other distros or vice versa it&amp;#x27;s still a pain in the ass, more so if you want to run an alien app in nix or a nix app wit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50415148" target="_blank">Re: Apple CEO Presses Software Chief to Pursue More Am...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 17:17 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;m now using Grokbot and a custom written equivalent regularly in my day to day, in fact I&amp;#x27;m so enamoured with this way of working that I&amp;#x27;m actively building it into most of my new projects and tools... meanwhile I can&amp;#x27;t get Siri to respond to me reliably any more. This whole space is moving so fast a yearly update cycle isn&amp;#x27;t going to be enough.&lt;p&gt;That said, I could see ...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50414450" target="_blank">Why Agile Often Fails</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-11-08 16:10 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">To be honest, I&amp;#x27;ve always looked down on Agile and such methodologies, it&amp;#x27;s so hard to be fair when you&amp;#x27;ve been bombarded with buzzwords for a long time. Even terms like &amp;quot;iterative&amp;quot; or &amp;quot;incremental&amp;quot; feel like buzzwords to me - even though they are very useful ideas. It felt like boring management stuff. But it turned out Agile is pretty good, but how people imple...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50414391" target="_blank">Re: OpenAI raises $11B at a $1.25T valuation...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 16:03 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">We always see these headlines and think &amp;quot;is XYZ company actually worth that much?&amp;quot;&lt;p&gt;Class A stock gets paid out first, so &amp;quot;valuation&amp;quot; here is not what a retail investor would necessarily pay for class C.&lt;p&gt;Basically, do these people think that they&amp;#x27;ll get their $11B back? If so, they are ok with a high &amp;quot;valuation&amp;quot; because there is little risk. And with OpenAI&amp;#x...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50414309" target="_blank">Re: OpenAI raises $11B at a $1.25T valuation...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 15:54 |
+                <span class="category">onboarding</span>
+            </div>
+            <div class="text">I think OpenAI is one of the most important companies in a generation, but on a tangent, I remember the first time a company broke a $1T market cap, and it was a significant moment. Nowadays multi-trillion-dollar valuations are becoming more common — I wonder how much it reflects inflation vs companies being genuinely bigger than they used to be. If it’s more about inflation, then we can expect to...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50414111" target="_blank">Show HN: Velork – Design and Code, Together</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 2 comments |
+                2026-11-08 15:31 |
+                <span class="category">error_messages, onboarding, response_quality</span>
+            </div>
+            <div class="text">Hi HN! :)&lt;p&gt;I’ve been working as a fullstack freelancer for over 4 years now. I always wanted some kind of IDE where I could take designs, turn them into code, and not be restricted to using auto layout and all that stuff.&lt;p&gt;Back at the beginning of 2020, before LLMs and AI were a thing, I was sitting with a friend of mine trying to figure out how to take a design, even one built with absolute val...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=50413970" target="_blank">Show HN: Recalc – Spreadsheet where cells can be Claude Code or Codex terminals</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 2 comments |
+                2026-11-08 15:12 |
+                <span class="category">naming_terminology</span>
+            </div>
+            <div class="text">I built this because it was useful for me when building evals&amp;#x2F;benchmarks, and I decided to put it up for free for others. The goal was quite simple, make it easy to use a lead claude code &amp;#x2F; codex session in a panel on the side, while allowing every cell to also be a terminal session running claude&amp;#x2F;codex, and make it possible to continue a session in an actual terminal window if I ne...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=50413968" target="_blank">Show HN: Loop – your coding agents, from your phone</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 6 comments |
+                2026-11-08 15:11 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">Loop is a mobile-first companion workspace for the coding harnesses you already run. It aggregates results from your harnesses into a continuous feed that is easy to navigate and organize from your phone. I spent several months holding my newborn in one hand and trying to talk to agents one-handed on my phone. Every mobile UI is still based around chat, and it doesn’t scale on mobile, let alone on...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=50413232" target="_blank">Re: Why I will not be using LLMs in my coding...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-grok">grok</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-08 13:36 |
+                <span class="category">tone, navigation</span>
+            </div>
+            <div class="text">It&amp;#x27;s not all black and white.&lt;p&gt;Do I write less and less code myself? Yes. Do I read less and less code? Maybe. Does it always matter? No. Sometimes, the agent writes code in a project or section of code that is sensitive and deserves a thorough review. Sometimes, it&amp;#x27;s in a tool that you would never have had the time to write if you didn&amp;#x27;t have an agent. Or it can be in a project th...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=50412226" target="_blank">Show HN: Throng, a project first, terminal 2nd IDE for command line people</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                2 points | 0 comments |
+                2026-11-08 11:07 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I&amp;#x27;ve been beavering away at this since July, and its finally getting to a point where its stabilising.&lt;p&gt;It started Windows only, but I recently converted over to Linux, so I&amp;#x27;ve been ironing out the kinks in the last week. You can install it via apt or rpm, or .exe or .msi on Windows.&lt;p&gt;Many more features to come, including native agent support and more preview features (images, PDF, doc...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

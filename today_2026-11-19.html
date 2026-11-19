@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>15</strong> items collected |
+                Last updated: 2026-11-19 23:20
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50567778" target="_blank">Google Search homepage gets AI-heavy redesign with Gemini</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-19 23:00 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50565887" target="_blank">Re: Fuck Your AI Safeguards...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 20:27 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Confirmed, Claude is downright refusing to look at game binaries now, especially anti-cheats and Linux compatibility layers. Codex is increasingly displaying warnings. In fact, even GLM is refusing some types of work, but can still be manipulated into doing the work.</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50565795" target="_blank">Some thoughts about being a developer in AI age and call for help</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 1 comments |
+                2026-11-19 20:21 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">A &amp;quot;still&amp;quot; can&amp;#x27;t do this. AI &amp;quot;still&amp;quot; can&amp;#x27;t do that. 
+That &amp;quot;still&amp;quot; is doing a lot of work there. Most white collar jobs will be gone in a few years, starting from programmers. &amp;quot;BuT I aM aN EnGinEeR&amp;quot;, yeah dude. &amp;quot;We are greatful for what you did so far.&amp;quot; will be what you&amp;#x27;ll hear before getting laid off.&lt;p&gt;Just look at 2 years ago, remem...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50565562" target="_blank">Re: Claude solves two open problems in the physics of ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 20:05 |
+                <span class="category">naming_terminology, error_messages</span>
+            </div>
+            <div class="text">&amp;quot;Claude solves&amp;quot; feels reflective of the constant, problematic anthropomorphizing of the machine.  For how it&amp;#x27;s problematic, look at &amp;quot;it broke out of the sandbox&amp;quot; vs. &amp;quot;we failed to build an adequate sandbox&amp;quot;.&lt;p&gt;What does it mean for Claude to solve it?  What was the prompt?  I didn&amp;#x27;t read it all, but the word &amp;quot;prompt&amp;quot; does not appear in the blog pos...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50565055" target="_blank">Re: Fuck Your AI Safeguards...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 19:32 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">Ik was investigating the java vulnerabilities this week. Just trying to get an overview of what versions were affected and if there were exploits already. Claude opus plainly refused, unbelievable. It was in the we interface, no offensive stuff, just investigating.&lt;p&gt;Total frustration while the work pressure was already high. Sol and astra thankfully complied and were very useful. Saved me hours c...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50564468" target="_blank">Re: Chrome AI features wasting much bandwidth...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 18:53 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">you can disable the AI crap in chrome&amp;#x2F;chromium by setting policy file.&lt;p&gt;(Linux)&lt;p&gt;Chrome: `&amp;#x2F;etc&amp;#x2F;opt&amp;#x2F;chrome&amp;#x2F;policies&amp;#x2F;managed&amp;#x2F;disable_ai.json`&lt;p&gt;Chromium: `&amp;#x2F;etc&amp;#x2F;chromium&amp;#x2F;policies&amp;#x2F;managed&amp;#x2F;disable_ai.json`&lt;p&gt;```&lt;p&gt;{&lt;p&gt;&lt;pre&gt;&lt;code&gt;  &amp;quot;GenAiDefaultSettings&amp;quot;: 2,
+
+  &amp;quot;AIModeSettings&amp;quot;: 1,
+
+  &amp;quot;GeminiSettings&amp;quot;: 1,
+
+  &amp;quo...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50564442" target="_blank">Re: Launch HN: Onlook (YC W25) – An open-source develo...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 18:51 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Big, big fan of open design tools that run real code! The &amp;quot;iterating on Onlook in Onlook&amp;quot; demo got me :)&lt;p&gt;I&amp;#x27;m finding myself spending most of my time inside frontier labs&amp;#x27; desktop apps lately and I&amp;#x27;m always looking for ways to pull more of my workflow into them... any chance you guys are working on a Codex&amp;#x2F;Claude Code plugin so I can run Onlook there?</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                8. <a href="https://news.ycombinator.com/item?id=50564298" target="_blank">Claude-code's outputs feel longer than usual</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-19 18:42 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">anthropic pads claude&amp;#x27;s text because it wants you to read slower. claude-isms and the amount of text in a claude-code session are tailored so that you spend more time processing a large prompt. It&amp;#x27;s much easier to write 150k words once than 10k words twice.&lt;p&gt;If you can increase the quality of outputs, we can spend more time reading. But, people typically don&amp;#x27;t read the dot-mark-dow...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                9. <a href="https://news.ycombinator.com/item?id=50564094" target="_blank">Show HN: Orbital – Everything (known) in Earth orbit, live in 3D, in the browser</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-19 18:31 |
+                <span class="category">content_clarity</span>
+            </div>
+            <div class="text">I look up a lot at the sky at night and made this because I wanted to better understand what is up there.&lt;p&gt;Orbital shows all 32,000+ tracked objects at their current positions: about 17,000 working satellites, 2,800 dead ones, 2,200 spent rocket bodies and 10,700 pieces of debris.&lt;p&gt;Each is color coded, can be switched off, and can be &amp;quot;clicked&amp;quot; to follow.  For the well-known ones it pul...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                10. <a href="https://news.ycombinator.com/item?id=50563740" target="_blank">Re: Claude solves two open problems in the physics of ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 18:12 |
+                <span class="category">content_clarity, response_quality</span>
+            </div>
+            <div class="text">From a cursory glance the bootstrap paper is really hard to read, however the blog post is easier and seems more human written.&lt;p&gt;The first result is cool (but basically a complex error-prone calculation), the second is much much cooler, Claude proved the upper limit for the mass of a black-hole which is consistent with a given central charge. (thereby making it a consistent theory of quantum grav...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                11. <a href="https://news.ycombinator.com/item?id=50563293" target="_blank">Installing Arch Linux Without a USB Drive: ChatGPT Broke My Windows</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-19 17:41 |
+                <span class="category">general_ux</span>
+            </div>
+            
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                12. <a href="https://news.ycombinator.com/item?id=50562818" target="_blank">Show HN: Local Graph for Your Agents</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-19 17:07 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">We all use different agentic systems, bots, chats, and so on. One day I realized that I need to copy context between the apps. It is annoying.&lt;p&gt;So I created a trivial local MCP which sits on top of SQLite and exposes Cypher so LLM can query anything. Also LLM can define a schema if it understands it needs new nodes or edges.&lt;p&gt;How do I use it:
+1. I&amp;#x27;ve scanned all my documents and stored pass...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                13. <a href="https://news.ycombinator.com/item?id=50562723" target="_blank">Re: Attention is All we Have...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 17:00 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">&amp;gt;What gave me goosebumps about this was not GPT-4’s ability to define nouns, or even its generically correct but unimaginative take on Yakuza thug Japanese, but rather the recognition that this was a bit, that it was supposed to be funny, and that having our thug jump from explaining “book” and “pen” to “ontology” represented an opportunity to tell a joke&lt;p&gt;This reminds me a lot of when someone...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                14. <a href="https://news.ycombinator.com/item?id=50562698" target="_blank">Re: Fuck Your AI Safeguards...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-19 16:59 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I was manually copying pages of online litrpg story I was reading, into a TTS, so I could listen while I worked.&lt;p&gt;Now that we have AI, this would be easy, scrap the page, format it for me. OpenAI was like, nah, thats, cant help you, that might be copyrighted.&lt;p&gt;There are workarounds now, other frontier or local models, ways to write your prompt, etc.  But it was one of the first &amp;quot;No&amp;quot; re...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                15. <a href="https://news.ycombinator.com/item?id=50562320" target="_blank">Launch HN: Onlook (YC W25) – An open-source developer tool for designers</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                75 points | 66 comments |
+                2026-11-19 16:34 |
+                <span class="category">navigation, response_quality</span>
+            </div>
+            <div class="text">Hey HN, I&amp;#x27;m Daniel, founder of Onlook (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;onlook-dev&amp;#x2F;onlook&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;onlook-dev&amp;#x2F;onlook&lt;/a&gt; and onlook.com).&lt;p&gt;Onlook is a desktop app that puts a canvas on top of your real codebase, letting you design directly in code with the agent you already use. Over 25,000 designers and developers have supported t...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>

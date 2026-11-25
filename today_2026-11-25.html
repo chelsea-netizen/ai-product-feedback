@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Feedback</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #828282;
+            background-color: #f6f6ef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f6f6ef;
+        }
+        .header {
+            background-color: #ff6600;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 6px;
+            font-size: 12pt;
+            font-weight: bold;
+            color: black;
+        }
+        .filters {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #828282;
+        }
+        .item {
+            padding: 3px 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            line-height: 12pt;
+        }
+        .title a {
+            color: #000;
+            text-decoration: none;
+        }
+        .title a:visited {
+            color: #828282;
+        }
+        .title a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 8pt;
+            color: #828282;
+            padding-left: 20px;
+        }
+        .meta a {
+            color: #828282;
+            text-decoration: none;
+        }
+        .meta a:hover {
+            text-decoration: underline;
+        }
+        .text {
+            font-size: 9pt;
+            color: #000;
+            padding: 5px 20px;
+            margin-top: 5px;
+            line-height: 14pt;
+            max-width: 800px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            margin-right: 4px;
+            font-size: 8pt;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .badge-claude { background-color: #d4a574; color: white; }
+        .badge-chatgpt { background-color: #10a37f; color: white; }
+        .badge-gemini { background-color: #4285f4; color: white; }
+        .badge-copilot { background-color: #6e40c9; color: white; }
+        .badge-perplexity { background-color: #4a9eff; color: white; }
+        .badge-grok { background-color: #000; color: white; }
+        .badge-unknown { background-color: #999; color: white; }
+        .badge-reddit { background-color: #ff4500; color: white; }
+        .badge-hackernews { background-color: #ff6600; color: white; }
+        .category {
+            font-size: 8pt;
+            color: #666;
+            font-style: italic;
+        }
+        .stats {
+            background-color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #828282;
+        }
+        .stats h3 {
+            margin-top: 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Product Feedback Tracker</h1>
+        </div>
+
+        <div class="stats">
+            <h3>Overview</h3>
+            <p>
+                <strong>7</strong> items collected |
+                Last updated: 2026-11-25 01:11
+            </p>
+        </div>
+
+        
+        <div class="item">
+            <div class="title">
+                1. <a href="https://news.ycombinator.com/item?id=50636511" target="_blank">Re: GPT-6 models demonstrate intrinsic protein-design ...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-24 23:47 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I did my PhD at the Baker lab, haven&amp;#x27;t had the time to properly read this over but some initial thoughts:&lt;p&gt;Makes total sense that they&amp;#x27;d be working on this, it&amp;#x27;s something we discussed in the lab as well as the likely future of this work - true integration of the language modeling capabilities with proteins, natively multimodal like it&amp;#x27;s done with images. Five years ago we lau...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                2. <a href="https://news.ycombinator.com/item?id=50635452" target="_blank">Four C/C++ libraries ported to pure managed .NET on a $20 plan</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                1 points | 0 comments |
+                2026-11-24 22:05 |
+                <span class="category">response_quality</span>
+            </div>
+            <div class="text">I&amp;#x27;m between jobs right now, and I&amp;#x27;m bad at sitting idle. I could have built yet another portfolio site with a chatbot and a smiling robot avatar, but I wanted to spend the time on something people might actually use.&lt;p&gt;There was a second reason. My feed is full of stories about LLM agents that burn thousands of dollars in tokens overnight. I suspected that most of them say more about the...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                3. <a href="https://news.ycombinator.com/item?id=50635055" target="_blank">Show HN: Cerulion – Harness for Robotics, Gemini 3.8 Flash Matches GPT-6 Astra</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-gemini">gemini</span> <span class="badge badge-hackernews">hackernews</span> |
+                3 points | 2 comments |
+                2026-11-24 21:33 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">Hey HN! I&amp;#x27;m Lakshay, and at Cerulion we cooked up a harness for physical AI. Built on top of our deterministic runtime, we now have MCP tools that let any LLM see and move a robot. It closes the loop with measurements so a model doesn&amp;#x27;t try to guess its way through the task, and imbues common sense and robotics best practices into the workflow.&lt;p&gt;We ran the numbers on LIBERO-PRO and quit...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                4. <a href="https://news.ycombinator.com/item?id=50634426" target="_blank">Launch HN: Versine (YC F26) – MCP to send and receive money</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-chatgpt">chatgpt</span> <span class="badge badge-hackernews">hackernews</span> |
+                63 points | 47 comments |
+                2026-11-24 20:44 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">Hey HN, we’re Harshith, Param, and Vishnu and we&amp;#x27;re building Versine (&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;versine.com&quot;&gt;https:&amp;#x2F;&amp;#x2F;versine.com&lt;/a&gt;). Versine lets you send and request money just by talking or texting with your AI (think Venmo with an MCP). We’re software engineers who have worked on distributed systems at Stripe, Databricks, and Amazon.&lt;p&gt;Versine is an MCP that sits in front of a...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                5. <a href="https://news.ycombinator.com/item?id=50633396" target="_blank">Re: Show HN: Keeping faces and features consistent acr...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-24 19:39 |
+                <span class="category">navigation</span>
+            </div>
+            <div class="text">I created joonoo.art to turn family photos into picture books and comics. I was inspired to do it last summer because my granddaughter was very enthusiastic when I made up stories with her as the hero.&lt;p&gt;It&amp;#x27;s been a major struggle to get it working consistently, though. It&amp;#x27;s hard enough to have ONE character be consistent in a series of images you create using image generation models lik...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                6. <a href="https://news.ycombinator.com/item?id=50632189" target="_blank">Re: Claude Desktop or Terminal?...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-24 18:19 |
+                <span class="category">general_ux</span>
+            </div>
+            <div class="text">I run the terminal app in tmux on a remote machine so Claude can keep working when I pack up my laptop. I often enable remote control and manage it with the desktop or phone app, but the session has to be initiated and connected to &amp;#x2F;rc and terminal is the easiest way to do that.&lt;p&gt;Also, I may have three sessions on three different billing accounts going on different machines, and again that’s...</div>
+        </div>
+        
+
+        <div class="item">
+            <div class="title">
+                7. <a href="https://news.ycombinator.com/item?id=50631712" target="_blank">Re: Anthropic Staff Openly Talk About ‘Taking Over the...</a>
+            </div>
+            <div class="meta">
+                <span class="badge badge-claude">claude</span> <span class="badge badge-hackernews">hackernews</span> |
+                0 points | 0 comments |
+                2026-11-24 17:48 |
+                <span class="category">tone</span>
+            </div>
+            <div class="text">I think I can speak with confidence that Anthropic is not going to take over the world or a nation.  That would require more developed robotics capability than exists, and it would require a company that is much more connected to fabrication and physical supply chains.  They don&amp;#x27;t even own their own data centers and their stock valuation is already plummeting.  Anthropic models could ransom, ...</div>
+        </div>
+        
+
+        <div style="padding: 20px; text-align: center; color: #828282; font-size: 8pt;">
+            Generated from AI Product Feedback Collection System
+        </div>
+    </div>
+</body>
+</html>
